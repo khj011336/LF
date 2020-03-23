@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+    
 	<div id="sellkitregistration_wrap" class="sellkitregistration_wrap_cont_div">
         <div id="sellkitregistration_header">
             <h1>판매키트 등록 - 운동</h1>
