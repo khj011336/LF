@@ -7,7 +7,7 @@
    	<div id="myclass_main" class="myclass_main_cont_div">       
        <div id="" class="myclass_session_div">
            <div id="" class="myclass_img_div">
-               <img class="myclass_img" src="img/dummy_img1.jpg" alt="업로드 이미지">
+               <img class="myclass_img" src="../resource/img/dummy_img1.jpg" alt="업로드 이미지">
            </div>
            <div class="myclass_des_div">
                <div class="myclass_des_main_div">
@@ -25,7 +25,7 @@
        
        <div id="" class="myclass_session_div">
            <div class="myclass_img_div">
-               <img class="myclass_img" src="img/dummy_img1.jpg" alt="업로드 이미지">
+               <img class="myclass_img" src="../resource/img/dummy_img1.jpg" alt="업로드 이미지">
            </div>
            <div class="myclass_des_div">
                <div class="myclass_des_main_div">
@@ -41,7 +41,7 @@
        
        <div id="" class="myclass_session_div">
            <div class="myclass_img_div">
-				<img class="myclass_img" src="img/dummy_img1.jpg" alt="업로드 이미지">
+				<img class="myclass_img" src="../resource/img/dummy_img1.jpg" alt="업로드 이미지">
            </div>
            <div class="myclass_des_div">
                <div class="myclass_des_main_div">
