@@ -12,9 +12,9 @@
     <link type="text/css" rel="stylesheet" href="css/CSCenter.css">    
 </head>
 <body>
-    <div class="section">
-        <div id="sec_title"><h2>고객섬김센터</h2></div>
-            <div id="sec_subtitle">
+    <div class="CSsection">
+        <div id="CSsec_title"><h2>고객섬김센터</h2></div>
+            <div id="CSsec_subtitle">
                 <ul>
                     <li><h4><a href="Lecfly_CS_1.html"style="background-color: orange">1:1 문의</a></h4></li>
                     <li><h4><a href="Lecfly_CS_2.html">자주묻는 질문</a></h4></li>
