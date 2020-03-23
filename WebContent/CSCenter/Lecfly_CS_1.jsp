@@ -22,7 +22,7 @@
                 </ul>
             </div>
             
-            <div class="1by1">
+            <div class="1by1"> /*1:1 상담 nav*/
                 <div id="qnabox">실시간 상담</div>
                 <div id="qnabox">전화 상담</div>
                 <div id="qnabox">1:1 문의</div>
