@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<!-- branch 가지 테스트 checkout sehyeon_test 인 상태  ㅇㅇ? -->
+<!-- branch 가지 테스트 checkout sehyeon_test 인 상태  ㅇㅇㅋㅋㅋ추가추가? -->
 <title>크리에이터 센터</title>
 	<link type="text/css" rel="stylesheet" href="css/creator.css">
 </head>
