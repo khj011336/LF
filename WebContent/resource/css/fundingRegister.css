@@ -90,13 +90,13 @@ a:hover {
 
 * {
 	font-family: 'Cafe24Simplehae', sans-serif;
-	margin: 0px auto;
 	box-sizing: border-box;
 	color: black;
 }
 
 /* 레퍼 ( nav, content 포함) */
 #funding_wrapper {
+	margin: 0px auto;
 	width: 1200px;
 	min-height: 700px;
 }
