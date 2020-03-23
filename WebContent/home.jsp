@@ -26,7 +26,7 @@
 <%
 	response.setHeader("Cache-Control", "no-cache");
 %>
-
+<!-- //수정 -->
 
 <meta charset="UTF-8">
 <title>LecFly</title>
