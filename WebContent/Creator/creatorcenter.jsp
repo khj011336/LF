@@ -16,7 +16,7 @@
 			
 			<div id="creatorcenter_main">
 				<div id="creatorcenter_main_nav" class="">
-					<%@ include file="common/_creatorcenter_nav.jsp" %>
+					<%@ include file="../common/_creatorcenter_nav.jsp" %>
 				</div>
 				
 <!-- 				<div id="creatorcenter_main_cont" class="creatorcenter_main_cont_div">        -->
