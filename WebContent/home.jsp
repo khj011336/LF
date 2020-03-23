@@ -4,30 +4,8 @@
 <html>
 <head>
 <%
-	
-%>
-<script
-	src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-
-<link rel="stylesheet" href="resource/css/main.css">
-<link rel="stylesheet" href="resource/css/mypage.css">
-
-<link
-	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.4.0/css/fontawesome.css"
-	type="text/css" rel="stylesheet">
-<link
-	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.4.0/css/solid.css"
-	type="text/css" rel="stylesheet">
-<link rel="stylesheet"
-	href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
-	integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
-	crossorigin="anonymous">
-<%
 	response.setHeader("Cache-Control", "no-cache");
 %>
-<!-- //수정 -->
-
 <meta charset="UTF-8">
 <title>LecFly</title>
 <script type="text/javascript">
@@ -63,7 +41,7 @@
 			<%@ include file="common/header.jsp"%>
 		</div>
 		<div id="main" class="main">
-			<%@ include file="ETC/border.jsp"%>
+			<%@ include file="ETC/main.jsp"%>
 			<%
 				/* css간 font-size 정리 필요
 				1. div main에 include(사이드 nav 포함 페이지 *표시)
@@ -97,9 +75,5 @@
 				*/
 			%>
 		</div>
-		<div id="footer" class="footer">
-			<%@ include file="common/footer.jsp"%>
-		</div>
-	</div>
-</body>
-</html>
+		
+ 

@@ -1,14 +1,36 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%String path = request.getContextPath()+"/resource/";%>
+<!-- jquery -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-<link rel="stylesheet" href="resource/css/main.css">
+<!-- jquery -->
+<!-- ---------------------css--------------------------- -->
+<link rel="stylesheet" href="resource/css/create_new_member.css">
 <link rel="stylesheet" href="resource/css/creator.css">
-<link rel="stylesheet" href="resource/css/Lecfly.css">
+<link rel="stylesheet" href="resource/css/CSCenter.css">
+<link rel="stylesheet" href="resource/css/funding.css">
+<link rel="stylesheet" href="resource/css/funding.css">
+<link rel="stylesheet" href="resource/css/fundingPayment.css">
+<link rel="stylesheet" href="resource/css/itemPayment.css">
 <link rel="stylesheet" href="resource/css/lecplay.css">
+<link rel="stylesheet" href="resource/css/login.css">
+<link rel="stylesheet" href="resource/css/main.css">
+<link rel="stylesheet" href="resource/css/mypage.css">
 <link rel="stylesheet" href="resource/css/register.css">
+
+<!-- ------------------------------------------------------------ -->
+<!-- 폰트 -->
+<link
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.4.0/css/fontawesome.css"
+	type="text/css" rel="stylesheet">
+<link
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.4.0/css/solid.css"
+	type="text/css" rel="stylesheet">
 <link rel="stylesheet"
 	href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
 	integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
 	crossorigin="anonymous">
+	<!-- 폰트 -->
+
+		
