@@ -12,9 +12,9 @@
     <link type="text/css" rel="stylesheet" href="css/CSCenter.css">    
 </head>
 <body>
-    <div class="section">
-        <div id="sec_title"><h2>홈페이지 안내</h2></div>
-            <div id="sec_subtitle">
+    <div class="CSsection">
+        <div id="CSsec_title"><h2>홈페이지 안내</h2></div>
+            <div id="CSsec_subtitle">
                 <ul>
                     <li><h4><a href="Lecfly_PASS_1.html">이용안내</a></h4></li>
                     <li><h4><a href="Lecfly_PASS_2.html" style="background-color: orange">회원권</a></h4></li>
