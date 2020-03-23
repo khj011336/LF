@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<!-- 2020.03.23 수정 -->
+<!-- 세현 테스트 -->
 <title>크리에이터 센터</title>
 	<link type="text/css" rel="stylesheet" href="css/creator.css">
 </head>
