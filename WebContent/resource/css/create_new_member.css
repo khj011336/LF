@@ -1,0 +1,139 @@
+
+<!-- body		cnm_wrap -->
+<!-- title		cnm_title -->
+<!-- pro_pic		cnm_profile -->
+<!-- pro_pic_title	cnm_pro_title -->
+<!-- subtitle		cnm_subtitle -->
+<!-- mb_name		cnm_mb_name -->
+<!-- mb_birth		cnm_mb_birth -->
+<!-- gender		cnm_gender	? -->
+<!-- mb_f		cnm_mb_f -->
+<!-- mb_m		cnm_mb_m -->
+<!-- mb_gender	cnm_mb_gender	? -->
+<!-- mb_login		cnm_mb_login -->
+<!-- mb_pw		cnm_mb_pw -->
+<!-- mb_pw_confirm	cnm_mb_pw_confirm -->
+<!-- mb_ph_first	cnm_mb_ph_first -->
+<!-- mb_ph_second	cnm_mb_ph_second -->
+<!-- mb_email		cnm_mb_email -->
+<!-- mb_adress_num	cnm_mb_adress_num -->
+<!-- find_adress	cnm_find_adress -->
+<!-- mb_adress_basic	cnm_mb_adress_basic -->
+<!-- mb_adress_detail	cnm_mb_adress_detail -->
+<!-- bottom		cnm_bottom -->
+<!-- submit_btn	cnm_submit_btn -->
+
+a{
+    text-decoration: none;
+}
+ol{
+	padding: 0px;
+}
+li{
+    LIST-STYLE: NONE;
+    margin-bottom: 5px;
+}
+input{
+    height: 30px;
+    font-size: 18px;
+}
+.cnm_wrap div{
+    width: 400px;
+    padding-bottom: 10px;
+}
+.inputs{
+    width: 400px;
+}
+.cnm_pic{
+	text-align: center;
+}
+.cnm_title{
+	margin-bottom: 20px;
+}
+.cnm_li_title{
+	margin-top:10px;
+}
+.cnm_subtitle{
+	font-size: 20px;
+	margin-top: 10px;
+}
+#cnm_wrap{
+/* 	border: 1px solid black; */
+	margin: 0px auto;
+	padding: 0px;
+    width: 400px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+/* 사진 */
+#cnm_profile{
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 75px;
+}
+#cnm_pro_title{
+	text-align: center;
+}
+
+/* 이름 */
+
+/* 생일 */
+
+/* 성별 */
+#cnm_gender{
+    padding-left: 150px;
+}
+#cnm_mb_f, #cnm_mb_m{
+	width: 15px;
+	height: 15px;
+	margin: 0 10px 0 10px;
+}
+.gender_sub_title{
+	font-size: 16px;
+}
+/* 로그인 */
+
+/* 비밀번호 */
+
+/* 전화번호 */
+.cnm_ph_padding{
+	padding-left: 100px;
+}
+.cnm_mb_ph{
+	width: 60px;
+}
+
+/* 이메일 */
+
+/* 주소 */
+#cnm_mb_adress_num{
+	width: 300px;
+}
+#find_adress_btn{
+	background-color: orange;
+}
+#cnm_find_adress{
+	width: 100px;
+	height: 30px;
+	background-color: orange;
+	border: 1px solid black;
+}
+
+/* 하단부 */
+.cnm_bottom{
+	display: inline-block;
+	
+}
+#cnm_submit_btn{
+	margin: auto;
+	background-color: orange;
+	width: 400px;
+	height: 50px;
+    text-align: center;
+}
+.cnm_center{
+	line-height: 60px;
+}
+
+

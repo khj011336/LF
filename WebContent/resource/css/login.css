@@ -1,0 +1,95 @@
+/* body => login_wrap */
+/* top => login_top */
+/* middle => login_middle */
+/* bottom => login_bottm */
+/* title => login_title */
+/* sub_title => login_subtitle */
+/* info => login_etc */
+/* link => login_linked */
+
+*{
+    margin: 0px auto;
+    padding: 0px;
+    text-align: center;
+}
+.login_a{
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid white;
+}
+
+.logo_link:hover{
+	color: none;
+	border-bottom: none;
+}
+
+#login_wrap{
+	margin-top: 150px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 350px;
+    height: 450px;
+}
+#login_top{
+    margin: auto;
+    padding: 30px 30px 0 30px;
+}
+#login_title{
+    margin: auto;
+    padding-top: 30px;
+}
+#login_subtitle{
+    padding-top: 30px;
+}
+
+#login_middle{
+    margin: 25px;
+}
+#login, #pw{
+    font-size: 1.5em;
+    margin: 5px;
+}
+#login{
+    
+}
+#pw{
+    
+}
+#login_etc{
+    min-width: 250px;
+    display: inline-block;
+    font-size: 12px;
+}
+#find_id_pw{
+    float: left;
+}
+#register{
+    float: right;
+}
+.login_linked:hover{
+    border-bottom: 1px solid #FF4500;
+    color: #FF4500;
+}
+
+#login_bottom{
+    
+}
+#login_btn{
+    width: 100px;
+    height: 35px;
+    background-color: orange;
+/*     margin-top: 10px; */
+	padding-top: 10px;
+}
+#login_btn a{
+	border-bottom: none;
+}
+#login_btn:hover{
+    background-color: #FF4500;
+}
+#login_btn a:hover{
+	color: black;
+	border-bottom: none;
+}
+
+

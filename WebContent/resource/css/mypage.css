@@ -1,0 +1,181 @@
+/* top	mypage_top */
+/* title	mypage_title */
+/* middle	mypage_middle */
+/* mb	mypage_mb */
+/* pic	mypage_pic */
+/* paint	mypage_paint */
+/* info	mypage_info */
+/* mb_info	mypage_mb_info */
+/* menu	mypage_menu */
+/* bottom	mypage_bottom */
+/* top_side	mypage_top_side */
+/* lec_ing	mypage_lec_ing */
+/* lec_showen	mypage_lec_showen */
+/* lec_reco	mypage_lec_reco */
+/* lec_img	mypage_lec_img */
+/* lec_title	mypage_lec_title */
+/* lec_des	mypage_lec_des */
+#mypage_wrap *{
+	box-sizing: border-box;
+}
+#mypage_wrap{
+/* 	border: 1px solid black; */
+	margin: 0px auto;
+}
+
+a{
+    text-decoration: none;
+}
+.mypage_a:hover{
+    border-bottom: 1px solid #FF4500;
+    color: #FF4500;
+}
+#mypage_top{
+    width: 1140px;
+    height: 40px;
+    margin: 30px auto;
+}
+.mypage_title{
+    display: inline-block;
+    font-size: 24px;
+}
+.top_right{
+    float: right;
+    padding-top: 10px;
+}
+#mypage_middle, #mypage_bottom{
+	padding: 0 35px 0 35px;
+}
+#mypage_middle{
+    
+}
+#mypage_mb{
+    margin: 15px 45px 45px 45px;
+    height: 150px;
+    display: inline-block;
+}
+#mypage_pic, #mypage_paint{
+    float: left;
+}
+#mypage_pic{
+    border: 1px solid black;
+}
+#mypage_paint{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 390px;
+    height: 150px;
+	text-align: center;
+}
+#mypage_paint div{
+	padding: 50px 20px 20px 20px;
+    display: inline-block;
+    height: 40px;
+}
+#mypage_paint div img{
+	border: 1px solid white;
+}
+#mypage_paint div img:hover{
+	border: 1px solid #FF4500;
+}
+#paint_heart{
+	z-index: 1;
+	text-align: center;
+    width: 390px;
+    height: 150px;
+}
+#paint_heart div{
+	background-color: red;
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	padding: 50px 20px 20px 20px;
+	display: inline-block;
+}
+#mypage_info{
+    border: 1px solid black;
+    width: 495px; /*450px가 맞지만 일단 임시로 보더들만큼 뻄*/
+    height: 150px;
+    float: right;
+}
+.mypage_mb_info{
+    margin: 20px 15px 10px 15px;
+}
+#have_ticket{
+	background-color: orange;
+}
+#mypage_menu{
+    height: 70px;
+    width: 1050px;
+    list-style: none;
+    text-align: center;
+}
+#mypage_menu li{
+    display: inline-block;
+    padding: 0 15px 0 15px;
+}
+
+#mypage_bottom{
+    
+}
+#mypage_bottom h2{
+	margin-left: 30px;
+}
+#mypage_lec_ing, #mypage_lec_showen, #mypage_lec_reco{
+    display: inline-block;
+    height: 440px;
+    width: 1010px;
+    margin: 0 60px 0 60px;
+    text-align: center;
+}
+#mypage_lec_ing{
+    
+}
+#mypage_lec_showen{
+    
+}
+#mypage_lec_reco{
+    
+}
+.mypage_lec, .mypage_lec_img, .mypage_lec_des, .mypage_lec_title{
+    width: 320px;   /*임시로 사이즈 지정 후에 260으로 바꿔야됨.*/;
+    margin: 0px auto;
+}
+.mypage_lec{
+    border: 1px solid black;
+    height: 320px;
+    /*margin: 20px;*/
+    display: inline-block;
+	box-sizing: border-box;
+}
+.mypage_lec_img{
+/*     border: 1px solid black; */
+    height: 200px;
+}
+.mypage_lec_title{
+    border: 1px solid black;
+    height: 50px;
+    font-size: 18px;
+    padding-top: 20px;
+}
+.mypage_lec_des{
+    border: 1px solid black;
+    height: 90px;
+    padding-top: 25px;
+}
+.mypage_top_side h3{
+	float: left;
+	font-size: 20px;
+	margin-left: 60px;
+	margin-bottom: 30px;
+}
+.mypage_top_side div{
+	float: right;
+	margin-right: 60px;
+}
+
+
+
+
+
+
