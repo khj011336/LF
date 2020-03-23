@@ -30,8 +30,8 @@ body, p, ul, ol, li, dl, dt, dd, form, table, th, td, fieldset, input,
 		AppleSDGothicNeo, AppleGothic, Helvetica, Sans-serif;
 }
 
-아이폰 가로모드 글자 크기 확대 방지: -webkit-text-size-adjust:none ; body, input,
-	textarea, select, button {
+아이폰 가로모드 글자 크기 확대 방지: -webkit-text-size-adjust:none ;
+body, input, textarea, select, button {
 	color: #585858;
 	font-size: 12px;
 	font-family: 'Cafe24Simplehae';
@@ -94,20 +94,20 @@ a:hover {
 }
 
 /* wrapper( nav, content 포함) */
-#fundingPayment_wrapper {
+#goodsPayment_wrapper {
 	width: 1200px;
 	min-height: 800px;
 }
 
 /* nav */
-#fundingPayment_nav {
+#goodsPayment_nav {
 	width: 800px;
 	height: inherit;
 	float: left;
 	display: inline-block;
 }
 
-#fundingPayment_title {
+#goodsPayment_title {
 	position: relative;
 	bottom: 15px;
 	display: inline;
@@ -115,11 +115,11 @@ a:hover {
 	font-weight: bold;
 }
 
-.fundingPayment_title_color {
+.goodsPayment_title_color {
 	color: orange;
 }
 
-#fundingPayment_nav_table {
+#goodsPayment_nav_table {
 	position: relative;
 	float: left;
 	display: inline-block;
@@ -127,22 +127,22 @@ a:hover {
 	margin-bottom: 15px;
 }
 
-#fundingPayment_table_font_bold {
+#goodsPayment_table_font_bold {
 	font-weight: bold;
 }
 
-.fundingPayment_nav_table_td {
+.goodsPayment_nav_table_td {
 	position: relative;
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
 	padding: 15px 0px;
 }
 
-.fundingPayment_text_right {
+.goodsPayment_text_right {
 	text-align: right;
 }
 
-.fundingPayment_delivery_info_table_td {
+.goodsPayment_delivery_info_table_td {
 	width: 214px;
 	position: relative;
 	border-top: 1px solid black;
@@ -168,12 +168,12 @@ input[value=검색], input[value=등록] {
 	font-weight: bold;
 }
 
-.fundingPayment_delivery_infor_table_td_last {
+.goodsPayment_delivery_infor_table_td_last {
 	border-bottom: 1px solid black;
 	padding-bottom: 15px;
 }
 
-.fundingPayment_discount_info_table_td {
+.goodsPayment_discount_info_table_td {
 	width: 210px;
 	height: 29px;
 	position: relative;
@@ -181,20 +181,20 @@ input[value=검색], input[value=등록] {
 	padding: 15px 0px 15px 0px;
 }
 
-.fundingPayment_discount_info_table_td_top {
+.goodsPayment_discount_info_table_td_top {
 	padding-top: 0px;
 }
 
-.fundingPayment_number_color {
+.goodsPayment_number_color {
 	color: red;
 }
 
-.fundingPayment_discount_info_td_bottom {
+.goodsPayment_discount_info_td_bottom {
 	border-bottom: 0px;
 }
 
 /* content */
-#fundingPayment_content {
+#goodsPayment_content {
 	width: 400px;
 	height: 500px;
 	display: inline-block;
@@ -202,21 +202,21 @@ input[value=검색], input[value=등록] {
 	top: 205px;
 }
 
-#fundingPayment_content_table {
+#goodsPayment_content_table {
 	border-collapse: collapse;
 	width: 400px;
 }
 
-.fundingPayment_content_table_td {
+.goodsPayment_content_table_td {
 	padding: 12px 0px;
 }
 
-.fundingPayment_content_table_td_bottom {
+.goodsPayment_content_table_td_bottom {
 	border-bottom: 1px solid black;
 	height: 18px;
 }
 
-.fundingPayment_table_agree_td {
+.goodsPayment_table_agree_td {
 	text-align: center;
 	border-bottom: 1px solid black;
 	padding: 15px 0px;
@@ -233,16 +233,16 @@ input[value=결제하기] {
 	border-collapse: collapse;
 }
 
-.fundingPayment_payment_title_bold {
+.goodsPayment_payment_title_bold {
 	font-weight: bold;
 	letter-spacing: normal;
 }
 
-.fundingPayment_payment_agree_dummy {
+.goodsPayment_payment_agree_dummy {
 	border-bottom: 1px solid black;
 }
 
-#fundingPayment_payment_mathod {
+#goodsPayment_payment_mathod {
 	width: 800px;
 	height: 500px;
 	height: inherit;
@@ -251,15 +251,15 @@ input[value=결제하기] {
 	letter-spacing: 40px;
 }
 
-#fundingPayment_payment_card, #fundingPayment_payment_phone,
-	#fundingPayment_payment_account, #fundingPayment_payment_virtual,
-	#fundingPayment_payment_kakaopay, #fundingPayment_payment_naverpay,
-	#fundingPayment_payment_payco {
+#goodsPayment_payment_card, #goodsPayment_payment_phone,
+	#goodsPayment_payment_account, #goodsPayment_payment_virtual,
+	#goodsPayment_payment_kakaopay, #goodsPayment_payment_naverpay,
+	#goodsPayment_payment_payco {
 	margin-left: 20px;
 	border: 0px;
 	background-color: white;
 }
 
-.fundingPayment_last_button {
+.goodsPayment_last_button {
 	padding: 15px 0px 15px 0px;
 }
