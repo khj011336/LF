@@ -9,15 +9,14 @@
 <link rel="stylesheet" href="resource/css/create_new_member.css">
 <link rel="stylesheet" href="resource/css/creator.css">
 <link rel="stylesheet" href="resource/css/CSCenter.css">
-<link rel="stylesheet" href="resource/css/funding.css">
-<link rel="stylesheet" href="resource/css/funding.css">
 <link rel="stylesheet" href="resource/css/fundingPayment.css">
-<link rel="stylesheet" href="resource/css/itemPayment.css">
+<link rel="stylesheet" href="resource/css/fundingRegister.css">
 <link rel="stylesheet" href="resource/css/lecplay.css">
+<link rel="stylesheet" href="resource/css/goodsPayment.css">
 <link rel="stylesheet" href="resource/css/login.css">
 <link rel="stylesheet" href="resource/css/main.css">
 <link rel="stylesheet" href="resource/css/mypage.css">
-<link rel="stylesheet" href="resource/css/register.css">
+<link rel="stylesheet" href="resource/css/lectureRegister.css">
 
 <!-- ------------------------------------------------------------ -->
 <!-- 폰트 -->

@@ -3,6 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+
 <%
 	response.setHeader("Cache-Control", "no-cache");
 %>
@@ -75,5 +76,9 @@
 				*/
 			%>
 		</div>
-		
- 
+		<div id="footer" class="footer">
+			<%@ include file="common/footer.jsp"%>
+		</div>
+	</div>
+</body>
+</html>

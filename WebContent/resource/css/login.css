@@ -7,11 +7,12 @@
 /* info => login_etc */
 /* link => login_linked */
 
-*{
-    margin: 0px auto;
-    padding: 0px;
-    text-align: center;
-}
+/* *{ */
+/*     margin: 0px auto; */
+/*     padding: 0px; */
+/*     text-align: center; */
+/* } 수정해주세요 */
+
 .login_a{
     text-decoration: none;
     color: black;
