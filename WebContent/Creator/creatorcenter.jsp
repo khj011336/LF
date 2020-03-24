@@ -5,7 +5,6 @@
 <head>
 <meta charset="UTF-8">
 <title>크리에이터 센터</title>
-<!-- merge 과정 적용안되어 주석만추가 -->
 	<link type="text/css" rel="stylesheet" href="../resource/css/main.css">
 	<link type="text/css" rel="stylesheet" href="../resource/css/creator.css">
 </head>

@@ -1,6 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<!-- merge 과정 적용안되어 주석만추가 -->
 <div id="myclass_wrap" class="myclass_wrap_cont_div">    
 	<div id="myclass_header">
 			<h2>내 클래스</h2>
