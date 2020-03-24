@@ -1,6 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-
 <div id="myclass_wrap" class="myclass_wrap_cont_div">    
 	<div id="myclass_header">
 			<h2>내 클래스</h2>
@@ -54,6 +53,13 @@
                    <div id="show_now_btn" class="myclass_big_btn_div">현재 상황보러가기</div>
                </div>
            </div>
+<<<<<<< HEAD
        </div>         
    </div>
 </div>
+=======
+       </div>  
+       
+   </div>
+</div>  
+>>>>>>> sehyeon-home

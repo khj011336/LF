@@ -1,36 +1,34 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 
-<%@ include file="../common/nav.jsp"%>
-
 <div id="section" class="section">
 	<div class="main_wrapper">
 		<div class="main_banner"></div>
 		<h2 class="main_h2">카테고리</h2>
 		<div class="main_category">
 			<div class="category_block">
-				<i class="fab fa-app-store fa-6x"></i><br> <span>전체</span>
+				<i class="fab fa-app-store fa-8x"></i><br> <span>전체</span>
 			</div>
 			<div class="category_block">
-				<i class="fab fa-app-store fa-6x"></i><br> <span>음악</span>
+				<i class="fab fa-app-store fa-8x"></i><br> <span>음악</span>
 			</div>
 			<div class="category_block">
-				<i class="fab fa-app-store fa-6x"></i><br> <span>운동</span>
+				<i class="fab fa-app-store fa-8x"></i><br> <span>운동</span>
 			</div>
 			<div class="category_block">
-				<i class="fab fa-app-store fa-6x"></i><br> <span>요리</span>
+				<i class="fab fa-app-store fa-8x"></i><br> <span>요리</span>
 			</div>
 			<div class="category_block">
-				<i class="fab fa-app-store fa-6x"></i><br> <span>미술</span>
+				<i class="fab fa-app-store fa-8x"></i><br> <span>미술</span>
 			</div>
 			<div class="category_block">
-				<i class="fab fa-app-store fa-6x"></i><br> <span>라이프스타일</span>
+				<i class="fab fa-app-store fa-8x"></i><br> <span>라이프스타일</span>
 			</div>
 			<div class="category_block">
-				<i class="fab fa-app-store fa-6x"></i><br> <span>커리어</span>
+				<i class="fab fa-app-store fa-8x"></i><br> <span>커리어</span>
 			</div>
 			<div class="category_block">
-				<i class="fab fa-app-store fa-6x"></i><br> <span>여행</span>
+				<i class="fab fa-app-store fa-8x"></i><br> <span>여행</span>
 			</div>
 
 		</div>

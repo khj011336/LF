@@ -32,8 +32,8 @@ body {
 }
 
 #creatorcenter_main{
-	width: 1200px;
-	height: 700px;
+/* 	width: 1050px; */
+/* 	height: 700px; */
 }
 #creatorcenter_main_nav {
 	width: 150px;
@@ -42,14 +42,16 @@ body {
 }
 
 #creatorcenter_main_cont {
-	width: 1200px;
+	width: 1050px;
 	height: 700px;
-	clear: both;
+	
 }
 
 #creatorcenter_footer {
 	clear: both;
 }
+
+.myclass_main_cont_div
 
 
             /* common/_creatorcenter_nav.jsp */
