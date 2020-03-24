@@ -7,6 +7,7 @@
 <%
 	response.setHeader("Cache-Control", "no-cache");
 %>
+<!-- 세현테스트 ㅇㅇ -->
 <meta charset="UTF-8">
 <title>LecFly</title>
 <script type="text/javascript">
