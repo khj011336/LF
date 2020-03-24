@@ -117,6 +117,11 @@
 		</p>
 
 		<script>
+// 		테스트용 나중에 삭제바람
+		$('#register_lec_apply').click(function() {
+			$("#main").load("goods/goodsPayment.jsp");
+		});
+// 		테스트용 나중에 삭제바람
 			$('#register_review a').click(function() {
 				$(this).parent().children("a").removeClass("on"); /* 별점의 on 클래스 전부 제거 */
 				$(this).addClass("on").prevAll("a").addClass("on"); /* 클릭한 별과, 그 앞 까지 별점에 on 클래스 추가 */

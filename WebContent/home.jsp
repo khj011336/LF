@@ -27,11 +27,10 @@
 		$('#TEST3').click(function() {
 			$("#main").load("ETC/login.jsp");
 		});
+		
+		
 		$('.video_block').click(function() {
-			$("#main").load("item/register.jsp");
-		});
-		$('.video_block').click(function() {
-			$("#main").load("item/register.jsp");
+			$("#main").load("goods/lectureRegister.jsp");
 		});
 
 	});
@@ -43,7 +42,7 @@
 			<%@ include file="common/header.jsp"%>
 		</div>
 		<div id="main" class="main">
-			<%@ include file="ETC/lecplay.jsp"%>
+			<%@ include file="ETC/main.jsp"%>
 			<%
 				
 			%>
