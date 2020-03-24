@@ -23,21 +23,22 @@
 <!-- bottom		cnm_bottom -->
 <!-- submit_btn	cnm_submit_btn -->
 
-#cnm_wrap a{
-    text-decoration: none;
-}
-#cnm_wrap ol{
-	padding: 0px;
-}
-#cnm_wrap li{
-    LIST-STYLE: NONE;
-    margin-bottom: 5px;
-}
+/* a{ */
+/*     text-decoration: none; */
+/* } */
+/* ol{ */
+/* 	padding: 0px; */
+/* } */
+/* li{ */
+/*     LIST-STYLE: NONE; */
+/*     margin-bottom: 5px; */
+/* } */
 
-#cnm_wrap input{
-    height: 30px;
-    font-size: 18px;
-}
+/* input{ */
+/*     height: 30px; */
+/*     font-size: 18px; */
+/* } */
+/* 수정해주세요 */
 .cnm_wrap div{
     width: 400px;
     padding-bottom: 10px;

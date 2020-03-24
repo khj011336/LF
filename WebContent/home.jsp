@@ -7,7 +7,6 @@
 <%
 	response.setHeader("Cache-Control", "no-cache");
 %>
-
 <meta charset="UTF-8">
 <title>LecFly</title>
 <script type="text/javascript">
@@ -38,22 +37,13 @@
 </script>
 </head>
 <body>
-	<div id="wrapper3">
+	<div id="wrapper">
 		<div id="header" class="header">
 			<%@ include file="common/header.jsp"%>
 		</div>
-		<div id="mainT" class="mainT">
-			<%@ include file="CSCenter/Lecfly_CS_1.jsp"%>
-		</div>
-	<div id="footer" class="footer">
-			<%@ include file="common/footer.jsp"%>
-		</div>
-		
-	</div>
-	
-</body>
-</html>
-	<%
+		<div id="main" class="main">
+			<%@ include file="ETC/main.jsp"%>
+			<%
 				/* css간 font-size 정리 필요
 				1. div main에 include(사이드 nav 포함 페이지 *표시)
 					*ETC/main.jsp - main.css : logo, header 색수정
@@ -85,3 +75,10 @@
 					member/mypage.jsp - mypage.css 레이아웃 확인
 				*/
 			%>
+		</div>
+		<div id="footer" class="footer">
+			<%@ include file="common/footer.jsp"%>
+		</div>
+	</div>
+</body>
+</html>
