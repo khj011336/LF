@@ -42,10 +42,9 @@
 			<%@ include file="common/header.jsp"%>
 		</div>
 		<div id="main" class="main">
+			<%@ include file="../common/side_nav.jsp"%>
 			<%@ include file="ETC/main.jsp"%>
-			<%
-				
-			%>
+
 		</div>
 		<div id="footer" class="footer">
 			<%@ include file="common/footer.jsp"%>
