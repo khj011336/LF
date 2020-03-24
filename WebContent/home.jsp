@@ -43,7 +43,7 @@
 			<%@ include file="common/header.jsp"%>
 		</div>
 		<div id="main" class="main">
-			<%@ include file="ETC/main.jsp"%>
+			<%@ include file="goods/lectureRegister.jsp"%>
 			<%
 				/* css간 font-size 정리 필요
 				1. div main에 include(사이드 nav 포함 페이지 *표시)
