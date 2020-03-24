@@ -1,11 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
-</head>
+    
 	<div id="videoupload_wrap" class="videoupload_wrap_cont_div">
         <div id="videoupload_header">
             <h2>동영상 업로드 - 운동</h2>
@@ -53,5 +48,3 @@
         </div>
         <input type="button" class="creator_submit_btn" value="완료">
     </div>
-	
-</html>
