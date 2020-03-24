@@ -51,20 +51,20 @@
                 <div class="sellkitregistration_nav1_div sellkitregistration_nav1_dummy_div">상품이미지</div>
                 <div class="sellkitregistration_main_center_part1_div">
                     <div id="sellkitregistration_img_box1" class="display_inline_block_div sellkitregistration_img_div">
-                        <img class="sellkitregistration_img" id="sellkitregistration_represent_img_box" name="sellkitregistration_represent_img_box" src="img/xbox_img.PNG" alt="대표이미지">
+                        <img class="sellkitregistration_img" id="sellkitregistration_represent_img_box" name="sellkitregistration_represent_img_box" src="../resource/img/xbox_img.PNG" alt="대표이미지">
                         <div class="display_inline_block_div position_relative_div sellkitregistration_img_add_btn_div">대표이미지</div>
                     </div>
 
                     <div id="sellkitregistration_sub_img_box1" class="display_inline_block_div sellkitregistration_img_div">
-                        <img class="sellkitregistration_img" id="" name="" src="img/xbox_img.PNG" alt="추가이미지">
+                        <img class="sellkitregistration_img" id="" name="" src="../resource/img/xbox_img.PNG" alt="추가이미지">
                         <div class="display_inline_block_div position_relative_div sellkitregistration_img_add_btn_div">추가이미지</div>
                     </div>
                     <div id="sellkitregistration_sub_img_box2" class="display_inline_block_div sellkitregistration_img_div">
-                        <img class="sellkitregistration_img" id="" name="" src="img/xbox_img.PNG" alt="추가이미지">
+                        <img class="sellkitregistration_img" id="" name="" src="../resource/img/xbox_img.PNG" alt="추가이미지">
                         <div class="display_inline_block_div position_relative_div sellkitregistration_img_add_btn_div">추가이미지</div>
                     </div>
                     <div id="sellkitregistration_sub_img_box3" class="display_inline_block_div sellkitregistration_img_div">
-                        <img class="sellkitregistration_img" id="" name="" src="img/xbox_img.PNG" alt="추가이미지">
+                        <img class="sellkitregistration_img" id="" name="" src="../resource/img/xbox_img.PNG" alt="추가이미지">
                         <div class="display_inline_block_div position_relative_div sellkitregistration_img_add_btn_div">추가이미지</div>
                     </div>
                 </div>
