@@ -2,7 +2,11 @@
 	pageEncoding="UTF-8"%>
 
 <%@ include file="../common/nav.jsp"%>
-
+<script>
+$('.video_block').click(function() {
+	$("#main").load("ETC/lecplay.jsp");
+});
+</script>
 <div id="section" class="section">
 	<div class="search_top">
 		<h2 class="main_h2">검색결과</h2>
