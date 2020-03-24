@@ -44,14 +44,19 @@ body {
 #creatorcenter_main_cont {
 	width: 1050px;
 	height: 700px;
-	
+	clear: both;
 }
 
 #creatorcenter_footer {
 	clear: both;
 }
 
-.myclass_main_cont_div
+.myclass_main_cont_div, .classdes_main_cont_div, .creatorprofile_main_cont_div,
+.sellkitregistration_main_cont_div, .videoupload_main_cont_div {
+	width: 900px;
+	margin: 0px auto;
+	
+}
 
 
             /* common/_creatorcenter_nav.jsp */
@@ -78,8 +83,6 @@ body {
 
             /* _myclass.html*/
 .myclass_main_cont_div {
-	margin: 0px auto;
-	margin-left: 30px;
 	overflow-y: hidden;
 }
 
@@ -183,13 +186,10 @@ body {
 
             /* classdes.html */
 .classdes_wrap_cont_div {
-	margin: 0px auto;
-/* 	border: 1px solid black; */
-	margin-left: 30px;
-	overflow-y: hidden;
+	
 }            
 .classdes_main_cont_div {
-	margin-top:54px;	
+	
 }
 
 .classdes_main_sub_title {
@@ -337,14 +337,11 @@ body {
 
             /* _creatorprofile.html */
 .creatorprofile_wrap_cont_div {
-	margin: 0px auto;
-/* 	border: 1px solid black; */
-	margin-left: 30px;
-	overflow-y: hidden;
+	
 }   
      
 .creatorprofile_main_cont_div{
-	margin-top: 30px;
+	
 		
 }
     
@@ -392,10 +389,7 @@ body {
 
             /* _videoupload.html */
 .videoupload_wrap_cont_div{
-	margin: 0px auto;
-/* 	border: 1px solid black; */
-	margin-left: 30px;
-	overflow-y: hidden;
+	
 }
 
 .videoupload_main_top_part1_div {
@@ -512,10 +506,7 @@ body {
             /* _sellkitregistration.html */
             
 .sellkitregistration_wrap_cont_div {
-	margin: 0px auto;
-/* 	border: 1px solid black; */
-	margin-left: 30px;
-	overflow-y: hidden;
+	
 }             
 
 .sellkitregistration_mini_title_interval {
