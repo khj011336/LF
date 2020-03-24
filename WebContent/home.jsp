@@ -7,6 +7,7 @@
 <%
 	response.setHeader("Cache-Control", "no-cache");
 %>
+<!-- 세현테스트 ㅇㅇ -->
 <meta charset="UTF-8">
 <title>LecFly</title>
 <script type="text/javascript">
@@ -42,7 +43,7 @@
 			<%@ include file="common/header.jsp"%>
 		</div>
 		<div id="main" class="main">
-			<%@ include file="ETC/main.jsp"%>
+			<%@ include file="goods/lectureRegister.jsp"%>
 			<%
 				
 			%>

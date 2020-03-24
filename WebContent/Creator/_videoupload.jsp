@@ -21,7 +21,7 @@
                 </div>
                 <div id="videoupload_main_top_part2_box" class="videoupload_main_top_part2_div">
                     <video id="videoupload_video" class="videoupload_video">
-                        <source src="img/dummy_video.mp4" type="video/mp4">
+                        <source src="../resource/video/dummy_video.mp4" type="video/mp4">
                     </video>
                     <span class="videoupload_dummy1_btn_span">동영상업로드</span>
                 </div>
@@ -43,7 +43,7 @@
                 <div class="videoupload_main_center_part3_div">
                     <h3>동영상 미리보기</h3>
                     <div id="videoupload_pre_view_img_box" class="videoupload_pre_view_img_div">
-                        <img class="videoupload_pre_view_img" id="videoupload_pre_view_img" src="img/dummy_img4.jpg" name="videoupload_pre_view_img" alt="미리보기 이미지">
+                        <img class="videoupload_pre_view_img" id="videoupload_pre_view_img" src="../resource/img/dummy_img4.jpg" name="videoupload_pre_view_img" alt="미리보기 이미지">
                     </div>
                     <input type="text" class="videoupload_prev_video_img_path" id="videoupload_prev_video_img_path" name="videoupload_prev_video_Img_path">
                 </div>

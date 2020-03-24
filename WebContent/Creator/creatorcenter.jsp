@@ -18,13 +18,13 @@
 					<%@ include file="../common/_creatorcenter_nav.jsp" %>
 				</div>
 				
-<!-- 				<div id="creatorcenter_main_cont" class="creatorcenter_main_cont_div">        -->
-<%-- 		            <%@ include file="_myclass.jsp" %> --%>
-		            <%@ include file="_classdes.jsp" %>
+				<div id="creatorcenter_main_cont" class="creatorcenter_main_cont_div">       
+		            <%@ include file="_myclass.jsp" %>
+<%-- 		            <%@ include file="_classdes.jsp" %> --%>
 <%-- 		            <%@ include file="_creatorprofile.jsp" %> --%>
 <%-- 		            <%@ include file="_sellkitregistration.jsp" %> --%>
 <%-- 		            <%@ include file="_videoupload.jsp" %> --%>
-<!-- 		        </div> -->
+		        </div>
 			</div>
 			
 			<div id="creatorcenter_footer">

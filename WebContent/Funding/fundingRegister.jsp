@@ -13,7 +13,7 @@
 			</p>
 		</div>
 		<br> <br> <br> <br> <br> <br> <br>
-		<br> <br>
+		<br> <br><br><br><br><br><br>
 		<ul id="funding_tag_ul">
 			<li class="funding_tag_li"><a class="funding_tag_li_a"
 				href="#funding_lecture_info">강의소개</a> |</li>
