@@ -42,7 +42,7 @@
 			<%@ include file="common/header.jsp"%>
 		</div>
 		<div id="main" class="main">
-			<%@ include file="ETC/main.jsp"%>
+			<%@ include file="ETC/lecplay.jsp"%>
 			<%
 				
 			%>

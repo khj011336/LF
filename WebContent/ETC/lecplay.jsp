@@ -1,6 +1,15 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
-
+<script>
+$(document).ready(function () {
+	$(".alter").click(function () {
+		$(this).css("background-color","red");
+		var so = $(this).find("p").text();
+		$("#Pvideo video").html().attr("src",so);
+		
+	});
+});
+</script>
 <body>
 	<div id="playWrap">
 		<div id="Tcontent">
@@ -65,112 +74,19 @@
 				</div>
 				<div id="PvideoList">
 					<div class="PvideoContent">
-						<div>
+					<%for(int i = 0 ; i < 10; i++){ %>
+						<div class = 'alter <%= (i==0 ? "":"Limg")  %>'>
 							<img src="resource/img/1562545727180-1.png" alt="img">
+							
+							<p class = 'movieName'>resource/video/Wildlife.mp4</p>
+							
 							<div class="Timg">
 								<h4>0강 Prologue</h4>
 								<p>00:00:88</p>
 								<span>강의시작하기</span>
 							</div>
 						</div>
-						<div class='Limg'>
-							<img src="resource/img/1562545727180-1.png" alt="img">
-							<div class="Timg">
-								<h4>0강 Prologue</h4>
-								<p>00:00:88</p>
-								<span>강의시작하기</span>
-							</div>
-						</div>
-						<div class='Limg'>
-							<img src="resource/img/1562545727180-1.png" alt="img">
-							<div class="Timg">
-								<h4>0강 Prologue</h4>
-								<p>00:00:88</p>
-								<span>강의시작하기</span>
-							</div>
-						</div>
-						<div class='Limg'>
-							<img src="resource/img/1562545727180-1.png" alt="img">
-							<div class="Timg">
-								<h4>0강 Prologue</h4>
-								<p>00:00:88</p>
-								<span>강의시작하기</span>
-							</div>
-						</div>
-						<div class='Limg'>
-							<img src="resource/img/1562545727180-1.png" alt="img">
-							<div class="Timg">
-								<h4>0강 Prologue</h4>
-								<p>00:00:88</p>
-								<span>강의시작하기</span>
-							</div>
-						</div>
-						<div class='Limg'>
-							<img src="resource/img/1562545727180-1.png" alt="img">
-							<div class="Timg">
-								<h4>0강 Prologue</h4>
-								<p>00:00:88</p>
-								<span>강의시작하기</span>
-							</div>
-						</div>
-						<div class='Limg'>
-							<img src="resource/img/1562545727180-1.png" alt="img">
-							<div class="Timg">
-								<h4>0강 Prologue</h4>
-								<p>00:00:88</p>
-								<span>강의시작하기</span>
-							</div>
-						</div>
-						<div class='Limg'>
-							<img src="resource/img/1562545727180-1.png" alt="img">
-							<div class="Timg">
-								<h4>0강 Prologue</h4>
-								<p>00:00:88</p>
-								<span>강의시작하기</span>
-							</div>
-						</div>
-						<div class='Limg'>
-							<img src="resource/img/1562545727180-1.png" alt="img">
-							<div class="Timg">
-								<h4>0강 Prologue</h4>
-								<p>00:00:88</p>
-								<span>강의시작하기</span>
-							</div>
-						</div>
-						<div class='Limg'>
-							<img src="resource/img/1562545727180-1.png" alt="img">
-							<div class="Timg">
-								<h4>0강 Prologue</h4>
-								<p>00:00:88</p>
-								<span>강의시작하기</span>
-							</div>
-						</div>
-						<div class='Limg'>
-							<img src="resource/img/1562545727180-1.png" alt="img">
-							<div class="Timg">
-								<h4>0강 Prologue</h4>
-								<p>00:00:88</p>
-								<span>강의시작하기</span>
-							</div>
-						</div>
-						<div class='Limg'>
-							<img src="resource/img/1562545727180-1.png" alt="img">
-							<div class="Timg">
-								<h4>0강 Prologue</h4>
-								<p>00:00:88</p>
-								<span>강의시작하기</span>
-							</div>
-						</div>
-						<div class='Limg'>
-							<img src="resource/img/1562545727180-1.png" alt="img">
-							<div class="Timg">
-								<h4>0강 Prologue</h4>
-								<p>00:00:88</p>
-								<span>강의시작하기</span>
-							</div>
-						</div>
-						
-
+						<%} %>
 					</div>
 				</div>
 			</div>
