@@ -39,7 +39,7 @@
             <span class="classdes_dummy_text1_span">커버로 사용할 이미지를 추가해보세요</span>
             <div class="classdes_session2_div">
                 <div id="classdes_class_cover_img_box" class="classdes_class_cover_img_box_div">
-                    <img class="classdes_class_cover_img1" src="img/dummy_img3.jpg" id="classdes_class_cover_img" alt="클래스커버이미지">
+                    <img class="classdes_class_cover_img1" src="../resource/img/dummy_img3.jpg" id="classdes_class_cover_img" alt="클래스커버이미지">
                 </div>
                 <div id="classdes_class_cover_img_path_box" class="classdes_class_cover_img_path_div">
                     <!-- 상담실시간의 경우 메인에서 만들거라 생각하여 따로 표시하지않음 -->
@@ -53,10 +53,10 @@
             <div class="classdes_session3_div">
             	<h3 class="classdes_main_sub_title2">2.강의 소개하기</h3>
                 <div class="classdes_img2_div">
-                    <img class="classdes_img2" src="img/dummy_img4.jpg" alt="이미지 추가하기">
+                    <img class="classdes_img2" src="../resource/img/dummy_img4.jpg" alt="이미지 추가하기">
                 </div>
                 <div class="classdes_img2_div">
-                    <img class="classdes_img2" src="img/dummy_img2.jpg" alt="이미지 추가하기">
+                    <img class="classdes_img2" src="../resource/img/dummy_img2.jpg" alt="이미지 추가하기">
                 </div>
                 <div class="classdes_ex_div">
                     <span class="classdes_intro_ex_span">소개 예시</span><p>하여도 가슴이 설레는 말이다 청춘! 너의 두손을 가슴에 대고 물방아 같은 심장의 고동을 들어 보라 청춘의 피는 끓는다 끓는 피에 뛰노는 심장은 거선의 기관과 같이 힘있다 이것이다 인류의 역사를 꾸며 </p>

@@ -26,15 +26,15 @@
                 <div id="qnabox">실시간 상담</div>
                 <div id="qnabox">전화 상담</div>
                 <div id="qnabox">1:1 문의</div>
-                
-                <div id="qna">
+            
+                <div id="qnabox2">
                     <h4> 문의 내용 </h4>
                     <br>
                     <p>Lecfly입니다.<br>서비스 이용시 불편사항이나 문의사항 빠르고 친절하게 안내해 드리겠습니다.<br>감사합니다.<br><br>
                         <input type="button" style="background-color: gray" value="문의하기"></p>
                     
                 </div>
-                <div id="qna">
+                <div id="qnabox2">
                     <h4> 문의 내역 </h4>
                     <table>
                         <tr>
