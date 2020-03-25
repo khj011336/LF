@@ -137,14 +137,23 @@ body {
 
 /* 메인 광고 배너: 가로 full, slide */
 
+
+/* .main { */
+/* 	min-height: 700px; */
+/* 	margin: 0 auto; */
+/* 	width: 1200px; */
+/* } */
+
 /* 메인파트 */
-.main {
+.main_content { /* 메인배너 하단 */
 	min-height: 700px;
 	margin: 0 auto;
 /* 	text-align: center; */
 	width: 100%;
 }
-
+.main_title {
+	
+}
 .main_banner { /* 메인_배너 파트 */
 	margin: 0 auto;
 	width: 100%;

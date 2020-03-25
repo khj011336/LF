@@ -7,7 +7,7 @@ $('.video_block').click(function() {
 </script>
 <div id="section" class="section">
 	<div class="search_top">
-		<h2 class="main_h2">검색결과</h2>
+		<h2 class="main_title">검색결과</h2>
 		<ul class="sort">
 			<li><select>
 					<option>카테고리선택</option>
