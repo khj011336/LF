@@ -5,8 +5,6 @@
 $(document).ready(function () {
 	$(".alter").click(function () {
 		var th = document.getElementById("test");
-		alert(th);
-		alert(th.duration);
 		var so = $(this).find("p:first").text();
 		$("#Pvideo video source").attr("src",so);
 		$("#Pvideo").load("ETC/videoTest.jsp",{name:so}, function () {
@@ -19,11 +17,14 @@ $(document).ready(function () {
 });
 
 </script>
+<style>
+.test{
+display: none;
+}
+</style>
 <body>
 	<div id="playWrap">
-	<video controls="controls">
-	<source id ='test' src = 'resource/video/Wildlife.mp4' type="video/mp4"/>
-	</video>
+	
 		<div id="Tcontent">
 
 			<div id='Cleft'>
@@ -35,8 +36,8 @@ $(document).ready(function () {
 					</div>
 				</div>
 				<div id="Pvideo">
-					<video controls autoplay="autoplay"  >
-						<source src='resource/video/Wildlife.mp4' type="video/mp4" />
+					<video controls autoplay="autoplay"   >
+						<source  src='resource/video/Wildlife.mp4' type="video/mp4" />
 					</video>
 				</div>
 				<div id="aboutContent">
@@ -89,7 +90,9 @@ $(document).ready(function () {
 					<%String[] Test ={"cooking.mp4","dummy_video.mp4","soap.mp4","working out.mp4"};
 					%>
 					<%for(int i = 0 ; i < 10; i++){ %>
-					
+					<video controls="controls" class ='test' >
+	<source  src = 'resource/video/<%=(i<4?Test[i]:"")%>'  type="video/mp4"/>
+	</video>
 						<div class = 'alter <%= (i==0 ? "":"Limg")  %>'>
 							<img src="resource/img/1562545727180-1.png" alt="img">
 							
@@ -97,7 +100,7 @@ $(document).ready(function () {
 							
 							<div class="Timg">
 								<h4><%=i+1%>강<%=(i<4?Test[i]:"none") %></h4>
-								<p>00:00:88</p>
+								<p>th.duration</p>
 								<span>강의시작하기</span>
 							</div>
 						</div>
