@@ -1,0 +1,222 @@
+charset "UTF-8 ";
+	
+#playWrap {
+	width: 1200px;
+	box-sizing: border-box;
+	margin: 30px auto;
+}
+
+#Tcontent {
+	display: flex;
+}
+
+#Cleft {
+	width: 800px;
+}
+
+#Cright {
+	width: 400px;
+	margin-left: 10px;
+}
+
+#PvideoList {
+	height: 1025px;
+	display: flex;
+	overflow-y: scroll;
+	overflow-x: hidden
+}
+
+.PvideoContent {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+}
+
+#contentEach {
+	width: 100%;
+	height: 100px;
+}
+
+.PvideoContent div {
+	display: flex;
+	width: 100%;
+	height: 100px;
+}
+
+.Limg {
+	margin-top: 6px;
+}
+
+.Timg {
+	margin-left: 15px;
+	white-space: noWrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	flex-direction: column;
+}
+.Timg span{
+	margin: 0px;
+}
+
+.Timg h4, p {
+	font-size: 17px;
+}
+
+.Timg p {
+	margin: 15px 0px;
+	text-align: right;
+}
+
+.PvideoContent img {
+	width: 150px;
+	height: 100%;
+}
+
+#Pvideo {
+	height: 443px;
+}
+
+#Pvideo video {
+	width: 100%;
+	height: 100%;
+}
+
+.vertical {
+	margin: 15px 0px;
+	height: 20px;
+}
+
+.vertical p {
+	font-size: 15px;
+}
+
+.bt1 {
+	font-size: 20px;
+	border-radius: 10px;
+}
+
+.sp {
+	margin-right: 84.89%
+}
+
+#aboutText {
+	overflow-y: scroll;
+	height: 315px;
+	padding-left: 20px;
+}
+#aboutText h3{
+	margin-top: 8px;
+
+	}
+#aboutText p{
+	white-space: pre-Wrap;
+	line-height: 15px;
+	padding-left: 50px;
+	font-size: 14px;
+	margin-top: 20px;
+	text-overflow: ellipsis;
+}
+
+#text2 {
+	margin-top: 40px;
+}
+
+#uplorder {
+	width: 100%;
+	height: 100px;
+	position: relative;
+}
+
+#usr {
+	border-radius: 50px;
+	width: 70px;
+	height: 70px;
+}
+
+#uplorderplayWrap {
+	margin: 30px 0px;
+	text-overflow: ellipsis;
+	/*     border-top: 1px solid black; */
+	/*     border-bottom: 1px solid black; */
+}
+
+#usrname {
+	position: absolute;
+	top: 8px;
+	left: 80px;
+}
+
+.usrab {
+	position: absolute;
+}
+
+#usrpick {
+	right: 7px;
+	bottom: 5px;
+}
+
+#usrtitle {
+	left: 80px;
+	top: 30px;
+}
+
+.borderw th {
+	width: 300px;
+	border-bottom: 1px solid black;
+	padding: 10px 0px;
+	background-color: antiquewhite;
+}
+
+.borderw td {
+	width: 900px;
+	padding-left: 10px;
+	border-bottom: 1px solid black;
+}
+
+.borderw p {
+	margin: 15px 0px;
+}
+
+.borderw table {
+	border: 2px solid black;
+}
+
+.borderw span {
+	margin-left: 700px;
+}
+
+#sub input {
+	width: 120px;
+	height: 30px;
+	border-radius: 40px;
+}
+
+#sub {
+	width: 100%;
+}
+
+#subma {
+	margin: 20px auto;
+	text-align: center;
+}
+
+.borderw li {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.borderw label {
+	margin-left: 5px;
+}
+
+.borderw * {
+	font-size: 13px;
+}
+
+.borderw .h {
+	font-size: 25px;
+}
+.alter p.movieName{
+display: none;	
+}

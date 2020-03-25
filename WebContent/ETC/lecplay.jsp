@@ -3,7 +3,15 @@
 <script>
 $(document).ready(function () {
 	$(".alter").click(function () {
-
+	
+		var so = $(this).find("p:first").text();
+		$("#Pvideo video source").attr("src",so);
+		
+		$("#Pvideo").load("ETC/videoTest.jsp",{name:so}, function () {
+			var name = $("#Pvideo video source").attr("src")
+			$("#Htext p b").text(name);
+			$("#uplorderplayWrap span:first").text(name);
+		});
 	});
 });
 </script>
@@ -71,16 +79,22 @@ $(document).ready(function () {
 				</div>
 				<div id="PvideoList">
 					<div class="PvideoContent">
-
+					<%String[] Test ={"cooking.mp4","dummy_video.mp4","soap.mp4","working out.mp4"};
+					%>
 					<%for(int i = 0 ; i < 10; i++){ %>
+					
 						<div class = 'alter <%= (i==0 ? "":"Limg")  %>'>
 							<img src="resource/img/1562545727180-1.png" alt="img">
 							
-							<p class = 'movieName'>resource/video/Wildlife.mp4</p>
+							<p class = 'movieName'>resource/video/<%=(i<4?Test[i]:"") %></p>
 							
 							<div class="Timg">
-								<h4>0강 Prologue</h4>
-
+								<h4><%=i+1%>강<%=(i<4?Test[i]:"none") %></h4>
+								<p>00:00:88</p>
+								<span>강의시작하기</span>
+							</div>
+						</div>
+						
 						<%} %>
 					</div>
 				</div>
