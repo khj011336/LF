@@ -1,5 +1,92 @@
 charset "UTF-8 ";
+	html {
+	margin: 0;
+	padding: 0;
+}
 
+body {
+	height: 100%;
+}
+
+html {
+	overflow-y: scroll;
+}
+
+@font-face {
+	font-family: 'Cafe24Simplehae';
+	src:
+		url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Simplehae.woff')
+		format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body, p, ul, ol, li, dl, dt, dd, form, table, th, td, fieldset, input,
+	textarea, select, button, h1, h2, h3, h4, h5, h6, pre {
+	margin: 0;
+	padding: 0;
+	-webkit-text-size-adjust: none;
+	font-family: 'Cafe24Simplehae', "돋움", Dotum, Droid Sans,
+		AppleSDGothicNeo, AppleGothic, Helvetica, Sans-serif;
+}
+
+/* 아이폰 가로모드 글자 크기 확대 방지: -webkit-text-size-adjust:none; */
+body, input, textarea, select, button {
+	color: #585858;
+	font-size: 12px;
+	font-family: 'Cafe24Simplehae';
+}
+
+header, footer, nav, aside, section, article {
+	display: block;
+}
+
+fieldset, img {
+	border: 0;
+}
+
+img {
+	-ms-interpolation-mode: bicubic !important;
+	border: 0;
+}
+
+table {
+	padding: 0;
+	border-spacing: 0px;
+	border: 0;
+	border-collapse: collapse;
+}
+
+ul, ol {
+	list-style: none;
+}
+
+a {
+	color: #585858;
+	text-decoration: none;
+}
+
+a:link {
+	color: #606060;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #ffa172;
+}
+
+.clear {
+	clear: both;
+}
+
+@font-face {
+	font-family: 'Cafe24Simplehae';
+	src:
+		url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Simplehae.woff');
+	format ('woff');
+	font-weight: normal;
+	font-style: normal;
+}
 #playWrap {
 	width: 1200px;
 	box-sizing: border-box;
@@ -79,7 +166,7 @@ charset "UTF-8 ";
 
 #Pvideo video {
 	width: 100%;
-	height: 100%;
+	height: 443px;
 }
 
 .vertical {
@@ -95,9 +182,13 @@ charset "UTF-8 ";
 	font-size: 20px;
 	border-radius: 10px;
 }
-
-.sp {
-	margin-right: 84.89%
+.bt1 b {
+	font-size: 20px;
+	
+	
+}
+.sp b{
+	margin-left: 600px;
 }
 
 #aboutText {
@@ -106,9 +197,10 @@ charset "UTF-8 ";
 	padding-left: 20px;
 }
 #aboutText h3{
-	margin-top: 10px;
-}
-#aboutText p {
+	margin-top: 8px;
+
+	}
+#aboutText p{
 	white-space: pre-Wrap;
 	line-height: 15px;
 	padding-left: 50px;
@@ -199,9 +291,7 @@ charset "UTF-8 ";
 	margin: 20px auto;
 	text-align: center;
 }
-.movieName{
-	display: none;
-}
+
 .borderw li {
 	display: inline-block;
 	margin-right: 10px;
@@ -217,4 +307,7 @@ charset "UTF-8 ";
 
 .borderw .h {
 	font-size: 25px;
+}
+.alter p.movieName{
+display: none;	
 }
