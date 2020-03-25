@@ -6,7 +6,7 @@
             <h2>1.클래스 기본정보</h2>    
         </div>
         <div id="classdes_main" class="classdes_main_cont_div">
-        	<h3 class="classdes_main_sub_title">1.클래스 기본정보</h3>
+        	<h3 class="classdes_main_sub_title">클래스 기본정보</h3>
             <div class="classdes_session1_div">
                 <div id="classdes_classdes" class="classdes_classdes_div">
                     <!-- 클래스 카테고리 -->
@@ -51,7 +51,7 @@
             
             
             <div class="classdes_session3_div">
-            	<h3 class="classdes_main_sub_title2">2.강의 소개하기</h3>
+            	<h3 class="classdes_main_sub_title2">강의 소개하기</h3>
                 <div class="classdes_img2_div">
                     <img class="classdes_img2" src="../resource/img/dummy_img4.jpg" alt="이미지 추가하기">
                 </div>

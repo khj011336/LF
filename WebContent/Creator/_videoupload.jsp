@@ -6,7 +6,7 @@
             <h2>동영상 업로드 - 운동</h2>
         </div>
         <div id="videoupload_main" class="videoupload_main_cont_div">
-            <div>
+            <div id="videoupload_main_top_box" class="videoupload_main_top_div">
                 <div id="videoupload_main_top_part1_box" class="videoupload_main_top_part1_div">
                     <h3>동영상 정보</h3>
                     <div id="videoupload_video_des_box">
@@ -43,8 +43,10 @@
                     <input type="text" class="videoupload_prev_video_img_path" id="videoupload_prev_video_img_path" name="videoupload_prev_video_Img_path">
                 </div>
             </div>
-            <h3>지금 영상 진행 순서 기입</h3>
-            <textarea id="videoupload_video_progress_des"></textarea>  
+            <div id="videoupload_main_footer_box" class="videoupload_main_footer_div">
+	            <h3>지금 영상 진행 순서 기입</h3>
+	            <textarea id="videoupload_video_progress_des"></textarea>  
+            </div>
         </div>
         <input type="button" class="creator_submit_btn" value="완료">
     </div>
