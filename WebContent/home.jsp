@@ -3,7 +3,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-
 <%
 	response.setHeader("Cache-Control", "no-cache");
 %>
@@ -39,10 +38,10 @@
 		<div id="header" class="header">
 			<%@ include file="common/header.jsp"%>
 		</div>
-		<%@ include file="../common/side_nav.jsp"%>
-		<div id="main" class="main">
-			<%@ include file="ETC/main.jsp"%>
-		</div>
+		
+		<%@ include file="common/side_nav.jsp"%>
+		<%@ include file="ETC/main.jsp"%>
+		
 		<div id="footer" class="footer">
 			<%@ include file="common/footer.jsp"%>
 		</div>
