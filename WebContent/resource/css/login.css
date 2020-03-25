@@ -6,13 +6,7 @@
 /* sub_title => login_subtitle */
 /* info => login_etc */
 /* link => login_linked */
-
-/* *{ */
-/*     margin: 0px auto; */
-/*     padding: 0px; */
-/*     text-align: center; */
-/* } 수정해주세요 */
-
+<link type="text/css" rel="stylesheet" href="main.css">
 .login_a{
     text-decoration: none;
     color: black;
@@ -23,9 +17,12 @@
 	color: none;
 	border-bottom: none;
 }
-
+#emtpy_space{
+	height: 150px;
+}
 #login_wrap{
-	margin-top: 150px;
+	margin: auto;
+	text-align: center;
     border: 1px solid black;
     border-radius: 5px;
     width: 350px;
@@ -41,14 +38,17 @@
 }
 #login_subtitle{
     padding-top: 30px;
+    font-size: 2.5em;
 }
 
 #login_middle{
     margin: 25px;
 }
 #login, #pw{
-    font-size: 1.5em;
+    font-size: 2em;
     margin: 5px;
+    text-align: center;
+    width: 280px;
 }
 #login{
     
@@ -73,17 +73,18 @@
 }
 
 #login_bottom{
-    
+    margin: auto;
 }
 #login_btn{
     width: 100px;
-    height: 35px;
+    height: 25px;
     background-color: orange;
-/*     margin-top: 10px; */
 	padding-top: 10px;
+    margin: auto;
 }
 #login_btn a{
 	border-bottom: none;
+	font-size: 1.5em;
 }
 #login_btn:hover{
     background-color: #FF4500;

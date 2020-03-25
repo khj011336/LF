@@ -9,7 +9,7 @@
             <h3>프로필 사진</h3>
             <!-- src="" 여기에 이제 기본이미지는 안넣은상태인걸한후 파일선택후 경로 입력되게끔 만들어야함 -->
             <div id="creatorprofile_myprofile_box" class='creatorprofile_myprofile_div'>
-                <img src="img/no_profile_img.PNG" id="creatorprofile_myprofile_img" name="creatorprofile_myprofile_img" alt="프로필 사진"><br><span class="creatorprofile_intro_dummy1_span">파일찾기</span>
+                <img src="../resource/img/no_profile_img.PNG" id="creatorprofile_myprofile_img" name="creatorprofile_myprofile_img" alt="프로필 사진"><br><span class="creatorprofile_intro_dummy1_span">파일찾기</span>
             </div>
             
             <!-- 크리에이터 닉네임 -->

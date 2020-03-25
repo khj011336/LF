@@ -32,8 +32,8 @@ body {
 }
 
 #creatorcenter_main{
-	width: 1200px;
-	height: 700px;
+/* 	width: 1050px; */
+/* 	height: 700px; */
 }
 #creatorcenter_main_nav {
 	width: 150px;
@@ -44,12 +44,14 @@ body {
 #creatorcenter_main_cont {
 	width: 1050px;
 	height: 700px;
-	clear: both;
+	
 }
 
 #creatorcenter_footer {
 	clear: both;
 }
+
+.myclass_main_cont_div
 
 
             /* common/_creatorcenter_nav.jsp */
@@ -77,8 +79,6 @@ body {
             /* _myclass.html*/
 .myclass_main_cont_div {
 	margin: 0px auto;
-	min-width: 1020px;
-	min-hight: 700px;
 	margin-left: 30px;
 	overflow-y: hidden;
 }
@@ -185,8 +185,6 @@ body {
 .classdes_wrap_cont_div {
 	margin: 0px auto;
 /* 	border: 1px solid black; */
-	min-width: 1020px;
-	min-hight: 700px;
 	margin-left: 30px;
 	overflow-y: hidden;
 }            
@@ -341,8 +339,6 @@ body {
 .creatorprofile_wrap_cont_div {
 	margin: 0px auto;
 /* 	border: 1px solid black; */
-	min-width: 1020px;
-	min-hight: 700px;
 	margin-left: 30px;
 	overflow-y: hidden;
 }   
@@ -398,8 +394,6 @@ body {
 .videoupload_wrap_cont_div{
 	margin: 0px auto;
 /* 	border: 1px solid black; */
-	min-width: 1020px;
-	min-hight: 700px;
 	margin-left: 30px;
 	overflow-y: hidden;
 }
@@ -520,8 +514,6 @@ body {
 .sellkitregistration_wrap_cont_div {
 	margin: 0px auto;
 /* 	border: 1px solid black; */
-	min-width: 1020px;
-	min-hight: 700px;
 	margin-left: 30px;
 	overflow-y: hidden;
 }             
