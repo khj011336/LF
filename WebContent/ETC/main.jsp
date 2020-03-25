@@ -1,7 +1,9 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 
-<div class="main_banner"></div>
+<div class="main_banner">
+	<%@ include file="../common/main_banner.jsp"%>
+</div>
 
 <div class="main_wrapper">
 	<h2 class="main_h2">카테고리</h2>

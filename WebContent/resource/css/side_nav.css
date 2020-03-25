@@ -13,6 +13,7 @@
 	background: orange;
 	overflow: hidden;
 	transition: width .5s;
+	z-index: 999;
 }
 
 .side-menu:hover {

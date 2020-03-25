@@ -1,0 +1,87 @@
+@font-face { font-family: 'Cafe24Simplehae'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Simplehae.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+
+*{
+    font-family: 'Cafe24Simplehae'; 
+}
+
+
+
+.container1 div {
+    width: 900px;
+    height: 400px;
+    line-height: 400px;
+    text-align: center;
+    box-shadow: 0 0 10px #666;
+    border-radius: 5px;
+    position: absolute;
+    left: 34%;
+    top: 120px;
+    margin-left: -150px;
+    color: #000;
+    cursor: pointer;
+    font-size: 60px;
+    font-weight: bold;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 1);
+    transform-style: preserve-3d;
+    transform-origin: center center;
+}
+
+.container1 div:nth-child(1) {
+    border: 5px solid orange;
+    transform: perspective(200px) translateZ(-60px) translateX(-300px);
+    z-index: 1;
+}
+
+.container1 div:nth-child(2) {
+    border: 5px solid orange;
+    transform: perspective(200px) translateZ(-40px) translateX(-200px);
+    z-index: 2;
+}
+
+.container1 div:nth-child(3) {
+    border: 5px solid orange;
+    transform: perspective(200px) translateZ(-20px) translateX(-100px);
+    z-index: 3;
+
+}
+
+.container1 div:nth-child(4) {
+    border: 5px solid orange;
+    transform: perspective(200px) translateZ(0px) translateX(0px);
+    z-index: 4;
+}
+
+.container1 div:nth-child(5) {
+    border: 5px solid orange;
+    transform: perspective(200px) translateZ(-20px) translateX(100px);
+    z-index: 3;
+
+}
+
+.container1 div:nth-child(6) {
+    border: 5px solid orange;
+    transform: perspective(200px) translateZ(-40px) translateX(200px);
+    z-index: 2;
+}
+
+.container1 div:nth-child(7) {
+    border: 5px solid orange;
+    transform: perspective(200px) translateZ(-60px) translateX(300px);
+    z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
