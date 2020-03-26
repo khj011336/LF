@@ -42,8 +42,8 @@ body {
 }
 
 #creatorcenter_main_cont {
-	width: 1050px;
-	height: 700px;
+	min-width: 1050px;
+	
 	
 }
 /* 주석추가*/
@@ -80,7 +80,6 @@ body {
 .myclass_main_cont_div {
 	margin: 0px auto;
 	margin-left: 30px;
-	overflow-y: hidden;
 }
 
 .myclass_session_div {
@@ -189,7 +188,7 @@ body {
 	overflow-y: hidden;
 }            
 .classdes_main_cont_div {
-	margin-top:54px;	
+	margin: 0px auto;
 }
 
 .classdes_main_sub_title {
