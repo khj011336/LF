@@ -122,7 +122,9 @@ body {
 	padding-left: 30px;
 	border-radius: 5px;
 }
-
+/* .search_bar {
+	width: 
+} */
 .header_column_menu { /* 헤더 메뉴열 */
 	float: right;
 	text-align: right;
@@ -157,8 +159,10 @@ body {
 .main_banner { /* 메인_배너 파트 */
 	margin: 0 auto;
 	width: 100%;
-	height: 400px;
+	height: 440px;
 	margin-bottom: 60px;
+	background-color: rgb(255,165,0,0.25);
+	/* background-color: #D3D3D3; */
 }
 .main_wrapper { /* 메인 파트: width 1200 */
 	width: 1200px;
@@ -177,7 +181,7 @@ body {
 .category_block { /* 메인_카테고리블럭 */
 	display: inline-block;
 	text-align: center;
-	margin: 0 20px 15px 20px;
+	margin: 10px 40px 0px 40px;
 }
 .main_title {
 	margin-bottom: 15px;
@@ -278,7 +282,8 @@ body {
 	height: 200px;
 	margin: 0 auto;
 	text-align: center;
-	background-color: orange;
+	background-color: lightgrey;
+	z-index: 999;
 }
 
 .footer_wrapper {
