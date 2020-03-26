@@ -7,7 +7,7 @@
 	</div>
 	<div class="header_column_search">
 		<form action="#" method="get">
-			<input type="text" placeholder="검색어를 입력하세요" name="search" class="search_bar">
+			<input type="search" placeholder="검색어를 입력하세요" name="search" class="search_bar">
 			<input type="submit" class="search_btn" value="검색">
 		</form>
 	</div>

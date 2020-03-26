@@ -144,6 +144,7 @@ a:hover {
 }
 .Timg span{
 	margin: 0px;
+	
 }
 
 .Timg h4, p {
@@ -286,7 +287,9 @@ a:hover {
 #sub {
 	width: 100%;
 }
-
+.alter{
+	cursor:Pointer
+}
 #subma {
 	margin: 20px auto;
 	text-align: center;

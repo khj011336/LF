@@ -11,26 +11,50 @@
 <title>LecFly</title>
 <script type="text/javascript">
 	$(document).ready(function() {
-		$('.category_block').click(function() {
-			$("#main").load("ETC/search.jsp");
+		$('.category_block').bind("click",function() {
+			$("#homemain").load("ETC/search.jsp");
 		});
-		$('.fa-basketball-ball').click(function() {
-			$("#main").load("ETC/main.jsp");
+		$('.header_column_logo').bind("click",function() {
+			$("#homemain").load("ETC/main.jsp");
 		});
-		$('#TEST').click(function() {
-			$("#main").load("Creator/creatorcenter.jsp");
+
+		$('.search_btn').bind("click",function() {
+			$("#homemain").load("ETC/lecplay.jsp");
+
 		});
-		$('#TEST0').click(function() {
-			$("#main").load("CSCenter/Lecfly_CS_1.jsp");
+		$('.fa-headset').bind("click",function() {
+			$("#homemain").load("CSCenter/Lecfly_CS_1.jsp");
 		});
-		$('#TEST3').click(function() {
-			$("#main").load("ETC/login.jsp");
+		$('.video_block').bind("click",function() {
+			$("#homemain").load("goods/lectureRegister.jsp");
+		});
+		$('.fa-user').bind("click",function() {
+			$("#homemain").load("member/mypage.jsp");
 		});
 		
-		
-		$('.video_block').click(function() {
-			$("#main").load("goods/lectureRegister.jsp");
+		$('#register_lec_apply').bind("click",function(){
+			
+			$("#homemain").load("goods/goodsPayment.jsp");
+			
 		});
+	$('#fa-funnel-dollar').bind("click",function(){
+			
+			$("#homemain").load("Funding/fundingPayment.jsp");
+			
+		});
+// 		$('.search_btn').bind("click",function() {
+// 			$("#homemain").load("ETC/lecplay.jsp");
+// 		});
+// 		$('.search_btn').bind("click",function() {
+// 			$("#homemain").load("ETC/lecplay.jsp");
+// 		});
+// 		$('.search_btn').bind("click",function() {
+// 			$("#homemain").load("ETC/lecplay.jsp");
+// 		});
+// 		$('.search_btn').bind("click",function() {
+// 			$("#homemain").load("ETC/lecplay.jsp");
+// 		});
+		
 	});
 </script>
 </head>
@@ -40,8 +64,10 @@
 			<%@ include file="common/header.jsp"%>
 		</div>
 		<%@ include file="../common/side_nav.jsp"%>
+		<div id="homemain">
+		
 		<%@ include file="ETC/main.jsp"%>
-
+</div>
 		<div id="footer" class="footer">
 			<%@ include file="common/footer.jsp"%>
 		</div>
