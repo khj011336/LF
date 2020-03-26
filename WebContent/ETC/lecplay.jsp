@@ -36,7 +36,7 @@ display: none;
 					</div>
 				</div>
 				<div id="Pvideo">
-					<video controls autoplay="autoplay"   >
+					<video controls autoplay="autoplay" poster="resource/img/lfly"  >
 						<source  src='resource/video/Wildlife.mp4' type="video/mp4" />
 					</video>
 				</div>
