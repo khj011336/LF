@@ -18,7 +18,7 @@
 			$("#main").load("ETC/main.jsp");
 		});
 		$('#TEST').click(function() {
-			$("#main").load("Creator/_classdes.jsp");
+			$("#main").load("Creator/creatorcenter.jsp");
 		});
 		$('#TEST0').click(function() {
 			$("#main").load("CSCenter/Lecfly_CS_1.jsp");
