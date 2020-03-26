@@ -116,18 +116,7 @@
 				class="review_week"> <small>1년 전</small></span>
 		</p>
 
-		<script>
-// 		테스트용 나중에 삭제바람
-		$('#register_lec_apply').click(function() {
-			$("#main").load("goods/goodsPayment.jsp");
-		});
-// 		테스트용 나중에 삭제바람
-			$('#register_review a').click(function() {
-				$(this).parent().children("a").removeClass("on"); /* 별점의 on 클래스 전부 제거 */
-				$(this).addClass("on").prevAll("a").addClass("on"); /* 클릭한 별과, 그 앞 까지 별점에 on 클래스 추가 */
-				return false;
-			});
-		</script>
+		
 		<br> <br>
 		<h1 id="register_qna_info">QnA</h1>
 		<br> <br> <i class="fas fa-user"> 수현 <input type="date"
