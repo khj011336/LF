@@ -1,8 +1,29 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
+<script>
 
+$(document).ready(function () {
+	$(".alter").click(function () {
+		var th = document.getElementById("test");
+		alert(th);
+		alert(th.duration);
+		var so = $(this).find("p:first").text();
+		$("#Pvideo video source").attr("src",so);
+		$("#Pvideo").load("ETC/videoTest.jsp",{name:so}, function () {
+			var name = $("#Pvideo video source").attr("src");
+			
+			$("#Htext p b").text(name);
+			$("#uplorderplayWrap span#usrtitle b").text(name);
+		});
+	});
+});
+
+</script>
 <body>
 	<div id="playWrap">
+	<video controls="controls">
+	<source id ='test' src = 'resource/video/Wildlife.mp4' type="video/mp4"/>
+	</video>
 		<div id="Tcontent">
 
 			<div id='Cleft'>
@@ -14,13 +35,13 @@
 					</div>
 				</div>
 				<div id="Pvideo">
-					<video controls>
+					<video controls autoplay="autoplay"  >
 						<source src='resource/video/Wildlife.mp4' type="video/mp4" />
 					</video>
 				</div>
 				<div id="aboutContent">
 					<div class="vertical">
-						<a class='bt1 sp'><b>PREV</b></a> <a class='bt1'><b>NEXT</b></a>
+						<a class='bt1 '><b>PREV</b></a> <a class='bt1 sp'><b>NEXT</b></a>
 					</div>
 					<hr>
 					<div id="uplorder">
@@ -29,7 +50,7 @@
 								id="usrname" class="usrab">
 								<h3>순키-Sukiyy</h3>
 							</span> <span id="usrtitle" class="usrab"><b> Love your Life
-									나를 위한 천연비누 -2 베이직한 마르세유 비누 만들기 </b></span> <span id="usrpick"
+									나를 위한 천연비누  </b>-2 베이직한 마르세유 비누 만들기</span> <span id="usrpick"
 								class="usrab">조회수 202345명</span>
 						</div>
 					</div>
@@ -65,112 +86,23 @@
 				</div>
 				<div id="PvideoList">
 					<div class="PvideoContent">
-						<div>
+					<%String[] Test ={"cooking.mp4","dummy_video.mp4","soap.mp4","working out.mp4"};
+					%>
+					<%for(int i = 0 ; i < 10; i++){ %>
+					
+						<div class = 'alter <%= (i==0 ? "":"Limg")  %>'>
 							<img src="resource/img/1562545727180-1.png" alt="img">
+							
+							<p class = 'movieName'>resource/video/<%=(i<4?Test[i]:"") %></p>
+							
 							<div class="Timg">
-								<h4>0강 Prologue</h4>
-								<p>00:00:88</p>
-								<span>강의시작하기</span>
-							</div>
-						</div>
-						<div class='Limg'>
-							<img src="resource/img/1562545727180-1.png" alt="img">
-							<div class="Timg">
-								<h4>0강 Prologue</h4>
-								<p>00:00:88</p>
-								<span>강의시작하기</span>
-							</div>
-						</div>
-						<div class='Limg'>
-							<img src="resource/img/1562545727180-1.png" alt="img">
-							<div class="Timg">
-								<h4>0강 Prologue</h4>
-								<p>00:00:88</p>
-								<span>강의시작하기</span>
-							</div>
-						</div>
-						<div class='Limg'>
-							<img src="resource/img/1562545727180-1.png" alt="img">
-							<div class="Timg">
-								<h4>0강 Prologue</h4>
-								<p>00:00:88</p>
-								<span>강의시작하기</span>
-							</div>
-						</div>
-						<div class='Limg'>
-							<img src="resource/img/1562545727180-1.png" alt="img">
-							<div class="Timg">
-								<h4>0강 Prologue</h4>
-								<p>00:00:88</p>
-								<span>강의시작하기</span>
-							</div>
-						</div>
-						<div class='Limg'>
-							<img src="resource/img/1562545727180-1.png" alt="img">
-							<div class="Timg">
-								<h4>0강 Prologue</h4>
-								<p>00:00:88</p>
-								<span>강의시작하기</span>
-							</div>
-						</div>
-						<div class='Limg'>
-							<img src="resource/img/1562545727180-1.png" alt="img">
-							<div class="Timg">
-								<h4>0강 Prologue</h4>
-								<p>00:00:88</p>
-								<span>강의시작하기</span>
-							</div>
-						</div>
-						<div class='Limg'>
-							<img src="resource/img/1562545727180-1.png" alt="img">
-							<div class="Timg">
-								<h4>0강 Prologue</h4>
-								<p>00:00:88</p>
-								<span>강의시작하기</span>
-							</div>
-						</div>
-						<div class='Limg'>
-							<img src="resource/img/1562545727180-1.png" alt="img">
-							<div class="Timg">
-								<h4>0강 Prologue</h4>
-								<p>00:00:88</p>
-								<span>강의시작하기</span>
-							</div>
-						</div>
-						<div class='Limg'>
-							<img src="resource/img/1562545727180-1.png" alt="img">
-							<div class="Timg">
-								<h4>0강 Prologue</h4>
-								<p>00:00:88</p>
-								<span>강의시작하기</span>
-							</div>
-						</div>
-						<div class='Limg'>
-							<img src="resource/img/1562545727180-1.png" alt="img">
-							<div class="Timg">
-								<h4>0강 Prologue</h4>
-								<p>00:00:88</p>
-								<span>강의시작하기</span>
-							</div>
-						</div>
-						<div class='Limg'>
-							<img src="resource/img/1562545727180-1.png" alt="img">
-							<div class="Timg">
-								<h4>0강 Prologue</h4>
-								<p>00:00:88</p>
-								<span>강의시작하기</span>
-							</div>
-						</div>
-						<div class='Limg'>
-							<img src="resource/img/1562545727180-1.png" alt="img">
-							<div class="Timg">
-								<h4>0강 Prologue</h4>
+								<h4><%=i+1%>강<%=(i<4?Test[i]:"none") %></h4>
 								<p>00:00:88</p>
 								<span>강의시작하기</span>
 							</div>
 						</div>
 						
-
+						<%} %>
 					</div>
 				</div>
 			</div>

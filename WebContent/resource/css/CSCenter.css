@@ -2,8 +2,8 @@
 
 
 *{
-    margin: 0px;
-    border: 0px;
+/*     margin: 0px; */
+/*     border: 0px; */
     font-family: 'Cafe24Simplehae';
 }
 
@@ -61,7 +61,7 @@
 #qnabox2 { /* 1대1 문의하기 _ 하단 박스 */
     background-color: lightgray;
     width: 395px;
-    height: 200px;
+    height: 240px;
     margin-top: 30px;
     margin-left: 60px;
     padding: 20px;

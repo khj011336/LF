@@ -3,12 +3,12 @@ charset "UTF-8 ";
 
 
 * {
-/* /* 	margin: 0px auto;  수정해주세요 */
 	font-family: 'Cafe24Simplehae', sans-serif;
 }
 
 /* wrapper( nav, content 포함) */
 #fundingPayment_wrapper {
+	margin: 0px auto;
 	width: 1200px;
 	min-height: 800px;
 }

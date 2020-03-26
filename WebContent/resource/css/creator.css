@@ -26,16 +26,14 @@ body {
 .body_wrap_cont_div {
 	width: 1200px;
 	height: 1000px;
-	border: 1px solid green;
 }
 
 #creatorcenter_header {
 }
 
 #creatorcenter_main{
-	width: 1200px;
-	height: 700px;
-	border: 1px solid red;
+/* 	width: 1050px; */
+/* 	height: 700px; */
 }
 #creatorcenter_main_nav {
 	width: 150px;
@@ -44,10 +42,7 @@ body {
 }
 
 #creatorcenter_main_cont {
-	position: relative;
-	left: 150px;
-	padding-top: 30px;
-	width: 1020px;
+	width: 1050px;
 	height: 700px;
 	
 }
@@ -56,12 +51,7 @@ body {
 	clear: both;
 }
 
-.myclass_main_cont_div, .classdes_main_cont_div, .creatorprofile_main_cont_div,
-.sellkitregistration_main_cont_div, .videoupload_main_cont_div {
-	
-	margin: 0px auto;
-	
-}
+.myclass_main_cont_div
 
 
             /* common/_creatorcenter_nav.jsp */
@@ -88,6 +78,8 @@ body {
 
             /* _myclass.html*/
 .myclass_main_cont_div {
+	margin: 0px auto;
+	margin-left: 30px;
 	overflow-y: hidden;
 }
 
@@ -191,18 +183,20 @@ body {
 
             /* classdes.html */
 .classdes_wrap_cont_div {
-	
+	margin: 0px auto;
+/* 	border: 1px solid black; */
+	margin-left: 30px;
+	overflow-y: hidden;
 }            
 .classdes_main_cont_div {
-	padding-top: 30px;
+	margin-top:54px;	
 }
 
 .classdes_main_sub_title {
-	margin-top: 20px;
+	
 }
 
 .classdes_session1_div {
-	margin-top: 10px;
 	display: inline-block;	
 }
 
@@ -231,7 +225,7 @@ body {
 	width: 146px;
     height: 130px;
 	position: relative;	
-    top: 236px;
+    top: 250px;
     display: inline-grid;    
     border: 1px solid black;
     border-radius: 4px;
@@ -343,16 +337,15 @@ body {
 
             /* _creatorprofile.html */
 .creatorprofile_wrap_cont_div {
-	
+	margin: 0px auto;
+/* 	border: 1px solid black; */
+	margin-left: 30px;
+	overflow-y: hidden;
 }   
      
 .creatorprofile_main_cont_div{
-	padding-top: 30px;
+	margin-top: 30px;
 		
-}
-
-.creatorprofile_main_cont_part1_div {
-	padding-top: 20px;
 }
     
 .creatorprofile_myprofile_div {
@@ -399,7 +392,10 @@ body {
 
             /* _videoupload.html */
 .videoupload_wrap_cont_div{
-
+	margin: 0px auto;
+/* 	border: 1px solid black; */
+	margin-left: 30px;
+	overflow-y: hidden;
 }
 
 .videoupload_main_top_part1_div {
@@ -516,15 +512,14 @@ body {
             /* _sellkitregistration.html */
             
 .sellkitregistration_wrap_cont_div {
-	
+	margin: 0px auto;
+/* 	border: 1px solid black; */
+	margin-left: 30px;
+	overflow-y: hidden;
 }             
 
 .sellkitregistration_mini_title_interval {
 	margin-top: 10px;
-}
-
-#sellkitregistration_main {
-	padding-top: 30px;
 }
 
 .sellkitregistration_main_top_div {

@@ -5,7 +5,6 @@
 <head>
 <meta charset="UTF-8">
 <title>크리에이터 센터</title>
-<!-- ?? -->
 	<link type="text/css" rel="stylesheet" href="../resource/css/main.css">
 	<link type="text/css" rel="stylesheet" href="../resource/css/creator.css">
 </head>

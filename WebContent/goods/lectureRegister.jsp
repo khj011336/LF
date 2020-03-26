@@ -25,7 +25,7 @@
 		<p id="register_lec">
 			<img class="register_soap_img" src="img/soap.jpg" alt="soap"> <img
 				class="register_soap_img" src="img/soap2.jpg" alt="soap"> <br>
-			<br> <br> <br> <br> <br> <br> <br>
+			<br> <br> <br> <br> <br> <br> <br>	<br> <br> <br> <br> <br> 
 			<br> <br> 이번 정규 클래스를 통해서는 순 식물성 오일을 가지고 CP 비누를 만들어 볼껀데요. 이
 			클래스는 원데이 클래스 제작비누와 다르게 가성소다와 순 식물성 오일을 이용해 비누를 만드는 과정이예요. 이번 수업에서는
 			베이직하고 보습력이 좋은 마르세이유 비누부터 허브비누, 수박비누, 아보카도비누 까지 총 4가지 비누를 만들어보고, 마지막
@@ -117,6 +117,11 @@
 		</p>
 
 		<script>
+// 		테스트용 나중에 삭제바람
+		$('#register_lec_apply').click(function() {
+			$("#main").load("goods/goodsPayment.jsp");
+		});
+// 		테스트용 나중에 삭제바람
 			$('#register_review a').click(function() {
 				$(this).parent().children("a").removeClass("on"); /* 별점의 on 클래스 전부 제거 */
 				$(this).addClass("on").prevAll("a").addClass("on"); /* 클릭한 별과, 그 앞 까지 별점에 on 클래스 추가 */

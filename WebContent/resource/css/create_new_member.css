@@ -22,24 +22,16 @@
 <!-- mb_adress_detail	cnm_mb_adress_detail -->
 <!-- bottom		cnm_bottom -->
 <!-- submit_btn	cnm_submit_btn -->
+#cnm_wrap li{
+    margin-bottom: 5px;
+}
 
-/* a{ */
-/*     text-decoration: none; */
-/* } */
-/* ol{ */
-/* 	padding: 0px; */
-/* } */
-/* li{ */
-/*     LIST-STYLE: NONE; */
-/*     margin-bottom: 5px; */
-/* } */
+#cnm_wrap input{
+    height: 30px;
+    font-size: 18px;
+}
 
-/* input{ */
-/*     height: 30px; */
-/*     font-size: 18px; */
-/* } */
-/* 수정해주세요 */
-.cnm_wrap div{
+#cnm_wrap div{
     width: 400px;
     padding-bottom: 10px;
 }
@@ -92,7 +84,8 @@
 	margin: 0 10px 0 10px;
 }
 .gender_sub_title{
-	font-size: 16px;
+	font-size: 1.7em;
+	height: 30px;
 }
 /* 로그인 */
 
@@ -110,15 +103,15 @@
 
 /* 주소 */
 #cnm_mb_adress_num{
-	width: 300px;
+	width: 330px;
 }
 #find_adress_btn{
 	background-color: orange;
 }
 #cnm_find_adress{
-	width: 100px;
+	width: 69px;
 	height: 30px;
-	background-color: orange;
+/* 	background-color: orange; */
 	border: 1px solid black;
 }
 
@@ -133,9 +126,10 @@
 	width: 400px;
 	height: 50px;
     text-align: center;
+	line-height: 60px;
+	font-size: 2.0em;
 }
 .cnm_center{
-	line-height: 60px;
 }
 
 
