@@ -2,7 +2,9 @@
 	pageEncoding="UTF-8"%>
 
 <ul class="side-menu">
-	<li><a href="#"><span class="fa fa-code"></span>LECFLY</a></li>
+	<!-- <li><a href="#">&nbsp;</a></li>
+	<li><a href="#"><span class="fa fa-code"></span>LECFLY</a></li> -->
+	<li><a href="#"><span class="fas fa-bars"></span>LECFLY</a></li>
 	<li><a href="#"><span class="fas fa-play-circle"></span>수강목록</a></li>
 	<li><a href="#"><span class="fas fa-heartbeat"></span>관심클래스</a></li>
 	<li><a href="#"><span class="fas fa-credit-card"></span>결제</a></li>
