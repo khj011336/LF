@@ -61,11 +61,11 @@
 		}
 	</script> 	
 	<div class="container1">
-        <div>1</div>
-        <div>2</div>
-        <div>3</div>
-        <div>4</div>
-        <div>5</div>
-        <div>6</div>
-        <div>7</div>
+        <div><img src="resource/img/banner/배너_test1.jpg"></div>
+        <div><img src="resource/img/banner/배너_test2.jpg"></div>
+        <div><img src="resource/img/banner/배너_test3.jpg"></div>
+        <div><img src="resource/img/banner/배너_test4.jpg"></div>
+        <div><img src="resource/img/banner/배너_test5.jpg"></div>
+        <div><img src="resource/img/banner/배너_test6.jpg"></div>
+        <div><img src="resource/img/banner/배너_test7.jpg"></div>
     </div>

@@ -122,7 +122,9 @@ body {
 	padding-left: 30px;
 	border-radius: 5px;
 }
-
+/* .search_bar {
+	width: 
+} */
 .header_column_menu { /* 헤더 메뉴열 */
 	float: right;
 	text-align: right;
@@ -177,7 +179,7 @@ body {
 .category_block { /* 메인_카테고리블럭 */
 	display: inline-block;
 	text-align: center;
-	margin: 0 20px 15px 20px;
+	margin: 0 30px 15px 30px;
 }
 .main_title {
 	margin-bottom: 15px;
