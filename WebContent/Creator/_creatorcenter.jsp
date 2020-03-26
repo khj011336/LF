@@ -13,6 +13,5 @@
 <%-- 		            <%@ include file="_sellkitregistration.jsp" %> --%>
 <%-- 		            <%@ include file="_videoupload.jsp" %> --%>
 		        </div>
-		        
 			</div>
 		</div>
