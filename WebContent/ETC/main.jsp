@@ -8,7 +8,7 @@
 		<h2 class="main_title">카테고리</h2>
 		<div class="main_category">
 			<div class="category_block">
-				<i class="fab fa-app-store fa-8x"></i><br><br> <span>전체</span>
+				<img src="resource/img/category/카테고리_전체.png"><br><br> <span>전체</span>
 			</div>
 			<div class="category_block">
 				<img src="resource/img/category/카테고리_음악.png"><br><br> <span>음악</span>
