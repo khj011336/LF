@@ -17,8 +17,10 @@
 		$('.header_column_logo').bind("click",function() {
 			$("#homemain").load("ETC/main.jsp");
 		});
+
 		$('.search_btn').bind("click",function() {
 			$("#homemain").load("ETC/lecplay.jsp");
+
 		});
 		$('.fa-headset').bind("click",function() {
 			$("#homemain").load("CSCenter/Lecfly_CS_1.jsp");
