@@ -19,8 +19,25 @@ body {
 	font-family: 'Cafe24Simplehae';
 }
 
+.creator_h1 {
+	font-size: 2em;
+}
 
-
+.creator_h2 {
+	font-size: 1.5em;
+}
+.creator_h3 {
+	font-size: 1.33em;
+}
+.creator_h4 {
+	font-size: 1.17em;
+}
+.creator_h5 {
+	font-size: 0.83em;
+}
+.creator_h6 {
+	font-size: 0.67em;
+}
 
 .body_wrap_cont_div {
 	width: 1200px;
@@ -31,18 +48,23 @@ body {
 }
 
 #creatorcenter_main{
-/* 	width: 1050px; */
-/* 	height: 700px; */
+	min-width: 1200px;
+	min-height: 700px;
+	
+	
 }
 #creatorcenter_main_nav {
-	width: 150px;
+	padding-top: 50px;
+	width: 140px;
 	height: 700px;
 	float: left;
+	display: inline-block;
 }
 
 #creatorcenter_main_cont {
-	width: 1050px;
-	height: 700px;
+	width: 1035px;
+	clear: both;
+	display: inline-block;
 	
 }
 /* 주석추가*/
@@ -50,7 +72,12 @@ body {
 	clear: both;
 }
 
-.myclass_main_cont_div
+.myclass_main_cont_div, .classdes_main_cont_div, .creatorprofile_main_cont_div,
+.sellkitregistration_main_cont_div, .videoupload_main_cont_div {
+	width: 900px;
+	margin: 0px auto;
+}
+
 
 
             /* common/_creatorcenter_nav.jsp */
@@ -77,13 +104,11 @@ body {
 
             /* _myclass.html*/
 .myclass_main_cont_div {
-	margin: 0px auto;
-	margin-left: 30px;
-	overflow-y: hidden;
 }
 
 .myclass_session_div {
-	margin-top: 30px;
+/* 	margin-top: 30px; */
+	margin: 30px auto;
 	width: 706px;
 	height: 230px;
 	border: 2px solid black;
@@ -182,13 +207,11 @@ body {
 
             /* classdes.html */
 .classdes_wrap_cont_div {
-	margin: 0px auto;
 /* 	border: 1px solid black; */
 	margin-left: 30px;
 	overflow-y: hidden;
 }            
 .classdes_main_cont_div {
-	margin-top:54px;	
 }
 
 .classdes_main_sub_title {
@@ -196,7 +219,8 @@ body {
 }
 
 .classdes_session1_div {
-	display: inline-block;	
+	display: inline-block;
+	margin: 0px auto;	
 }
 
 .classdes_classdes_div {
@@ -546,6 +570,7 @@ body {
 }
 
 .sellkitregistration_nav1_div {
+	
 	display: inline-block;
     width: 120px;
     height: 28px;
