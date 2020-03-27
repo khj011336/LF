@@ -5,21 +5,21 @@
 //			
 //		});
 		
-//		$('.main_category').on("click",'.category_block', function() {
-//			alert("dd");
-//			$("#homemain").load("ETC/search.jsp");
-//			
-//		});
+		$(document).on("click",'.main_category', function() {
+			alert("dd");
+			$("#homemain").load("ETC/search.jsp");
+			
+		});
 //		$('.main_category').live("click", function(s) {
 //			alert("dd");
 //			$("#homemain").load("ETC/search.jsp");
 //			
 //		});
-		$('.main_category').delegate('.category_block',"click", function(s) {
-			alert("dd");
-			$("#homemain").load("ETC/search.jsp");
-			
-		});
+//		$('.main_category').delegate('.category_block',"click", function(s) {
+//			alert("dd");
+//			$("#homemain").load("ETC/search.jsp");
+//			
+//		});
 //		$('.category_block').on("click",function() {
 //			alert("dd");
 //			$("#homemain").load("ETC/search.jsp");

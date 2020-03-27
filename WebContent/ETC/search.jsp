@@ -1,10 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
-<script>
-$('.video_block').click(function() {
-	$("#main").load("ETC/lecplay.jsp");
-});
-</script>
+
 <div id="section" class="section">
 	<div class="search_top">
 		<h2 class="main_title">검색결과</h2>
