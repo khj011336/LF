@@ -116,7 +116,7 @@ body {
 }
 
 .header_column_search { /* 헤더 검색창열 */
-	width: 500px;
+	width: 370px;
 	float: left;
 	padding-top: 35px;
 	padding-left: 30px;
@@ -124,17 +124,27 @@ body {
 	background-color: white;
 }
 #backC{
-	border: 1px solid black;
 	position: relative;
 	border-radius: 20px;
 	background-color: white;
+	box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 1px 0px, rgba(41, 42, 43, 0.16) 0px 1px 3px 0px;
+}
+input.search_btn{
+	display: hidden;
+	background-color: white;
+	border: 0px;
+	position: absolute;
+	z-index: -1;
+	
 }
 .search_bar { 
 border: 0px; 
 margin-left: 20px;
 height: 32px;
-width: 350px;
-} 
+width: 270px;
+
+}
+input:focus {outline:none;} 
 .header_column_menu { /* 헤더 메뉴열 */
 	float: right;
 	text-align: right;
