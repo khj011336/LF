@@ -3,7 +3,7 @@
     
 	<div id="classdes_wrap" class="classdes_wrap_cont_div">
         <div id='classdes_header'>
-            <h2>1.클래스 기본정보</h2>    
+            <h1>1.클래스 기본정보</h1>    
         </div>
         <div id="classdes_main" class="classdes_main_cont_div">
         	<h3 class="classdes_main_sub_title">클래스 기본정보</h3>

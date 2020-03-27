@@ -1,8 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<div id="myclass_wrap" class="myclass_wrap_cont_div">    
+<div id="myclass_wrap" class="myclass_wrap_cont_div">
 	<div id="myclass_header">
-			<h2>내 클래스</h2>
+		<h1>내 클래스</h1>
 	</div>	
    	<div id="myclass_main" class="myclass_main_cont_div">       
        <div id="" class="myclass_session_div">
