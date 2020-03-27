@@ -121,10 +121,20 @@ body {
 	padding-top: 35px;
 	padding-left: 30px;
 	border-radius: 5px;
+	background-color: white;
 }
-/* .search_bar {
-	width: 
-} */
+#backC{
+	border: 1px solid black;
+	position: relative;
+	border-radius: 20px;
+	background-color: white;
+}
+.search_bar { 
+border: 0px; 
+margin-left: 20px;
+height: 32px;
+width: 350px;
+} 
 .header_column_menu { /* 헤더 메뉴열 */
 	float: right;
 	text-align: right;
