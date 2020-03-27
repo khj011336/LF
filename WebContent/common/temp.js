@@ -1,31 +1,52 @@
 	$(document).ready(function() {
-//		$('.main_category').on("click",'.category_block', function() {
-//			alert("dd");
-//			$("#homemain").load("ETC/search.jsp");
-//			
-//		});
 		
+	
 		$(document).on("click",'.main_category', function() {
-			alert("dd");
 			$("#homemain").load("ETC/search.jsp");
 			
 		});
-//		$('.main_category').live("click", function(s) {
-//			alert("dd");
-//			$("#homemain").load("ETC/search.jsp");
-//			
-//		});
-//		$('.main_category').delegate('.category_block',"click", function(s) {
-//			alert("dd");
-//			$("#homemain").load("ETC/search.jsp");
-//			
-//		});
-//		$('.category_block').on("click",function() {
-//			alert("dd");
-//			$("#homemain").load("ETC/search.jsp");
-//			
-//		});
-		$('.header_column_logo').click(function() {
+		$(document).on("click",'.search_result .video_block', function() {
+			$("#homemain").load("ETC/lecplay.jsp");
+			
+		});
+		$(document).on("click",'.main_category', function() {
+			$("#homemain").load("ETC/search.jsp");
+			
+		});
+		$(document).on("click",'.main_recommend .video_block', function() {
+			$("#homemain").load("goods/lectureRegister.jsp");
+			
+		});
+		$(document).on("click",'.main_video .video_block', function() {
+			$("#homemain").load("goods/lectureRegister.jsp");
+			
+		});
+		$(document).on("click",'.fa-funnel-dollar', function() {
+			$("#homemain").load("Funding/fundingRegister.jsp");
+			
+		});
+		$(document).on("click",'#TEST0', function() {
+			$("#homemain").load("CSCenter/Lecfly_CS_1.jsp");
+			
+		});
+		$(document).on("click",'#TEST', function() {
+			$("#homemain").load("Creator/_classdes.jsp");
+			
+		});
+		$(document).on("click",'#funding_title', function() {
+			$("#homemain").load("Funding/fundingPayment.jsp");
+			
+		});
+		$(document).on("click",'.fa-user', function() {
+			$("#homemain").load("member/mypage.jsp");
+			
+		});
+		$(document).on("click",'#register_lec_apply', function() {
+			$("#homemain").load("goods/goodsPayment.jsp");
+			
+		});
+		
+	$('.header_column_logo').click(function() {
 			$("#homemain").load("ETC/main.jsp");
 		});
 //		$('.search_btn').click(function() {
@@ -62,5 +83,4 @@
 // 		$('.search_btn').bind("click",function() {
 // 			$("#homemain").load("ETC/lecplay.jsp");
 // 		});
-		
 	});

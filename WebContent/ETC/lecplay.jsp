@@ -94,7 +94,7 @@ display: none;
 	<source  src = 'resource/video/<%=(i<4?Test[i]:"")%>'  type="video/mp4"/>
 	</video>
 						<div class = 'alter <%= (i==0 ? "":"Limg")  %>'>
-							<img src="resource/img/1562545727180-1.png" alt="img">
+							<img src="resource/img/l2 (1).PNG" alt="img" class ='playimgs'>
 							
 							<p class = 'movieName'>resource/video/<%=(i<4?Test[i]:"") %></p>
 							

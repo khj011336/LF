@@ -146,7 +146,9 @@ a:hover {
 	margin: 0px;
 	
 }
-
+.playimgs{
+box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 1px 0px, rgba(41, 42, 43, 0.34) 0px 1px 3px 0px;	
+}
 .Timg h4, p {
 	font-size: 17px;
 }
