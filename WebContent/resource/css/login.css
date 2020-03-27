@@ -44,16 +44,16 @@
 #login_middle{
     margin: 25px;
 }
-#login, #pw{
+#login_email, #login_pw{
     font-size: 2em;
     margin: 5px;
     text-align: center;
     width: 280px;
 }
-#login{
+#login_email{
     
 }
-#pw{
+#login_pw{
     
 }
 #login_etc{
@@ -61,7 +61,7 @@
     display: inline-block;
     font-size: 12px;
 }
-#find_id_pw{
+#find_pw{
     float: left;
 }
 #register{
@@ -76,7 +76,7 @@
     margin: auto;
 }
 #login_btn{
-    width: 100px;
+    width: 120px;
     height: 25px;
     background-color: orange;
 	padding-top: 10px;
@@ -92,6 +92,9 @@
 #login_btn a:hover{
 	color: black;
 	border-bottom: none;
+}
+#login_description{
+	padding-top: 20px;
 }
 
 
