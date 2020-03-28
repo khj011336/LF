@@ -43,27 +43,33 @@ td {
 	font-weight: bolder;
 }
 
-#ordersPayment_wrapper {
+#shoppingCart_wrapper {
 	width: 1200px;
 	min-height: 800px;
 	margin: 0px auto;
 }
 
-.orderPayment_title_box {
-	padding: 20px;
+.shoppingCart_title_box {
+	padding: 15px 0px 15px 0px;
+	position: relative;
+	bottom: 23px;
 }
 
-.orderPayment_subtitle {
+.shoppingCart_subtitle {
 	float: right;
 	position: relative;
-	bottom: 20px;
+	bottom: 22px;
+}
+
+span.basket {
+	color: black;
 }
 
 .order_sheet, .order_finish {
 	color: gray;
 }
 
-#orderCart_content {
+#shoppingCart_content {
 	width: 1200px;
 	margin: 40px auto;
 }

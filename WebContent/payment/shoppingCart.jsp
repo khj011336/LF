@@ -10,11 +10,11 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 </head>
 <body>
-    <div id="ordersCart_wrapper">
-    <div id="orderCart_content">
-        <div class="orderPayment_title_box">
-            <h1 class="orderPayment_title">장바구니</h1>
-            <h3 class="orderPayment_subtitle">
+    <div id="shoppingCart_wrapper">
+    <div id="shoppingCart_content">
+        <div class="shoppingCart_title_box">
+            <h1 class="shoppingCart_title">장바구니</h1>
+            <h3 class="shoppingCart_subtitle">
                 <span class="basket">장바구니</span>  
                 <span class="order_sheet">&gt; 주문서</span>
                 <span class="order_finish">&gt; 주문완료</span>

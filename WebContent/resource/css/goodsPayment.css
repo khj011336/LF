@@ -120,6 +120,20 @@ a:hover {
 	color: orange;
 }
 
+.goodsPayment_subtitle {
+	float: right;
+	position: relative;
+	top: 33px;
+}
+
+span.order_sheet {
+	color: black;
+}
+
+.basket, .order_finish {
+	color: gray;
+}
+
 #goodsPayment_nav_table {
 	position: relative;
 	float: left;
