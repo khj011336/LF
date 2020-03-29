@@ -65,7 +65,7 @@ span.basket {
 	color: black;
 }
 
-.order_sheet, .order_finish {
+span.order_sheet, span.order_finish {
 	color: gray;
 }
 
