@@ -3,7 +3,7 @@
 <div id="funding_wrapper">
 	<div id="funding_nav">
 		<video class="funding_video" controls>
-			<source src="video/working%20out.mp4" type="video/ogg">
+			<source src="resource/video/working%20out.mp4" type="video/ogg">
 		</video>
 		<div id="funding_text">
 			<p id="funding_text_contents">
@@ -35,7 +35,7 @@
 				부터?" </span> <br> <br> <span class="em">"홈트 정확한 운동 루틴 가이드가
 				필요해요!" </span> <br> <br> <span class="em">"홈트는 하는데, 식단은
 				어떻게 해야할까요?" </span> <br> <br> <br> <br> <img
-				src="img/%ED%8F%AC%EA%B8%B0%ED%95%98%EB%8B%A4.jpg" alt="포기하다">
+				src="resource/img/Funding/%ED%8F%AC%EA%B8%B0%ED%95%98%EB%8B%A4.jpg" alt="포기하다">
 			<br> <br> <br> <span class="em"> 함께 하는 <strong>코칭
 					영상 콘텐츠</strong> 부터 <br> 바로 따라할 수 있는 <strong>식단계획</strong>까지 <br>
 				모두 도와드립니다.
@@ -131,12 +131,12 @@
 		<h1 id="funding_qna_info">QnA</h1>
 		<br> <br> <i class="fas fa-user"> 수현 <input type="date"
 			value="2020-03-08" min="2020-01-01" max="2100-12-31">
-		</i> <br> <br> <small>한번도 만들어본 적 없는데 초보자도 괜찮은건가요?</small> <br>
+		</i> <br> <br> 한번도 만들어본 적 없는데 초보자도 괜찮은건가요? <br>
 		<br> <i class="fas fa-user"> 아뜰리에 <input type="date"
 			value="2020-03-09" min="2020-01-01" max="2100-12-31">
-		</i> <br> <br> <small>안녕하세요 수현 고객님 아뜰리에입니다! <br> 해당
+		</i> <br> <br> 안녕하세요 수현 고객님 아뜰리에입니다! <br> 해당
 			상품은 초보자도 쉽게 따라할 수 있는 강의입니다. <br> 감사합니다:)
-		</small> <br>
+		<br>
 		<textarea name="feedback" rows="5" cols="20" placeholder="댓글을 입력해주세요"></textarea>
 		<input type="button" value="입력">
 	</div>
