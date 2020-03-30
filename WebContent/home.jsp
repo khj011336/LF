@@ -9,6 +9,7 @@
 %>
 <meta charset="UTF-8">
 <title>LecFly</title>
+<link type="text/css" rel="stylesheet" href="resource/css/fundingPayment.css">
 <script type="text/javascript" src="common/temp.js"></script>
 
 
@@ -20,7 +21,7 @@
 		</div>
 		<%@ include file="../common/side_nav.jsp"%>
 		<div id="homemain">
-		<%@ include file="ETC/main.jsp"%>
+		<%@ include file="payment/fundingPayment.jsp"%>
 	</div>
 		<div id="footer" class="footer">
 			<%@ include file="common/footer.jsp"%>

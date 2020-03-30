@@ -329,7 +329,7 @@ a:hover {
 }
 
 #funding_nav>.funding_video {
-	padding: 15px 15px 15px 15px;
+	padding: 15px 15px 15px 0px;
 	width: 770px;
 	height: 400px;
 }
@@ -529,4 +529,3 @@ input[value=입력] {
 	color: white;
 }
 }
->>>>>>> sehyeon-home

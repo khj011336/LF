@@ -3,7 +3,7 @@
 <div id="register_wrapper">
 	<div id="register_nav">
 		<video class="register_video" controls>
-			<source src="video/soap.mp4" type="video/ogg">
+			<source src="resource/video/soap.mp4" type="video/ogg">
 		</video>
 		<br> <br>
 		<ul id="register_tag_ul">
@@ -23,8 +23,8 @@
 		<br> <br>
 		<h1 id="register_lecture_info">강의소개</h1>
 		<p id="register_lec">
-			<img class="register_soap_img" src="img/soap.jpg" alt="soap"> <img
-				class="register_soap_img" src="img/soap2.jpg" alt="soap"> <br>
+			<img class="register_soap_img" src="resource/img/goods/soap.jpg" alt="soap"> <img
+				class="register_soap_img" src="resource/img/goods/soap2.jpg" alt="soap"> <br>
 			<br> <br> <br> <br> <br> <br> <br>	<br> <br> <br> <br> <br> 
 			<br> <br> 이번 정규 클래스를 통해서는 순 식물성 오일을 가지고 CP 비누를 만들어 볼껀데요. 이
 			클래스는 원데이 클래스 제작비누와 다르게 가성소다와 순 식물성 오일을 이용해 비누를 만드는 과정이예요. 이번 수업에서는
@@ -33,7 +33,7 @@
 		</p>
 		<br> <br>
 		<h1 id="register_kit_info">KIT 소개</h1>
-		<br> <br> <img class="kit_img" src="img/kit.JPG" alt="kit">
+		<br> <br> <img class="kit_img" src="resource/img/goods/kit.JPG" alt="kit">
 		<br> <br>
 		<h1 id="register_curri_info">커리큘럼</h1>
 		<table id="register_tb">
@@ -121,12 +121,12 @@
 		<h1 id="register_qna_info">QnA</h1>
 		<br> <br> <i class="fas fa-user"> 수현 <input type="date"
 			value="2020-03-08" min="2020-01-01" max="2100-12-31">
-		</i> <br> <br> <small>한번도 만들어본 적 없는데 초보자도 괜찮은건가요?</small> <br>
+		</i> <br> <br> 한번도 만들어본 적 없는데 초보자도 괜찮은건가요? <br>
 		<br> <i class="fas fa-user"> 아뜰리에 <input type="date"
 			value="2020-03-09" min="2020-01-01" max="2100-12-31">
-		</i> <br> <br> <small>안녕하세요 수현 고객님 아뜰리에입니다! <br> 해당
+		</i> <br> <br> 안녕하세요 수현 고객님 아뜰리에입니다! <br> 해당
 			상품은 초보자도 쉽게 따라할 수 있는 강의입니다. <br> 감사합니다:)
-		</small> <br>
+		<br>
 		<textarea name="feedback" rows="5" cols="20" placeholder="댓글을 입력해주세요"></textarea>
 		<input type="button" value="입력">
 	</div>
