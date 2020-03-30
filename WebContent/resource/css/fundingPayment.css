@@ -33,6 +33,24 @@ charset "UTF-8 ";
 	color: orange;
 }
 
+.fundingPayment_title_box {
+	padding: 20px;
+}
+
+.fundingPayment_subtitle {
+	float: right;
+	position: relative;
+	top: 33px;
+}
+
+span.order_sheet {
+	color: black;
+}
+
+.basket, .order_finish {
+	color: gray;
+}
+
 #fundingPayment_nav_table {
 	position: relative;
 	float: left;
@@ -113,7 +131,7 @@ input[value=검색], input[value=등록] {
 	height: 500px;
 	display: inline-block;
 	position: fixed;
-	top: 205px;
+	top: 168px;
 }
 
 #fundingPayment_content_table {
