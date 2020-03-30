@@ -11,7 +11,7 @@
 <title>LecFly</title>
 <script type="text/javascript" src="common/temp.js"></script>
 
-
+<p>제발요 살려주세요</p>
 </head>
 <body>
 	<div id="wrapper">
