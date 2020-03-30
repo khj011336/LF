@@ -43,7 +43,7 @@
 							<input type="checkbox" class="check-one check"/>
 						</td>
 						<td colspan="2" class="goods">
-							<img src="resource/img/working%20out.jpg" alt="홈트레이닝"/>
+							<img src="resource/img/payment/working%20out.jpg" alt="홈트레이닝"/>
 							<span><a href="##" class="goodsTitle">&nbsp;&lt;홈트의 재정의&gt; 다이어트 패키지</a></span>
                             <span><a href="##" class="sellerTitle">&nbsp;판매자</a></span>
 						</td>
@@ -63,7 +63,7 @@
 							<input type="checkbox" class="check-one check"/>
 						</td>
 						<td colspan="2" class="goods">
-                            <img src="resource/img/soap.jpg" alt="비누"/>
+                            <img src="resource/img/payment/soap.jpg" alt="비누"/>
                             <span><a href="##" class="goodsTitle">&nbsp;LOVE YOUR LIFE 나를 위한 천연비누</a></span><br>
                             <span><a href="##" class="sellerTitle">&nbsp;판매자</a>
                             </span>
@@ -84,7 +84,7 @@
 							<input type="checkbox" class="check-one check"/>
 						</td>
 						<td colspan="2" class="goods">
-							<img src="resource/img/cooking.jpg" alt="원데이클래스"/>
+							<img src="resource/img/payment/cooking.jpg" alt="원데이클래스"/>
 							<span><a href="##" class="goodsTitle">&nbsp;내 상황에 딱 맞는 쿠킹클래스</a></span><br/>
                             <span><a href="##" class="sellerTitle">&nbsp;판매자</a>
                             </span>
