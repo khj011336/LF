@@ -4,6 +4,86 @@
 /*     padding: 0px; */
 /* } */
 
+html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	height: 100%;
+}
+
+html {
+	overflow-y: scroll;
+}
+
+@font-face {
+	font-family: 'Cafe24Simplehae';
+	src:
+		url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Simplehae.woff')
+		format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body, p, ul, ol, li, dl, dt, dd, form, table, th, td, fieldset, input,
+	textarea, select, button, h1, h2, h3, h4, h5, h6, pre {
+	margin: 0;
+	padding: 0;
+	-webkit-text-size-adjust: none;
+	font-family: 'Cafe24Simplehae', "돋움", Dotum, Droid Sans,
+		AppleSDGothicNeo, AppleGothic, Helvetica, Sans-serif;
+}
+
+/* 아이폰 가로모드 글자 크기 확대 방지: -webkit-text-size-adjust:none; */
+body, input, textarea, select, button {
+	color: #585858;
+	font-size: 12px;
+	font-family: 'Cafe24Simplehae';
+}
+
+header, footer, nav, aside, section, article {
+	display: block;
+}
+
+fieldset, img {
+	border: 0;
+}
+
+img {
+	-ms-interpolation-mode: bicubic !important;
+	border: 0;
+}
+
+table {
+	padding: 0;
+	border-spacing: 0px;
+	border: 0;
+	border-collapse: collapse;
+}
+
+ul, ol {
+	list-style: none;
+}
+
+a {
+	color: #585858;
+	text-decoration: none;
+}
+
+a:link {
+	color: #606060;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #ffa172;
+}
+
+.clear {
+	clear: both;
+}
+
 
 @font-face {
 	font-family: 'Cafe24Simplehae';
@@ -13,6 +93,284 @@
 	font-weight: normal;
 	font-style: normal;
 }
+
+.CRsend{
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+}
+.CRsend p {
+    text-align: center;
+    font-size: 19px;
+    background-color: #ffa500;
+    color: black;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.CRname{
+    height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.CRstatus{
+    height: 25px;
+    font: 
+}
+.CRimg{
+   width: 270px;
+    height: 200px;
+    margin: 20px 0px;
+}
+.CRP{
+     width: 270px;
+   
+    height: 100%;
+    padding: auto;
+ 
+}
+.CRC{
+     width: 340px;
+    position: relative;
+    height: 200px;
+    margin: auto;
+    
+}
+#CRHT2{
+    position: absolute;
+    right: 10px;
+    font-size: 13px;
+    cursor: pointer;
+    color: orange;
+}
+.CRHT{
+    font-size: 28px;
+    font-weight: bolder;
+    
+}
+#CRwrap{
+    width: 1000px;
+    margin: 0px auto;
+   padding: 100px;
+}
+#CRwrap *{
+    box-sizing: border-box;
+    
+}
+#CRmain{
+    display: flex;
+}
+#CRguide{
+    width: 300px;
+}
+.rau{
+    border-radius: 3px;
+    text-align: center;
+    display: inline-block;
+    width: 80px;
+    height: 16px;
+    line-height: 1.4;
+    background-color: orange;
+    cursor: pointer;
+}
+#CRcontent{
+     
+    width: 700px;
+    flex-direction: column;
+}
+.CRconbox{
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 1px 0px, rgba(41, 42, 43, 0.34) 0px 1px 3px 0px;
+    padding-left:20px;
+    height: 240px;
+   display: flex;
+    margin: 10px ;
+}
+#CRhead{
+    position: relative;
+    padding-top: 10px;
+    height: 50px;
+    margin-left: 10px;
+}
+
+.CRwidth{
+    width: 1000px;
+}
+#CRside{
+    width: 200px;
+}
+#CRguide{
+    width: 300px;
+}
+#CRhead2{
+    padding-top: 10px;
+    height: 50px ;
+    margin-left: 10px;
+    
+}
+.CRguideCon{
+    position: relative;
+    width: 280px;
+    height: 200px;
+    padding: 10px;
+    margin: 10px auto;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 1px 0px, rgba(41, 42, 43, 0.34) 0px 1px 3px 0px;
+}
+.CRfo{
+    font-size: 20px;
+    white-space: pre-Wrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-weight: bold;
+}
+.CRbot{
+    position: absolute;
+    bottom: 10px;
+    font-size: 16px;
+    color: yellow;
+    cursor: pointer;
+}
+.CRsize{
+    font-size: 17px;
+     white-space: pre-Wrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+/*---------------------------------* 수정부분/
+*/
+#uplwrap{
+    
+    padding: 0px 125px;
+    width: 950px;
+    margin: 0px auto;
+}
+
+#uplwrap *{
+ 
+    box-sizing: border-box;
+    
+}
+.padp{
+    margin-left: 10px;
+}
+#uplwrap input,select{
+    border: none;
+    
+}
+.uplshadow{
+      box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 1px 0px, rgba(41, 42, 43, 0.34) 0px 1px 3px 0px;
+}
+
+#uplmar{
+    margin-bottom: 5px;
+  
+}
+    
+
+#uplmar input{
+border: none;    
+}
+#uplz{
+    font-size: 25px;
+    font-weight: bolder;
+} 
+#uplL{
+    padding: 20px;
+    width: 600px;
+}
+.uplflex{
+    display: flex;
+}
+#uplL input{
+    height: 37px;
+    padding: 8px;
+    width: 550px;
+}
+#uplL textarea{
+    width: 550px;
+}
+#uply{
+    font-size: 20px;
+    font-weight: bold;
+}
+#uplR{
+    padding: 20px;
+    width: 350px;
+}
+#uplfile{
+    margin-top: 10px;
+}
+#uplR video{
+    width: 310px;
+    height: 182px;
+}
+#uplimgbox{
+     flex-flow:  wrap;
+    width: 560px;
+}
+#uplimgbox img,.uplimgb{
+    width: 170px;
+    height: 100px;
+}
+#uplR input{
+     width: 310px;
+     height: 30px;
+       box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 1px 0px, rgba(41, 42, 43, 0.34) 0px 1px 3px 0px;
+}
+
+    
+
+    
+
+#uplR input[type='file']{
+    
+}
+#uplb h3{
+   font-size: 20px;
+    margin-bottom: 8px;
+}
+#uplRcate p{
+ font-size: 15px;
+    margin-bottom: 10px;
+}
+
+#uplRcate select{
+    width: 150px;
+    height: 30px;
+      box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 1px 0px, rgba(41, 42, 43, 0.34) 0px 1px 3px 0px;
+}
+
+.uplPa{
+    padding: 20px;
+}
+
+#upltextarea textarea{
+    width: 554px;
+    height: 300px;
+}
+#upltextarea h3{
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+.uplnotes{
+  background-attachment: local;
+  background-image:
+    linear-gradient(to right, white 10px, transparent 10px),
+    linear-gradient(to left, white 10px, transparent 10px),
+    repeating-linear-gradient(white, white 30px, #ccc 30px, #ccc 31px, white 31px);
+  line-height: 31px;
+  padding: 8px 10px;
+    border: 0px;
+}
+#upllas{
+    padding: 0px 20px;
+    text-align: end;
+    
+}
+#upllas input{
+    width: 100px;
+    height: 40px;
+}
+/*---------------------------------* 수정부분/2
+
 @import url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Simplehae.woff");
 
 body {
@@ -341,8 +699,6 @@ body {
 }
 
 #classdes_lec_des {
-    classdes_margin-top: 4px;
-    padding: 14px;
     width: 776px;
     overflow-y: auto;
     resize: none;
