@@ -18,8 +18,10 @@
             </div>
             <div id="uplR" >
                <div class='uplshadow'>
-                <video></video>
-                <div><input type="url"></div>
+                <video  controls>
+                <source src="../resource/video/soap.mp4" type ='video/mp4'/>
+                </video>
+                <div><input type="url" placeholder="http://creator/resource/video/wildlife.mp4"></div>
                 <div id="urlvt"><input type="file" id="uplUP"></div>
             </div>
             </div>
@@ -29,9 +31,9 @@
             <h3>미리보기 이미지</h3>
              <div id="uplimgbox" class="uplflex">
                 
-                 <div class="uplimgb uplshadow"><img alt="img"></div>
-                 <div class="uplimgb uplshadow padp"><img alt="img"></div>
-                 <div class="uplimgb uplshadow padp"><img alt="img"></div>
+                 <div class="uplimgb uplshadow"><img alt="img" src="../resource/img/dummy_img1.jpg"></div>
+                 <div class="uplimgb uplshadow padp"><img alt="img" src="../resource/img/dummy_img2.jpg"></div>
+                 <div class="uplimgb uplshadow padp"><img alt="img" src='../resource/img/dummy_img3.jpg'></div>
                  <div id="uplfile"><input type="file"></div>
                  
              </div>
