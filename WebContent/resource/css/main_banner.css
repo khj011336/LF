@@ -7,7 +7,7 @@
 
 
 
-.container1 div {
+.container1 div { /* 배너 프레임 요소 */
     width: 1000px;
     height: 400px;
     line-height: 400px;
@@ -28,48 +28,49 @@
     transform-origin: center center;
 }
 
-.container1 div:nth-child(1) {
+.container1 div:nth-child(1) { /* 1번 배너 */
     border: 5px solid white;
     transform: perspective(200px) translateZ(-60px) translateX(-300px);
     z-index: 1;
 }
 
-.container1 div:nth-child(2) {
+.container1 div:nth-child(2) { /* 2번 배너 */
     border: 5px solid white;
     transform: perspective(200px) translateZ(-40px) translateX(-200px);
     z-index: 2;
 }
 
-.container1 div:nth-child(3) {
+.container1 div:nth-child(3) { /* 3번 배너 */
     border: 5px solid white;
     transform: perspective(200px) translateZ(-20px) translateX(-100px);
     z-index: 3;
 }
 
-.container1 div:nth-child(4) {
+.container1 div:nth-child(4) { /* 4번 배너 */
    border: 5px solid white;
     transform: perspective(200px) translateZ(0px) translateX(0px);
     z-index: 4;
 }
 
-.container1 div:nth-child(5) {
+.container1 div:nth-child(5) { /* 5번 배너 */
     border: 5px solid white;
     transform: perspective(200px) translateZ(-20px) translateX(100px);
     z-index: 3;
 
 }
 
-.container1 div:nth-child(6) {
+.container1 div:nth-child(6) { /* 6번 배너 */
     border: 5px solid white;
     transform: perspective(200px) translateZ(-40px) translateX(200px);
     z-index: 2;
 }
 
-.container1 div:nth-child(7) {
+.container1 div:nth-child(7) { /* 7번 배너 */
     border: 5px solid white;
     transform: perspective(200px) translateZ(-60px) translateX(300px);
     z-index: 1;
 }
+
 
 
 
