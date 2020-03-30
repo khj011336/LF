@@ -1,9 +1,9 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
-
-<div id="section" class="section">
+<div class="search_wrapper">
 	<div class="search_top">
-		<h2 class="main_title">검색결과</h2>
+		<h2 class="search_title">'ooo'검색 결과</h2>
+
 		<ul class="sort">
 			<li><select>
 					<option>카테고리선택</option>
@@ -24,6 +24,7 @@
 		</ul>
 		<br> <br>
 	</div>
+	<span class="search_result_count">ooo개</span>
 	<div class="search_result">
 		<%
 			for (int i = 0; i < 8; i++) {
@@ -43,6 +44,5 @@
 			}
 		%>
 	</div>
-
 </div>
 

@@ -159,13 +159,6 @@ input:focus {outline:none;}
 
 /* 메인 광고 배너: 가로 full, slide */
 
-
-/* .main { */
-/* 	min-height: 700px; */
-/* 	margin: 0 auto; */
-/* 	width: 1200px; */
-/* } */
-
 /* 메인파트 */
 .main_content { /* 메인배너 하단 */
 	min-height: 700px;
@@ -173,9 +166,7 @@ input:focus {outline:none;}
 /* 	text-align: center; */
 	width: 100%;
 }
-.main_title {
-	
-}
+
 .main_banner { /* 메인_배너 파트 */
 	margin: 0 auto;
 	width: 100%;
@@ -234,32 +225,7 @@ input:focus {outline:none;}
 	grid-row-gap: 60px;
 }
 
-/* 검색결과 파트 */
-.sort {
-	display: inline;
-	display: flex;
-	float: right;
-}
 
-.sort li select {
-	font-size: large;
-	margin-right: 30px;
-}
-
-.search_top {
-	margin: 15px 0 0 15px;
-	display: inline;
-}
-
-.search_result {
-	text-align: center;
-	display: grid;
-	margin: 10px 30px 30px 30px;
-	grid-template-columns: repeat(3, 1fr);
-	grid-auto-rows: 300px;
-	grid-gap: 40px;
-	margin-bottom: 100px;
-}
 
 /* video 썸네일 파트 */
 .video_block {
@@ -296,12 +262,6 @@ input:focus {outline:none;}
 
 .video_like i {
 	color: red;
-}
-/* 1대1문의파트 */
-.contact {
-	position: sticky;
-	margin-left: 15px;
-	bottom: 200px;
 }
 
 /* 푸터파트 */
