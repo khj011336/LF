@@ -16,8 +16,8 @@
         <div id="CSsec_title"><h2>홈페이지 안내</h2></div>
             <div id="CSsec_subtitle">
                 <ul>
-                    <li><h4><a href="/LF/CSCenter/Lecfly_PASS_1.jsp" style="background-color: orange">이용안내</a></h4></li>
-                    <li><h4><a href="/LF/CSCenter/Lecfly_PASS_2.jsp">회원권</a></h4></li>
+                    <li><h4><a href="#" style="background-color: orange" class="lecfly_info">이용안내</a></h4></li>
+                    <li><h4><a href="#" class="lecfly_membership_info">회원권</a></h4></li>
                 </ul>
             </div>
             

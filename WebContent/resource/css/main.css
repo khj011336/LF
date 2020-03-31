@@ -160,6 +160,10 @@ input:focus {outline:none;}
 /* 메인 광고 배너: 가로 full, slide */
 
 /* 메인파트 */
+#homemain {
+/* 	padding-top: 15px; */
+}
+
 .main_content { /* 메인배너 하단 */
 	min-height: 700px;
 	margin: 0 auto;
@@ -227,40 +231,40 @@ input:focus {outline:none;}
 
 
 
-/* video 썸네일 파트 */
-.video_block {
+/* 메인 비디오블럭 목록*/
+.video_block {/* video 블럭 */
 	border: 0.1px solid black;
 	text-align: justify;
 	margin-bottom: 50px;
 }
 
-.video_thumnail {
+.video_thumnail {/* video 썸네일 */
 	width: 100%;
 	height: 100%;
 	background-color: gray;
 }
 
-.video_category {
+.video_category {/* video 카테고리 */
 	display: block;
 	font-size: small;
 	margin: 10px 0 10px 0;
 }
 
-.video_uploader {
+.video_uploader {/* video 업로더 */
 	display: inline;
 	font-size: small;
 }
 
-.video_title {
+.video_title {/* video 타이틀 */
 	display: inline;
 }
 
-.video_like {
+.video_like {/* video 좋아요 */
 	font-size: small;
 	margin-top: 10px;
 }
 
-.video_like i {
+.video_like i {/* 좋아요 아이콘 */
 	color: red;
 }
 
