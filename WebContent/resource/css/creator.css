@@ -94,6 +94,50 @@ a:hover {
 	font-style: normal;
 }
 
+
+
+/*  			공통 글자크기 헤더 h1~ h6까지폰트   */
+.creator_h1 {
+	font-size: 2em;
+	font-weigth: bold;
+}
+
+.creator_h2 {
+	font-size: 1.5em;
+	font-weigth: bold;
+}
+.creator_h3 {
+	font-size: 1.33em;
+	font-weigth: bold;
+}
+.creator_h4 {
+	font-size: 1.17em;
+	font-weigth: bold;
+}
+.creator_h5 {
+	font-size: 0.83em;
+	font-weigth: bold;
+}
+.creator_h6 {
+	font-size: 0.67em;
+	font-weigth: bold;
+}
+
+
+/* _sellkitregistration _classdes 에서쓰는 아래쪽에있는 버튼*/
+.creator_next_btn {
+	margin-bottom: 50px;
+	width: 100px;
+	height: 40px;
+	border-radius: 4px;
+	background-color: gray;
+}
+
+
+
+
+
+/* 					 myclass.jsp */
 .CRsend{
     position: absolute;
     width: 100%;
@@ -234,8 +278,10 @@ a:hover {
     text-overflow: ellipsis;
     overflow: hidden;
 }
-/*---------------------------------* 수정부분/
-*/
+/* 					 myclass.jsp 끝 */
+
+
+/*					_videoupload.jsp */
 #uplwrap{
     
     padding: 0px 125px;
@@ -316,10 +362,6 @@ border: none;
        box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 1px 0px, rgba(41, 42, 43, 0.34) 0px 1px 3px 0px;
 }
 
-    
-
-    
-
 #uplR input[type='file']{
     
 }
@@ -359,6 +401,7 @@ border: none;
   line-height: 31px;
   padding: 8px 10px;
     border: 0px;
+    resize: none;
 }
 #upllas{
     padding: 0px 20px;
@@ -369,750 +412,564 @@ border: none;
     width: 100px;
     height: 40px;
 }
-/*---------------------------------* 수정부분/2
 
-@import url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Simplehae.woff");
-
-body {
-	font-family: 'Cafe24Simplehae';
-}
-
-.creator_h1 {
-	font-size: 2em;
-}
-
-.creator_h2 {
-	font-size: 1.5em;
-}
-.creator_h3 {
-	font-size: 1.33em;
-}
-.creator_h4 {
-	font-size: 1.17em;
-}
-.creator_h5 {
-	font-size: 0.83em;
-}
-.creator_h6 {
-	font-size: 0.67em;
-}
-
-.body_wrap_cont_div {
-	width: 1200px;
-	height: 1000px;
-}
-
-#creatorcenter_header {
-}
-
-#creatorcenter_main{
-	min-width: 1200px;
-	min-height: 700px;
-	
-	
-}
-#creatorcenter_main_nav {
-	padding-top: 50px;
-	width: 140px;
-	height: 700px;
-	float: left;
-	display: inline-block;
-}
-
-#creatorcenter_main_cont {
-	width: 1035px;
-	clear: both;
-	display: inline-block;
-	
-}
-/* 주석추가*/
 #creatorcenter_footer {
 	clear: both;
 }
+/*					_videoupload.jsp 끝 */
 
-.myclass_main_cont_div, .classdes_main_cont_div, .creatorprofile_main_cont_div,
-.sellkitregistration_main_cont_div, .videoupload_main_cont_div {
-	width: 900px;
-	margin: 0px auto;
+
+/* 					_classdes.jsp */
+#classdes_wrap {
+	padding: 0px 100px;
+    width: 1000px;
+    margin: 0px auto;
+}
+            
+#classdes_content {
+	width: 1000px;
 }
 
-
-
-            /* common/_creatorcenter_nav.jsp */
-#creatorcenter_nav {
-	width: 150px;
-	height:	650px;
-    background-color: gray;
-    padding-top: 50px;
+#classdes_part1 {
+	width: 1000px;
 }
 
-.creatorcenter_nav_btn {
-	margin-bottom: 4px;
-    padding-left: 10px;
-    font-weight: bold;
-    font-size: 20px;
-    
-}
-.creatorcenter_nav_btn a {
-	
-    text-decoration: none;
-    
-    color: black;
+.classdes_text1 {
+	margin: 30px 0px 10px 0px;
 }
 
-            /* _myclass.html*/
-.myclass_main_cont_div {
+.classdes_bar1 {
+	width: 600px;
+	height: 40px;
+	border: 1px solid black;
+	border-radius: 4px;
 }
 
-.myclass_session_div {
-/* 	margin-top: 30px; */
-	margin: 30px auto;
-	width: 706px;
-	height: 230px;
-	border: 2px solid black;
-}
-
-.myclass_img_div {
-	margin-top: 24px;
-   	margin-left: 18px;
-    width: 210px;
-    height: 172px;
-   	display: inline-grid;
-   	border: 1px solid black;
-   	
-}
-
-.myclass_img {
-    width: 210px;
-    height: 172px;
-}
-
-.myclass_des_div{
+#classdes_exbox {
 	position: relative;
-	display: inline-grid;
-    top: -154px;
-}
-
-.myclass_samll_radius_div {
-    width: 86px;
-    height: 18px;
-    border-radius: 10px;
-    text-align: center;
-    border: 1px solid black;
-    font-size: 12px;
-    line-height: 18px;
-    margin-right: 6px;
-    margin-top: 4px;
-}
-
-.myclass_modify_btn_div {
-	position: relative;	
-    top: -40px;
-    margin-left: 346px;
-    background-color: black;
-    color: white;
-}
-
-.myclass_des_div {
-	display:inline-grid;
-	position: relativ;	
-}
-
-.myclass_des_main_div{
-	margin-left: 18px;
-	display:inline-block;
-}
-
-
-/*myclass_samll_radius_div + 클래스-승인, 동여상-미완, 판매키트등록 버튼 */
-.myclass_confirm_btn_div, .myclass_video_no_end_btn_div, .myclass_sellkit_btn_div {
-	position: relative;
-	display: inline-grid;	
-    top: -20px;
-    color: white;
-    background-color: green;
-}
-
-.myclass_typing_btn_div {
-	position: relative;
-	display: inline-grid;
-    top: -20px;
-    color: white;
-    background-color: gold;
-}
-
-.myclass_punding_btn_div {
-	position: relative;
-	display: inline-grid;
-    top: -20px;
-    color: white;
-    background-color: darkgray;
-}
-
-.myclass_big_btn_div {
-	position: relative;
-    top: 64px;
-    width: 430px;
-    height: 37px;
-    border: 1px solid black;
-    border-radius: 6px;
-    color: white;
-    background-color: darkgray;
-    text-align: center;
-    line-height: 36px;
-}
-
-
-            /* classdes.html */
-.classdes_wrap_cont_div {
-/* 	border: 1px solid black; */
-	margin-left: 30px;
-	overflow-y: hidden;
-}            
-.classdes_main_cont_div {
-}
-
-.classdes_main_sub_title {
-	
-}
-
-.classdes_session1_div {
-	display: inline-block;
-	margin: 0px auto;	
-}
-
-.classdes_classdes_div {
-	display: inline-grid;
-}
-
-
-.input_bar_a {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: 600px;
-    height: 40px;
-    padding: 0px 4px;
-    border-radius: 6px;
-    border: 1px solid black;
-}
-
-.classdes_class_topic_div {
-	margin-top: 26px;
-}
-
-.classdes_class_ex_div {
-	margin-left: 20px;
-	padding: 20px 0px 0px 14px;
-	width: 146px;
-    height: 130px;
-	position: relative;	
-    top: 250px;
-    display: inline-grid;    
-    border: 1px solid black;
-    border-radius: 4px;
-}
-
-.classdes_dummy_text1_span {
-    top: -18px;
-    left: 184px;
-    position: relative;
-}
-
-.classdes_class_cover_img_box {
+	left: 618px;
+	top: -304px;
 	width: 380px;
-    height: 260px;
-    display: inline-grid;
-    border: 1px solid black;    
+	height: 300px;
+	border: 1px solid black;
+	border-radius: 4px;
 }
 
-.classdes_class_cover_img1 {
-    width: 380px;
-    height: 260px;
+.classdes_imgbox1 {
+	width: 500px;
+	height: 300px;
+	border: 1px solid black;
 }
 
-.classdes_class_cover_img_path_div{
-	display: inline-grid;
+.classdes_left_interval {
+	margin-left: 100px;
+}
+
+#classdes_part2 {
 	position: relative;
-    top: -268px;
-    left: 440px;
+	top: -280px;
 }
 
-.classdes_class_cover_img_path_text {
-    width: 280px;
-    height: 34px;
-    position: relative;
-    top: 230px;
-    left: 8px;
-    border-radius: 4px;
-}
-
-.classdes_search_path_btn {
+#classdes_img_path_box{
 	position: relative;
-    text-align: center;
-    width: 76px;
-    height: 40px;
-    border-radius: 4px;
-    top: 190px;
-    left: 302px;
+	top: -42px;
+	left: 540px;
 }
 
-.classdes_session3_div {
+.classdes_bar2 {
+	width: 320px;
+	height: 40px;
+	border: 1px solid black;
+	border-radius: 4px;
+}
+
+#classdes_find_file_btn {
+	margin-left: 20px;
+	width: 100px;
+	height: 40px;
+	border: 1px solid black;
+	border-radius: 4px;
+}
+
+#classdes_part3 {
+	position: relative;
+	top: -300px;
+}
+
+.classdes_imgbox2 {
+	width: 300px;
+	height: 200px;
+	margin-right: 20px;
+	border: 1px solid black;
 	display: inline-block;
 }
 
-.classdes_main_sub_title2 {
-	margin-top: 54px; 
-	margin-bottom: 30px;
-}
-
-.classdes_img2_div {
-	display: inline-grid;
-    border: 1px solid black;
-    width: 222px;
-    height: 204px;
-    margin-right: 24px;
-}
-
-.classdes_img2 {
-    width: 222px;
-    height: 204px;
-}
-
-.classdes_ex_div {
-	display: inline-grid;
+#classdes_contentbox {
+	width: 330px;
+	height: 200px;
 	position: relative;
-    top: -192px;
-    width: 276px;
-    height: 214px;
-    border: 1px solid black;
-    margin-left: 20px;
-    overflow-y: auto;
-}
-.classdes_ex_div>.classdes_intro_ex_span {
-	position: relative;
-    font-size: 12px;
-}
-.classdes_ex_div p {
-	position: relative;
-    top: -24px;
-    padding: 0px 14px;
+	border: 1px solid black;
+	display: inline-block;
 }
 
-#classdes_lec_des {
-    width: 776px;
-    overflow-y: auto;
+
+#classdes_part4 {
+	position: relative;
+	top: -290px;
+}
+
+#classdes_des {
+	padding: 0px 10px;
+	width: 978px;
+	height: 250px;
+	border: 1px solid black;
+	border-radius: 4px;
+	overflow-y: scroll;
     resize: none;
 }
 
-.creator_submit_btn {
-    margin: 16px 0px 24px 726px;
-    width: 80px;
-    height: 40px;
-    border-radius: 10px;
-    background-color: blue;
-    color: white;
+.classdes_next_btn {
+	margin-top: 50px;
+	margin-left: 900px;
+	position: relative;
+	
 }
 
 
             /* _creatorprofile.html */
-.creatorprofile_wrap_cont_div {
-	margin: 0px auto;
-/* 	border: 1px solid black; */
-	margin-left: 30px;
+#creatorprofile_wrap {
+	padding: 0px 100px;
+    width: 1000px;
+    margin: 0px auto;
+}
+
+.creatorprofile_imgbox1 {
+	width: 300px;
+	height: 200px;
+	border: 1px dotted black;
+}
+
+.creatorprofile_find_file_text {
+	position: relative;
+	top: -30px;
+	left: 220px;
+}
+
+.creatorprofile_text1 {
+	margin: 30px 0px 10px 0px;
+}
+
+.creatorprofile_bar1 {
+	width: 900px;
+	height: 40px;
+	border: 1px solid black;
+	border-radius: 4px;
+	
+}
+
+.creatorprofile_bar2 {
+	width: 878px;
+	height: 300px;
+	border: 1px solid black;
+	border-radius: 4px;
+	padding: 0px 10px;
 	overflow-y: hidden;
-}   
-     
-.creatorprofile_main_cont_div{
-	margin-top: 30px;
-		
-}
-    
-.creatorprofile_myprofile_div {
-	margin-top: 10px;
-    border: 1px dotted black;
-    margin-bottom: 70px;
-    width: 120px;
-    height: 120px;
-}
-
-#creatorprofile_myprofile_img {
-	width: 120px;
-    height: 120px;
-}
-
-
-.creatorprofile_intro_dummy1_span {
-	position: relative;
-    top: -34px;
-    left: 60px;
-    font-size: 1.0rem;
-}
-
-.creatorprofile_intro_input_bar_a {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 0px 14px;
-    margin;
-    width: 776px;
-    height: 36px;
-    border: 1px solid black;
-    border-radius: 6px;
-}
-
-#creatorprofile_creator_des{
-    width: 776px;
-    padding: 14px;
-    margin-top: 20px;
     resize: none;
-    overflow-y: auto;
-    border-radius: 6px;
 }
 
-
-            /* _videoupload.html */
-.videoupload_wrap_cont_div{
-	margin: 0px auto;
-/* 	border: 1px solid black; */
-	margin-left: 30px;
-	overflow-y: hidden;
-}
-
-.videoupload_main_top_part1_div {
+.creatorprofile_next_btn {
+	margin: 50px 0px;
 	position: relative;
-    top: -190px;
-    display: inline-grid;
-    
-}
-
-.videoupload_main_top_part2_div {
-	display: inline-block;
-	position: relative;
-    top: 138px;
-    margin-left: 42px;
-    width: 316px;
-    height: 288px;
-    border: 1px solid black;
-}
-
-.videoupload_video {
-    width: 316px;
-    height: 288px;
-}
-
-.videoupload_video_input_bar {
-    margin-top: 20px;
-    padding: 0px 10px;
-    width: 408px;
-    height: 36px;
-    border: 1px solid black;
-    border-radius: 6px;
-}
-
-.videoupload_video_input_bar1 {
-    margin-top: 10px;
-    padding: 10px;
-    width: 412px;
-    height: 218px;
-    border: 1px solid black;
-    border-radius: 6px;
-    resize: none;
-    overflow-y: auto;
-}
-
-.videoupload_dummy1_btn_span {
-	position: relative;
-    top: -80px;
-    left: 120px;
-}
-
-.videoupload_main_center_div {
-	position: relative;
-    top: -70px
-}
-
-.videoupload_select_div {
-	display: inline-grid;
-    margin-right: 50px;
-}
-
-.videoupload_select_input_bar {
-    margin-top: 20px;
-    width: 160px;
-    height: 36px;
-    border: 1px solid black;
-    border-radius: 4px;
-}
-.videoupload_main_center_part3_div {
-	display: inline-grid;
-    margin-left: 50px;
-}
-
-.videoupload_pre_view_img_div {
-    margin-top: 20px;
-    width: 316px;
-    height: 128px;
-    border: 1px solid black;
-    margin-bottom: 16px;
-}
-
-.videoupload_pre_view_img{
-    width: 316px;
-    height: 128px;
-}
-
-.videoupload_prev_video_img_path {
-    padding: 0px 12px;
-    width: 292px;
-    height: 32px;
-}
-
-#videoupload_video_progress_des {
-    margin-top: 20px;
-    padding: 12px;
-    width: 778px;
-    height: 300px;
-    resize: none;
-    overflow-y: auto;
+	left: 800px;
 }
 
 
 
 
             /* _sellkitregistration.html 공통*/
-           
-.sellkitregistration_background_color_yellow_div {
-    background-color: rgb(255, 200, 0);
-}
-
-.sellkitregistration_background_color_gray_div {
-    background-color: darkgray;
-}
-
-            /* _sellkitregistration.html */
             
-.sellkitregistration_wrap_cont_div {
-	margin: 0px auto;
-/* 	border: 1px solid black; */
-	margin-left: 30px;
-	overflow-y: hidden;
-}             
+#sellkitregistration_wrap {
+	padding: 0px 100px;
+    width: 1000px;
+    margin: 0px auto;
+}
+
+.sellkitregistration_main_top {
+	
+}
+
+.sellkitregistration_inline {
+	display: inline-block;
+}
+
+.sellkitregistration_nav1{
+	width: 100px;
+	height: 40px;
+}
+
+.sellkitregistration_bar1 {
+	width: 200px;
+	height: 40px;
+	border: 1px solid black;
+	border-radius: 4px;
+}
+
+.sellkitregistration_btn1 {
+	width: 100px;
+	height: 40px;
+	background-color: gray;
+	border-radius: 4px;
+}
+
+.sellkitregistration_bar2 {
+	width: 400px;
+	height: 40px;
+	border: 1px solid black;
+	border-radius: 4px;
+}
+
+.sellkitregistration_nav_part2 {
+	position: relative;
+	top: -240px;
+	left: 600px;
+}
+
+.sellkitregistration_main_center {
+	position: relative;
+	top: -100px;
+}
 
 .sellkitregistration_mini_title_interval {
-	margin-top: 10px;
+	margin: 20px 0px 10px 0px;
 }
-
-.sellkitregistration_main_top_div {
-	display: inline-block;
-    margin-top: 30px;
-    width: 920px;
-    height: 180px;
-/*    border: 1px dotted black;*/
-}
-
-.sellkitregistration_nav_part1_div {
-    width: 400px;
-    height: 180px;
-/*    border: 1px solid black;*/
-}
-
-.sellkitregistration_nav_part2_div {
-	position: relative;
-    padding: 40px 0px 0px 20px;
-    top: -182px;
-    left: 400px;
-    width: 500px;
-    height: 140px; 
-/*    border: 1px solid black;*/
-}
-
-.sellkitregistration_nav1_div {
-	
-	display: inline-block;
-    width: 120px;
-    height: 28px;
-}
-
-.sellkitregistration_nav2_div {
-	display: inline-block;
-    width: 120px;
-    height: 28px;   
-}
-
-.sellkitregistration_input_bar1 {
-    margin-right: 8px;
-    padding: 0px 10px;    
-    width: 104px;
-    height: 28px;
-    border-radius: 4px;
-}
-
-.sellkitregistration_input_bar2 {
-    margin-right: 8px;
-    padding: 0px 10px;
-    width: 238px;
-    height: 28px;
-    border-radius: 4px;    
-}
-
-.sellkitregistration_btn1_div{
-	display: inline-block;
-    width: 110px;
-    height: 30px;
-    line-height: 30px;
-    text-align: center;
-    color: white;
-    border-radius: 4px;
-}
-
-.sellkitregistration_btn2_div{
-	display:inline-block;
-    margin-right: 8px;
-    width: 110px;
-    height: 30px;
-    line-height: 30px;
-    text-align: center;
-    border-radius: 4px;
-}
-
-
-.sellkitregistration_main_center_div {
-	position: relative_div;
-    top: -128px;
-    width: 920px;
-    height: 210px;
-/*    border: 1px dotted black;*/
-    overflow-y: hidden;
-}
-
-.sellkitregistration_nav1_dummy_div {
-	position: relative; 
-    top: -46px;
-}
-
-.sellkitregistration_main_center_part1_div {
-	display: inline-block;
-	position: relative;
-	
-}
-
-.sellkitregistration_img_div {
-	display: inline-block;
-    margin-right: 6px;
-    margin-top: 10px;
-    border: 1px solid black;
-    width: 90px;
-    height: 50px;
-}
-
 
 .sellkitregistration_img {
-    width: 90px;
-    height: 50px;
-}
-
-.sellkitregistration_img_div{
-	margin-right: 40px;
+	margin-right: 10px;
+	width: 190px;
+	height: 150px;
 }
 
 .sellkitregistration_img_add_btn_div {
-    top: -4px;
-    border: 1px solid black;
-    text-align: center;
-    width: 88px;
-    background-color: darkgray;
+	width: 188px;
+	height: 20px;
+	border: 1px solid black;
+	background-color: gray;
+	text-align: center;
 }
 
-.sellkitregistration_dummy_span {
+.sellkitregistration_max_text {
 	position: relative;
-    top: -24px;
+	top: -70px;
 }
 
-.sellkitregistration_main_bottom_div {
+#sellkitregistration_pricebox {
 	position: relative;
-    top: -128px;
-    width: 920px;
-    height: 500px;
-/*    border: 1px dotted black;*/
+	top: -72px;
+	left: 600px;
 }
 
-.sellkitregistration_input_bar3 {
-    margin-right: 16px;
-    padding: 0px 10px;
-    width: 380px;
-    height: 28px;
-    border-radius: 4px;
+.sellkitregistration_main_bottom {
+	position: relative;
+	top: -70px;
+}
+
+.sellkitregistration_main_bottom_part2 {
+	position: relative;
+	top: -70px;
+}
+
+.sellkitregistration_bar3 {
+	width: 700px;
+	height: 40px;
+	border: 1px solid black;
+	border-radius: 4px;
+}
+
+.sellkitregistration_bar4 {
+	width: 700px;
+	height: 40px;
+	border: 1px solid black;
+	border-radius: 4px;
+}
+
+.sellkitregistration_main_bottom_part3 {
+	position: relative;
+	top: -50px;
+}
+
+.sellkitregistration_btn2 {
+	width: 100px;
+	height: 30px;
+	border-radius: 4px;
+}
+
+
+
+.sellkitregistration_nav_dummy2 {
+	position: relative;
+	top: 40px;
+}
+
+.sellkitregistration_detail_info_registration_part2 {
+	position: relative;
+	top: -70px;
+	left: 100px;
+}
+
+.sellkitregistration_bar5 {
+	width: 780px;
+	height: 300px;
+	resize: none;
+	padding: 0px 10px;
+	border: 1px solid black;
+}
+
+.sellkitregistration_btn3 {
+	width: 100px;
+	height: 40px;
+	border: 1px solid black;
+	border-radius: 4px;
+}
+
+.sellkitregistration_next_btn {
+	position: relative;
+	top: -50px;
+	left: 800px;
+}
+
+/* .sellkitregistration_background_color_yellow_div { */
+/*     background-color: rgb(255, 200, 0); */
+/* } */
+
+/* .sellkitregistration_background_color_gray_div { */
+/*     background-color: darkgray; */
+/* } */
+
+/*             _sellkitregistration.html */
+            
+/* .sellkitregistration_wrap_cont_div { */
+/* 	margin: 0px auto; */
+/* /* 	border: 1px solid black; */ */
+/* 	margin-left: 30px; */
+/* 	overflow-y: hidden; */
+/* }              */
+
+/* .sellkitregistration_mini_title_interval { */
+/* 	margin-top: 10px; */
+/* } */
+
+/* .sellkitregistration_main_top_div { */
+/* 	display: inline-block; */
+/*     margin-top: 30px; */
+/*     width: 920px; */
+/*     height: 180px; */
+/* /*    border: 1px dotted black;*/ */
+/* } */
+
+/* .sellkitregistration_nav_part1_div { */
+/*     width: 400px; */
+/*     height: 180px; */
+/* /*    border: 1px solid black;*/ */
+/* } */
+
+/* .sellkitregistration_nav_part2_div { */
+/* 	position: relative; */
+/*     padding: 40px 0px 0px 20px; */
+/*     top: -182px; */
+/*     left: 400px; */
+/*     width: 500px; */
+/*     height: 140px;  */
+/* /*    border: 1px solid black;*/ */
+/* } */
+
+/* .sellkitregistration_nav1_div { */
+	
+/* 	display: inline-block; */
+/*     width: 120px; */
+/*     height: 28px; */
+/* } */
+
+/* .sellkitregistration_nav2_div { */
+/* 	display: inline-block; */
+/*     width: 120px; */
+/*     height: 28px;    */
+/* } */
+
+/* .sellkitregistration_input_bar1 { */
+/*     margin-right: 8px; */
+/*     padding: 0px 10px;     */
+/*     width: 104px; */
+/*     height: 28px; */
+/*     border-radius: 4px; */
+/* } */
+
+/* .sellkitregistration_input_bar2 { */
+/*     margin-right: 8px; */
+/*     padding: 0px 10px; */
+/*     width: 238px; */
+/*     height: 28px; */
+/*     border-radius: 4px;     */
+/* } */
+
+/* .sellkitregistration_btn1_div{ */
+/* 	display: inline-block; */
+/*     width: 110px; */
+/*     height: 30px; */
+/*     line-height: 30px; */
+/*     text-align: center; */
+/*     color: white; */
+/*     border-radius: 4px; */
+/* } */
+
+/* .sellkitregistration_btn2_div{ */
+/* 	display:inline-block; */
+/*     margin-right: 8px; */
+/*     width: 110px; */
+/*     height: 30px; */
+/*     line-height: 30px; */
+/*     text-align: center; */
+/*     border-radius: 4px; */
+/* } */
+
+
+/* .sellkitregistration_main_center_div { */
+/* 	position: relative_div; */
+/*     top: -128px; */
+/*     width: 920px; */
+/*     height: 210px; */
+/* /*    border: 1px dotted black;*/ */
+/*     overflow-y: hidden; */
+/* } */
+
+/* .sellkitregistration_nav1_dummy_div { */
+/* 	position: relative;  */
+/*     top: -46px; */
+/* } */
+
+/* .sellkitregistration_main_center_part1_div { */
+/* 	display: inline-block; */
+/* 	position: relative; */
+	
+/* } */
+
+/* .sellkitregistration_img_div { */
+/* 	display: inline-block; */
+/*     margin-right: 6px; */
+/*     margin-top: 10px; */
+/*     border: 1px solid black; */
+/*     width: 90px; */
+/*     height: 50px; */
+/* } */
+
+
+/* .sellkitregistration_img { */
+/*     width: 90px; */
+/*     height: 50px; */
+/* } */
+
+/* .sellkitregistration_img_div{ */
+/* 	margin-right: 40px; */
+/* } */
+
+/* .sellkitregistration_img_add_btn_div { */
+/*     top: -4px; */
+/*     border: 1px solid black; */
+/*     text-align: center; */
+/*     width: 88px; */
+/*     background-color: darkgray; */
+/* } */
+
+/* .sellkitregistration_dummy_span { */
+/* 	position: relative; */
+/*     top: -24px; */
+/* } */
+
+/* .sellkitregistration_main_bottom_div { */
+/* 	position: relative; */
+/*     top: -128px; */
+/*     width: 920px; */
+/*     height: 500px; */
+/* /*    border: 1px dotted black;*/ */
+/* } */
+
+/* .sellkitregistration_input_bar3 { */
+/*     margin-right: 16px; */
+/*     padding: 0px 10px; */
+/*     width: 380px; */
+/*     height: 28px; */
+/*     border-radius: 4px; */
     
-}
+/* } */
 
-.sellkitregistration_input_bar4 {
-    margin-right: 8px;
-    padding: 0px 10px;
-    width: 404px;
-    height: 32px;
-    border-radius: 4px;
-}
+/* .sellkitregistration_input_bar4 { */
+/*     margin-right: 8px; */
+/*     padding: 0px 10px; */
+/*     width: 404px; */
+/*     height: 32px; */
+/*     border-radius: 4px; */
+/* } */
 
-.sellkitregistration_nav_part3_div {
-	position: relative;
-    padding-left: 20px;
-    top: -42px;
-    left: 400px;
-    width: 500px; 
-}
-.sellkitregistration_main_bottom_part1_div{
-/*    border: 1px solid black;*/
-    height: 50px;
-}
+/* .sellkitregistration_nav_part3_div { */
+/* 	position: relative; */
+/*     padding-left: 20px; */
+/*     top: -42px; */
+/*     left: 400px; */
+/*     width: 500px;  */
+/* } */
+/* .sellkitregistration_main_bottom_part1_div{ */
+/* /*    border: 1px solid black;*/ */
+/*     height: 50px; */
+/* } */
 
-.sellkitregistration_main_bottom_part2_div{
-/*    border: 1px solid black;*/
-}
+/* .sellkitregistration_main_bottom_part2_div{ */
+/* /*    border: 1px solid black;*/ */
+/* } */
 
-.sellkitregistration_main_bottom_part3_div {
-/*    border: 1px solid black;*/
-}
+/* .sellkitregistration_main_bottom_part3_div { */
+/* /*    border: 1px solid black;*/ */
+/* } */
 
-.sellkitregistration_btn3_div {
-	display: inline-block;
-    margin-right: 10px;
-    width: 70px;
-    height: 28px;
-    line-height: 28px;
-    text-align: center;
-    border-radius: 4px;
-/*    border: 1px solid black;*/
-}
+/* .sellkitregistration_btn3_div { */
+/* 	display: inline-block; */
+/*     margin-right: 10px; */
+/*     width: 70px; */
+/*     height: 28px; */
+/*     line-height: 28px; */
+/*     text-align: center; */
+/*     border-radius: 4px; */
+/* /*    border: 1px solid black;*/ */
+/* } */
 
-.sellkitregistration_btn4_div{
-	display: inline-block;
-    margin-right: 10px;
-    width: 100px;
-    height: 28px;
-    line-height: 28px;
-    text-align: center;
-    border-radius: 4px;
-/*    border: 1px solid black;*/
-}
+/* .sellkitregistration_btn4_div{ */
+/* 	display: inline-block; */
+/*     margin-right: 10px; */
+/*     width: 100px; */
+/*     height: 28px; */
+/*     line-height: 28px; */
+/*     text-align: center; */
+/*     border-radius: 4px; */
+/* /*    border: 1px solid black;*/ */
+/* } */
 
-.sellkitregistration_nav_dummy2_div{
-	position: relative;
-    top: -180px;
-}
+/* .sellkitregistration_nav_dummy2_div{ */
+/* 	position: relative; */
+/*     top: -180px; */
+/* } */
 
-#sellkitregistration_help_btn_box {
-	margin-left: 248px;
-}
+/* #sellkitregistration_help_btn_box { */
+/* 	margin-left: 248px; */
+/* } */
 
-#sellkitregistration_fix_btn_box {
-	 margin-left:430px;
-}
-.sellkitregistration_textarea {
-	position: relative;
-	top: -8px;
-    padding: 14px;
-    width: 510px;
-    height: 200px;
-    overflow-y: scroll;
-    resize: none;
-    border-radius: 4px;
-}
+/* #sellkitregistration_fix_btn_box { */
+/* 	 margin-left:430px; */
+/* } */
+/* .sellkitregistration_textarea { */
+/* 	position: relative; */
+/* 	top: -8px; */
+/*     padding: 14px; */
+/*     width: 510px; */
+/*     height: 200px; */
+/*     overflow-y: scroll; */
+/*     resize: none; */
+/*     border-radius: 4px; */
+/* } */

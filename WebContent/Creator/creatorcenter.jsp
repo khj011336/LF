@@ -26,10 +26,10 @@
 				</div>
 				
 				<div id="creatorcenter_main_cont" class="creatorcenter_main_cont_div">       
-		            <%@ include file="_myclass.jsp" %>
+<%-- 		            <%@ include file="_myclass.jsp" %> --%>
 <%-- 		            <%@ include file="_classdes.jsp" %> --%>
 <%-- 		            <%@ include file="_creatorprofile.jsp" %> --%>
-<%-- 		            <%@ include file="_sellkitregistration.jsp" %> --%>
+		            <%@ include file="_sellkitregistration.jsp" %>
 <%-- 		            <%@ include file="_videoupload.jsp" %> --%>
 		        </div>
 			</div>
