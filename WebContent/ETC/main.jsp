@@ -73,24 +73,6 @@
 			</div>
 			<!-- <div class="category_block">
 				<img src="resource/img/category/카테고리_미술.png"><br><br> <span>미술</span>
-			</div>
-			<div class="category_block">
-				<img src="resource/img/category/카테고리_음악.png"><br><br> <span>음악</span>
-			</div>
-			<div class="category_block">
-				<img src="resource/img/category/카테고리_요리.png"><br><br> <span>요리</span>
-			</div>
-			<div class="category_block">
-				<img src="resource/img/category/카테고리_라이프스타일.png"><br><br> <span>라이프스타일</span>
-			</div>
-			<div class="category_block">
-				<img src="resource/img/category/카테고리_운동.png"><br><br> <span>운동</span>
-			</div>
-			<div class="category_block">
-				<img src="resource/img/category/카테고리_커리어.png"><br><br> <span>커리어</span>
-			</div>
-			<div class="category_block">
-				<img src="resource/img/category/카테고리_여행.png"><br><br> <span>여행</span>
 			</div> -->
 		</div>
 		<h2 class="main_title">추천 클래스</h2>

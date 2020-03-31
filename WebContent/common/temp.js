@@ -25,8 +25,16 @@
 			$("#homemain").load("Funding/fundingRegister.jsp");
 			
 		});
-		$(document).on("click",'#TEST0', function() {
+		$(document).on("click",'#CS1', function() {
 			$("#homemain").load("CSCenter/Lecfly_CS_1.jsp");
+			
+		});
+		$(document).on("click",'#CS2', function() {
+			$("#homemain").load("CSCenter/Lecfly_CS_2.jsp");
+			
+		});
+		$(document).on("click",'#CS3', function() {
+			$("#homemain").load("CSCenter/Lecfly_CS_3.jsp");
 			
 		});
 		$(document).on("click",'#TEST', function() {

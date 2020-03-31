@@ -3,7 +3,7 @@
 <div id="register_wrapper">
 	<div id="register_nav">
 		<video class="register_video" controls>
-			<source src="video/soap.mp4" type="video/ogg">
+			<source src="resource/video/soap.mp4" type="video/ogg">
 		</video>
 		<br> <br>
 		<ul id="register_tag_ul">
@@ -23,18 +23,20 @@
 		<br> <br>
 		<h1 id="register_lecture_info">강의소개</h1>
 		<p id="register_lec">
-			<img class="register_soap_img" src="img/soap.jpg" alt="soap"> <img
-				class="register_soap_img" src="img/soap2.jpg" alt="soap"> <br>
-			<br> <br> <br> <br> <br> <br> <br>	<br> <br> <br> <br> <br> 
-			<br> <br> 이번 정규 클래스를 통해서는 순 식물성 오일을 가지고 CP 비누를 만들어 볼껀데요. 이
-			클래스는 원데이 클래스 제작비누와 다르게 가성소다와 순 식물성 오일을 이용해 비누를 만드는 과정이예요. 이번 수업에서는
-			베이직하고 보습력이 좋은 마르세이유 비누부터 허브비누, 수박비누, 아보카도비누 까지 총 4가지 비누를 만들어보고, 마지막
-			과정으로 집에서 쉽게 만들 수 있는 귀여운 도넛 버블바까지 배워볼 예정입니다.
+			<img class="register_soap_img" src="resource/img/goods/soap.jpg"
+				alt="soap"> <img class="register_soap_img"
+				src="resource/img/goods/soap2.jpg" alt="soap"> <br> <br>
+			<br> <br> <br> <br> <br> <br> <br>
+			<br> <br> <br> <br> <br> <br> 이번 정규
+			클래스를 통해서는 순 식물성 오일을 가지고 CP 비누를 만들어 볼껀데요. 이 클래스는 원데이 클래스 제작비누와 다르게
+			가성소다와 순 식물성 오일을 이용해 비누를 만드는 과정이예요. 이번 수업에서는 베이직하고 보습력이 좋은 마르세이유 비누부터
+			허브비누, 수박비누, 아보카도비누 까지 총 4가지 비누를 만들어보고, 마지막 과정으로 집에서 쉽게 만들 수 있는 귀여운 도넛
+			버블바까지 배워볼 예정입니다.
 		</p>
 		<br> <br>
 		<h1 id="register_kit_info">KIT 소개</h1>
-		<br> <br> <img class="kit_img" src="img/kit.JPG" alt="kit">
-		<br> <br>
+		<br> <br> <img class="kit_img"
+			src="resource/img/goods/kit.JPG" alt="kit"> <br> <br>
 		<h1 id="register_curri_info">커리큘럼</h1>
 		<table id="register_tb">
 			<tr>
@@ -91,9 +93,9 @@
 		<p id="register_review">
 			<span class="review_name">명주</span> <a href="#">★</a><a href="#">★</a><a
 				href="#">★</a><a href="#">★</a><a href="#">★</a> <span
-				class="review_week"> <small>일주일 전</small></span> <small>저렴하고
-				양도 적당하고 좋네요! 저는 남은 재료랑 미니하트 다 써서 몽땅 큰 비누 만들었어요~ 그런데 비누가 굳을까봐 초조해져서
-				차분히 할 수가 없는 것 같아요 계속 초초..ㅎㅎ 다음에 하면 더 잘할 수 있을 것 같아요! 감사합니다</small>
+				class="review_week"> <small>일주일 전</small></span> <small>
+				저렴하고 양도 적당하고 좋네요! 저는 남은 재료랑 미니하트 다 써서 몽땅 큰 비누 만들었어요~ 그런데 비누가 굳을까봐
+				초조해져서 차분히 할 수가 없는 것 같아요 계속 초초..ㅎㅎ 다음에 하면 더 잘할 수 있을 것 같아요! 감사합니다</small>
 		</p>
 		<p id="register_review">
 			<span class="review_name">수현</span> <a href="#">★</a><a href="#">★</a><a
@@ -116,17 +118,16 @@
 				class="review_week"> <small>1년 전</small></span>
 		</p>
 
-		
+
 		<br> <br>
 		<h1 id="register_qna_info">QnA</h1>
 		<br> <br> <i class="fas fa-user"> 수현 <input type="date"
 			value="2020-03-08" min="2020-01-01" max="2100-12-31">
-		</i> <br> <br> <small>한번도 만들어본 적 없는데 초보자도 괜찮은건가요?</small> <br>
-		<br> <i class="fas fa-user"> 아뜰리에 <input type="date"
-			value="2020-03-09" min="2020-01-01" max="2100-12-31">
-		</i> <br> <br> <small>안녕하세요 수현 고객님 아뜰리에입니다! <br> 해당
-			상품은 초보자도 쉽게 따라할 수 있는 강의입니다. <br> 감사합니다:)
-		</small> <br>
+		</i> <br> <br> 한번도 만들어본 적 없는데 초보자도 괜찮은건가요? <br> <br> <i
+			class="fas fa-user"> 아뜰리에 <input type="date" value="2020-03-09"
+			min="2020-01-01" max="2100-12-31">
+		</i> <br> <br> 안녕하세요 수현 고객님 아뜰리에입니다! <br> 해당 상품은 초보자도 쉽게
+		따라할 수 있는 강의입니다. <br> 감사합니다:) <br>
 		<textarea name="feedback" rows="5" cols="20" placeholder="댓글을 입력해주세요"></textarea>
 		<input type="button" value="입력">
 	</div>

@@ -255,64 +255,6 @@ box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 1px 0px, rgba(41, 42, 43, 0.34) 0px 1px 
 	top: 30px;
 }
 
-.borderw th {
-	width: 300px;
-	border-bottom: 1px solid black;
-	padding: 10px 0px;
-	background-color: antiquewhite;
-}
 
-.borderw td {
-	width: 900px;
-	padding-left: 10px;
-	border-bottom: 1px solid black;
-}
-
-.borderw p {
-	margin: 15px 0px;
-}
-
-.borderw table {
-	border: 2px solid black;
-}
-
-.borderw span {
-	margin-left: 700px;
-}
-
-#sub input {
-	width: 120px;
-	height: 30px;
-	border-radius: 40px;
-}
-
-#sub {
-	width: 100%;
-}
-.alter{
-	cursor:Pointer
-}
-#subma {
-	margin: 20px auto;
-	text-align: center;
-}
-
-.borderw li {
-	display: inline-block;
-	margin-right: 10px;
-}
-
-.borderw label {
-	margin-left: 5px;
-}
-
-.borderw * {
-	font-size: 13px;
-}
-
-.borderw .h {
-	font-size: 25px;
-}
 .alter p.movieName{
 display: none;	
-}
