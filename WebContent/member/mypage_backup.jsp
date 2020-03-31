@@ -7,46 +7,46 @@
 
 
 <div id="mypage_wrap"> 											<!-- 조각페이지 -->	
-	<div id="mypage_top"> 										<!-- 개인정보 영역 -->
-		<div id="mypage_mb">
-	        <div id="mypage_pic">
-	            <img src="resource/img/mypage/female-2022687_640.png" width="148px" height="148px">
-	          	안녕하세요.
-	          	????님
-	          	프로필 사진 편집(버튼)
-	        </div>
-	        <div id="mypage_mb_info">
-	        	<div id="mypage_mb_rank">
-	        		회원등급
-	        		????
-	        	</div>
-	        	<div id="mypage_mb_show_lec">
-	        		수강중인 강의
-	        		nnnn
-	        	</div>
-	        	<div id="mypage_mb_ticket">
-	        		이용중인 이용권
-	        		3개권?
-	        	</div>
-	        	<div id="mypage_mb_coupon">
-	        		보요중인 할인쿠폰
-	        		n개
-	        	</div>
-	        </div>
+	<div id="mypage_top"> 										<!-- 제목 및 링크 2개 -->
+	    <h2 class="mypage_title">마이페이지</h2>
+	    <div class="top_right">
+	        <a class="mypage_a" href="#" style="padding: 0 10px 0 10px;">장바구니</a>
+	        <a class="mypage_a" href="#" style="padding: 0 10px 0 10px;">프로필수정 ></a>
 	    </div>
 	</div>
-	<div id="mypage_middle">									<!-- 정보 영역 및 ㅋㅋㅋㅋㅋㅋ메뉴영역 -->
-	    
+	<div id="mypage_middle">									<!-- 개인 정보 영역 및 메뉴영역 -->
+	    <div id="mypage_mb">
+	        <div id="mypage_pic">
+	            <img src="resource/img/mypage/female-2022687_640.png" width="148px" height="148px">
+	        </div>
+	        <div id="mypage_paint">
+	           	 <div><img src="resource/img/mypage/camera_logo.png" width="40px" height="40px"><br>수강</div> 
+	           	 <div><img src="resource/img/mypage/tag_logo.png" width="40px" height="40px"><br>찜하기</div>
+	           	 <div><img src="resource/img/mypage/heart_logo.png" width="40px" height="40px"><br>좋아요</div>
+	        </div>
+	<!--         		하트모양 위에 숫자 표시하게 하여 올리려 하지만 미숙한 실력으로 실패함 -->
+	<!--             <div id="paint_heart"> -->
+	<!--                	 <div id="camera_logo">3</div>  -->
+	<!--                	 <div id="tag_logo">7</div> -->
+	<!--                	 <div id="heart_logo">32</div> -->
+	<!--                	 z인덱스 부여해서 올려야 되지만 시도해보았으나 안됨. -->
+	<!--             </div> -->
+	        <div id="mypage_info">
+	            <div class="mypage_mb_info">000님은</div>
+	            <div class="mypage_mb_info"><label id="have_ticket">무제한 정기권</label>을 사용하고 있어요.</div>
+	            <div class="mypage_mb_info" style="font-size: 0.8em;">다음결제일:2020.04.04</div>
+	        </div>
+	    </div>
 	    <ol id="mypage_menu">
-	        <li><a class="mypage_a" href="#">활동</a></li>
-	        	<!-- 아래 조각페이지에 수강중인강의/찜하기한강의/좋아요한강의/문의내역 메뉴 부여 -->
-	        <li><a class="mypage_a" href="#">구매내역</a></li>
-	        	<!-- 아래 조각페이지에 장바구니/주문내역/사용중인 이용권 메뉴 부여 -->
-	        <li><a class="mypage_a" href="#">회원관리</a></li>
-	        	<!-- 아래 조각페이지에 수정/삭제 메뉴 부여 -->
+	        <li><a class="mypage_a" href="">수강중인 강의</a></li>
+	        <li><a class="mypage_a" href="">찜하기</a></li>
+	        <li><a class="mypage_a" href="">좋아요</a></li>
+	        <li><a class="mypage_a" href="">이용권</a></li>
+	        <li><a class="mypage_a" href="">구매내역</a></li>
+	        <li><a class="mypage_a" href="">문의내역</a></li>
+	        <li><a class="mypage_a" href="">고객센터</a></li>
 	    </ol>
 	</div>
-	
 	<div id="mypage_bottom">									<!-- 조각페이지 영역 -->
 	    	<div class="mypage_top_side">
 		    	<h3>수강중인 강의</h3>
