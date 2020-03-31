@@ -21,7 +21,7 @@
 		</div>
 		<%@ include file="../common/side_nav.jsp"%>
 		<div id="homemain">
-		<%@ include file="goods/lectureRegister.jsp"%>
+		<%@ include file="CSCenter/post_board.jsp"%>
 	</div>
 		<div id="footer" class="footer">
 			<%@ include file="common/footer.jsp"%>
