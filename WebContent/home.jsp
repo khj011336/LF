@@ -4,7 +4,7 @@
 <html>
 <head>
 <%
-// 	response.setHeader("Cache-Control", "no-cache");
+ 	response.setHeader("Cache-Control", "no-cache");
 %>
 <meta charset="UTF-8">
 <title>LecFly</title>

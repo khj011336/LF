@@ -31,7 +31,7 @@
 	            		<br>비회원께서는 회원가입을 해주시거나 우측 하단 실시간문의를 이용해주시면 감사하겠습니다.
 	            		<br>*실시간문의는 운영시간내에만 이용가능합니다.
 	            		<br><br>감사합니다:)
-	            		<button>QnA 작성하기</button>
+	            		<button class="edit_qna">QnA 작성하기</button>
 	            		</p>
 	            	</div>
 	            	<br>

@@ -69,7 +69,10 @@
 			$("#homemain").load("CSCenter/Lecfly_PASS_2.jsp");
 			
 		});
-		
+		$(document).on("click",'.edit_qna', function() {
+			$("#homemain").load("CSCenter/post_board.jsp");
+			
+		});
 		
 	$('.header_column_logo').click(function() {
 			$("#homemain").load("ETC/main.jsp");
