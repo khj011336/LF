@@ -16,7 +16,7 @@
         <div id="CSsec_title"><h2>고객섬김센터</h2></div>
             <div id="CSsec_subtitle">
                 <ul>
-                    <li id= "CS1"><h4><a href="#">1:1 문의</a></h4></li>
+                    <li id= "CS1"><h4><a href="#">QnA</a></h4></li>
                     <li id= "CS2"><h4><a href="#">자주묻는 질문</a></h4></li>
                     <li id= "CS3"><h4><a href="#" style="background-color: orange">공지사항</a></h4></li>
                 </ul>
