@@ -3,16 +3,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-
 <%
 // 	response.setHeader("Cache-Control", "no-cache");
 %>
 <meta charset="UTF-8">
 <title>LecFly</title>
-<link type="text/css" rel="stylesheet" href="resource/css/lectureRegister.css">
 <script type="text/javascript" src="common/temp.js"></script>
 
-<br><br>
 </head>
 <body>
 	<div id="wrapper">
@@ -21,12 +18,11 @@
 		</div>
 		<%@ include file="../common/side_nav.jsp"%>
 		<div id="homemain">
-		<%@ include file="goods/lectureRegister.jsp"%>
+		<%@ include file="ETC/main.jsp"%>
 	</div>
 		<div id="footer" class="footer">
 			<%@ include file="common/footer.jsp"%>
 		</div>
 	</div>
 </body>
-
 </html>
