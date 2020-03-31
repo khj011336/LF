@@ -3,12 +3,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link href='css/lecplay.css' rel='stylesheet' type='text/css'>
+<link href='../resource/css/border.css' rel='stylesheet' type='text/css'>
 <meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
 <body>
- <div id='wrap' class="borderw">
+   <div id='bdrwrap' class="borderw">
+       <div style="height: 100px; border:1px solid black"> 헤더</div>
         <div id=header>
            <br>
            <br>
@@ -47,11 +48,11 @@
             </tr>
             <tr>
                 <th>제목</th>
-                <td><input type=text size="152px" ></td>
+                <td><input type=text size="140px" ></td>
             </tr>
             <tr>
                 <th>내용</th>
-                <td><textarea  cols="151px" rows="30px">
+                <td id ='bdrtextarea'><textarea  cols="140px" rows="30px">
                     
                 </textarea></td>
             </tr>
@@ -63,6 +64,7 @@
         </table>
        <div id='sub'><div id="subma"><input type="submit" value="확인"><input type="button" value="취소"></div></div>
         </form>
+         <div style="height: 100px; border:1px solid black "  > 푸터</div>
     </div>
 </body>
 </html>
