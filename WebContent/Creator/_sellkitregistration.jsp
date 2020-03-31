@@ -89,7 +89,7 @@
                     </div>
                     <div class="sellkitregistration_mini_title_interval creator_h3">
                         <div class="sellkitregistration_inline sellkitregistration_nav1"><label for="sellkitregistration_delivery_guide_msg">배송안내문구</label></div>
-                        <div class="sellkitregistration_inline"><select class="sellkitregistration_bar4" id="sellkitregistration_delivery_guide_msg" name="delivery_guide_msg">
+                        <div class="sellkitregistration_inline"><select class="sellkitregistration_bar3" id="sellkitregistration_delivery_guide_msg" name="delivery_guide_msg">
                             <option value="msg1"></option>
                             <option value="msg2"></option>
                             <option value="msg3"></option>
@@ -105,10 +105,12 @@
                     <div class="sellkitregistration_detail_info_registration_part2">    
 	                    <div id="sellkitregistration_text_btn_box" class="sellkitregistration_inline"><input type="button" value="Text" class="sellkitregistration_btn2"></div>
 	                    <div id="sellkitregistration_html_btn_box" class="sellkitregistration_inline"><input type="button" value="HTML" class="sellkitregistration_btn2"></div>
-	                    <div id="sellkitregistration_help_btn_box" class="sellkitregistration_inline"><input type="button" value="도움말" class="sellkitregistration_btn2"></div>    
-	                    <div><textarea id="sellkitregistration_detail_info_registration" name="detail_info_registration" class="sellkitregistration_bar5" placeholder="내용을 입력해주세요"></textarea></div>
-	                    <div id="sellkitregistration_fix_btn_box" class="sellkitregistration_inline"><input type="button" value="수정" class="sellkitregistration_btn3"></div>
-                    	<div id="sellkitregistration_save_btn_box" class="sellkitregistration_inline"><input type="button" value="저장" class="sellkitregistration_btn3"></div>
+	                    <div id="sellkitregistration_help_btn_box" class="sellkitregistration_inline sellkitregistration_btn_interval1"><input type="button" value="도움말" class="sellkitregistration_btn2"></div>    
+	                    <div><textarea id="sellkitregistration_detail_info_registration" name="detail_info_registration" class="sellkitregistration_bar4" placeholder="내용을 입력해주세요"></textarea></div>
+	                    <div class="sellkitregistration_btn_interval2">
+	                    	<div id="sellkitregistration_fix_btn_box" class="sellkitregistration_inline"><input type="button" value="수정" class="sellkitregistration_btn3"></div>
+                    		<div id="sellkitregistration_save_btn_box" class="sellkitregistration_inline"><input type="button" value="저장" class="sellkitregistration_btn3"></div>
+                    	</div>
                     </div>
                 </div>
             </div>

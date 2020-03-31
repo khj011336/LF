@@ -1,8 +1,3 @@
-/* 크리에이터 파트 */
-/* * { */
-/*     margin: 0px; */
-/*     padding: 0px; */
-/* } */
 
 html {
 	margin: 0;
@@ -96,7 +91,7 @@ a:hover {
 
 
 
-/*  			공통 글자크기 헤더 h1~ h6까지폰트   */
+/*  		Creator 안의 jsp 파일들공통 글자크기 헤더 h1~ h6까지폰트   */
 .creator_h1 {
 	font-size: 2em;
 	font-weigth: bold;
@@ -124,7 +119,7 @@ a:hover {
 }
 
 
-/* _sellkitregistration _classdes 에서쓰는 아래쪽에있는 버튼*/
+/* _sellkitregistration _cratorprofile _classdes 에서쓰는 아래쪽에있는 버튼*/
 .creator_next_btn {
 	margin-bottom: 50px;
 	width: 100px;
@@ -135,9 +130,7 @@ a:hover {
 
 
 
-
-
-/* 					 myclass.jsp */
+/* 					 myclass.jsp 동현이가 한부분 */
 .CRsend{
     position: absolute;
     width: 100%;
@@ -281,7 +274,7 @@ a:hover {
 /* 					 myclass.jsp 끝 */
 
 
-/*					_videoupload.jsp */
+/*					_videoupload.jsp 동현이가 한부분 */
 #uplwrap{
     
     padding: 0px 125px;
@@ -420,6 +413,7 @@ border: none;
 
 
 /* 					_classdes.jsp */
+
 #classdes_wrap {
 	padding: 0px 100px;
     width: 1000px;
@@ -433,18 +427,18 @@ border: none;
 #classdes_part1 {
 	width: 1000px;
 }
-
+/* 타이틀 (클래스 카테고리, 클래스 난이도 .. 등등등 간격)*/
 .classdes_text1 {
 	margin: 30px 0px 10px 0px;
 }
-
+/* 클래스 카테고리, 클래스 난이도, 클래스주제, 클래스타이틀 에 있는 input bar */
 .classdes_bar1 {
 	width: 600px;
 	height: 40px;
 	border: 1px solid black;
 	border-radius: 4px;
 }
-
+/* input bar1 옆에있는 예시 박스 */
 #classdes_exbox {
 	position: relative;
 	left: 618px;
@@ -455,34 +449,38 @@ border: none;
 	border-radius: 4px;
 }
 
+/* span 커버로 사용할 이미지를 추가해보세요 글 위치 */
+.classdes_left_interval {
+	margin-left: 100px;
+}
+/* 클래스 커버이미지 랑 input bar 파일찾기 버튼이 포함된 div */
+#classdes_part2 {
+	position: relative;
+	top: -280px;
+}
+
+/* 클래스 커버이미지 에있는 이미지 크기 설정 div,img */
 .classdes_imgbox1 {
 	width: 500px;
 	height: 300px;
 	border: 1px solid black;
 }
 
-.classdes_left_interval {
-	margin-left: 100px;
-}
-
-#classdes_part2 {
-	position: relative;
-	top: -280px;
-}
-
+/* 클래스 커버이미지 옆에있는 input bar랑 파일찾기버튼 위치잡아주는 div */
 #classdes_img_path_box{
 	position: relative;
 	top: -42px;
 	left: 540px;
 }
 
+/* 클래스 커버이미지 옆에있는 input bar 크기 잡아줌 */
 .classdes_bar2 {
 	width: 320px;
 	height: 40px;
 	border: 1px solid black;
 	border-radius: 4px;
 }
-
+/* 파일찾기 버튼의 크기와 위치 */
 #classdes_find_file_btn {
 	margin-left: 20px;
 	width: 100px;
@@ -490,12 +488,12 @@ border: none;
 	border: 1px solid black;
 	border-radius: 4px;
 }
-
+/* 강의 소개하기 에있는 이미지 + 이미지 + div 의 위치 설정 */
 #classdes_part3 {
 	position: relative;
 	top: -300px;
 }
-
+/* 강의 소개하기에 있는 이미지 크기 */
 .classdes_imgbox2 {
 	width: 300px;
 	height: 200px;
@@ -503,7 +501,7 @@ border: none;
 	border: 1px solid black;
 	display: inline-block;
 }
-
+/* 강의 소개하기에 있는 이미지 옆 예시 박스 */
 #classdes_contentbox {
 	width: 330px;
 	height: 200px;
@@ -512,12 +510,13 @@ border: none;
 	display: inline-block;
 }
 
-
+/* 강의에 대해서 입력해주세요 있는 위치 설정*/
 #classdes_part4 {
 	position: relative;
 	top: -290px;
 }
 
+/* textarea 크기설정 */
 #classdes_des {
 	padding: 0px 10px;
 	width: 978px;
@@ -527,7 +526,7 @@ border: none;
 	overflow-y: scroll;
     resize: none;
 }
-
+/* 다음버튼 위치 잡기 */
 .classdes_next_btn {
 	margin-top: 50px;
 	margin-left: 900px;
@@ -542,23 +541,23 @@ border: none;
     width: 1000px;
     margin: 0px auto;
 }
-
+/* 프로필사진 이미지 + 감싸고있는 img 박스크기 */
 .creatorprofile_imgbox1 {
 	width: 300px;
 	height: 200px;
 	border: 1px dotted black;
 }
-
+/* 이미지를 감싸고있는 div안에있으며 그안에있는 '파일찾기 텍스트' */
 .creatorprofile_find_file_text {
 	position: relative;
 	top: -30px;
 	left: 220px;
 }
-
+/* 크리에이터 닉네임 연락처 sns계정 .. 등등 타이틀 간격 */
 .creatorprofile_text1 {
 	margin: 30px 0px 10px 0px;
 }
-
+/* input bar 크기 조정 */
 .creatorprofile_bar1 {
 	width: 900px;
 	height: 40px;
@@ -566,7 +565,7 @@ border: none;
 	border-radius: 4px;
 	
 }
-
+/* textarea 크기 설정*/
 .creatorprofile_bar2 {
 	width: 878px;
 	height: 300px;
@@ -576,7 +575,7 @@ border: none;
 	overflow-y: hidden;
     resize: none;
 }
-
+/* 다음버튼*/
 .creatorprofile_next_btn {
 	margin: 50px 0px;
 	position: relative;
@@ -593,62 +592,63 @@ border: none;
     width: 1000px;
     margin: 0px auto;
 }
-
-.sellkitregistration_main_top {
-	
+/* 메인 타이틀과 내용의 간격 */
+#sellkitregistration_content{
+	margin-top: 30px;
 }
-
+/* sellkitregistration 에서 공통으로 inlineblock 을만들려고함 */
 .sellkitregistration_inline {
 	display: inline-block;
 }
-
+/* 상품 카테고리 상품명등.. 타이틀 크기설정 */
 .sellkitregistration_nav1{
 	width: 100px;
 	height: 40px;
 }
-
+/* 상품 카테고리 판매가 재고수량 택배사 배송비 에쓰이는 input bar */
 .sellkitregistration_bar1 {
 	width: 200px;
 	height: 40px;
 	border: 1px solid black;
 	border-radius: 4px;
 }
-
+/* 카테고리 검색버튼 속성설정버튼 과세상품 면세상품 영세상품 버튼 */ 
 .sellkitregistration_btn1 {
 	width: 100px;
 	height: 40px;
 	background-color: gray;
 	border-radius: 4px;
 }
-
+/* 상품명 옆에있는 input bar */
 .sellkitregistration_bar2 {
 	width: 400px;
 	height: 40px;
 	border: 1px solid black;
 	border-radius: 4px;
 }
-
+/* 상품속성 부가세 가있는 위치 설정*/
 .sellkitregistration_nav_part2 {
 	position: relative;
-	top: -240px;
+	top: -286px;
 	left: 600px;
 }
-
+/* 다음버튼 전까지 감싸고 있는 wrap 의 개념 (위치조정)*/
 .sellkitregistration_main_center {
 	position: relative;
 	top: -100px;
 }
-
+/* 작은타이틀(상품명 판매가 재고수량 부가세, 택배사 배송비...) 위아래 간격 조정 */
 .sellkitregistration_mini_title_interval {
 	margin: 20px 0px 10px 0px;
 }
 
+/* 대표이미지 div,img 추가이미지 div,img 크기 설정*/
 .sellkitregistration_img {
 	margin-right: 10px;
 	width: 190px;
 	height: 150px;
 }
-
+/* 대표이미지, 추가이미지 버튼역할 하는 div */
 .sellkitregistration_img_add_btn_div {
 	width: 188px;
 	height: 20px;
@@ -656,47 +656,50 @@ border: none;
 	background-color: gray;
 	text-align: center;
 }
-
+/* -최대 10장까지 추가가능합니다 있는 텍스트 위치*/
 .sellkitregistration_max_text {
 	position: relative;
 	top: -70px;
 }
-
+/* 배송비 + inputbar + 원 감싼 div로 (위치조정) */
 #sellkitregistration_pricebox {
 	position: relative;
 	top: -72px;
 	left: 600px;
 }
 
+/* 택배사 ~ 수정 저장 버튼있는 곳까지 감싼div 위치조정 */
 .sellkitregistration_main_bottom {
 	position: relative;
 	top: -70px;
 }
-
+/* 발송지 + 배송안내문구 감싼div (위치잡기) */
 .sellkitregistration_main_bottom_part2 {
 	position: relative;
 	top: -70px;
 }
-
+/* 발송지 배송안내문구 옆에있는 input bar (크기)*/
 .sellkitregistration_bar3 {
 	width: 700px;
 	height: 40px;
 	border: 1px solid black;
 	border-radius: 4px;
 }
-
-.sellkitregistration_bar4 {
-	width: 700px;
-	height: 40px;
-	border: 1px solid black;
-	border-radius: 4px;
-}
-
+/* 상세정보 등록 ~ 수정 저장 버튼까지 감싼 div (위치조정) */
 .sellkitregistration_main_bottom_part3 {
 	position: relative;
 	top: -50px;
 }
 
+
+/* text 버튼부터 저장버튼 있는데까지 감싼div 위치조정 */
+.sellkitregistration_detail_info_registration_part2 {
+	position: relative;
+	top: -70px;
+	left: 100px;
+}
+
+/* Text HTML 도움말 버튼 (크기조정)*/
 .sellkitregistration_btn2 {
 	width: 100px;
 	height: 30px;
@@ -704,272 +707,45 @@ border: none;
 }
 
 
-
+/* '내용' 위치조정 */
 .sellkitregistration_nav_dummy2 {
 	position: relative;
 	top: 40px;
 }
 
-.sellkitregistration_detail_info_registration_part2 {
-	position: relative;
-	top: -70px;
-	left: 100px;
-}
 
-.sellkitregistration_bar5 {
+/* textarea (크기조정)*/
+.sellkitregistration_bar4 {
 	width: 780px;
 	height: 300px;
 	resize: none;
 	padding: 0px 10px;
 	border: 1px solid black;
 }
-
+/* 수정 저장 버튼 (크기)*/
 .sellkitregistration_btn3 {
 	width: 100px;
 	height: 40px;
 	border: 1px solid black;
 	border-radius: 4px;
 }
+	
 
+
+	/* 도움말 버튼 간격 */
+.sellkitregistration_btn_interval1 {
+	position: relative;
+	left: 494px;
+}
+			/* 수정 저장 버튼 간격 */
+.sellkitregistration_btn_interval2 {
+	position: relative;
+	left: 596px;
+}
+		/* 다음버튼 위치잡기 */
 .sellkitregistration_next_btn {
 	position: relative;
 	top: -50px;
 	left: 800px;
 }
 
-/* .sellkitregistration_background_color_yellow_div { */
-/*     background-color: rgb(255, 200, 0); */
-/* } */
-
-/* .sellkitregistration_background_color_gray_div { */
-/*     background-color: darkgray; */
-/* } */
-
-/*             _sellkitregistration.html */
-            
-/* .sellkitregistration_wrap_cont_div { */
-/* 	margin: 0px auto; */
-/* /* 	border: 1px solid black; */ */
-/* 	margin-left: 30px; */
-/* 	overflow-y: hidden; */
-/* }              */
-
-/* .sellkitregistration_mini_title_interval { */
-/* 	margin-top: 10px; */
-/* } */
-
-/* .sellkitregistration_main_top_div { */
-/* 	display: inline-block; */
-/*     margin-top: 30px; */
-/*     width: 920px; */
-/*     height: 180px; */
-/* /*    border: 1px dotted black;*/ */
-/* } */
-
-/* .sellkitregistration_nav_part1_div { */
-/*     width: 400px; */
-/*     height: 180px; */
-/* /*    border: 1px solid black;*/ */
-/* } */
-
-/* .sellkitregistration_nav_part2_div { */
-/* 	position: relative; */
-/*     padding: 40px 0px 0px 20px; */
-/*     top: -182px; */
-/*     left: 400px; */
-/*     width: 500px; */
-/*     height: 140px;  */
-/* /*    border: 1px solid black;*/ */
-/* } */
-
-/* .sellkitregistration_nav1_div { */
-	
-/* 	display: inline-block; */
-/*     width: 120px; */
-/*     height: 28px; */
-/* } */
-
-/* .sellkitregistration_nav2_div { */
-/* 	display: inline-block; */
-/*     width: 120px; */
-/*     height: 28px;    */
-/* } */
-
-/* .sellkitregistration_input_bar1 { */
-/*     margin-right: 8px; */
-/*     padding: 0px 10px;     */
-/*     width: 104px; */
-/*     height: 28px; */
-/*     border-radius: 4px; */
-/* } */
-
-/* .sellkitregistration_input_bar2 { */
-/*     margin-right: 8px; */
-/*     padding: 0px 10px; */
-/*     width: 238px; */
-/*     height: 28px; */
-/*     border-radius: 4px;     */
-/* } */
-
-/* .sellkitregistration_btn1_div{ */
-/* 	display: inline-block; */
-/*     width: 110px; */
-/*     height: 30px; */
-/*     line-height: 30px; */
-/*     text-align: center; */
-/*     color: white; */
-/*     border-radius: 4px; */
-/* } */
-
-/* .sellkitregistration_btn2_div{ */
-/* 	display:inline-block; */
-/*     margin-right: 8px; */
-/*     width: 110px; */
-/*     height: 30px; */
-/*     line-height: 30px; */
-/*     text-align: center; */
-/*     border-radius: 4px; */
-/* } */
-
-
-/* .sellkitregistration_main_center_div { */
-/* 	position: relative_div; */
-/*     top: -128px; */
-/*     width: 920px; */
-/*     height: 210px; */
-/* /*    border: 1px dotted black;*/ */
-/*     overflow-y: hidden; */
-/* } */
-
-/* .sellkitregistration_nav1_dummy_div { */
-/* 	position: relative;  */
-/*     top: -46px; */
-/* } */
-
-/* .sellkitregistration_main_center_part1_div { */
-/* 	display: inline-block; */
-/* 	position: relative; */
-	
-/* } */
-
-/* .sellkitregistration_img_div { */
-/* 	display: inline-block; */
-/*     margin-right: 6px; */
-/*     margin-top: 10px; */
-/*     border: 1px solid black; */
-/*     width: 90px; */
-/*     height: 50px; */
-/* } */
-
-
-/* .sellkitregistration_img { */
-/*     width: 90px; */
-/*     height: 50px; */
-/* } */
-
-/* .sellkitregistration_img_div{ */
-/* 	margin-right: 40px; */
-/* } */
-
-/* .sellkitregistration_img_add_btn_div { */
-/*     top: -4px; */
-/*     border: 1px solid black; */
-/*     text-align: center; */
-/*     width: 88px; */
-/*     background-color: darkgray; */
-/* } */
-
-/* .sellkitregistration_dummy_span { */
-/* 	position: relative; */
-/*     top: -24px; */
-/* } */
-
-/* .sellkitregistration_main_bottom_div { */
-/* 	position: relative; */
-/*     top: -128px; */
-/*     width: 920px; */
-/*     height: 500px; */
-/* /*    border: 1px dotted black;*/ */
-/* } */
-
-/* .sellkitregistration_input_bar3 { */
-/*     margin-right: 16px; */
-/*     padding: 0px 10px; */
-/*     width: 380px; */
-/*     height: 28px; */
-/*     border-radius: 4px; */
-    
-/* } */
-
-/* .sellkitregistration_input_bar4 { */
-/*     margin-right: 8px; */
-/*     padding: 0px 10px; */
-/*     width: 404px; */
-/*     height: 32px; */
-/*     border-radius: 4px; */
-/* } */
-
-/* .sellkitregistration_nav_part3_div { */
-/* 	position: relative; */
-/*     padding-left: 20px; */
-/*     top: -42px; */
-/*     left: 400px; */
-/*     width: 500px;  */
-/* } */
-/* .sellkitregistration_main_bottom_part1_div{ */
-/* /*    border: 1px solid black;*/ */
-/*     height: 50px; */
-/* } */
-
-/* .sellkitregistration_main_bottom_part2_div{ */
-/* /*    border: 1px solid black;*/ */
-/* } */
-
-/* .sellkitregistration_main_bottom_part3_div { */
-/* /*    border: 1px solid black;*/ */
-/* } */
-
-/* .sellkitregistration_btn3_div { */
-/* 	display: inline-block; */
-/*     margin-right: 10px; */
-/*     width: 70px; */
-/*     height: 28px; */
-/*     line-height: 28px; */
-/*     text-align: center; */
-/*     border-radius: 4px; */
-/* /*    border: 1px solid black;*/ */
-/* } */
-
-/* .sellkitregistration_btn4_div{ */
-/* 	display: inline-block; */
-/*     margin-right: 10px; */
-/*     width: 100px; */
-/*     height: 28px; */
-/*     line-height: 28px; */
-/*     text-align: center; */
-/*     border-radius: 4px; */
-/* /*    border: 1px solid black;*/ */
-/* } */
-
-/* .sellkitregistration_nav_dummy2_div{ */
-/* 	position: relative; */
-/*     top: -180px; */
-/* } */
-
-/* #sellkitregistration_help_btn_box { */
-/* 	margin-left: 248px; */
-/* } */
-
-/* #sellkitregistration_fix_btn_box { */
-/* 	 margin-left:430px; */
-/* } */
-/* .sellkitregistration_textarea { */
-/* 	position: relative; */
-/* 	top: -8px; */
-/*     padding: 14px; */
-/*     width: 510px; */
-/*     height: 200px; */
-/*     overflow-y: scroll; */
-/*     resize: none; */
-/*     border-radius: 4px; */
-/* } */
