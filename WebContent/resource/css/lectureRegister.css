@@ -104,6 +104,10 @@
 	font-weight: bold;
 }
 
+#register_wri_name {
+	text-align: right;
+}
+
 .review_week {
 	color: purple;
 }
@@ -144,7 +148,7 @@ input[value=입력] {
 	height: 500px;
 	display: inline-block;
 	position: fixed;
-	top: 110px;
+	top: 98px;
 }
 
 #register_content_title {
@@ -241,7 +245,7 @@ input[value=입력] {
 	font-weight: bold;
 	background-color: lightgray;
 	float: right;
-	width: 357px;
+	width: 375px;
 	text-align: center;
 }
 
