@@ -11,8 +11,6 @@
 <title>LecFly</title>
 <link type="text/css" rel="stylesheet" href="resource/css/lectureRegister.css">
 <script type="text/javascript" src="common/temp.js"></script>
-
-<br><br>
 </head>
 <body>
 	<div id="wrapper">
