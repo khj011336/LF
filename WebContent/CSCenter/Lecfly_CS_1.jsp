@@ -22,6 +22,11 @@
                 </ul>
             </div>
                 <div class="QnA">
+                	<div id="qna_p">
+                	<br><br><br><br>
+                	<h3>QnA</h3>
+                	<br>
+                </div>
 	            	<div id="qna_noticebox">
 	            		<p>온라인 취미 클래스 플랫폼 LecFly입니다.
 	            		<p>LecFly를 이용해주셔서 감사합니다.
@@ -37,7 +42,7 @@
 	            	<br>
 		           <div id="qna_table">
 		            	
-		                    
+		                    <br><br>
 		                    <h2> 문의 내역 </h2>
 		                    <br>
 		                    <table>
