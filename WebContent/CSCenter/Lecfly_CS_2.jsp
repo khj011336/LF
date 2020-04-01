@@ -23,6 +23,11 @@
             </div>
             
             <div id="faq">
+            	<div id="faq_p">
+                	<br><br><br><br>
+                	<h4>자주묻는 질문</h4>
+                	<br>
+                
                 <div id="faq_nav">
                 <ul>
                     <li><a href="#">전체</a></li>
@@ -32,7 +37,7 @@
                     <li><a href="#">기타</a></li>
                 </ul>
                 </div>
-                
+                </div>
                 <div id="faq_table">
                     <table>
                         <tbody>
