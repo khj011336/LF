@@ -1,6 +1,7 @@
 package LECFLY.dao.impl;
 import java.io.IOException;
 
+import net.bramp.ffmpeg.FFmpeg;
 import net.bramp.ffmpeg.FFprobe;
 import net.bramp.ffmpeg.probe.FFmpegFormat;
 import net.bramp.ffmpeg.probe.FFmpegProbeResult;
@@ -15,6 +16,8 @@ public class VideoTimeCut {
 			FFprobe ffprobe = new FFprobe("C:\\ffmpeg-4.2.2-win64-static\\bin\\ffprobe.exe"); // window에 설치된  ffprobe.exe 경로
 			FFmpegProbeResult probeResult = ffprobe.probe("C:\\cooking.mp4"); // 동영상 경로
 			FFmpegFormat format = probeResult.getFormat();
+			FFmpeg ff = new FFmpeg();
+			ff.
 			double second = format.duration; // 초단위
 
 			returnData = second + "";
