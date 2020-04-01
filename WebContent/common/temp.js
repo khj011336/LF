@@ -61,7 +61,7 @@
 			$("#homemain").load("goods/goodsPayment.jsp");
 			
 		});
-		$(document).on("click",'.lecfly_info', function() {
+		$(document).on("click",'.nav_lecfly_info', function() {
 			$("#homemain").load("CSCenter/Lecfly_PASS_1.jsp");
 			
 		});
