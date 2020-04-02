@@ -12,11 +12,9 @@
 	<div class="CSsection">
 	<div id="CSsec_title"><h2>고객섬김센터</h2></div>
 		<div class="post_board">
-            <div id="CSsec_subtitle">
-                <ul>
-                    <li><h4>QnA게시판 문의하기</h4></li>
-                </ul>
-                
+            <div id="post_title">
+            <br><br><br><br>
+               <h4>QnA게시판 문의하기</h4>
             </div>
             <br><br>
 	 		<form>
