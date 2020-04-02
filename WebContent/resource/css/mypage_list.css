@@ -1,0 +1,91 @@
+@charset "UTF-8";
+/* 시청, 찜 내역이 없을 때  */
+.mypage_nolist_wrapper { /* 빈내역 래퍼 */
+	width: 1200px;
+	min-height: 70vh;
+	margin: 0 auto;
+	text-align: center;
+	padding: 50px;
+}
+
+.mypage_bottom_title { /* 타이틀 */
+	text-align: justify;
+	margin-bottom: 30px;
+}
+
+.edit_list_btn { /*편집 버튼*/
+	float: right;
+	margin-bottom: 15px;
+	font-size: 1.2em;
+}
+
+.nolist_block { /*빈 목록 안내창*/
+	padding: 150px;
+	min-height: 50vh;
+	text-align: center;
+}
+
+.nolist_mark { /*빈 목록 안내 아이콘*/
+	margin-bottom: 30px;
+}
+
+.nolist_info { /*빈 목록 안내문*/
+	margin-top: 30px;
+	font-size: 1.4em;
+}
+
+/* 비디오기록 출력  */
+.viewhistory_wrapper { /* 내역 래퍼 */
+	width: 1200px;
+	min-height: 70vh;
+	margin: 0 auto;
+	text-align: center;
+	padding: 50px;
+}
+
+.mypage_bottom_title { /* 타이틀 */
+	text-align: justify;
+	margin-bottom: 30px;
+}
+
+.viewhistory_list_wrap { /*수강목록 페이지*/
+	text-align: left;
+}
+
+.video_item_block { /*비디오블럭*/
+	display: inline-block;
+	width: 240px;
+	height: 190px;
+	padding: 5px 0px 10px 0px;
+	margin: 15px;
+}
+
+.video_thumb_block { /*비디오블럭(썸네일, 진행바)*/
+	width: 100%;
+	height: 130px;
+	margin: 0px;
+	padding: 0px;
+	background-color: black;
+}
+
+.video_thumb_block img {
+	background-color: white;
+}
+
+.video_thumb_cover { /*비디오블럭의 썸네일*/
+	width: 100%;
+	height: 125px;
+	white-space: normal;
+}
+
+.video_progress_bar { /*비디오블럭의 진행바*/
+	height: 5px;
+	background-color: orange;
+	float: left;
+}
+
+.video_thumb_info { /*비디오블럭의 제목, 시청일*/
+	margin-top: 15px;
+	text-align: justify;
+	white-space: normal;
+}
