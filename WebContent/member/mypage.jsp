@@ -4,10 +4,90 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <link type="text/css" rel="stylesheet" href="resource/css/mypage2.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 <script>
-  $( function() {
-    $( "#tabs" ).tabs();
-  } );
+	$( function() {
+	  $( "#tabs" ).tabs();
+	} );
+	var ROOTCP = '<%= application.getContextPath()%>';
+	$(document).ready(function() {
+		$("#mypage_attending_lec").click(function() {
+			var url = ROOTCP+'/member/mypage/attend_lec_manager/mypage_attending_lec.jsp';
+			$("#mypage_bottom").load(url, function(){
+				console.log("수강중인강의 로딩완료");
+			});			
+		}); // 수강중인 강의
+		$("#mypage_will_attend").click(function() {
+			var url = ROOTCP+'/member/mypage/attend_lec_manager/mypage_will_attend.jsp';
+			$("#mypage_bottom").load(url, function(){
+				console.log("찜하기 로딩완료");
+			});			
+		}); // 찜하기
+		$("#mypage_like").click(function() {
+			var url = ROOTCP+'/member/mypage/attend_lec_manager/mypage_like.jsp';
+			$("#mypage_bottom").load(url, function(){
+				console.log("좋아요 로딩완료");
+			});			
+		}); // 좋아요
+		
+		$("#mypage_like").click(function() {
+			var url = ROOTCP+'/member/mypage/activity/mypage_comment.jsp';
+			$("#mypage_bottom").load(url, function(){
+				console.log("댓글내역 로딩완료");
+			});			
+		}); // 댓글내역
+		$("#mypage_qna").click(function() {
+			var url = ROOTCP+'/member/mypage/activity/mypage_qna.jsp';
+			$("#mypage_bottom").load(url, function(){
+				console.log("문의내역 로딩완료");
+			});			
+		}); // 문의내역
+		$("#mypage_funding").click(function() {
+			var url = ROOTCP+'/member/mypage/activity/mypage_funding.jsp';
+			$("#mypage_bottom").load(url, function(){
+				console.log("펀딩신청내역 로딩완료");
+			});			
+		}); // 펀딩신청내역
+
+		$("#mypage_mb_update").click(function() {
+			var url = ROOTCP+'/member/mypage/info_manager/mypage_mb_update.jsp';
+			$("#mypage_bottom").load(url, function(){
+				console.log("회원정보 수정 로딩완료");
+			});			
+		}); // 회원정보 수정
+		$("#mypage_pw_update").click(function() {
+			var url = ROOTCP+'/member/mypage/info_manager/mypage_pw_update.jsp';
+			$("#mypage_bottom").load(url, function(){
+				console.log("비밀번호 변경 로딩완료");
+			});			
+		}); // 비밀번호 변경
+
+		$("#mypage_shoppingcart").click(function() {
+			var url = ROOTCP+'/member/mypage/order_manager/mypage_shoppingcart.jsp';
+			$("#mypage_bottom").load(url, function(){
+				console.log("장바구니 로딩완료");
+			});			
+		}); // 장바구니
+		$("#mypage_receive_address").click(function() {
+			var url = ROOTCP+'/member/mypage/order_manager/mypage_receive_address.jsp';
+			$("#mypage_bottom").load(url, function(){
+				console.log("배송지관리 로딩완료");
+			});			
+		}); // 배송지관리
+		$("#mypage_delivery_info").click(function() {
+			var url = ROOTCP+'/member/mypage/order_manager/mypage_delivery_info.jsp';
+			$("#mypage_bottom").load(url, function(){
+				console.log("배송정보 로딩완료");
+			});			
+		}); // 배송정보
+		$("#mypage_payment_info").click(function() {
+			var url = ROOTCP+'/member/mypage/order_manager/mypage_payment_info.jsp';
+			$("#mypage_bottom").load(url, function(){
+				console.log("결제내역 로딩완료");
+			});			
+		}); // 결제내역
+	});
  </script>
 
 <div id="mypage_wrap"> 											<!-- 조각페이지 -->	
@@ -65,30 +145,30 @@
 			 </div>
 		  <div id="tabs-1" class="mypage_tabs_li">
 		  	<ul>
-		    	<li><a href="#">수강중인 강의</a></li>
-		    	<li><a href="#">찜하기</a></li>
-		    	<li><a href="#">좋아요</a></li>
+		    	<li><a href="#" id="mypage_attending_lec">수강중인 강의</a></li>
+		    	<li><a href="#" id="mypage_will_attend">찜하기</a></li>
+		    	<li><a href="#" id="mypage_like">좋아요</a></li>
 			</ul>
 		  </div>
 		  <div id="tabs-2" class="mypage_tabs_li">
 		  	<ul>
-		    	<li><a href="#">댓글내역</a></li>
-		    	<li><a href="#">문의내역</a></li>
-		    	<li><a href="#">펀딩신청내역</a></li>
+		    	<li><a href="#" id="mypage_comment">댓글내역</a></li>
+		    	<li><a href="#" id="mypage_qna">문의내역</a></li>
+		    	<li><a href="#" id="mypage_funding">펀딩신청내역</a></li>
 			</ul>
 		  </div>
 		  <div id="tabs-3" class="mypage_tabs_li">
 		  	<ul>
-		    	<li><a href="#">회원정보 수정</a></li>
-		    	<li><a href="#">비밀번호 변경</a></li>
+		    	<li><a href="#" id="mypage_mb_update">회원정보 수정</a></li>
+		    	<li><a href="#" id="mypage_pw_update">비밀번호 변경</a></li>
 			</ul>
 		  </div>
 		  <div id="tabs-4" class="mypage_tabs_li">
 		  	<ul>
-		    	<li><a href="#">장바구니</a></li>
-		    	<li><a href="#">배송지관리</a></li>
-		    	<li><a href="#">배송정보</a></li>
-		    	<li><a href="#">결제내역</a></li>
+		    	<li><a href="#" id="mypage_shoppingcart">장바구니</a></li>
+		    	<li><a href="#" id="mypage_receive_address">배송지관리</a></li>
+		    	<li><a href="#" id="mypage_delivery_info">배송정보</a></li>
+		    	<li><a href="#" id="mypage_payment_info">결제내역</a></li>
 			</ul>
 		  </div>
 		</div>
