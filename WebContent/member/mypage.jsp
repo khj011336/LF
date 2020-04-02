@@ -12,6 +12,7 @@
 	} );
 	var ROOTCP = '<%= application.getContextPath()%>';
 	$(document).ready(function() {
+		
 		$("#mypage_attending_lec").click(function() {
 			var url = ROOTCP+'/member/mypage/attend_lec_manager/mypage_attending_lec.jsp';
 			$("#mypage_bottom").load(url, function(){
