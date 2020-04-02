@@ -18,7 +18,7 @@ a{
 #mypage_top{
     width: 1200px;
     height: 250px;
-    margin: 30px auto 0px auto;
+    margin: 0px auto 0px auto;
     /* background-color: grey; */
    /*  border-bottom: 1px solid grey;
     border-top: 1px solid grey; */
@@ -122,33 +122,43 @@ a{
 }
 .mypage_tabs #tabs-mom {
 	width: 1200px;
-	height: 30px;
-	background-color: lightgrey;
-	text-align: center;
-	padding: 10px;
+	height: 50px;
+	background-color: grey;
+	padding-top: 15px;
+	padding-bottom: auto;
 }
-.mypage_tabs #tabs-mom > ul li{ /* 상위 탭 메뉴 */
-	font-size: 1.5em;
-	font-weight: bolder;
+.mypage_tabs #tabs-mom > ul li a{ /* 상위 탭 메뉴 */
+	font-size: 20px;
 	display: inline;
-	margin-right: 20px;
-}	
+	float: left;
+	margin-left: 20px;
+	color: white;
+}
+.mypage_tabs #tabs-mom > ul li a:hover{
+	color: orange;
+	border-bottom: 1px solid orangered;
+}
 .mypage_tabs_li {
-	padding: 10px;
+	height: 40px;
+	border-bottom: 1px solid lightgrey;
 }
-.mypage_tabs_li > ul li{/* 하위 탭 메뉴 */
-	font-size: 1.2em;
-	font-weight: bolder;
+.mypage_tabs_li > ul li a{/* 하위 탭 메뉴 */
+	font-size: 16px;
 	display: inline;
-	margin-right: 30px;
+	float: left;
+	padding-top: 10px;
+	margin-left: 20px;
+	margin-right: 10px;
+}
+.mypage_tabs_li > ul li a:hover{
+	color: orange;
+	border-bottom: 1px solid orangered;
 }
 /* 하단영역 */
 #mypage_bottom{
-    padding: 0 35px 0 35px;
+    min-height: 50vh; 
 }
-#mypage_bottom h2{
-	margin-left: 30px;
-}
+
 #mypage_lec_ing, #mypage_lec_showen, #mypage_lec_reco{
     display: inline-block;
     height: 440px;
@@ -204,33 +214,35 @@ a{
 
 .mypage_bottom_info {
 		width: 1200px;
-		margin: 0 auto;
+		margin: 30px 0px 0px 0px;
 		text-align: center;
 		padding-bottom: 30px;
-	}
-	.mypage_bottom_title {
-		margin-bottom: 30px;
-		text-align: justify;
-		
-	}
-	.mypage_table table {
-		width: 100%;
-	}
-	.mypage_table {
-		border-top: 2px solid black;
-		border-bottom: 2px solid black;
-		width: 90%;
-		text-align: center;
-	}
-	.mypage_table tr, td, th{
-		border-bottom: 1px solid gray;
-		padding: 20px;
-		text-align: center;
-	}
-	.mypage_table th {
-		background-color: lightgray;
-	}
-
+}
+.mypage_bottom_title {
+	margin-bottom: 30px;
+	text-align: justify;
+	padding-left: 20px;
+}
+.mypage_table table {
+	width: 100%;
+}
+.mypage_table {
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	width: 90%;
+	text-align: center;
+}
+ .mypage_table table th {
+	border-bottom: 1px solid gray;
+	padding: 20px;
+	text-align: center;
+	background-color: lightgray;
+}
+ .mypage_table table td {
+	border-bottom: 1px solid gray;
+	padding: 20px;
+	text-align: center;
+}
 
 
 
