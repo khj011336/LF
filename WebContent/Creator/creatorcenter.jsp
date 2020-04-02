@@ -3,38 +3,48 @@
 <!DOCTYPE html>
 <html>
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-
-<title>크리에이터 센터</title>
-	<script type="text/javascript" src="common/temp.js"></script>
-	<link type="text/css" rel="stylesheet" href="../resource/css/creator.css">
-	<link href="../resource/css/creator.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<link type="text/css" rel="stylesheet" href="../resource/css/creator.css">
+<link type="text/css" rel="stylesheet" href="../resource/css/CreCommentMt.css">
+<link type="text/css" rel="stylesheet" href="../resource/css/CrePlaylist.css">
 	<link href="../resource/css/side_nav.css" rel="stylesheet" type="text/css">
-	<link href="../resource/css/main.css" rel="stylesheet" type="text/css">
+<script>
+$(document).ready(function () {
+	alert("dddd");
+	$('.CRconbox').click(function () {
+		alert("dddd");
+			$('#CREmain').load("CrePlaylist.jsp");
+		});	
+});
+ 
+
+</script>
+<title>크리에이터 센터</title>
+	
 </head>
+	
 	<body>
-		<div id="creatorcenter_wrap" class="body_wrap_cont_div">
-				<!-- header -->
+	<div id="CREwrapper">
+		<div id="CREheader" class="CREheader">
 			<%@ include file="../common/header.jsp"%>
-				<!-- header 끝 -->
-			<div id="creatorcenter_main">
-				<div id="creatorcenter_main_nav" class="">
-					<%@ include file="../common/side_nav.jsp"%>
-				</div>
-				
-				<div id="creatorcenter_main_cont" class="creatorcenter_main_cont_div">       
-		            <%@ include file="_myclass.jsp" %>
-<%-- 		            <%@ include file="_classdes.jsp" %> --%>
-<%-- 		            <%@ include file="_creatorprofile.jsp" %> --%>
-<%-- 		            <%@ include file="_sellkitregistration.jsp" %> --%>
-<%-- 		            <%@ include file="_videoupload.jsp" %> --%>
-		        </div>
-			</div>
-		</div>	
-	</body>
+		</div>
+		<div id="CREmain" class="CREmain">
+		<%@ include file="Creside_nav.jsp"%>
+	  <%@ include file="_myclass.jsp" %>
+</div>
+	</div>
+		<div id="CREfooter" class="CREfooter">
+			<%@ include file="../common/footer.jsp"%>
+		</div>
+</body>
+	
+			
+		
 </html>    
     
     

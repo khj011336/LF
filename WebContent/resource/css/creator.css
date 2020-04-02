@@ -271,6 +271,7 @@ a:hover {
     text-overflow: ellipsis;
     overflow: hidden;
 }
+
 /* 					 myclass.jsp 끝 */
 
 
@@ -281,6 +282,7 @@ a:hover {
     width: 950px;
     margin: 0px auto;
 }
+#uplwrap input:focus{outline: none}
 
 #uplwrap *{
  
@@ -358,6 +360,7 @@ border: none;
 #uplR input[type='file']{
     
 }
+
 #uplb h3{
    font-size: 20px;
     margin-bottom: 8px;
@@ -395,6 +398,10 @@ border: none;
   padding: 8px 10px;
     border: 0px;
     resize: none;
+    
+}
+.uplnotes:focus{
+	outline: none;
 }
 #upllas{
     padding: 0px 20px;
