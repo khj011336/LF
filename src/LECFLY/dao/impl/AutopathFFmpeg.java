@@ -21,7 +21,7 @@ import java.util.logging.Logger;
 				
 			    run.exec("cmd.exe chcp 65001");  // cmd에서 한글문제로 썸네일이 만들어지지않을시 cmd창에서 utf-8로 변환하는 명령
 			    run.exec(command);
-			  Process pc = run.getRuntime();
+			   run.getRuntime();
 			}catch(Exception e){
 			    System.out.println("error : "+e.getMessage());
 			    e.printStackTrace();

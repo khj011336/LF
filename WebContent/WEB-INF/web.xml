@@ -7,9 +7,7 @@
   <jsp-config>
   <jsp-property-group>
   <url-pattern>/home.jsp</url-pattern>
-  <!-- <url-pattern>Creator/creatorcenter.jsp</url-pattern> -->
   <include-prelude>/common/variable.jspf</include-prelude>
-<!--     <include-coda>/common/footerCall.jsp</include-coda> -->
   </jsp-property-group>
  
   </jsp-config>
