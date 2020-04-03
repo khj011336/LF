@@ -22,7 +22,7 @@
             </div>
             
             <div class="lecflyis">
-                <div id="lecflyis_logo"><br><br><h2><img src="../resource/img/login/logo.png" ></h2></div>
+                <div id="lecflyis_logo"><br><br><h2><img src="resource/img/logo/LecFly_LOGO_B_C.png" ></h2></div>
                 <div id="lecflyis_maintitle"><h1>"반복되는 일상 속, 취미란 쉼표를 찍어보세요."</h1></div>
                 <div id="lecflyis_maintxt"><h3><p>
                     Lecfly는 언제 어디서나 간편하게 즐길 수 있는 온라인 취미 클래스 플랫폼입니다.<br><br>

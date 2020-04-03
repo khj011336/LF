@@ -247,6 +247,7 @@ a{
 	background-color: lightgray;
 }
  .mypage_table table td {
+ 	border-top: 1px solid gray;
 	border-bottom: 1px solid gray;
 	padding: 20px;
 	text-align: center;
