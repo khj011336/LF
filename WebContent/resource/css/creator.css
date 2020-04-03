@@ -179,6 +179,11 @@ a:hover {
     cursor: pointer;
     color: orange;
 }
+	/* 세현추가 새로만들기 호버시 */
+#CRHT2:hover {
+	color: white;
+	background-color: orange;
+}
 .CRHT{
     font-size: 28px;
     font-weight: bolder;

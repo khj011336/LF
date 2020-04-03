@@ -18,7 +18,7 @@
 			
 		});	
 		$(document).on("click",'.nav_creator', function() {
-			$("#homemain").load("Creator/creatorcenter.jsp");
+			document.location.href="Creator/creatorcenter.jsp";
 			
 		});	
 		$(document).on("click",'.nav_setting', function() {
@@ -74,7 +74,7 @@
 			
 		});
 		
-	$('.header_column_logo').click(function() {
+		$('.header_column_logo').click(function() {
 			$("#homemain").load("ETC/main.jsp");
 		});
 	
@@ -113,4 +113,18 @@
 // 		$('.search_btn').bind("click",function() {
 // 			$("#homemain").load("ETC/lecplay.jsp");
 // 		});
+	
+	
+	
+	
+	
+	
+	
+				// creater <== 세현
+		$('#CRHT2').click(function() {
+			$("#creatorcenter_main_cont").load("_classdes.jsp");
+		});
+		
+
+	
 	});
