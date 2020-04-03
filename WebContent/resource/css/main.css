@@ -31,7 +31,7 @@ body, p, ul, ol, li, dl, dt, dd, form, table, th, td, fieldset, input,
 
 /* 아이폰 가로모드 글자 크기 확대 방지: -webkit-text-size-adjust:none; */
 body, input, textarea, select, button {
-	color: lightgrey;
+/* 	color: lightgrey; */
 	font-size: 12px;
 	font-family: 'Cafe24Simplehae';
 }

@@ -11,6 +11,15 @@
 	} );
 	var ROOTCP = '<%= application.getContextPath()%>';
 	$(document).ready(function() {
+		$("#mypage_mb_t_ticket").click(function() {
+			var url = ROOTCP+'/member/mypage/mypage_list.jsp';
+			$("#mypage_bottom").load(url, function(){
+				console.log("이용권 결제내역 로딩완료");
+			});			
+		}); // 이용권 결제내역
+		
+		
+		
 		$("#mypage_attending_lec").click(function() {
 			var url = ROOTCP+'/member/mypage/attend_lec_manager/mypage_attending_lec.jsp';
 			$("#mypage_bottom").load(url, function(){
@@ -103,17 +112,17 @@
         	<br><br>
         	<a href="#"><h3>크리에이터 신청하기</h3></a>
         </div>
-        <div id="mypage_mb_t">
+        <div class="mypage_mb_t">
         	<img src="resource/img/mypage/mypage_video.png" class="mypage_1" alt="강의" width="64px" height="64px">
 			<br><br><br>
 			<span>강의 신청 목록 <b>6</b> 개</span>
         </div>
-        <div id="mypage_mb_t">
+        <div class="mypage_mb_t">
         	<img src="resource/img/mypage/mypage_coupon.png" class="mypage_1" alt="쿠폰" width="64px" height="64px">
 			<br><br><br>
 			<span>쿠폰 <b>4</b> 개</span>
         </div>
-        <div id="mypage_mb_t">
+        <div class="mypage_mb_t" id="mypage_mb_t_ticket">
         	<img src="resource/img/mypage/mypage_ticket.png" class="mypage_1" alt="이용권" width="64px" height="64px">
 			<br><br><br>
 			<span><b>3</b> 카테고리 이용권</span>
