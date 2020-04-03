@@ -55,7 +55,7 @@ a{
     height: 208px;
     padding: 60px 20px 40px 20px;
 }
-#mypage_mb_t {
+.mypage_mb_t {
     /* border-right: 1px solid blue; */
 	display:inline-block;
 	float: right;
@@ -69,17 +69,17 @@ a{
 	text-align: center;
 	font-weight: bold;
 }
-#mypage_mb_t label {
+.mypage_mb_t label {
 	font-size: 14px;
 	text-align: center;
 	font-weight: bold;
 }
-#mypage_mb_t span {
+.mypage_mb_t span {
 	font-size: 14px;
 	text-align: center;
 	font-weight: bold;
 }
-#mypage_mb_t b {
+.mypage_mb_t b {
 	font-size: 18px;
 	text-align: center;
 	color: orangered;
