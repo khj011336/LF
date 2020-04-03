@@ -22,6 +22,10 @@
 <link rel="stylesheet" href="resource/css/main_banner.css">
 <link rel="stylesheet" href="resource/css/paymentCreditForm.css">
 <link rel="stylesheet" href="resource/css/mypage_list.css">
+
+
+
+<link type="text/css" rel="stylesheet" href="resource/css/mypage_um.css"> <!-- 세현추가 -->
 <!-- ------------------------------------------------------------ -->
 <!-- 폰트 -->
 <link
