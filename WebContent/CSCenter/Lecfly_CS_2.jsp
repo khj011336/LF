@@ -1,28 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html lang="ko">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title> Lecfly </title>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.4.0/css/fontawesome.css"type="text/css" rel="stylesheet">        
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.4.0/css/solid.css"type="text/css" rel="stylesheet">    
-    <link type="text/css" rel="stylesheet" href="../resource/css/CSCenter.css">    
- </head>
-<body>
-    <div class="CSsection">
-        <div id="CSsec_title"><h2>고객섬김센터</h2></div>
-            <div id="CSsec_subtitle">
-                <ul>
-                    <li id= "CS1"><h4><a href="#">QnA</a></h4></li>
-                    <li id= "CS2"><h4><a href="#"style="background-color: orange">자주묻는 질문</a></h4></li>
-                    <li id= "CS3"><h4><a href="#">공지사항</a></h4></li>
-                </ul>
-            </div>
-            
-            <div id="faq">
+<div id="faq">
             	<div id="faq_p">
                 	<br><br><br><br>
                 	<h4>자주묻는 질문</h4>
@@ -76,7 +54,3 @@
                     <div id="faq_numbering">&lt;&nbsp;<b>1</b> 2 3 4 5 6 7 8 9 10&nbsp;&gt;</div>
                 </div>
             </div>
-            
-        </div>
-</body>
-</html>
