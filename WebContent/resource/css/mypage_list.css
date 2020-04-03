@@ -5,28 +5,24 @@
 	min-height: 70vh;
 	margin: 0 auto;
 	text-align: center;
-	padding: 50px;
-}
-
-.mypage_bottom_title { /* 타이틀 */
-	text-align: justify;
-	margin-bottom: 30px;
+	padding: 0 50px;
 }
 
 .edit_list_btn { /*편집 버튼*/
 	float: right;
-	margin-bottom: 15px;
+	margin: 0 20px 15px 0;
 	font-size: 1.2em;
 }
 
 .nolist_block { /*빈 목록 안내창*/
-	padding: 150px;
+	padding: 120px;
 	min-height: 50vh;
 	text-align: center;
 }
 
 .nolist_mark { /*빈 목록 안내 아이콘*/
 	margin-bottom: 30px;
+	width: 90px;
 }
 
 .nolist_info { /*빈 목록 안내문*/
@@ -34,18 +30,13 @@
 	font-size: 1.4em;
 }
 
-/* 비디오기록 출력  */
+/* 수강중인 강의 출력  */
 .viewhistory_wrapper { /* 내역 래퍼 */
 	width: 1200px;
 	min-height: 70vh;
 	margin: 0 auto;
 	text-align: center;
-	padding: 50px;
-}
-
-.mypage_bottom_title { /* 타이틀 */
-	text-align: justify;
-	margin-bottom: 30px;
+	padding: 0 50px 50px 50px;
 }
 
 .viewhistory_list_wrap { /*수강목록 페이지*/
@@ -62,14 +53,10 @@
 
 .video_thumb_block { /*비디오블럭(썸네일, 진행바)*/
 	width: 100%;
-	height: 130px;
+	height: 132px;
 	margin: 0px;
 	padding: 0px;
-	background-color: black;
-}
-
-.video_thumb_block img {
-	background-color: white;
+	background-color: gray;
 }
 
 .video_thumb_cover { /*비디오블럭의 썸네일*/
@@ -79,8 +66,9 @@
 }
 
 .video_progress_bar { /*비디오블럭의 진행바*/
-	height: 5px;
-	background-color: orange;
+	border-radius: 15px;
+	height: 7px;
+	background-color: orangered;
 	float: left;
 }
 
@@ -88,4 +76,32 @@
 	margin-top: 15px;
 	text-align: justify;
 	white-space: normal;
+}
+/* 찜,좋아요 내역 출력  */
+.mark_lec_wrapper { /*비디오리스트 래퍼*/
+	width: 1200px;
+	min-height: 70vh;
+	margin: 0 auto;
+	text-align: center;
+	padding: 0px 60px 0px 60px;
+}
+
+.mark_lec_list_warp { /*비디오블럭 리스트*/
+	text-align: left;
+}
+
+.mark_lec_block { /*비디오블럭*/
+	display: inline-block;
+	width: 300px;
+	height: 250px;
+	margin: 0 28px 0 28px;
+}
+
+.mark_lec_thumb { /*비디오블럭의 썸네일*/
+	width: 100%;
+	height: auto;
+}
+
+.mark_lec_info { /*비디오블럭의 제목*/
+	margin-top: 15px;
 }
