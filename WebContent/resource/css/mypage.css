@@ -79,6 +79,14 @@ a{
 	text-align: center;
 	font-weight: bold;
 }
+.mypage_mb_t p a{
+	font-size: 12px;
+	text-align: center;
+	color: grey;
+}
+.mypage_mb_t p a:hover{
+	color: purple;
+}
 .mypage_mb_t b {
 	font-size: 18px;
 	text-align: center;
@@ -243,6 +251,13 @@ a{
 	padding: 20px;
 	text-align: center;
 }
-
+#mypage_table_numbering { /* QnA _ 테이블_ 페이지넘버링 */
+	margin-top: 15px;
+    text-align: center;
+    font-size: 20px;
+}
+#mypage_table_numbering b{
+    color: orange;
+}
 
 

@@ -18,7 +18,30 @@
 			});			
 		}); // 이용권 결제내역
 		
-		
+		$("#tabs-mom-1").click(function() {
+			var url = ROOTCP+'/member/mypage/attend_lec_manager/mypage_attending_lec.jsp';
+			$("#mypage_bottom").load(url, function(){
+				console.log("대분류 수강중인강의 로딩완료");
+			});			
+		}); // 대분류 이동> 수강중인 강의
+		$("#tabs-mom-2").click(function() {
+			var url = ROOTCP+'/member/mypage/activity/mypage_comment.jsp';
+			$("#mypage_bottom").load(url, function(){
+				console.log("대분류 댓글내역 로딩완료");
+			});			
+		}); // 대분류 이동> 댓글내역
+		$("#tabs-mom-3").click(function() {
+			var url = ROOTCP+'/member/mypage/info_manager/mypage_mb_update.jsp';
+			$("#mypage_bottom").load(url, function(){
+				console.log("대분류 회원정보 수정 로딩완료");
+			});			
+		}); // 대분류 이동> 회원정보 수정
+		$("#tabs-mom-4").click(function() {
+			var url = ROOTCP+'/member/mypage/order_manager/mypage_delivery_info.jsp';
+			$("#mypage_bottom").load(url, function(){
+				console.log("배송정보 로딩완료");
+			});			
+		}); // 대분류 이동> 배송정보
 		
 		$("#mypage_attending_lec").click(function() {
 			var url = ROOTCP+'/member/mypage/attend_lec_manager/mypage_attending_lec.jsp';
@@ -39,7 +62,7 @@
 			});			
 		}); // 좋아요
 		
-		$("#mypage_like").click(function() {
+		$("#mypage_comment").click(function() {
 			var url = ROOTCP+'/member/mypage/activity/mypage_comment.jsp';
 			$("#mypage_bottom").load(url, function(){
 				console.log("댓글내역 로딩완료");
@@ -126,6 +149,8 @@
         	<img src="resource/img/mypage/mypage_ticket.png" class="mypage_1" alt="이용권" width="64px" height="64px">
 			<br><br><br>
 			<span><b>3</b> 카테고리 이용권</span>
+			<br>
+			<p><a>미술</a> / <a>요리</a> / <a>라이프스타일</a></p>
         </div>
     </div>
 	<div id="mypage_middle">									<!-- 정보 영역 및 메뉴영역 -->
@@ -145,10 +170,10 @@
 	    <div id="tabs" class="mypage_tabs">
 	    	<div id="tabs-mom">
 			  <ul>
-			    <li><a href="#tabs-1">수강 관리</a></li>
-			    <li><a href="#tabs-2">활동 내역</a></li>
-			    <li><a href="#tabs-3">정보 관리</a></li>
-			    <li><a href="#tabs-4">주문/배송관리</a></li>
+			    <li><a href="#tabs-1" id="tabs-mom-1">수강 관리</a></li>
+			    <li><a href="#tabs-2" id="tabs-mom-2">활동 내역</a></li>
+			    <li><a href="#tabs-3" id="tabs-mom-3">정보 관리</a></li>
+			    <li><a href="#tabs-4" id="tabs-mom-4">주문/배송관리</a></li>
 			  </ul>
 			 </div>
 		  <div id="tabs-1" class="mypage_tabs_li">
@@ -183,7 +208,7 @@
 	</div>
 	
 	<div id="mypage_bottom">									<!-- 조각페이지 영역 -->
-		<%@ include file="mypage_list.jsp"%>
+		<%@ include file="mypage/attend_lec_manager/mypage_attending_lec.jsp"%>
 	
 	
 <!--     	<div class="mypage_top_side">

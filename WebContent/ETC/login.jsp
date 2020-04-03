@@ -26,14 +26,14 @@
 <div id="emtpy_space"></div>
 <div id="login_wrap">
     <div id="login_top">
-        <h2 id="login_title"><a href="../home.jsp" class="logo_link login_a"><img src="../resource/img/login/logo.png" ></a></h2>
+        <h2 id="login_title"><a href="../home.jsp" class="logo_link login_a"><img src="../resource/img/logo/LecFly_LOGO_B_C.png" ></a></h2>
         <h2 id="login_subtitle">로그인</h2>
     </div>
     <div id="login_middle">
         <input type="text" placeholder="email를 입력하세요" name="login_email" id="login_email" >
         <input type="password" name="login_pw" id="login_pw">
         <div id="login_etc">
-            <a id="find_pw" class="login_linked login_a" href="#">비밀번호찾기</a>
+        	<a id="find_pw" class="login_linked login_a" href="#">비밀번호찾기</a>
 <!--             <a id="find_pw" class="login_linked login_a" href="../member/find_mb_login.jsp">비밀번호찾기</a> -->
             <a id="register" class="login_linked login_a" href="../member/create_new_member.jsp">회원가입</a>
         </div>
