@@ -53,7 +53,7 @@
 			$("#homemain").load("Funding/fundingPayment.jsp");
 			
 		});
-		$(document).on("click",'.fa-user, nav_mypage', function() {
+		$(document).on("click",'.fa-user, .nav_mypage', function() {
 			$("#homemain").load("member/mypage.jsp");
 			
 		});
