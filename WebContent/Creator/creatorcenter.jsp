@@ -9,11 +9,19 @@
 
 
 <title>크리에이터 센터</title>
-	<script type="text/javascript" src="common/temp.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script type="text/javascript" src="../common/temp.js"></script>
 	<link type="text/css" rel="stylesheet" href="../resource/css/creator.css">
 	<link href="../resource/css/creator.css" rel="stylesheet" type="text/css">
 	<link href="../resource/css/side_nav.css" rel="stylesheet" type="text/css">
 	<link href="../resource/css/main.css" rel="stylesheet" type="text/css">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.4.0/css/fontawesome.css"
+			type="text/css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.4.0/css/solid.css"
+			type="text/css" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+		integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 </head>
 	<body>
 		<div id="creatorcenter_wrap" class="body_wrap_cont_div">
