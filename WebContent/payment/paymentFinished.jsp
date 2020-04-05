@@ -43,16 +43,24 @@
 		<div class="slide">
 			<ul>
 				<li>
-					<img class="img_box" src="resource/img/payment/working out.jpg" alt="운동하다">
+					<a href="#" target="_blank">
+						<img class="img_box" src="resource/img/payment/working out.jpg" alt="운동하다">
+					</a>
 				</li>
 				<li>
+					<a href="#" target="_blank">
 					<img class="img_box" src="resource/img/payment/cooking.jpg" alt="요리하다">
+					</a>
 				</li>
 				<li>
+					<a href="#" target="_blank">
 					<img class="img_box" src="resource/img/payment/soap.jpg" alt="비누공예">
+					</a>
 				</li>
 				<li>
+					<<a href="#" target="_blank">
 					<img class="img_box" src="resource/img/payment/img 박스.PNG" alt="빈 공간">
+					</a>
 				</li>
 			</ul>
 		</div>
