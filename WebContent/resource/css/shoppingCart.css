@@ -1,9 +1,9 @@
-a {
+#shoppingCart_a {
 	color: #666;
 	text-decoration: none;
 }
 
-a:hover {
+#shoppingCart_a:hover {
 	color: black;
 	text-decoration: none;
 }
@@ -16,7 +16,7 @@ a:hover {
 	float: right;
 }
 
-table {
+#cartTable {
 	border-collapse: collapse;
 	border-spacing: 0;
 	border: 0;
@@ -24,12 +24,12 @@ table {
 	width: 1200px;
 }
 
-th, td {
+#shoppingCart_th, #shoppingCart_td {
 	border-bottom: 1px solid #e9e4de;
 	height: 160px;
 }
 
-th {
+#shoppingCart_th {
 	height: 50px;
 	line-height: 50px;
 	font-weight: bold;
@@ -37,7 +37,7 @@ th {
 	color: white;
 }
 
-td {
+#shoppingCart_td {
 	padding: 10px 10px;
 	color: #444;
 	font-weight: bolder;

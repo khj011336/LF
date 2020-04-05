@@ -1,15 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title> 장바구니 </title>
-<link type="text/css" rel="stylesheet" href="resource/css/shopingCart.css">
-<link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-</head>
-<body>
     <div id="shoppingCart_wrapper">
     <div id="shoppingCart_content">
         <div class="shoppingCart_title_box">
@@ -24,79 +14,79 @@
 			<table id="cartTable">
 				<thead>
 					<tr>
-						<th>
+						<th id="shoppingCart_th">
 							<label for="fl select-all">
 					<input type="checkbox" class="check-all check"/>
 					<span><a href="javascript:void(0)" class="selallSPAN">&nbsp;전체</a></span>
 							</label>
 						</th>
-						<th colspan="2">상품정보</th>
-						<th>예상가격</th>
-						<th>수 량</th>
-						<th>최종가격</th>
-						<th>&nbsp;</th>
+						<th id="shoppingCart_th" colspan="2">상품정보</th>
+						<th id="shoppingCart_th">예상가격</th>
+						<th id="shoppingCart_th">수 량</th>
+						<th id="shoppingCart_th">최종가격</th>
+						<th id="shoppingCart_th">&nbsp;</th>
 					</tr>
 				</thead>
 				<tbody>
 					<tr>
-						<td class="checkbox">
+						<td id="shoppingCart_td" class="checkbox">
 							<input type="checkbox" class="check-one check"/>
 						</td>
-						<td colspan="2" class="goods">
+						<td id="shoppingCart_td" colspan="2" class="goods">
 							<img src="resource/img/payment/working%20out.jpg" alt="홈트레이닝"/>
-							<span><a href="##" class="goodsTitle">&nbsp;&lt;홈트의 재정의&gt; 다이어트 패키지</a></span>
-                            <span><a href="##" class="sellerTitle">&nbsp;판매자</a></span>
+							<span><a id="shoppingCart_a" href="##" class="goodsTitle">&nbsp;&lt;홈트의 재정의&gt; 다이어트 패키지</a></span>
+                            <span><a id="shoppingCart_a" href="##" class="sellerTitle">&nbsp;판매자</a></span>
 						</td>
-						<td class="price">35,000</td>
-						<td class="count">
+						<td id="shoppingCart_td" class="price">35,000</td>
+						<td id="shoppingCart_td" class="count">
 							<span class="reduce">-</span>
 							<input type="text" class="count-input" value="1"/>
 							<span class="add">+</span>
 						</td>
-						<td class="subtotal">35,000</td>
-						<td class="opration">
+						<td id="shoppingCart_td" class="subtotal">35,000</td>
+						<td id="shoppingCart_td" class="opration">
 							<span class="deleteOne">삭 제</span>
 						</td>
 					</tr>
 					<tr>
-						<td class="checkbox">
+						<td id="shoppingCart_td" class="checkbox">
 							<input type="checkbox" class="check-one check"/>
 						</td>
-						<td colspan="2" class="goods">
+						<td id="shoppingCart_td" colspan="2" class="goods">
                             <img src="resource/img/payment/soap.jpg" alt="비누"/>
-                            <span><a href="##" class="goodsTitle">&nbsp;LOVE YOUR LIFE 나를 위한 천연비누</a></span><br>
-                            <span><a href="##" class="sellerTitle">&nbsp;판매자</a>
+                            <span><a id="shoppingCart_a" href="##" class="goodsTitle">&nbsp;LOVE YOUR LIFE 나를 위한 천연비누</a></span><br>
+                            <span><a id="shoppingCart_a" href="##" class="sellerTitle">&nbsp;판매자</a>
                             </span>
 						</td>
-						<td class="price">18,000</td>
-						<td class="count">
+						<td id="shoppingCart_td" class="price">18,000</td>
+						<td id="shoppingCart_td" class="count">
 							<span class="reduce">-</span>
 							<input type="text" class="count-input"  value="1"/>
 							<span class="add">+</span>
 						</td>
-						<td class="subtotal">18,000</td>
-						<td class="opration">
+						<td id="shoppingCart_td" class="subtotal">18,000</td>
+						<td id="shoppingCart_td" class="opration">
 							<span class="deleteOne">삭 제</span>
 						</td>
 					</tr>
 					<tr>
-						<td class="checkbox">
+						<td id="shoppingCart_td" class="checkbox">
 							<input type="checkbox" class="check-one check"/>
 						</td>
-						<td colspan="2" class="goods">
+						<td id="shoppingCart_td" colspan="2" class="goods">
 							<img src="resource/img/payment/cooking.jpg" alt="원데이클래스"/>
-							<span><a href="##" class="goodsTitle">&nbsp;내 상황에 딱 맞는 쿠킹클래스</a></span><br/>
-                            <span><a href="##" class="sellerTitle">&nbsp;판매자</a>
+							<span><a id="shoppingCart_a" href="##" class="goodsTitle">&nbsp;내 상황에 딱 맞는 쿠킹클래스</a></span><br/>
+                            <span><a id="shoppingCart_a" href="##" class="sellerTitle">&nbsp;판매자</a>
                             </span>
 						</td>
-						<td class="price">23,000</td>
-						<td class="count">
+						<td id="shoppingCart_td" class="price">23,000</td>
+						<td id="shoppingCart_td" class="count">
 							<span class="reduce">-</span>
 							<input type="text" class="count-input"  value="1"/>
 							<span class="add">+</span>
 						</td>
-						<td class="subtotal">23,000</td>
-						<td class="opration">
+						<td id="shoppingCart_td" class="subtotal">23,000</td>
+						<td id="shoppingCart_td" class="opration">
 								<span class="deleteOne">삭 제</span>
 						</td>
 					</tr>
@@ -107,7 +97,7 @@
 			<div class="selall fl">
 				<label for="fl select-all">
 					<input type="checkbox" class="check-all check"/>
-					<span><a href="javascript:void(0)" class="selallSPAN">&nbsp;전체</a></span>
+					<span><a id="shoppingCart_a" href="javascript:void(0)" class="selallSPAN">&nbsp;전체</a></span>
 				</label>
 			</div>
 			<a href="#" id="multiDelete" class="fl delete">삭제</a>
@@ -341,5 +331,3 @@
 	}
 }
     </script>
-</body>
-</html>
