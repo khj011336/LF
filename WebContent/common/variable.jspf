@@ -20,12 +20,11 @@
 <link rel="stylesheet" href="resource/css/mypage.css">
 <link rel="stylesheet" href="resource/css/lectureRegister.css">
 <link rel="stylesheet" href="resource/css/main_banner.css">
-<link rel="stylesheet" href="resource/css/paymentCreditForm.css">
+<!-- <link rel="stylesheet" href="resource/css/paymentCreditForm.css"> -->
 <link rel="stylesheet" href="resource/css/mypage_list.css">
-<link rel="stylesheet" href="resource/css/shoppingCart.css">
 <link rel="stylesheet" href="resource/css/paymentFinished.css">
 <link rel="stylesheet" href="resource/css/paymentSendEmail.css">
-<link rel="stylesheet" href="resource/css/shopingCart.css">
+<link rel="stylesheet" href="resource/css/shoppingCart.css">
 <!-- ------------------------------------------------------------ -->
 <!-- 폰트 -->
 <link

@@ -17,14 +17,14 @@
 			
 		});	
 		
-		// 상품결제 페이지 
+		// 펀딩결제 페이지 
 		$(document).on("click",'.nav_payment', function() {
-			$("#homemain").load("payment/goodsPayment.jsp");
+			$("#homemain").load("payment/fundingPayment.jsp");
 			
 		});	
 		// 상품결제 페이지
 		$(document).on("click",'#register_lec_apply', function() {
-			$("#homemain").load("goods/goodsPayment.jsp");
+			$("#homemain").load("payment/goodsPayment.jsp");
 			
 		});
 		// 펀딩소개 페이지 
