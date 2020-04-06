@@ -6,7 +6,7 @@
 /* sub_title => login_subtitle */
 /* info => login_etc */
 /* link => login_linked */
-<link type="text/css" rel="stylesheet" href="main.css">
+ <link type="text/css" rel="stylesheet" href="main.css">
 .login_a{
     text-decoration: none;
     color: black;
@@ -45,17 +45,20 @@
     margin: 25px;
 }
 #login_email, #login_pw{
-    font-size: 2em;
+    font-size: 14px;
     margin: 5px;
-    text-align: center;
+    text-align: left;
     width: 280px;
+    height: 30px;
+    padding-left: 10px;
+    font-family: sans-serif;
 }
-#login_email{
-    
+/* #login_email{
+   font-size: 14px; 
 }
 #login_pw{
     
-}
+} */
 #login_etc{
     min-width: 250px;
     display: inline-block;
