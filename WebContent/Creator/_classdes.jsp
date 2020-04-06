@@ -33,13 +33,13 @@
        		</div>
        		<div id="classdes_part2">
 	    		<div class="classdes_text1"><label for="classdes_cover_img" class="creator_h3">클래스 커버이미지</label><span class="creator_h5 classdes_left_interval">커버로 사용할 이미지를 추가해보세요</span></div>
-       			<div id="classdes_imgbox1" class="classdes_imgbox1"><img src="../resource/img/creator/dummy_img1.jpg" class="classdes_imgbox1"></div>
+       			<div id="classdes_imgbox1" class="classdes_imgbox1"><img src="resource/img/creator/dummy_img1.jpg" class="classdes_imgbox1"></div>
        			<div id="classdes_img_path_box"><input type="text" name="cover_img_path" class="classdes_bar2"><input type="button" id="classdes_find_file_btn" value="파일찾기"></div>
        		</div>
        		<div id="classdes_part3">
        			<div class="classdes_text1"><span class="creator_h3">강의 소개하기</span></div>
-       			<div id="classdes_imgbox2" class="classdes_imgbox2"><img src="../resource/img/creator/dummy_img1.jpg" class="classdes_imgbox2"></div>
-       			<div id="classdes_imgbox3" class="classdes_imgbox2"><img src="../resource/img/creator/dummy_img1.jpg" class="classdes_imgbox2"></div>
+       			<div id="classdes_imgbox2" class="classdes_imgbox2"><img src="resource/img/creator/dummy_img1.jpg" class="classdes_imgbox2"></div>
+       			<div id="classdes_imgbox3" class="classdes_imgbox2"><img src="resource/img/creator/dummy_img1.jpg" class="classdes_imgbox2"></div>
        			<div id="classdes_contentbox"></div>
        		</div>
        		<div id="classdes_part4">
