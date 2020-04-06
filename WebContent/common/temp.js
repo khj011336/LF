@@ -119,10 +119,8 @@
 			
 		});
 
-		// creater <== 세현
-		$('#CRHT2').click(function() {
-			$("#creatorcenter_main_cont").load("_classdes.jsp");
-		});
+		
+		
 		
 
 	});

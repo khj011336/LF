@@ -45,19 +45,18 @@
 							<td class="checkbox"><input type="checkbox"
 								class="check-one check" /></td>
 							<td colspan="2" class="goods"><img
-								src="resource/img/payment/working%20out.jpg" alt="홈트레이닝" />
+								src="../resource/img/l3.PNG" alt="홈트레이닝" />
 
 								<div id="countor">
-									<span style="width: 500px">&nbsp;&nbsp;dddddddddddd홈트의
-										재정의&gt; 다이어트 패키지ddddddddddd</span> <span>&nbsp;&nbsp;<a
+									<span style="width: 500px">dddddddddddd홈트의
+										재정의&gt; 다이어트 패키지ddddddddddd</span> <span><a
 										href="##" class="sellerTitle">2020.09.09.10:33</a>
-									</span> <span> &nbsp;<a href="##" class="sellerTitle"> <select
-											style='width: 200px'>
-												<option>동영상 수정</option>
-												<option>정보 수정</option>
-												<option>판매킷 수정</option>
+									</span> <span>  <select name = "test1">
+												<option value="1">동영상 수정</option>
+												<option value="2">정보 수정</option>
+												<option value="3">판매킷 수정</option>
 										</select>
-									</a></span>
+									</span>
 								</div></td>
 							<td class="count"></td>
 							<td class="count"></td>
