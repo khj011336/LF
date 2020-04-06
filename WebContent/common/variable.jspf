@@ -25,6 +25,7 @@
 <link rel="stylesheet" href="resource/css/paymentFinished.css">
 <link rel="stylesheet" href="resource/css/paymentSendEmail.css">
 <link rel="stylesheet" href="resource/css/shoppingCart.css">
+<link rel="stylesheet" href="resource/css/paymentDetail.css">
 <!-- ------------------------------------------------------------ -->
 <!-- 폰트 -->
 <link
