@@ -23,7 +23,17 @@
 
 <!-- ------------------------------------------------------------ -->
 <!-- 폰트 -->
+<!-- <link rel="stylesheet" href="resource/css/paymentCreditForm.css"> -->
+<link rel="stylesheet" href="resource/css/mypage_list.css">
+<link rel="stylesheet" href="resource/css/paymentFinished.css">
+<link rel="stylesheet" href="resource/css/paymentSendEmail.css">
+<link rel="stylesheet" href="resource/css/shoppingCart.css">
+<link rel="stylesheet" href="resource/css/paymentDetail.css">
+=======
+<link rel="stylesheet" href="resource/css/mypage_list.css">
 
+
+<link type="text/css" rel="stylesheet" href="resource/css/mypage_um.css"> <!-- 세현추가 -->
 <link
 	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.4.0/css/fontawesome.css"
 	type="text/css" rel="stylesheet">
