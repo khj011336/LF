@@ -284,7 +284,7 @@ a{
 .mypage_table table {
 	width: 100%;
 }
-.mypage_table {
+.mypage_table { /* mypage 조각 테이블 영역 */
 	border-top: 2px solid black;
 	border-bottom: 2px solid black;
 	width: 90%;
@@ -302,7 +302,7 @@ a{
 	padding: 20px;
 	text-align: center;
 }
-#mypage_table_numbering { /* QnA _ 테이블_ 페이지넘버링 */
+#mypage_table_numbering { /* mypage 조각_ 테이블_ 페이지넘버링 */
 	margin-top: 15px;
     text-align: center;
     font-size: 20px;
@@ -310,5 +310,59 @@ a{
 #mypage_table_numbering b{
     color: orange;
 }
+#mypage_update_info_table{ /* mypage pw 수정_ 테이블 */
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	text-align: left;
+}
+#mypage_update_info_table table{ /* mypage pw 수정_ 테이블 */
+    margin: 30px 0 30px 50px;
+	width: 800px;
+    height: 200px;
+    border-collapse: collapse;
+    text-align: left;
+}
+#mypage_update_info_table table td {
+	 text-align: left;
+	 padding-left: 60px;
+}
 
+#mypage_update_info_table >input {
+	font-size: 20px;
+}
+/**/
+#mypage_pw_table{ /* mypage pw 수정_ 테이블 */
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	text-align: left;
+}
+#mypage_pw_table table{ /* mypage pw 수정_ 테이블 */
+    margin: 30px 0 30px 50px;
+	width: 500px;
+    height: 200px;
+    border-collapse: collapse;
+    text-align: left;
+}
+#mypage_pw_table table td {
+	 text-align: left;
+	 padding-left: 60px;
+}
 
+#mypage_pw_table >input {
+	font-size: 20px;
+}
+.mypage_bottom_contents >button {
+	width: 240px;
+	height: 60px;
+	background-color: darkgrey;
+	color: white;
+	font-size: 14px;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.update_pw_input {
+	height: 32px;
+	width: 200px;	
+}
