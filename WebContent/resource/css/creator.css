@@ -729,7 +729,9 @@ border: none;
 	height: 300px;
 	resize: none;
 	padding: 0px 10px;
-	border: 1px solid black;
+/* 	border: 1px solid black; */
+	
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 1px 0px, rgba(41, 42, 43, 0.34) 0px 1px 3px 0px;
 }
 /* 수정 저장 버튼 (크기)*/
 .sellkitregistration_btn3 {

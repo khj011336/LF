@@ -18,7 +18,7 @@
 			
 		});	
 		$(document).on("click",'.nav_creator', function() {
-			document.location.href="Creator/creatorcenter.jsp";
+			$("#homemain").load("Creator/_myclass.jsp");
 			
 		});	
 		$(document).on("click",'.nav_setting', function() {
@@ -109,13 +109,22 @@
 	
 	
 	
-	
-	
-	
-				// creater <== 세현
-		$('#CRHT2').click(function() {
-			$("#creatorcenter_main_cont").load("_classdes.jsp");
+		$(document).on("click",'#CRHT2', function() {
+			$("#homemain").load("Creator/_classdes.jsp");
 		});
+		$(document).on("click",'.classdes_next_btn', function() {
+			$("#homemain").load("Creator/_creatorprofile.jsp");
+		});
+		$(document).on("click",'.creatorprofile_next_btn', function() {
+			$("#homemain").load("Creator/_videoupload.jsp");
+		});
+		$(document).on("click",'.videoupload_next_btn', function() {
+			$("#homemain").load("Creator/_sellkitregistration.jsp");
+		});
+		$(document).on("click",'.sellkitregistration_next_btn', function() {
+			$("#homemain").load("Creator/_myclass.jsp");
+		});
+		
 		
 
 	
