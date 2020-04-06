@@ -14,7 +14,8 @@
 			</tr>
 			<tr>
 				<td class="fundingPayment_nav_table_td"><img
-					src="resource/img/payment/img%20%EB%B0%95%EC%8A%A4.PNG" alt="이미지 박스"></td>
+					src="resource/img/payment/img%20%EB%B0%95%EC%8A%A4.PNG"
+					alt="이미지 박스"></td>
 				<td colspan="2" id="fundingPayment_table_font_bold"
 					class="fundingPayment_nav_table_td">&nbsp;&nbsp;&nbsp;&nbsp;
 					다이어트 마스터 패키지</td>
@@ -102,7 +103,8 @@
 			<p class="fundingPayment_payment_title_bold">결제수단</p>
 			<br>
 			<button type="button" id="fundingPayment_payment_card">
-				<img src="resource/img/payment/%EC%B9%B4%EB%93%9C%EA%B2%B0%EC%A0%9C.JPG"
+				<img
+					src="resource/img/payment/%EC%B9%B4%EB%93%9C%EA%B2%B0%EC%A0%9C.JPG"
 					alt="카드결제"> <br> <br> <span
 					class="fundingPayment_payment_title_bold">카드결제</span>
 			</button>
@@ -113,12 +115,14 @@
 					class="fundingPayment_payment_title_bold">휴대폰결제</span>
 			</button>
 			<button type="button" id="fundingPayment_payment_account">
-				<img src="resource/img/payment/%EA%B3%84%EC%A2%8C%EC%9D%B4%EC%B2%B4.JPG"
+				<img
+					src="resource/img/payment/%EA%B3%84%EC%A2%8C%EC%9D%B4%EC%B2%B4.JPG"
 					alt="계좌이체"> <br> <br> <span
 					class="fundingPayment_payment_title_bold">계좌이체</span>
 			</button>
 			<button type="button" id="fundingPayment_payment_virtual">
-				<img src="resource/img/payment/%EA%B0%80%EC%83%81%EA%B3%84%EC%A2%8C.JPG"
+				<img
+					src="resource/img/payment/%EA%B0%80%EC%83%81%EA%B3%84%EC%A2%8C.JPG"
 					alt="가상계좌"> <br> <br> <span
 					class="fundingPayment_payment_title_bold">가상계좌</span>
 			</button>
@@ -138,8 +142,9 @@
 					class="fundingPayment_payment_title_bold">네이버페이</span>
 			</button>
 			<button type="button" id="fundingPayment_payment_payco">
-				<img src="resource/img/payment/%ED%8E%98%EC%9D%B4%EC%BD%94.JPG" alt="페이코">
-				<br> <br> <span class="fundingPayment_payment_title_bold">페이코</span>
+				<img src="resource/img/payment/%ED%8E%98%EC%9D%B4%EC%BD%94.JPG"
+					alt="페이코"> <br> <br> <span
+					class="fundingPayment_payment_title_bold">페이코</span>
 			</button>
 		</div>
 	</div>
@@ -190,7 +195,8 @@
 					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 무료배송</td>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					무료배송</td>
 			</tr>
 			<tr>
 				<td colspan="8"

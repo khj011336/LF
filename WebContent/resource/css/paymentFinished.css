@@ -1,8 +1,8 @@
 /* 래퍼 */
 #paymentFinished_wrapper {
-    width: 1200px;
+	width: 1200px;
 	min-height: 800px;
-    margin: 0px auto;
+	margin: 0px auto;
 }
 
 /* 타이틀과 서브 타이틀 */
@@ -22,7 +22,7 @@ span.order_finish {
 	color: black;
 }
 
-span.basket, span.order_sheet{
+span.basket, span.order_sheet {
 	color: gray;
 }
 
@@ -32,46 +32,49 @@ span.basket, span.order_sheet{
 }
 
 #paymentFinishied_sentence_font_color {
-    color: orange;
+	color: orange;
 }
+
 .paymentFinished_sentence {
-    text-align: center;
-    margin-bottom: 15px;
+	text-align: center;
+	margin-bottom: 15px;
 }
 
 .paymentFinished_table, .banner_space, .paymentFinished_button {
-    margin: 0px auto;
+	margin: 0px auto;
 }
+
 .paymentFinished_table {
 	line-height: 25px;
-    border: 2px solid lightgray;
-    width: 800px;
+	border: 2px solid lightgray;
+	width: 800px;
 }
 
 .paymentFinished_table_td {
-    border: 2px solid black;
-    height: 50px;
+	border: 2px solid black;
+	height: 50px;
 }
 
 .paymentFinished_table_td_bc {
-    background-color: lightgray;
-    text-align: center;
+	background-color: lightgray;
+	text-align: center;
 }
 
-ul,li {
-	list-style:none;
+ul, li {
+	list-style: none;
 }
 
 .slide {
-	height:300px;
-	overflow:hidden;
+	height: 300px;
+	overflow: hidden;
 	margin: 15px;
 }
-.slide ul{
+
+.slide ul {
 	margin: 0px auto;
-	position:relative;
+	position: relative;
 	width: 800px;
-	height:200px;
+	height: 200px;
 }
 
 .img_box {
@@ -80,43 +83,65 @@ ul,li {
 }
 
 .slide li {
-	position:absolute;
-	left:0;
-	right:0;
-	top:0;
-	bottom:0;
-	opacity:0;
-	animation:fade 30s infinite;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	opacity: 0;
+	animation: fade 30s infinite;
 }
 
 .slide li:nth-child(1) {
-	background:#fff;
-	animation-delay:0s
+	background: #fff;
+	animation-delay: 0s
 }
 
 .slide li:nth-child(2) {
-	background:#faa;
-	animation-delay:8s
+	background: #faa;
+	animation-delay: 8s
 }
 
 .slide li:nth-child(3) {
-	background:#afa;
-	animation-delay:16s
+	background: #afa;
+	animation-delay: 16s
 }
 
 .slide li:nth-child(4) {
-	background:#aaf;
-	animation-delay:24s
-	}
-	
-@keyframes fade {
-  0% {opacity:0;}
-  5% {opacity:1;}
-  25% {opacity:1;}
-  30% {opacity:0;}
-  100% {opacity:0;}
+	background: #aaf;
+	animation-delay: 24s
 }
 
+@
+keyframes fade { 0% {
+	opacity: 0;
+}
+
+5%
+{
+opacity
+:
+1;
+}
+25%
+{
+opacity
+:
+1;
+}
+30%
+{
+opacity
+:
+0;
+}
+100%
+{
+opacity
+:
+0;
+}
+}
 #paymentFinished_button {
 	text-align: center;
 	position: relative;
