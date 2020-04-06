@@ -162,6 +162,56 @@ a{
 	color: orange;
 	border-bottom: 1px solid orangered;
 }
+.mypage_nav2 { /* 마이페이지 결제내역_하위 탭 메뉴 */
+	height: 40px;
+	margin-top: -20px;
+	margin-bottom: 20px;
+}
+.mypage_nav2 > ul li a{
+	font-size: 16px;
+	display: inline;
+	float: left;
+	padding-top: 10px;
+	margin-left: 20px;
+	margin-right: 10px;
+}
+.mypage_nav2 > ul li a:hover{
+	color: orange;
+	border-bottom: 1px solid orangered;
+}
+.dilivery_status {
+	width: 1080px;
+	height: 200px;
+	margin: auto;
+}
+#mypage_dilivery_status {
+	width: 200px;
+	font-size: 20px;
+	text-align: center;
+	display: inline-block;
+	float: center;
+	padding-bottom: 30px;
+	padding-top: 20px;
+	margin-top: -30px;
+}
+#mypage_dilivery_status > a{
+	font-size: 20px;
+	font-weight: bolder;
+	color: black;
+}
+#mypage_dilivery_status > span{
+	font-size: 30px;
+	font-weight: bolder;
+	color: orange;
+}
+#mypage_dilivery_status_point {
+	width: 73px;
+	height: 160px;
+	text-align: center;
+	display: inline-block;
+	float: center;
+	padding-top: 40px;
+}
 /* 하단영역 */
 #mypage_bottom{
     min-height: 50vh; 
