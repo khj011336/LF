@@ -1,33 +1,3 @@
-<!-- 1. 아직 id/class명들 변환 안되어있음. 정리만 되어있음. -->
-<!-- 2. 정리한뒤 확인해야됨.(헤더 푸터 부여할질 안할지역시 알아봐야될듯) -->
-<!-- 3. 색상 부여 제대로 안됨. -->
-<!-- 4. 너무 긴 명칭 처리방법? -->
-
-<!-- body		cnm_wrap -->
-<!-- title		cnm_title -->
-<!-- pro_pic		cnm_profile -->
-<!-- pro_pic_title	cnm_pro_title -->
-<!-- subtitle		cnm_subtitle -->
-<!-- mb_name		cnm_mb_name -->
-<!-- mb_birth		cnm_mb_birth -->
-<!-- gender		cnm_gender	? -->
-<!-- mb_f		cnm_mb_f -->
-<!-- mb_m		cnm_mb_m -->
-<!-- mb_gender	cnm_mb_gender	? -->
-<!-- mb_login		cnm_mb_login -->
-<!-- mb_pw		cnm_mb_pw -->
-<!-- mb_pw_confirm	cnm_mb_pw_confirm -->
-<!-- mb_ph_first	cnm_mb_ph_first -->
-<!-- mb_ph_second	cnm_mb_ph_second -->
-<!-- mb_email		cnm_mb_email -->
-<!-- mb_adress_num	cnm_mb_adress_num -->
-<!-- find_adress	cnm_find_adress -->
-<!-- mb_adress_basic	cnm_mb_adress_basic -->
-<!-- mb_adress_detail	cnm_mb_adress_detail -->
-<!-- bottom		cnm_bottom -->
-<!-- submit_btn	cnm_submit_btn -->
-
-
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <head>
@@ -140,8 +110,8 @@
 	                <tr>
 			        	<th rowspan="2">이용 및 개인정보 동의</th>
 			        	<td>
-			        		<input type="checkbox" id = "cnm_mb_agree_use_clause" name = "cnm_mb_agree_use_clause"  value="agree_use_clause">
-                            <label for= "cnm_mb_agree_use_clause"><a href="../ETC/clause.jsp">사이트 및 개인정보 이용 약관</a></label>
+			        		<input type="checkbox" id = "cnm_mb_agree_clause" name = "cnm_mb_agree_clause"  value="agree_clause">
+                            <label for= "cnm_mb_agree_clause"><a href="../ETC/clause.jsp">사이트 및 개인정보 이용 약관</a></label>
                         </td>
 			        </tr>
 	            </table>
