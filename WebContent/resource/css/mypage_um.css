@@ -1,5 +1,5 @@
-@charset "UTF-8";
-/* mypage의 update member 줄여서 um 입니다. */
+/* @charset "UTF-8";
+mypage의 update member 줄여서 um 입니다.
 
 #mypage_um_main {
 	position: relative;
@@ -37,7 +37,7 @@ div.mypage_umdiv {
 	margin-top: 10px;
 }
 #um_wrap{
-/* 	border: 1px solid black; */
+	border: 1px solid black;
 	margin: 0px auto;
 	padding: 0px;
     width: 400px;
@@ -45,11 +45,11 @@ div.mypage_umdiv {
     margin-bottom: 50px;
 }
 
-/* 이름 */
+이름
 
-/* 생일 */
+생일
 
-/* 성별 */
+성별
 #um_gender{
     padding-left: 150px;
 }
@@ -57,11 +57,11 @@ div.mypage_umdiv {
 	font-size: 1.7em;
 	height: 30px;
 }
-/* 로그인 */
+로그인
 
-/* 비밀번호 */
+비밀번호
 
-/* 전화번호 */
+전화번호
 .um_ph_padding{
 	padding-left: 100px;
 }
@@ -69,9 +69,9 @@ div.mypage_umdiv {
 	width: 60px;
 }
 
-/* 이메일 */
+이메일
 
-/* 주소 */
+주소
 #um_mb_adress_num{
 	width: 330px;
 }
@@ -81,11 +81,11 @@ div.mypage_umdiv {
 #um_find_adress{
 	width: 69px;
 	height: 30px;
-/* 	background-color: orange; */
+	background-color: orange;
 	border: 1px solid black;
 }
 
-/* 하단부 */
+하단부
 .um_bottom{
 	display: inline-block;
 	
@@ -102,7 +102,7 @@ div.mypage_umdiv {
 .um_center{
 }
 
-/* mypage의  update pw 줄여서 upw 입니다. */
+mypage의  update pw 줄여서 upw 입니다.
 
 #mypage_upw_main {
 	width: 600px;
@@ -150,3 +150,4 @@ div.mypage_umdiv {
 	
 }
 
+ */
