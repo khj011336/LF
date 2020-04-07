@@ -56,7 +56,13 @@ $(document).on("click",'.deleteOne',function () {
 		$("#Cre_main").load("_myclass.jsp");
 	});
 	$(document).on("click",".CRsendCo", function () {
-		$("#Cre_main").load("._CrePlaylist.jsp");
+		$("#Cre_main").load("CrecommentMt.jsp");
+	});
+	$(document).on("click","#listup", function () {
+		$("#Cre_main").load("_videoupload.jsp");
+	});
+	$(document).on("click","#CRHT2", function () {
+		$("#Cre_main").load("_classdes.jsp");
 	});
 	});
 
