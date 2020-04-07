@@ -170,7 +170,7 @@ input[type=text], input[type=email], input[type=tel] {
 	border-radius: 5px;
 }
 
-input[value=검색], input[value=등록] {
+input[value=검색], input[value=조회] {
 	position: relative;
 	width: 65px;
 	height: 35px;
@@ -213,7 +213,7 @@ input[value=검색], input[value=등록] {
 	height: 500px;
 	display: inline-block;
 	position: fixed;
-	top: 168px;
+	top: 188px;
 }
 
 #goodsPayment_content_table {

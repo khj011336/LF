@@ -95,7 +95,7 @@
 					class="fundingPayment_discount_info_table_td fundingPayment_discount_info_table_td_top">
 					<input type="text" name="fundingPayment_discountCoupon"
 					id="fundingPayment_discountCoupon" placeholder="  쿠폰 적용" size="92">
-					<input type="button" name="fundingPayment_search" value="등록">
+					<input type="button" name="fundingPayment_search" value="조회">
 				</td>
 			</tr>
 		</table>
@@ -131,18 +131,18 @@
 			<br> <br>
 			<button type="button" id="fundingPayment_payment_kakaopay">
 				<img
-					src="resource/img/payment/%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%8E%98%EC%9D%B4.JPG"
+					src="resource/img/payment/kakaopay.png"
 					alt="카카오페이"> <br> <br> <span
 					class="fundingPayment_payment_title_bold">카카오페이</span>
 			</button>
 			<button type="button" id="fundingPayment_payment_naverpay">
 				<img
-					src="resource/img/payment/%EB%84%A4%EC%9D%B4%EB%B2%84%ED%8E%98%EC%9D%B4.JPG"
+					src="resource/img/payment/naverpay.png"
 					alt="네이버페이"> <br> <br> <span
 					class="fundingPayment_payment_title_bold">네이버페이</span>
 			</button>
 			<button type="button" id="fundingPayment_payment_payco">
-				<img src="resource/img/payment/%ED%8E%98%EC%9D%B4%EC%BD%94.JPG"
+				<img src="resource/img/payment/payco.PNG"
 					alt="페이코"> <br> <br> <span
 					class="fundingPayment_payment_title_bold">페이코</span>
 			</button>
