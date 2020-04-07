@@ -17,7 +17,7 @@
 	<div class="header_column_menu">
 		<ul>
 			<li id= "CSCenter"><a href="#">고객섬김센터</a></li>
-			<li id= "TEST"><a href="<%= ROOT %>/Creator/creatorcenter.jsp" target="_blank">크리에이터센터</a>
+			<li id= "TEST"><a href="<%= ROOT %>/Creator/creatorcenter.jsp" >크리에이터센터</a>
 			</li>
 			<li  id= "TEST2"><a href="<%=ROOT%>/ETC/login.jsp">로그인</a></li>
 		</ul>
