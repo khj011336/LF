@@ -109,21 +109,9 @@
 		// cs 조각 - faq
 		$(document).on("click",'#CS2', function() {
 			$("#CS_page").load("CSCenter/Lecfly_CS_2.jsp");
-			
-
-	
-	
  
 		});
-		$(document).on("click",'.creatorprofile_next_btn', function() {
-			$("#homemain").load("Creator/_videoupload.jsp");
-		});
-		$(document).on("click",'.videoupload_next_btn', function() {
-			$("#homemain").load("Creator/_sellkitregistration.jsp");
-		});
-		$(document).on("click",'.sellkitregistration_next_btn', function() {
-			$("#homemain").load("Creator/_myclass.jsp");
-		});
+	 
 		
 		
 		// cs 조각 - notice
@@ -136,4 +124,3 @@
 		
 		
 
-	});
