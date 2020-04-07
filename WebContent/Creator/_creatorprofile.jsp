@@ -7,7 +7,7 @@
 	            <div class="creatorprofile_text1"><span class="creator_h2">프로필 사진</span></div>
 	            <!-- src="" 여기에 이제 기본이미지는 안넣은상태인걸한후 파일선택후 경로 입력되게끔 만들어야함 -->
 		        <div id="creatorprofile_myprofile_box" class='creatorprofile_imgbox1'>
-		            <div><img src="../resource/img/no_profile_img.PNG" id="creatorprofile_myprofile_img" 
+		            <div><img src="resource/img/no_profile_img.PNG" id="creatorprofile_myprofile_img" 
 		                	name="creatorprofile_myprofile_img" alt="프로필 사진" class="creatorprofile_imgbox1"></div>
 		            <div class="creatorprofile_find_file_text creator_h4">파일찾기</div>
 	            </div>

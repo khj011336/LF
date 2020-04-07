@@ -49,20 +49,20 @@
                 <div class="sellkitregistration_inline sellkitregistration_nav1 creator_h3">상품이미지</div>
                 <div class="sellkitregistration_main_center_part1_div">
                     <div id="sellkitregistration_sub_img_box0" class="sellkitregistration_inline">
-                        <div class="sellkitregistration_img"><img id="sellkitregistration_represent_img" name="represent_img" src="../resource/img/xbox_img.PNG" class="sellkitregistration_img" alt="대표이미지"></div>
+                        <div class="sellkitregistration_img"><img id="sellkitregistration_represent_img" name="represent_img" src="resource/img/xbox_img.PNG" class="sellkitregistration_img" alt="대표이미지"></div>
                         <div class="sellkitregistration_img_add_btn_div">대표이미지</div>
                     </div>
 
                     <div id="sellkitregistration_sub_img_box1" class="sellkitregistration_inline">
-                        <div class="sellkitregistration_img"><img id="sellkitregistration_sub_img1" name="sub_img" src="../resource/img/xbox_img.PNG" class="sellkitregistration_img" alt="추가이미지"></div>
+                        <div class="sellkitregistration_img"><img id="sellkitregistration_sub_img1" name="sub_img" src="resource/img/xbox_img.PNG" class="sellkitregistration_img" alt="추가이미지"></div>
                         <div class="sellkitregistration_img_add_btn_div">추가이미지</div>
                     </div>
                     <div id="sellkitregistration_sub_img_box2" class="sellkitregistration_inline">
-                        <div class="sellkitregistration_img"><img id="sellkitregistration_sub_img2" name="sub_img" src="../resource/img/xbox_img.PNG" class="sellkitregistration_img" alt="추가이미지"></div>
+                        <div class="sellkitregistration_img"><img id="sellkitregistration_sub_img2" name="sub_img" src="resource/img/xbox_img.PNG" class="sellkitregistration_img" alt="추가이미지"></div>
                         <div class="sellkitregistration_img_add_btn_div">추가이미지</div>
                     </div>
                     <div id="sellkitregistration_sub_img_box3" class="sellkitregistration_inline">
-                        <div class="sellkitregistration_img"><img id="sellkitregistration_sub_img1" name="sub_img" src="../resource/img/xbox_img.PNG" class="sellkitregistration_img" alt="추가이미지"></div>
+                        <div class="sellkitregistration_img"><img id="sellkitregistration_sub_img1" name="sub_img" src="resource/img/xbox_img.PNG" class="sellkitregistration_img" alt="추가이미지"></div>
                         <div class="sellkitregistration_img_add_btn_div">추가이미지</div>
                     </div>
                     <div class="sellkitregistration_inline sellkitregistration_max_text"><span class="creator_h4"> - 최대 10장까지 추가 가능합니다</span></div>
@@ -115,6 +115,6 @@
                 </div>
             </div>
             
-            <div><input type="button" value="다음" class="creator_next_btn sellkitregistration_next_btn"></div>
+            <div><input type="button" value="완료" class="creator_next_btn sellkitregistration_next_btn"></div>
         </div>
     </div>

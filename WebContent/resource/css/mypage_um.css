@@ -102,4 +102,51 @@ div.mypage_umdiv {
 .um_center{
 }
 
+/* mypage의  update pw 줄여서 upw 입니다. */
+
+#mypage_upw_main {
+	width: 600px;
+	height: 400px;
+	box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 1px 0px, rgba(41, 42, 43, 0.34) 0px 1px 3px 0px;
+	border: 1px solid black;
+	border-radius: 4px;
+	font-size: 1.4em;
+}
+
+#upw_changepw_box {
+	top: -160px;
+	position: relative;
+	border: 1px dotted red;
+	
+}
+
+.upw_label {
+	display: inline-block;
+	width: 140px;
+	height: 40px;
+	text-align: left;
+
+}
+.upw_label1 {
+	margin-bottom: 10px;
+}
+
+#upw_oldpw, #upw_newpw, #upw_newpw_re {
+	width: 300px;
+	height: 40px;
+	border: 1px solid black;
+	border-radius: 4px;
+}
+
+#upw_changepw_box {
+	margin-top: 180px;
+}
+
+#upw_nextbtn {
+	margin: 10px 0px 0px 280px;
+	width: 80px;
+	height: 30px;
+	font-size: 1.4em;
+	
+}
 
