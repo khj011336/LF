@@ -828,8 +828,12 @@ border: none;
 	text-align: center;
 	width: 1200px;
 }
+#shoppingCart_wrapper >th{
+	border-bottom: 1px solid #e9e4de;
+	height: 160px;
+}
+#shoppingCart_wrapper >td{
 
-#shoppingCart_wrapper th, #shoppingCart_wrapper td{
 	border-bottom: 1px solid #e9e4de;
 	height: 160px;
 }
