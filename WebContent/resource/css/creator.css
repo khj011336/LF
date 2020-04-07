@@ -780,7 +780,7 @@ border: none;
 	float: right;
 }
 
-#shoppingCart_wrapper table {
+#shoppingCart_wrapper>table {
 	border-collapse: collapse;
 	border-spacing: 0;
 	border: 0;
@@ -788,7 +788,11 @@ border: none;
 	width: 1200px;
 }
 
-#shoppingCart_wrapper th,td{
+#shoppingCart_wrapper>th{
+	border-bottom: 1px solid #e9e4de;
+	height: 160px;
+}
+#shoppingCart_wrapper>td{
 	border-bottom: 1px solid #e9e4de;
 	height: 160px;
 }
@@ -807,7 +811,7 @@ border: none;
         border-right: 1px solid white; 
     cursor: pointer;
 }
-#shoppingCart_wrapper td {
+#shoppingCart_wrapper>td {
 	padding: 10px 10px;
 	color: #444;
 	font-weight: bolder;
