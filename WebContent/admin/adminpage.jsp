@@ -247,7 +247,7 @@ $(".sidebar-dropdown > a").click(function() {
   <!-- sidebar-wrapper  -->
   <main class="page-content">
     <div class="container-fluid">
-      <h2>Pro Sidebar</h2>
+      <h2>관리자 모드</h2>
       <hr>
       <div class="row">
         <div class="form-group col-md-12">
@@ -262,7 +262,7 @@ $(".sidebar-dropdown > a").click(function() {
             frameborder="0" scrolling="0" width="140px" height="30px"></iframe>
         </div>
       </div>
-      <h5>More templates</h5>
+      <h5>Charts</h5>
       <hr>
       <div class="row">
         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">          
