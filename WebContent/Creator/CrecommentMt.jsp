@@ -18,7 +18,7 @@
                 </div>
                 <div class="MADcon">
                     <div class='MADIMG'>
-                        <img>
+                        <img src='../resource/img/lfly.PNG'>
                     </div>
                     <div class="MADcontent">
                         <div class="MADvt">

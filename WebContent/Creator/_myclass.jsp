@@ -11,7 +11,7 @@
                 <%for(int i =0 ; i<10 ; i++){ %>
                 <div class = 'CRconbox'>
                     <div class='CRP'>
-                    <img src="resource/img/dummy_img4.jpg" class="CRimg" alt ="dd"></div>
+                    <img src="../resource/img/dummy_img4.jpg" class="CRimg" alt ="dd"></div>
                     <div class ="CRC">
                         <p class='CRname'>클래스이름을 지정해주세요</p>
                         <div class="CRstatus">

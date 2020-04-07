@@ -146,6 +146,21 @@ a:hover {
     height: 30px;
     line-height: 1.5;
 }
+.CRsendCo{
+	 position: absolute;
+    width: 100%;
+    bottom: 0px;
+}
+.CRsendCo p{
+	text-align: center;
+    font-size: 19px;
+    background-color: threeddarkshadow;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    height: 30px;
+    line-height: 1.5;
+}
 .CRname{
     height: 30px;
     font-size: 20px;
@@ -311,8 +326,15 @@ a:hover {
     margin-bottom: 5px;
   
 }
-    
-
+.CRcol{
+	background-color: threeddarkshadow;
+	color: white;
+}    
+#CreComWrap{
+	margin: 0px auto;
+	width: 700px;
+	padding: 0px 250px;
+}
 #uplmar input{
 border: none;    
 }
