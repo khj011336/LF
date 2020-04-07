@@ -115,7 +115,23 @@
 	border-bottom: 2px solid black;
 	margin-left: auto;
 	margin-right: auto;
-	height: 670px; 
+	height: 690px; 
+}
+#cnm_wrap3{
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	margin-left: auto;
+	margin-right: auto;
+	height: 690px; 
+}
+#cnm_table_left{ /* mypage pw 수정_ 테이블 */
+	/* border-top: 2px solid black;
+	border-bottom: 2px solid black; */
+	text-align: left;
+	/* margin-left: auto;
+	margin-right: auto; */
+	float: left;
+	margin-left: 50px;
 }
 #cnm_table{ /* mypage pw 수정_ 테이블 */
 	/* border-top: 2px solid black;
@@ -145,6 +161,7 @@
 	 text-align: left;
 	 padding-left: 60px;
 	 padding: 5px;
+	 font-family: sans-serif;
 }
 
 #cnm_table >input {

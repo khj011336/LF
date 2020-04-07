@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <div id="login_top">
-	<h2 id="login_title"><a href="../home.jsp" class="logo_link login_a"><img src="../resource/img/login/logo.png" ></a></h2>
+	<h2 id="login_title"><a href="../home.jsp" class="logo_link login_a"><img src="../resource/img/logo/LecFly_LOGO_B_C.png" ></a></h2>
 	<h3 id="login_subtitle">비밀번호 찾기</h3>
 </div>
 <div id="login_middle">

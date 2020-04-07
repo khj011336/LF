@@ -62,7 +62,7 @@
 			     	</tr>
 			     	<tr>
 			        	<th><label class="cnm_subtitle" for="cnm_mb_birth">생년월일</label></th>
-	                    <td><input type="date" id="cnm_mb_birth" name="cnm_mb_birth" class="input_cnm"></td>
+	                    <td><input type="date" id="cnm_mb_birth" name="cnm_mb_birth" class="input_cnm" style="color:grey"></td>
 	                </tr>
 	                <tr>
 			        	<th><label class="cnm_subtitle">성별</label></th>
@@ -81,15 +81,15 @@
 	                </tr>
 	                <tr>
 			        	<th>비밀번호</th>
-	                    <td><input type="password" id="cnm_mb_pw" name="cnm_mb_pw" class="input_cnm"></td>
+	                    <td><input type="password" id="cnm_mb_pw" name="cnm_mb_pw" class="input_cnm" placeholder="비밀번호"></td>
 	                </tr>
 	                <tr>
 	                	<td></td>
 	                	<td style="font-size:12px;">비밀번호는 6~16자 영문, 숫자를 사용해주세요.</td>
 	                </tr>
 	                <tr>
-			        	<th>새 비밀번호 확인</th>
-	                    <td><input type="password" id="cnm_mb_pw_confirm" name="cnm_mb_pw_confirm" class="input_cnm"></td>
+			        	<th>비밀번호 확인</th>
+	                    <td><input type="password" id="cnm_mb_pw_confirm" name="cnm_mb_pw_confirm" class="input_cnm" placeholder="비밀번호 확인"></td>
 	                </tr>
 	                <tr>
 	                	<td></td>
@@ -99,9 +99,9 @@
 			        	<th><label class="cnm_subtitle" for="cnm_mb_ph_first">휴대전화</label></th>
 	                    <td>
 	                    	<label class="cnm_ph_padding">010 - </label>
-				        	<input type="text" class="cnm_mb_ph" id="cnm_mb_ph_first" name="cnm_mb_ph" placeholder="●●●●" maxlength="4">
+				        	<input type="text" class="cnm_mb_ph" id="cnm_mb_ph_first" name="cnm_mb_ph" placeholder="0000" maxlength="4">
 				        	<label>-</label>
-				        	<input type="text" class="cnm_mb_ph" id="cnm_mb_ph_second" name="cnm_mb_ph" placeholder="●●●●" maxlength="4">
+				        	<input type="text" class="cnm_mb_ph" id="cnm_mb_ph_second" name="cnm_mb_ph" placeholder="0000" maxlength="4">
 				    	</td>
 	                </tr>
 	                <tr>

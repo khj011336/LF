@@ -21,7 +21,7 @@
 <!-- 					<input type="password" id="upw_newpw_re" name="upw_newpw_re" placeholder="변경할 비밀번호 다시입력해주세요"> -->
 <!-- 				</div> -->
 <!-- 			</div> -->
-<!-- 			<!-- chapca?? 추가?? --> -->
+<!-- 			<!-- chapca?? 추가?? --> 
 			
 			
 			
@@ -56,5 +56,5 @@
         </div>
 		<button>비밀번호 변경</button> 
     </div>
->>>>>>> origin/myung-ju
+
 </div>
