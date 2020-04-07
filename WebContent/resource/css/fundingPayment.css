@@ -80,7 +80,7 @@ span.order_sheet {
 	border: 0px;
 }
 
-input[type=text], input[type=email], input[type=tel] {
+input[name=fundingPayment_name], input[name=fundingPayment_email], input[name=fundingPayment_tel] {
 	height: 30px;
 	border-radius: 5px;
 }

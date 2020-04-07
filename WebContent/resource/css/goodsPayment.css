@@ -165,7 +165,7 @@ span.order_sheet {
 	border: 0px;
 }
 
-input[type=text], input[type=email], input[type=tel] {
+input[name=goodsPayment_name], input[name=goodsPayment_email], input[name=goodsPayment_tel] {
 	height: 30px;
 	border-radius: 5px;
 }
