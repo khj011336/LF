@@ -25,12 +25,12 @@
 					<td class="paymentDetail_success_td_right">30,000원</td>
 				</tr>
 				<tr>
-					<td class="paymentDetail_success_td">배송료</td>
-					<td class="paymentDetail_success_td paymentDetail_success_td_right">0원</td>
+					<td class="paymentDetail_success_td_last">배송료</td>
+					<td class="paymentDetail_success_td_last paymentDetail_success_td_right">0원</td>
 				</tr>
 				<tr>
-					<td>총 결제 금액</td>
-					<td class="paymentDetail_success_td_right">230,150원</td>
+					<td class="paymentDetail_success_td_sum">총 결제 금액</td>
+					<td class="paymentDetail_success_td_sum paymentDetail_success_td_sum_right">230,150원</td>
 				</tr>
 				<tr>
 					<td class="paymentDetail_success_printReceipt" colspan="2">영수증

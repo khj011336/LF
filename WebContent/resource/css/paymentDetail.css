@@ -10,7 +10,7 @@
 }
 
 .paymentDetail_legend {
-    padding: 15px 0px 15px 0px;
+    padding: 30px 0px 30px 0px;
     font-weight: bold;
     font-size: 20px;
     border-top: 5px solid lightgray;
@@ -34,7 +34,19 @@
 
 .paymentDetail_success_td_right {
     text-align: right;
-    padding: 5px 5px 5px 0px ;
+    padding: 5px 0px 5px 0px ;
+}
+
+.paymentDetail_success_td_last {
+	border-bottom: 1px solid lightgray;
+}
+
+.paymentDetail_success_td_sum {
+	padding: 15px 0px;
+}
+
+.paymentDetail_success_td_sum_right {
+	text-align: right;
 }
 
 .paymentDetail_success_printReceipt {
@@ -48,7 +60,7 @@
 #delivery_changeBnt {
     float: right;
     position: relative;
-    top: -35px;
+    top: -48px;
 }
 
 .paymentDetail_delivery_td {
