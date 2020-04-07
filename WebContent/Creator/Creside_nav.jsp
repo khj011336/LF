@@ -1,6 +1,11 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 
+<style>
+.nav_lecfly_info:hover{
+color:gold;
+}
+</style>
 <ul class="side-menu" style ="top:130px; height: 300px; background-color: #ffffff00;">
 	<!-- <li><a href="#">&nbsp;</a></li>
 	<li><a href="#"><span class="fa fa-code"></span>LECFLY</a></li> -->
