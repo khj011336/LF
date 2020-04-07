@@ -568,54 +568,72 @@ border: none;
 	margin-left: 900px;
 	position: relative;
 }
-            /* _creatorprofile.html */
-#creatorprofile_wrap {
-	padding: 0px 100px;
-    width: 1000px;
+
+
+/* 크리에이터 프로필 */
+#Crpf_wrap {
+	padding: 0px 125px;
+    width: 950px;
+    margin: 0px auto;
+    
+}
+#Crpf_head{
+    width: 800px;
     margin: 0px auto;
 }
 /* 프로필사진 이미지 + 감싸고있는 img 박스크기 */
-.creatorprofile_imgbox1 {
+.Crpf_imgbox1 {
 	width: 300px;
 	height: 200px;
-	border: 1px dotted black;
+           box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 1px 0px, rgba(41, 42, 43, 0.34) 0px 1px 3px 0px;
+
 }
 /* 이미지를 감싸고있는 div안에있으며 그안에있는 '파일찾기 텍스트' */
-.creatorprofile_find_file_text {
+.Crpf_find{
 	position: relative;
-	top: -30px;
-	left: 220px;
 }
 /* 크리에이터 닉네임 연락처 sns계정 .. 등등 타이틀 간격 */
-.creatorprofile_text1 {
+.Crpf_text1 {
 	margin: 30px 0px 10px 0px;
 }
+
 /* input bar 크기 조정 */
-.creatorprofile_bar1 {
-	width: 900px;
+.Crpf_bar1 {
+	width: 800px;
 	height: 40px;
-	border: 1px solid black;
 	border-radius: 4px;
-	
+	padding-left: 10px;
+           box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 1px 0px, rgba(41, 42, 43, 0.34) 0px 1px 3px 0px;
+
+}
+.Crpf_form{
+   margin: 0px auto;
+   width: 800px;
 }
 /* textarea 크기 설정*/
-.creatorprofile_bar2 {
-	width: 878px;
+.Crpf_bar2 {
+	width: 800px;
 	height: 300px;
-	border: 1px solid black;
+	
 	border-radius: 4px;
 	padding: 0px 10px;
 	overflow-y: hidden;
     resize: none;
+    padding: 10px 10px 0 10px;
+           box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 1px 0px, rgba(41, 42, 43, 0.34) 0px 1px 3px 0px;
+
+    
 }
 /* 다음버튼*/
-.creatorprofile_next_btn {
-	margin: 50px 0px;
-	position: relative;
-	left: 800px;
+.Crpf_next_btn{
+	margin: 30px 0px;
+    position: relative;
+    left: 780px;
+    width: 40px;
+    height: 30px;
 }
 
-
+/* 크리에이터 프로필 */
 
 
             /* _sellkitregistration.html 공통*/
@@ -802,7 +820,7 @@ border: none;
 	float: right;
 }
 
-#shoppingCart_wrapper>table {
+#shoppingCart_wrapper table {
 	border-collapse: collapse;
 	border-spacing: 0;
 	border: 0;
@@ -810,11 +828,7 @@ border: none;
 	width: 1200px;
 }
 
-#shoppingCart_wrapper>th{
-	border-bottom: 1px solid #e9e4de;
-	height: 160px;
-}
-#shoppingCart_wrapper>td{
+#shoppingCart_wrapper th,td{
 	border-bottom: 1px solid #e9e4de;
 	height: 160px;
 }
@@ -833,7 +847,7 @@ border: none;
         border-right: 1px solid white; 
     cursor: pointer;
 }
-#shoppingCart_wrapper>td {
+#shoppingCart_wrapper td {
 	padding: 10px 10px;
 	color: #444;
 	font-weight: bolder;
