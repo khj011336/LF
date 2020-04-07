@@ -198,8 +198,8 @@
 		  </div>
 		  <div id="tabs-4" class="mypage_tabs_li">
 		  	<ul>
-		    	<li><a href="#" id="mypage_shoppingcart">장바구니</a></li>
-		    	<li><a href="#" id="mypage_receive_address">배송지관리</a></li>
+		    	<!-- <li><a href="#" id="mypage_shoppingcart">장바구니</a></li>
+		    	<li><a href="#" id="mypage_receive_address">배송지관리</a></li> -->
 		    	<li><a href="#" id="mypage_delivery_info">배송정보</a></li>
 		    	<li><a href="#" id="mypage_payment_info">결제내역</a></li>
 			</ul>

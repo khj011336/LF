@@ -17,14 +17,14 @@
 			
 		});	
 		
-		// 상품결제 페이지 
+		// 펀딩결제 페이지 
 		$(document).on("click",'.nav_payment', function() {
-			$("#homemain").load("payment/goodsPayment.jsp");
+			$("#homemain").load("payment/fundingPayment.jsp");
 			
 		});	
 		// 상품결제 페이지
 		$(document).on("click",'#register_lec_apply', function() {
-			$("#homemain").load("goods/goodsPayment.jsp");
+			$("#homemain").load("payment/goodsPayment.jsp");
 			
 		});
 		// 펀딩소개 페이지 
@@ -32,9 +32,7 @@
 			$("#homemain").load("Funding/fundingRegister.jsp");
 			
 		});	
-		// 펀딩결제 페이지
-		$(document).on("click",'#funding_title', function() {
-			$("#homemain").load("Funding/fundingPayment.jsp");
+ 
 			
 		});
 //		// 크리에이터센터 페이지 
@@ -106,12 +104,15 @@
 			$("#CS_page").load("CSCenter/Lecfly_CS_1.jsp");
 			
 		});
+
 		
 		// cs 조각 - faq
 		$(document).on("click",'#CS2', function() {
 			$("#CS_page").load("CSCenter/Lecfly_CS_2.jsp");
-			
+ 
 		});
+	 
+		
 		
 		// cs 조각 - notice
 		$(document).on("click",'#CS3', function() {
@@ -123,4 +124,3 @@
 		
 		
 
-	});

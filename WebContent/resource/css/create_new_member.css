@@ -22,7 +22,7 @@
 <!-- mb_adress_detail	cnm_mb_adress_detail -->
 <!-- bottom		cnm_bottom -->
 <!-- submit_btn	cnm_submit_btn -->
-#cnm_wrap li{
+/* #cnm_wrap li{
     margin-bottom: 5px;
 }
 
@@ -30,34 +30,43 @@
     height: 30px;
     font-size: 18px;
 }
-
+*/
 #cnm_wrap div{
-    width: 400px;
+    width: 1000px;
     padding-bottom: 10px;
+    background-color: red;
 }
-.inputs{
-    width: 400px;
-}
-.cnm_pic{
-	text-align: center;
-}
+
 .cnm_title{
-	margin-bottom: 20px;
+	width: 500px;
+	height: 100px;
+	text-align: center;
+	font-size: 24px;
+	margin: 40px auto 50px auto;
+	color: black;
+	background: url(../img/logo/LecFly_LOGO_B_W.png) center no-repeat;
+	opacity: 0.7;
 }
-.cnm_li_title{
+
+/*.cnm_li_title{
 	margin-top:10px;
 }
 .cnm_subtitle{
 	font-size: 20px;
 	margin-top: 10px;
-}
+} */
 #cnm_wrap{
 /* 	border: 1px solid black; */
-	margin: 0px auto;
-	padding: 0px;
-    width: 400px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+	/* margin: 50px auto 50px auto;
+	width: 800px; */
+	
+    /* margin-top: 50px;
+    margin-bottom: 50px; */
+    width: 1000px;
+    height: 1100px;
+	margin: 30px auto 0px auto;
+	text-align: center;
+	padding-bottom: 30px;
 }
 /* 사진 */
 #cnm_profile{
@@ -69,7 +78,78 @@
 #cnm_pro_title{
 	text-align: center;
 }
+.input_cnm{
+    height: 32px;
+	width: 400px;	
+	font-family: sans-serif;
+	font-size: 16px;
+}
+/* #cnm_pic{
+	text-align: center;
+} */
+#cnm_pic{
+    /* border: 1px solid red; */
+	display:inline-block;
+    width: 208px;
+    height: 208px;
+    float: left;
+    margin-top: 30px;
+}
+#cnm_pic img {
+	border: 1px dashed grey;
+	border-radius: 100px;
+	/* margin: 30px; */
+	float: center;
+	opacity: 0.7;
+}
+#cnm_pic>input {
+	width: 60px;
+	height: 20px;
+	float: right;
+	margin-left: 300px;
+	display: inline-block;
+	
+}
+#cnm_wrap2{
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	margin-left: auto;
+	margin-right: auto;
+	height: 650px; 
+}
+#cnm_table{ /* mypage pw 수정_ 테이블 */
+	/* border-top: 2px solid black;
+	border-bottom: 2px solid black; */
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+	float: right;
+}
+#cnm_table table{ /* mypage pw 수정_ 테이블 */
+     /* margin-left: 50px; */
+     margin: 30px auto 30px auto;
+	/* margin-right: auto; */
+    width: 600px;
+    height: 400px;
+    border-collapse: collapse;
+    /* border-top: 1px solid darkgray;
+    border-bottom: 1px solid darkgray; */
+    text-align: left;
+   /*  font-size: large; */
+}
+#cnm_table table th {
+	 vertical-align: top;
+	 padding: 5px;
+}
+#cnm_table table td {
+	 text-align: left;
+	 padding-left: 60px;
+	 padding: 5px;
+}
 
+#cnm_table >input {
+	font-size: 20px;
+}
 /* 이름 */
 
 /* 생일 */
@@ -84,7 +164,7 @@
 	margin: 0 10px 0 10px;
 }
 .gender_sub_title{
-	font-size: 1.7em;
+	font-size: 16px;
 	height: 30px;
 }
 /* 로그인 */
@@ -92,33 +172,45 @@
 /* 비밀번호 */
 
 /* 전화번호 */
-.cnm_ph_padding{
-	padding-left: 100px;
+.cnm_ph_padding {
+	font-size: 16px;
 }
 .cnm_mb_ph{
-	width: 60px;
+	width: 120px;
+	height: 32px;
+	font-size: 16px;
 }
 
 /* 이메일 */
 
 /* 주소 */
 #cnm_mb_adress_num{
-	width: 330px;
+	width: 340px;
+	height: 32px;
+	font-family: sans-serif;
+	font-size: 16px;
 }
 #find_adress_btn{
+	width: 60px;
+	height: 32px;
 	background-color: orange;
+	float: right;
+	font-size: 16px;
 }
-#cnm_find_adress{
+/* #cnm_find_adress{
 	width: 69px;
 	height: 30px;
-/* 	background-color: orange; */
+	background-color: orange;
 	border: 1px solid black;
-}
+	font-size: 16px;
+} */
 
 /* 하단부 */
 .cnm_bottom{
 	display: inline-block;
-	
+	margin-top: 20px;
+	width: 1000px;
+	float: center;
 }
 #cnm_submit_btn{
 	margin: auto;
@@ -129,7 +221,6 @@
 	line-height: 60px;
 	font-size: 2.0em;
 }
-.cnm_center{
-}
+
 
 

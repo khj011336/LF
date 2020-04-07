@@ -19,7 +19,7 @@
             <div id="uplR" >
                <div class='uplshadow'>
                 <video  controls>
-                <source src="../resource/video/soap.mp4" type ='video/mp4'/>
+                <source src="resource/video/soap.mp4" type ='video/mp4'/>
                 </video>
                 <div><input type="url" placeholder="http://creator/resource/video/wildlife.mp4"></div>
                 <div id="urlvt"><input type="file" id="uplUP"></div>
@@ -31,9 +31,9 @@
             <h3>미리보기 이미지</h3>
              <div id="uplimgbox" class="uplflex">
                 
-                 <div class="uplimgb uplshadow"><img alt="img" src="../resource/img/dummy_img1.jpg"></div>
-                 <div class="uplimgb uplshadow padp"><img alt="img" src="../resource/img/dummy_img2.jpg"></div>
-                 <div class="uplimgb uplshadow padp"><img alt="img" src='../resource/img/dummy_img3.jpg'></div>
+                 <div class="uplimgb uplshadow"><img alt="img" src="resource/img/dummy_img1.jpg"></div>
+                 <div class="uplimgb uplshadow padp"><img alt="img" src="resource/img/dummy_img2.jpg"></div>
+                 <div class="uplimgb uplshadow padp"><img alt="img" src='resource/img/dummy_img3.jpg'></div>
                  <div id="uplfile"><input type="file"></div>
                  
              </div>
@@ -67,7 +67,8 @@
                 </textarea>
             </div>
         </div>
-        <div id="upllas"><input type="submit" value="올리기"></div>
+        <div><input type="button" value="다음" class="creator_next_btn videoupload_next_btn"></div>
+<!--         <div id="upllas"><input type="submit" value="올리기"></div> -->
     </form>
 </div>
 <!-- 	<div id="videoupload_wrap" class="videoupload_wrap_cont_div"> -->
