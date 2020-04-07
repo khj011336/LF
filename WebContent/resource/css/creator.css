@@ -450,74 +450,79 @@ border: none;
 
 /* 					_classdes.jsp */
 
-#classdes_wrap {
-	padding: 0px 100px;
-    width: 1000px;
+
+/* 클래스들 css */
+#cls_wrap {
+	padding: 0px 125px;
+    width: 950px;
     margin: 0px auto;
 }
             
-#classdes_content {
-	width: 1000px;
+#cls_content {
+	width: 930px;
+    padding: 10px;
 }
 
-#classdes_part1 {
-	width: 1000px;
+#cls_part1 {
+	width: 950px;
 }
 /* 타이틀 (클래스 카테고리, 클래스 난이도 .. 등등등 간격)*/
-.classdes_text1 {
+.cls_text1 {
 	margin: 30px 0px 10px 0px;
 }
 /* 클래스 카테고리, 클래스 난이도, 클래스주제, 클래스타이틀 에 있는 input bar */
-.classdes_bar1 {
-	width: 600px;
+.cls_bar1 {
+	width: 530px;
 	height: 40px;
-	border: 1px solid black;
 	border-radius: 4px;
+    padding-left: 10px;
+      box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 1px 0px, rgba(41, 42, 43, 0.34) 0px 1px 3px 0px;
 }
 /* input bar1 옆에있는 예시 박스 */
-#classdes_exbox {
+#cls_exbox {
 	position: relative;
-	left: 618px;
-	top: -304px;
-	width: 380px;
+	left: 570px;
+	top: -343px;
+	width: 350px;
 	height: 300px;
-	border: 1px solid black;
 	border-radius: 4px;
+      box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 1px 0px, rgba(41, 42, 43, 0.34) 0px 1px 3px 0px;
 }
 
 /* span 커버로 사용할 이미지를 추가해보세요 글 위치 */
-.classdes_left_interval {
+.cls_left_interval {
 	margin-left: 100px;
 }
 /* 클래스 커버이미지 랑 input bar 파일찾기 버튼이 포함된 div */
-#classdes_part2 {
+#cls_part2 {
 	position: relative;
 	top: -280px;
+    	width: 950px;
 }
 
 /* 클래스 커버이미지 에있는 이미지 크기 설정 div,img */
-.classdes_imgbox1 {
+.cls_imgbox1 {
 	width: 500px;
 	height: 300px;
-	border: 1px solid black;
+	  box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 1px 0px, rgba(41, 42, 43, 0.34) 0px 1px 3px 0px;
 }
 
 /* 클래스 커버이미지 옆에있는 input bar랑 파일찾기버튼 위치잡아주는 div */
-#classdes_img_path_box{
+#cls_img_path_box{
 	position: relative;
 	top: -42px;
 	left: 540px;
 }
 
 /* 클래스 커버이미지 옆에있는 input bar 크기 잡아줌 */
-.classdes_bar2 {
+.cls_bar2 {
 	width: 320px;
 	height: 40px;
-	border: 1px solid black;
+	 margin-top: 10px;
 	border-radius: 4px;
 }
 /* 파일찾기 버튼의 크기와 위치 */
-#classdes_find_file_btn {
+#cls_find_file_btn {
 	margin-left: 20px;
 	width: 100px;
 	height: 40px;
@@ -525,50 +530,46 @@ border: none;
 	border-radius: 4px;
 }
 /* 강의 소개하기 에있는 이미지 + 이미지 + div 의 위치 설정 */
-#classdes_part3 {
+#cls_part3 {
 	position: relative;
-	top: -300px;
+	top: -250px;
+}
+#cls_part3 input{
+    margin-top: 10px;
 }
 /* 강의 소개하기에 있는 이미지 크기 */
-.classdes_imgbox2 {
+.cls_imgbox2 {
 	width: 300px;
 	height: 200px;
 	margin-right: 20px;
-	border: 1px solid black;
+	  box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 1px 0px, rgba(41, 42, 43, 0.34) 0px 1px 3px 0px;
 	display: inline-block;
 }
 /* 강의 소개하기에 있는 이미지 옆 예시 박스 */
-#classdes_contentbox {
-	width: 330px;
-	height: 200px;
-	position: relative;
-	border: 1px solid black;
-	display: inline-block;
-}
+
 
 /* 강의에 대해서 입력해주세요 있는 위치 설정*/
-#classdes_part4 {
+#cls_part4 {
 	position: relative;
-	top: -290px;
+	top: -250px;
 }
 
 /* textarea 크기설정 */
-#classdes_des {
-	padding: 0px 10px;
-	width: 978px;
+#cls_des {
+	width: 930px;
 	height: 250px;
-	border: 1px solid black;
+	  box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 1px 0px, rgba(41, 42, 43, 0.34) 0px 1px 3px 0px;
 	border-radius: 4px;
 	overflow-y: scroll;
     resize: none;
 }
 /* 다음버튼 위치 잡기 */
-.classdes_next_btn {
+.cls_next_btn {
 	margin-top: 50px;
 	margin-left: 900px;
 	position: relative;
 }
-
+/* 클래스들 css */
 
 /* 크리에이터 프로필 */
 #Crpf_wrap {
