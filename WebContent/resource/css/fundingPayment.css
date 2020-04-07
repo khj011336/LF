@@ -80,12 +80,12 @@ span.order_sheet {
 	border: 0px;
 }
 
-input[type=text], input[type=email], input[type=tel] {
+input[name=fundingPayment_name], input[name=fundingPayment_email], input[name=fundingPayment_tel] {
 	height: 30px;
 	border-radius: 5px;
 }
 
-input[value=검색], input[value=등록] {
+input[value=검색], input[value=조회] {
 	position: relative;
 	width: 65px;
 	height: 35px;
@@ -128,7 +128,7 @@ input[value=검색], input[value=등록] {
 	height: 500px;
 	display: inline-block;
 	position: fixed;
-	top: 168px;
+	top: 188px;
 }
 
 #fundingPayment_content_table {
