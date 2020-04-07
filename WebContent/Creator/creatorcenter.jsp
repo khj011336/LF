@@ -35,7 +35,7 @@
 $('.header_column_logo').click(function () {
 	location.href = "http://localhost:8081/LF/";
 });
-$('.CRsend').click(function () {
+$(document).on("click",".CRsend",function () {
 	$('#Cre_main').load("CrePlaylist.jsp");
 });
 $(document).on("click",'.deleteOne',function () {
@@ -49,6 +49,15 @@ $(document).on("click",'.deleteOne',function () {
 	}
 // 	$("#Cre_main").
 });
+	$(document).on("click",".nav_video_list", function () {
+		$("#Cre_main").load("CrecommentList.jsp");
+	});
+	$(document).on("click",".nav_lecfly_info", function () {
+		$("#Cre_main").load("_myclass.jsp");
+	});
+	$(document).on("click",".CRsendCo", function () {
+		$("#Cre_main").load("._CrePlaylist.jsp");
+	});
 	});
 
 </script>
@@ -58,8 +67,9 @@ $(document).on("click",'.deleteOne',function () {
 		<div id="Cre_header">
 			<%@ include file="../common/header.jsp"%>
 		</div>
+		<%@ include file="Creside_nav.jsp"%>
 		<div id="Cre_main">
-			<%@ include file="../common/side_nav.jsp"%>
+			
 			<%@ include file="_myclass.jsp"%>
 		</div>
 		<div id="Cre_footer">
