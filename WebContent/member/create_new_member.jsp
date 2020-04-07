@@ -137,6 +137,13 @@
                             <label for= "cnm_mb_agree_news_bysms">네 문자로 받아볼래요!</label>
                         </td>
 	                </tr>
+	                <tr>
+			        	<th rowspan="2">이용 및 개인정보 동의</th>
+			        	<td>
+			        		<input type="checkbox" id = "cnm_mb_agree_use_clause" name = "cnm_mb_agree_use_clause"  value="agree_use_clause">
+                            <label for= "cnm_mb_agree_use_clause"><a href="../ETC/clause.jsp">사이트 및 개인정보 이용 약관</a></label>
+                        </td>
+			        </tr>
 	            </table>
 	        </div>
 		</div>	
