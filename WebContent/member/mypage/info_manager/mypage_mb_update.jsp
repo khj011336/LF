@@ -89,8 +89,10 @@
 	            </table>
 	        </div>
 	        </div>
-		</div>	
+		</div>
+    </div>	
+    	<div id="mypage_update_info_btn">
 		<button>회원정보 수정</button> 
+		</div>
 	</div>
-    </div>
 </div>

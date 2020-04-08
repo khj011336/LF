@@ -416,8 +416,13 @@ a {
 	margin-right: auto;
 	text-align: center;
 }
-
-#mypage_update_info_table>button {
+#mypage_update_info_btn {
+	display: inline-block;
+	margin-top: 20px;
+	width: 1200px;
+	float: center;
+}
+#mypage_update_info_btn >button {
 	width: 240px;
 	height: 60px;
 	background-color: darkgrey;
