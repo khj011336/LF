@@ -118,6 +118,12 @@
 				console.log("결제내역 로딩완료");
 			});			
 		}); // 결제내역
+		$("#mypage_coupon_info").click(function() {
+			var url = ROOTCP+'/member/mypage/order_manager/mypage_coupon_info.jsp';
+			$("#mypage_bottom").load(url, function(){
+				console.log("쿠폰내역 로딩완료");
+			});
+		}); // 쿠폰내역
 	});
  </script>
 
@@ -202,6 +208,7 @@
 		    	<li><a href="#" id="mypage_receive_address">배송지관리</a></li> -->
 		    	<li><a href="#" id="mypage_delivery_info">배송정보</a></li>
 		    	<li><a href="#" id="mypage_payment_info">결제내역</a></li>
+		    	<li><a href="#" id="mypage_coupon_info">나의 쿠폰</a><li>
 			</ul>
 		  </div>
 		</div>

@@ -74,7 +74,7 @@
 			<tr>
 				<td colspan="9"
 					class="fundingPayment_delivery_info_table_td fundingPayment_delivery_infor_table_td_last">
-					<input type="text" name="delivery_demand"
+					<input type="text" name="fundingPayment_delivery_demand"
 					id="fundingPayment_delivery_demand" placeholder="  배송 시 요청사항"
 					size="105">
 				</td>
