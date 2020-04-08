@@ -165,7 +165,7 @@ span.order_sheet {
 	border: 0px;
 }
 
-input[name=goodsPayment_name], input[name=goodsPayment_email], input[name=goodsPayment_tel] {
+input[name=goodsPayment_name], input[name=goodsPayment_email], input[name=goodsPayment_tel], input[name=goodsPayment_address], input[neme=delivery_demand], input[name=goodsPayment_discountCoupon] {
 	height: 30px;
 	border-radius: 5px;
 }
