@@ -109,6 +109,7 @@ a:hover {
     display: flex;
     height: 150px;
     padding: 10px;
+    border-radius:3px;
       box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 1px 0px, rgba(41, 42, 43, 0.34) 0px 1px 3px 0px;
 }
 .MADIMG{
@@ -134,7 +135,11 @@ a:hover {
       padding-top: 5px;
     overflow-y: hidden;
     box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 1px 0px, rgba(41, 42, 43, 0.34) 0px 1px 3px 0px;
+    border-radius: 3px;
     
+}
+.confirmT:hover{
+	height: 500px;
 }
 .MADIMG img{
     width: 170px;
@@ -153,12 +158,16 @@ a:hover {
     padding: 10px;
     background-color: #ffa500cc;
 }
+.verhover{
+	margin-top: 30px;
+	background-color: yellow;
+}
 
 .percen{
     width: 100%;
     height: 40px;
     line-height: 3.5;
-    
+    font-weight:bolder;
     border-bottom: 1px solid black;
   
 }
@@ -166,10 +175,12 @@ a:hover {
        border-bottom: 1px solid black;
     width: 100%;
     height: 30px;
-    line-height: 2.5
+    line-height: 2.5;
+    font-weight: bolder;
 }
 #MADMAIN{
     padding: 20px;
+   
 }
 #MADhead{
     padding: 20px;
@@ -191,6 +202,7 @@ a:hover {
     width: 400px;
     height: 25px;
     margin-left: 10px;
+     box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 1px 0px, rgba(41, 42, 43, 0.34) 0px 1px 3px 0px;
 }
 .MADE input[type='button']{
     width: 50px;
@@ -201,16 +213,14 @@ a:hover {
 }
 .MADmenu{
     text-align: end;
-    font-size: 15px
+    font-size: 15px;
+     border-radius: 3px 0px;
 }
 .MADmenu select{
     font-size: 15px;
     
 }
-*{
-    
-    
-}
+
 #MADwrap *{
     box-sizing: border-box;
 }

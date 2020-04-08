@@ -209,7 +209,7 @@ a:hover {
 #CRwrap{
     width: 1000px;
     margin: 0px auto;
-   padding: 100px;
+   padding: 20px 100px 100px 100px;
 }
 #CRwrap *{
     box-sizing: border-box;
@@ -302,7 +302,7 @@ a:hover {
     
     padding: 0px 125px;
     width: 950px;
-    margin: 0px auto;
+    margin: 20px auto 100px auto;
 }
 #uplwrap input:focus{outline: none}
 
@@ -333,7 +333,7 @@ a:hover {
 #CreComWrap{
 	margin: 0px auto;
 	width: 700px;
-	padding: 0px 250px;
+	padding: 20px 250px 100px 250px;
 }
 #uplmar input{
 border: none;    
@@ -385,7 +385,11 @@ border: none;
      height: 30px;
        box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 1px 0px, rgba(41, 42, 43, 0.34) 0px 1px 3px 0px;
 }
-
+.upl_bt{
+	width: 60px;
+	height:30px;
+	margin-left: 860px;
+}
 #uplR input[type='file']{
     
 }
@@ -592,6 +596,9 @@ border: none;
 /* 이미지를 감싸고있는 div안에있으며 그안에있는 '파일찾기 텍스트' */
 .Crpf_find{
 	position: relative;
+}
+#Crpf_content{
+	margin-top: 20px;
 }
 /* 크리에이터 닉네임 연락처 sns계정 .. 등등 타이틀 간격 */
 .Crpf_text1 {
