@@ -1,8 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
  
-<link href="../resource/css/CreCommentMt.css" rel="stylesheet"
-	type="text/css">
+
    <div id="MADwrap">
         <div id="MADhead">
             <h4 style="font-size: 30px;">댓글 관리</h4>
@@ -18,7 +17,7 @@
                 </div>
                 <div class="MADcon">
                     <div class='MADIMG'>
-                        <img src='../resource/img/lfly.PNG'>
+                        <img src='../resource/img/dummy_img1.jpg'>
                     </div>
                     <div class="MADcontent">
                         <div class="MADvt">
@@ -40,7 +39,8 @@
                     </div>
                 </div>
                 <div class="confirmT">
-                    <div class="MADbutton">버튼 아코디언</div>
+                    <div class="MADbutton">버튼 아코디언
+                    <div class='confirmT'>댓글</div></div>
                 </div>
             </div>
         </div>

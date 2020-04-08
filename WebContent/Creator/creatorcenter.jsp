@@ -11,9 +11,8 @@
 <script
 	src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-<script type="text/javascript" src="../common/temp.js"></script>
-<link type="text/css" rel="stylesheet"
-	href="../resource/css/creator.css">
+<link href="../resource/css/CreCommentMt.css" rel="stylesheet"
+	type="text/css">
 <link href="../resource/css/creator.css" rel="stylesheet"
 	type="text/css">
 <link href="../resource/css/side_nav.css" rel="stylesheet"
@@ -69,8 +68,8 @@ $(document).on("click",'.deleteOne',function () {
 </script>
 </head>
 <body>
-	<div id="Cre_wrap" >
-		<div id="Cre_header">
+	<div id="wrapper" >
+		<div id="header" class='header'>
 			<%@ include file="../common/header.jsp"%>
 		</div>
 		<%@ include file="Creside_nav.jsp"%>
@@ -78,7 +77,7 @@ $(document).on("click",'.deleteOne',function () {
 			
 			<%@ include file="_myclass.jsp"%>
 		</div>
-		<div id="Cre_footer">
+		<div id="footer" class='footer'>
 			<%@ include file="../common/footer.jsp"%>
 		</div>
 	</div>

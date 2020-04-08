@@ -67,7 +67,7 @@
                 </textarea>
             </div>
         </div>
-        <div><input type="button" value="다음" class="creator_next_btn videoupload_next_btn"></div>
+        <div><input type="button" value="다음" class="upl_bt"></div>
 <!--         <div id="upllas"><input type="submit" value="올리기"></div> -->
     </form>
 </div>
