@@ -1,21 +1,11 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
 <head>
-	<meta charset="utf-8">
-	<title>LecFLY 이용 약관</title>
-	<meta name="author" content="Your Name">
-	<meta name="description" content="Example description">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="icon" type="image/x-icon" href=""/>
-	
-    <link type="text/css" rel="stylesheet" href="../resource/css/create_new_member.css">
-    <link type="text/css" rel="stylesheet" href="../resource/css/main.css">
-    <script type="text/javascript">
-    	function goCreateNewMember() {
-    		window.open('../member/create_new_member.jsp');
-		}
-    </script>
-    <style>
+<meta charset="UTF-8">
+<title>LecFLY 이용 약관</title>
+<style>
 	*{
 		margin: 0px uto;
 	}
@@ -24,47 +14,26 @@
 		width: 1100px;
 		height: 700px; 
 	}
-	.clause_agree{
-		margin: 10px;
-		font-size: 14px;
-	}
 	.clause_cont{
 		margin: 0px auto;
 		width: 800px;
 	}
 	.clause_title{
-		margin: 30px auto;
+		margin: 0px auto;
 		width: 210px;
 	}
 	#clause_btn{
-		display: inline-block;
-		margin-top: 20px;
-		width: 1000px;
-		float: center;
-	}
-	#agree_clause{
-		margin: 30px auto 0px auto;
-		background-color: orange;
-		width: 400px;
-		height: 50px;
-	    text-align: center;
-		line-height: 60px;
-		font-size: 2.0em;
+		margin: 0px auto;
+		width: 30px;
 	}
 </style>
 </head>
-	<div id="cnm_wrap">
-    <div class="cnm_title">
-    	<br><br><br><br>
-        <h3>LecFLY 이용 약관</h3>
-        <br>
-    </div>
-    <!--각종 약관들? 이 페이지 넘어오기전에 새로운 페이지에서 처리한단.-->
-    <div id="cnm_wrap4">
-    	<div class="clause_title">
+<body>
+	<div id="clause_content_wrap">
+		<div class="clause_title">
 			<h2>사이트 이용 약관</h2>
 		</div>
-    	<div class="clause_cont">
+		<div class="clause_cont">
 			<textarea rows="50" cols="50" style="width:800px; height:250px; resize:none;" readonly="readonly">
 						제 1 장 총 칙
  
@@ -135,10 +104,6 @@
 (시행일) 이 약관은 2020년 05월부터 시행합니다.
 
 			</textarea>
-		</div>
-		<div class="clause_agree">
-			<input type="checkbox" value="clause_agree1" id="clause_agree1">
-			<label for="clause_agree1">사이트 이용 약관에 동의합니다.</label>
 		</div>
 		<div class="clause_title">
 			<h2>개인정보 이용 약관</h2>
@@ -280,12 +245,9 @@ LecFLY는 법령이나 이용약관 등에 반하여 피해를 줄 수 있는 �
 
 			</textarea>
 		</div>
-		<div class="clause_agree">
-			<input type="checkbox" value="clause_agree2" id="clause_agree2">
-			<label for="clause_agree2">개인정보 이용 약관에 동의합니다.</label>
-		</div>
 		<div id="clause_btn">
-			<a href="#" onclick="goCreateNewMember()"><input type="button" id="agree_clause" value="회원가입 페이지로 이동"></a>
+			<input type="button" id="agree_clause" value="확인">
 		</div>
-    </div>	
-</div>
+	</div>
+</body>
+</html>

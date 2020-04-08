@@ -180,6 +180,7 @@ input:focus {outline:none;}
 	/* background-color: #D3D3D3; */
 }
 .main_wrapper { /* 메인 파트: width 1200 */
+	margin: 0px auto;
 	width: 1200px;
 	text-align: justify;
 }

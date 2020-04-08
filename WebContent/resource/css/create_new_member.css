@@ -22,22 +22,14 @@
 <!-- mb_adress_detail	cnm_mb_adress_detail -->
 <!-- bottom		cnm_bottom -->
 <!-- submit_btn	cnm_submit_btn -->
-/* #cnm_wrap li{
-    margin-bottom: 5px;
-}
 
-#cnm_wrap input{
-    height: 30px;
-    font-size: 18px;
-}
-*/
 #cnm_wrap div{
     width: 1000px;
     padding-bottom: 10px;
-    background-color: red;
+    
 }
 
-.cnm_title{
+.cnm_title{  /* 로고있는 타이틀 */
 	width: 500px;
 	height: 100px;
 	text-align: center;
@@ -48,45 +40,21 @@
 	opacity: 0.7;
 }
 
-/*.cnm_li_title{
-	margin-top:10px;
-}
-.cnm_subtitle{
-	font-size: 20px;
-	margin-top: 10px;
-} */
 #cnm_wrap{
-/* 	border: 1px solid black; */
-	/* margin: 50px auto 50px auto;
-	width: 800px; */
-	
-    /* margin-top: 50px;
-    margin-bottom: 50px; */
     width: 1000px;
     height: 1100px;
 	margin: 30px auto 0px auto;
 	text-align: center;
 	padding-bottom: 30px;
 }
-/* 사진 */
-#cnm_profile{
-    width: 150px;
-    height: 150px;
-    border: 1px solid black;
-    border-radius: 75px;
-}
-#cnm_pro_title{
-	text-align: center;
-}
-.input_cnm{
+
+.input_cnm{ /* 회원가입 input 텍스트박스 설정 */
     height: 32px;
 	width: 400px;	
 	font-family: sans-serif;
 	font-size: 16px;
 }
-/* #cnm_pic{
-	text-align: center;
-} */
+
 #cnm_pic{
     /* border: 1px solid red; */
 	display:inline-block;
@@ -110,48 +78,44 @@
 	display: inline-block;
 	
 }
-#cnm_wrap2{
+#cnm_wrap2{ /* 회원가입 래퍼 */
 	border-top: 2px solid black;
 	border-bottom: 2px solid black;
 	margin-left: auto;
 	margin-right: auto;
 	height: 690px; 
 }
-#cnm_wrap3{
+#cnm_wrap3{ /* 회원정보수정 래퍼 */
 	border-top: 2px solid black;
 	border-bottom: 2px solid black;
 	margin-left: auto;
 	margin-right: auto;
 	height: 690px; 
 }
-#cnm_table_left{ /* mypage pw 수정_ 테이블 */
-	/* border-top: 2px solid black;
-	border-bottom: 2px solid black; */
+#cnm_wrap4{ /* 회원가입 약관 래퍼 */
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	margin-left: auto;
+	margin-right: auto;
+	height: 720px; 
+}
+#cnm_table_left{ /* 회원정보수정 정렬 */
 	text-align: left;
-	/* margin-left: auto;
-	margin-right: auto; */
 	float: left;
 	margin-left: 50px;
 }
-#cnm_table{ /* mypage pw 수정_ 테이블 */
-	/* border-top: 2px solid black;
-	border-bottom: 2px solid black; */
+#cnm_table{ /* 회원가입 테이블 */
 	text-align: left;
 	margin-left: auto;
 	margin-right: auto;
 	float: right;
 }
-#cnm_table table{ /* mypage pw 수정_ 테이블 */
-     /* margin-left: 50px; */
-     margin: 30px auto 30px auto;
-	/* margin-right: auto; */
-    width: 600px;
+#cnm_table table{ /* 회원가입 테이블_ 테이블 */
+    margin: 30px auto 30px auto;
+	width: 600px;
     height: 420px;
     border-collapse: collapse;
-    /* border-top: 1px solid darkgray;
-    border-bottom: 1px solid darkgray; */
     text-align: left;
-   /*  font-size: large; */
 }
 #cnm_table table th {
 	 vertical-align: top;
@@ -172,10 +136,10 @@
 /* 생일 */
 
 /* 성별 */
-#cnm_gender{
+#cnm_gender{ /* 성별 input 영역 */
     padding-left: 150px;
 }
-#cnm_mb_f, #cnm_mb_m{
+#cnm_mb_f, #cnm_mb_m{ /* 성별 input */
 	width: 15px;
 	height: 15px;
 	margin: 0 10px 0 10px;
@@ -189,49 +153,44 @@
 /* 비밀번호 */
 
 /* 전화번호 */
-.cnm_ph_padding {
+.cnm_ph_padding { /* 전화번호 010 */
 	font-size: 16px;
 }
-.cnm_mb_ph{
+.cnm_mb_ph{  /* 전화번호 input */
 	width: 120px;
 	height: 32px;
 	font-size: 16px;
+	font-family: sans-serif;
 }
 
 /* 이메일 */
 
 /* 주소 */
-#cnm_mb_adress_num{
+#cnm_mb_adress_num{ /* 주소찾기 input */
 	width: 340px;
 	height: 32px;
 	font-family: sans-serif;
 	font-size: 16px;
 }
-#find_adress_btn{
+#find_adress_btn{ /* 주소찾기 버튼 */
 	width: 60px;
 	height: 32px;
 	background-color: orange;
 	float: right;
 	font-size: 16px;
 }
-/* #cnm_find_adress{
-	width: 69px;
-	height: 30px;
-	background-color: orange;
-	border: 1px solid black;
-	font-size: 16px;
-} */
 
 /* 하단부 */
-.cnm_bottom{
+.cnm_bottom{ /* 회원가입 버튼 영역 */
 	display: inline-block;
 	margin-top: 20px;
 	width: 1000px;
 	float: center;
 }
-#cnm_submit_btn{
+#cnm_submit_btn{ /* 회원가입 버튼 */
 	margin: auto;
 	background-color: orange;
+	color: black;
 	width: 400px;
 	height: 50px;
     text-align: center;

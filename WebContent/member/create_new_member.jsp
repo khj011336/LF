@@ -10,11 +10,6 @@
 	
     <link type="text/css" rel="stylesheet" href="../resource/css/create_new_member.css">
     <link type="text/css" rel="stylesheet" href="../resource/css/main.css">
-    <script type="text/javascript">
-    	function showClause() {
-    		window.open('../ETC/clause.jsp', '약관');
-		}
-    </script>
 </head>
 	<div id="cnm_wrap">
     <div class="cnm_title">
@@ -112,19 +107,19 @@
                             <label for= "cnm_mb_agree_news_bysms">네 문자로 받아볼래요!</label>
                         </td>
 	                </tr>
-	                <tr>
+	                <!-- <tr>
 			        	<th rowspan="2">이용 및 개인정보 동의</th>
 			        	<td>
 			        		<input type="checkbox" id = "cnm_mb_agree_clause" name = "cnm_mb_agree_clause"  value="agree_clause">
                             <label for= "cnm_mb_agree_clause"><a href="#" onclick="showClause()">사이트 및 개인정보 이용 약관</a></label>
                         </td>
-			        </tr>
+			        </tr> -->
 	            </table>
 	        </div>
 		</div>	
 	<div class="cnm_bottom">
 	    <div id="cnm_submit_btn">
-	    	회원가입하기
+	    	<a style="color: black;" href="../home.jsp">회원가입하기</a>
 	    </div>
     </div>
 </div>

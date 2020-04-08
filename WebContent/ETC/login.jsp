@@ -35,7 +35,7 @@
         <div id="login_etc">
         	<a id="find_pw" class="login_linked login_a" href="#">비밀번호찾기</a>
 <!--             <a id="find_pw" class="login_linked login_a" href="../member/find_mb_login.jsp">비밀번호찾기</a> -->
-            <a id="register" class="login_linked login_a" href="../member/create_new_member.jsp">회원가입</a>
+            <a id="register" class="login_linked login_a" href="../ETC/clause.jsp">회원가입</a>
         </div>
     </div>
     <div id="login_bottom">
