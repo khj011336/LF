@@ -193,7 +193,7 @@ p#Fcname{
 }
 #funding_content {
 	width: 350px;
-	height: 500px;
+	height: 600px;
 	display: inline-block;
 	position: fixed;
 	top: 20px;
@@ -220,24 +220,28 @@ p#Fcname{
     margin-bottom: 5px;
 }
 #fcpriceh{
-    margin-top: 5px;
-    height: 90px;
-        border: 1px solid black;
+    margin-top: 20px;
+    height: 120px;
+    color: rgb(62, 64, 66);
     text-align: center;
-    background-color: orange;
-    color: aliceblue;
+ background-color: rgb(248, 248, 249);
+   vertical-align: middle;
     border-radius: 3px;
     font-size: 20px;
+    line-height: 2;
 }
 #fcclick{
-    border: 1px solid black;
-    height: 30px;
+    height: 50px;
     margin-top: 3px;
     border-radius: 3px;
     font-size: 20px;
-     background-color: red;
-    color: aliceblue;
+     background-color: orange;
+    color: white;
       text-align: center;
+    font-weight: bolder;
+    line-height: 2.5;
+        margin-top: 20px;
+   
 }
 #FIngq{
     background-color: orange;
@@ -283,7 +287,7 @@ p#Fcname{
 #Fdate div{
     box-sizing: border-box;
     text-align: center;
-    width: 180px;
+
     color: orange;
 }
 #Ffonts{
@@ -316,6 +320,7 @@ width: 100%;
     width: 780px;
     height: 450px;
 }
+
 .FCconmain{
     width: 100%;
     height: 600px;
@@ -339,11 +344,13 @@ width: 100%;
  
 
 #funding_text_contents{
-font-size: 30px
+font-size: 17px
 }
 #funding_text{
     width: 100%;
     margin: 20px 0px;
+    text-align: center;
+    line-height: 1.4;
 }
 #Ffont{
     height: 50px;
@@ -357,13 +364,14 @@ font-size: 30px
     padding: 5px;
 }
 #Fprice{
-    padding: 10px;
+    padding: 10px 0px;
     text-align: center;
     font-size: 15px;
     font-weight: bolder;
    border-bottom: 1px solid gray;
    border-top: 1px solid gray;
     color: dodgerblue;
+    display: flex;
 }
 #bom p{
     margin-bottom: 6px;
@@ -371,6 +379,21 @@ font-size: 30px
     height: 20px;
 }
 
-  
-  
+  #funding_table {
+	margin: 15px;
+	width: 750px;
+	font-weight: bold;
+}
+
+.funding_table_td {
+	padding: 5px;
+}
+
+.funding_tb_num {
+	color: red;
+}
+#fundingwrap{
+    padding: 0px 20px;
+    margin-bottom: 50px;
+}
 

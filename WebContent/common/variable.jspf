@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="resource/css/creator.css">
 <link rel="stylesheet" href="resource/css/CSCenter.css">
 <link rel="stylesheet" href="resource/css/fundingPayment.css">
-<link rel="stylesheet" href="resource/css/fundingRegister.css">
+<!-- <link rel="stylesheet" href="resource/css/fundingRegister.css"> -->
 <link rel="stylesheet" href="resource/css/lecplay.css">
 <link rel="stylesheet" href="resource/css/goodsPayment.css">
 <link rel="stylesheet" href="resource/css/login.css">
@@ -20,7 +20,7 @@
 <link rel="stylesheet" href="resource/css/mypage.css">
 <link rel="stylesheet" href="resource/css/lectureRegister.css">
 <link rel="stylesheet" href="resource/css/main_banner.css">
-
+<link rel="stylesheet" href="resource/css/fundingreg.css" type="text/css">
 <!-- ------------------------------------------------------------ -->
 <!-- 폰트 -->
 <!-- <link rel="stylesheet" href="resource/css/paymentCreditForm.css"> -->

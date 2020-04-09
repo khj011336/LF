@@ -89,7 +89,26 @@ a:hover {
 	font-style: normal;
 }
 
+#Crcircle{
+	width: 950px;
+	margin: 0px auto;
+	padding-left: 870px;
+	display: none;
+}
+.Ccirk{
+    width: 90px;
+    height: 40px;
+    display: inline-block;
+    font-weight: bold;
+    cursor: pointer;
+	line-height: 5;
+	
 
+}
+.Ccirk:hover{
+color:#ffa500;
+
+	}
 
 /*  		Creator 안의 jsp 파일들공통 글자크기 헤더 h1~ h6까지폰트   */
 .creator_h1 {

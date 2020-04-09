@@ -27,12 +27,17 @@
 			$("#homemain").load("payment/goodsPayment.jsp");
 			
 		});
-		// 펀딩소개 페이지 
+		// 펀딩 페이지
 		$(document).on("click",'.nav_funding', function() {
-			$("#homemain").load("Funding/fundingRegister.jsp");
+			$("#homemain").load("Funding/fundinglist.jsp");
 			
-		});	
+		});
  
+		$(document).on("click",'.fuvideo_block', function() {
+			$("#homemain").load("Funding/fundingregN.jsp");
+			
+		});
+		
 			
 		});
 //		// 크리에이터센터 페이지 
@@ -59,11 +64,7 @@
 			
 		});
 		
-		// 펀딩 페이지
-		$(document).on("click",'.fa-funnel-dollar', function() {
-			$("#homemain").load("Funding/fundingRegister.jsp");
-			
-		});
+		
 		
 		// cs센터 페이지
 		$(document).on("click",'#CSCenter, .nav_cs', function() {
