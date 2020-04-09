@@ -78,6 +78,9 @@ body {
   background: #1e2229;
 }
 
+.container-fluid {
+	margin: 0 auto;
+}
 /*----------------toggeled sidebar----------------*/
 
 .page-wrapper.toggled .sidebar-wrapper {
@@ -86,7 +89,7 @@ body {
 
 @media screen and (min-width: 768px) {
   .page-wrapper.toggled .page-content {
-    padding-left: 300px;
+    padding-left: 260px;
   }
 }
 /*----------------show sidebar button----------------*/
