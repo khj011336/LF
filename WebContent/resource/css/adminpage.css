@@ -39,6 +39,18 @@
     opacity: 0;
   }
 }
+
+@media (max-width: 765px) {
+.sidebar-wrapper {
+  width: 0 !important;
+  display: none !important;
+}
+}
+@media screen and (min-width: 766px) {
+.sidebar-wrapper {
+}
+}
+
 body {
   font-size: 0.9rem;
 }
@@ -64,6 +76,7 @@ body {
 
 .page-wrapper {
   height: 100vh;
+  
 }
 
 .page-wrapper .theme {

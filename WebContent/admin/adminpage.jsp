@@ -10,45 +10,15 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js" type="text/javascript"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/esm/popper.js" type="text/javascript"></script>
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/js/bootstrap.js" type="text/javascript"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/js/bootstrap.js" type="text/javascript"></script> 
 <title>Lecfly 관리자 페이지</title>
-<script type="text/javascript">
-$(".sidebar-dropdown > a").click(function() {
-	  $(".sidebar-submenu").slideUp(200);
-	  if (
-	    $(this)
-	      .parent()
-	      .hasClass("active")
-	  ) {
-	    $(".sidebar-dropdown").removeClass("active");
-	    $(this)
-	      .parent()
-	      .removeClass("active");
-	  } else {
-	    $(".sidebar-dropdown").removeClass("active");
-	    $(this)
-	      .next(".sidebar-submenu")
-	      .slideDown(200);
-	    $(this)
-	      .parent()
-	      .addClass("active");
-	  }
-	});
 
-// 	$("#close-sidebar").click(function() {
-// 	  $(".page-wrapper").removeClass("toggled");
-// 	});
-// 	$("#show-sidebar").click(function() {
-// 	  $(".page-wrapper").addClass("toggled");
-// 	});
-
-</script>
 </head>
 <body>
 <div class="page-wrapper chiller-theme toggled">
-<!--   <a id="show-sidebar" class="btn btn-sm btn-dark" href="#"> -->
-<!--     <i class="fas fa-bars"></i> -->
-<!--   </a> -->
+  <a id="show-sidebar" class="btn btn-sm btn-dark" href="#">
+    <i class="fas fa-bars"></i>
+  </a>
 
   <!-- 관리자 사이드 메뉴  -->
 	<%@include file="admin_side_nav.jsp" %>
@@ -56,10 +26,11 @@ $(".sidebar-dropdown > a").click(function() {
   <!-- 관리자 조각  -->
   <div class="page-content">
     <div class="container-fluid">
-      <%@include file="admin_main.jsp" %>
+      <%@include file="admin_board_bulletin.jsp" %>
     </div>
   </div>
 </div>
+
 
 </body>
 </html>
