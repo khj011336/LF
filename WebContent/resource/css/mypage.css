@@ -71,6 +71,7 @@ a {
 	height: 208px;
 	padding: 70px 20px 30px 20px;
 	text-align: center;
+	cursor: pointer;
 }
 
 #mypage_mb_IF label {
