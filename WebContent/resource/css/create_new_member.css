@@ -176,7 +176,7 @@
 	 padding-left: 60px;
 	 padding: 5px;
 	 font-family: sans-serif;
-	 vertical-align: top;
+	 vertical-align: middle;
 }
 
 #cnm_table >input {
@@ -209,7 +209,8 @@
 }
 .gender_sub_title{
 	font-size: 16px;
-	height: 30px;
+	height: 33px;
+	vertical-align: center;
 }
 /* 로그인 */
 

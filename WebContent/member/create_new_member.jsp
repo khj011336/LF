@@ -105,7 +105,7 @@
 	                </tr>
 	                <tr>
 			        	<th rowspan="2">소식 수신 동의</th>
-			        	<td style="font-size:14px;"><b>LecFly의 다양한 소식들을 받아 보시겠습니까?</b><br><br>
+			        	<td style="font-size:14px; padding-top:13px;"><b>LecFly의 다양한 소식들을 받아 보시겠습니까?</b><br><br>
 							이벤트정보, 기타 다양한 정보를 빠르게 만나실 수 있습니다. <br>(주문, 배송내역은 수신여부와 상관 없이 기본 발송됩니다)
 			        	</td>
 			        </tr>
