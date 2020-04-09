@@ -71,6 +71,7 @@ a {
 	height: 208px;
 	padding: 70px 20px 30px 20px;
 	text-align: center;
+	cursor: pointer;
 }
 
 #mypage_mb_IF label {
@@ -443,13 +444,13 @@ a {
 /* mypage 쿠폰 등록 CSS */
 .mypage_registerCoupon {
 	position: relative;
-	top: 48px;
-	left: 1000px;
+	top: -20px;
+	left: 500px;
 	font-size: 12pt;
 	padding: 10px;
 	color: white;
 	background-color: orange;
-	border-radius: 20px/50px;
+/* 	border-radius: 20px/50px; */
 	text-decoration: none;
 	cursor: pointer;
 	transition: all 0.3s ease-out;
