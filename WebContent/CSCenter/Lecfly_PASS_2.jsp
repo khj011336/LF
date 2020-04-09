@@ -22,8 +22,9 @@
             </div>
             
             <div class="lecflyticket">
+            	<div id="lecflyis_logo"><br><br><h2><img src="resource/img/logo/LecFly_LOGO_W_C.png" ></h2></div>
                 <div><br><br></div>
-                <div id="lecflyticket_maintitle"><h1>회원권 안내</h1></div>
+                <div id="lecflyticket_maintitle"><h1 style="color: white;">회원권 안내</h1></div>
                 <div id="lecflyticket_noticebox">
                 Lecfly는 카테고리별 회원권으로 이용가능합니다.<br>
                 한개의 회원권으로 카테고리 내 모든 강의를 수강가능합니다.<br><br>

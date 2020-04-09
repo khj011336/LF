@@ -31,6 +31,19 @@
 			     		<td><input type="text" id="cnm_mb_name" name="cnm_mb_name" class="input_cnm" placeholder="이름"></td>
 			     	</tr>
 			     	<tr>
+			        	<th><label class="cnm_subtitle" for="cnm_mb_nick">닉네임</label></th>
+	                    <td>
+	                    	<div style="display: inline-block">
+	                    		<input type="text" id="cnm_mb_nick" name="cnm_mb_nick" class="input_cnm" placeholder="닉네임">
+	                    		<input type="button" id="cnm_mb_nick_check_btn" value="중복확인">
+	                    	</div>
+	                    </td>
+	                </tr>
+	                <tr>
+	                	<td></td>
+	                	<td style="font-size:12px;">닉네임은 6~14자의 영어/숫자 조합해주세요.</td>
+	                </tr>
+			     	<tr>
 			        	<th><label class="cnm_subtitle" for="cnm_mb_birth">생년월일</label></th>
 	                    <td><input type="date" id="cnm_mb_birth" name="cnm_mb_birth" class="input_cnm" style="color:grey"></td>
 	                </tr>
@@ -42,12 +55,13 @@
     					</td>
 	                </tr>
 	                <tr>
-			        	<th><label class="cnm_subtitle" for="cnm_mb_login">아이디</label></th>
-	                    <td><input type="text" id="cnm_mb_login" name="cnm_mb_login" class="input_cnm" placeholder="아이디"></td>
-	                </tr>
-	                <tr>
-	                	<td></td>
-	                	<td style="font-size:12px;">아이디는 6~14자의 영어/숫자 조합해주세요.</td>
+			        	<th><label class="cnm_subtitle" for="cnm_mb_email">이메일</label></th>
+	                    <td>
+	                    	<div style="display: inline-block">
+	                    		<input type="text" id="cnm_mb_email" name="cnm_mb_email" class="input_cnm" placeholder="이메일">
+	                    		<input type="button" id="cnm_mb_email_check_btn" value="중복확인">
+	                    	</div>
+	                    </td>
 	                </tr>
 	                <tr>
 			        	<th>비밀번호</th>
@@ -75,10 +89,6 @@
 				    	</td>
 	                </tr>
 	                <tr>
-			        	<th><label class="cnm_subtitle" for="cnm_mb_email">이메일</label></th>
-	                    <td><input type="text" id="cnm_mb_email" name="cnm_mb_email" class="input_cnm" placeholder="이메일"></td>
-	                </tr>
-	                <tr>
 			        	<th rowspan="3"><label class="cnm_subtitle">주소</label></th>
 	                    <td>
 	                    	<div style="display: inline-block">
@@ -95,7 +105,7 @@
 	                </tr>
 	                <tr>
 			        	<th rowspan="2">소식 수신 동의</th>
-			        	<td style="font-size:14px;"><b>LecFly의 다양한 소식들을 받아 보시겠습니까?</b><br><br>
+			        	<td style="font-size:14px; padding-top:13px;"><b>LecFly의 다양한 소식들을 받아 보시겠습니까?</b><br><br>
 							이벤트정보, 기타 다양한 정보를 빠르게 만나실 수 있습니다. <br>(주문, 배송내역은 수신여부와 상관 없이 기본 발송됩니다)
 			        	</td>
 			        </tr>

@@ -14,7 +14,6 @@
     margin-left: auto;
     margin-right: auto;
     align-items: center;
-    /* background-color: lightsalmon; */
 }
 
 #CSsec_title { /* 타이틀 _ 고객섬김센터*/
@@ -325,20 +324,26 @@
 .lecflyis { /* 홈페이지_이용안내_섹션*/
     width: 930px;
     min-height: 700px;
-    margin-left: 60px;
-    margin-top: 15px;
+    margin: 15px auto 15px auto;
     padding-bottom: 30px;
-    background-color: orange;
+    background: url(../img/photosample.jpg);
+    background-repeat: no-repeat;
+    background-position: 0% 5%;
     text-align: center;
 }
 #lecflyis_logo { /* 로고 */
-    margin-top: 30px;
+    margin-top: 45px;
 }
 #lecflyis_maintitle { /* 홈페이지_이용안내_메인타이틀 */
     margin-top: 30px;
+    color: white;
+}
+#lecflyis_maintxt >p { /* 홈페이지_이용안내_메인타이틀 */
+    color: white;
 }
 #lecflyis_maintxt { /* 홈페이지_이용안내_메인텍스트*/
     margin-top: 30px;
+    color: white;
 }
 #lecflyis_title2 { /* 홈페이지_이용안내_타이틀 2*/
     margin-top: 60px;
@@ -348,7 +353,7 @@
     margin-right: auto;
 }
 #lecflyis_box { /* 홈페이지_이용안내_박스 */
-    background-color: white;
+    background-color: rgba(255,255,255,0.7);
     width: 220px;
     height: 220px;
     display: block;
@@ -362,9 +367,9 @@
 #lecflyis_title3 { /* 홈페이지_이용안내_타이틀3 */
     width: 930px;
     height: 150px; 
-    background-color: orange;
-    margin-left: 60px;
     text-align: center;
+    display: inline-block;
+    margin-top: 30px;
 }
 #lecflyis_gohome { /* 홈페이지_이용안내_홈화면 이동 */
     width: 200px;
@@ -386,37 +391,37 @@
 
 .lecflyticket {  /* 홈페이지_회원권_섹션 */
     width: 930px;
-    min-height: 620px;
-    margin-left: 60px;
-    margin-top: 15px;
+    height: 700px;
+    margin: 15px auto 15px auto;
     padding-bottom: 30px;
-    background-color: orange;
+    background: url(../img/photosample.jpg);
+    background-repeat: no-repeat;
+    background-position: 0% 5%;
     text-align: center;
 }
 #lecflyticket_logo {  /* 홈페이지_회원권_로고*/
-    margin-top: 30px;
+    margin-top: 45px;
 }
 #lecflyticket_noticebox {  /* 홈페이지_회원권_공지박스 */
     width: 795px;
     height: 90px;
     margin-left: 67.5px;
     padding-top: 20px;
-    background-color: lightgray;
+    background-color: rgba(255,255,255,0.7);
     text-align: center;
 }
 #lecflyticket_maintitle { /* 홈페이지_회원권_메인타이틀 */
-    margin-top: 30px;
+    margin-top: 10px;
     margin-bottom: 30px;
+    color: white;
 }
 #lecflyticket_box { /* 홈페이지_회원권_회원권종류 박스 */
-    background-color: white;
+    background-color: rgba(255,255,255,0.7);
     width: 220px;
     height: 300px;
     display: block;
     float: left;
-    margin-left: 67.5px;
-    margin-top: 45px;
-/*    padding-left: 10px;*/
+    margin: 45px 0px 30px 67.5px;
     padding-top: 30px;
     text-align: center;
 }
