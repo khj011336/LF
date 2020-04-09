@@ -56,7 +56,7 @@ $(".sidebar-dropdown > a").click(function() {
   <!-- 관리자 조각  -->
   <div class="page-content">
     <div class="container-fluid">
-      <%@include file="admin_board.jsp" %>
+      <%@include file="admin_main.jsp" %>
     </div>
   </div>
 </div>

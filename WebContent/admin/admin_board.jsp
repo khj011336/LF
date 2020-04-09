@@ -19,7 +19,7 @@
 }
 .admin_table_filter > table {
 	margin: 30px;
-	width:600px;
+	width:800px;
 	border: .1px solid #e8e8e8; 
 }
 .admin_table_filter th {
@@ -29,7 +29,10 @@
 	caption-side: top;
 	
 }
-
+.admin_table_filter .date_filter{
+    border: 1px solid #98989b;
+	padding: 0px;
+}
 </style>    
 <h4>이용권 결제내역</h4>
 
@@ -37,26 +40,36 @@
 	<table>
 		<caption>검색조건설정</caption>
 		<tr>
-			<th>기간검색</th><td><input type="date"/> ~ <input type="date"/></td>
-		</tr>
+			<th>기간검색</th>
+			<td>
+				<span class="date_filter"><a href="#">오늘</a></span>
+				<span class="date_filter"><a href="#">3일</a></span>
+				<span class="date_filter"><a href="#">7일</a></span>
+				<span class="date_filter"><a href="#">1개월</a></span>
+				<input type="date"/> ~ <input type="date"/>
+			</td>
+		</tr><td></td>
 		<tr>
-			<th>상품 상태</th>
+			<th>판매상태</th>
 			<td>
 				<lable><input name="goods_con" type="radio" value="">판매</lable>
 				<lable><input name="goods_con" type="radio" value="">품절</lable>
 				<lable><input name="goods_con" type="radio" value="">승인대기</lable>
-			</td>
-		</tr>
-		
-		<tr>
-			<th>판매자</th><td><input type="text" size="40"></td>
+			</td><td></td>
 		</tr>
 		<tr>
-			<th>상품명</th><td><input type="text" size="40"></td>
+			<th>조건선택</th>
+			<td>
+				<select name="">
+   					<option value="">상품명</option>
+  					<option value="">판매자</option>
+    				<option value="">상품코드</option>
+    				<option value="">강의명</option>
+				</select>
+			<input type="text" size="40"></td>
+		<td><input type="submit" value="조회"/></td>
 		</tr>
-		<tr>
-			<th></th><td><input type="submit" value="조회"/></td>
-		</tr>
+
 	</table>
 </div>
     
