@@ -66,7 +66,7 @@
 	width: 400px;
 	height: 50px;
     text-align: center;
-	line-height: 60px;
+	line-height: 50px;
 	font-size: 2.0em;	
 }
 
@@ -166,22 +166,36 @@
     border-collapse: collapse;
     text-align: left;
 }
-#cnm_table table th {
+#cnm_table>table th {
+	min-height: 42px;
 	 vertical-align: top;
-	 padding: 5px;
+	 padding:15px 5px 10px 5px;
 }
 #cnm_table table td {
 	 text-align: left;
 	 padding-left: 60px;
 	 padding: 5px;
 	 font-family: sans-serif;
+	 vertical-align: top;
 }
 
 #cnm_table >input {
 	font-size: 20px;
 }
 /* 이름 */
-
+#cnm_mb_nick, #cnm_mb_email{ /* 닉네임, 이메일 input */
+	width: 340px;
+	height: 32px;
+	font-family: sans-serif;
+	font-size: 16px;
+}
+#cnm_mb_nick_check_btn, #cnm_mb_email_check_btn{ /* 닉네임, 이메일 중복확인 버튼 */
+	width: 60px;
+	height: 32px;
+	background-color: orange;
+	float: right;
+	font-size: 16px;
+}
 /* 생일 */
 
 /* 성별 */
@@ -243,7 +257,7 @@
 	width: 400px;
 	height: 50px;
     text-align: center;
-	line-height: 60px;
+	line-height: 55px;
 	font-size: 2.0em;
 }
 
