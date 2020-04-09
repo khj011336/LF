@@ -42,7 +42,7 @@ $(document).on("click",'.deleteOne',function () {
 	if(s == 1){
 	$("#Cre_main").load("_videoupload.jsp");		
 	}else if( s == 2){
-		$("#Cre_main").load("_creatorprofile.jsp");		
+		$("#Cre_main").load("_classdes.jsp");		
 	}else{
 		$("#Cre_main").load("_sellkitregistration.jsp");
 	}
@@ -53,6 +53,7 @@ $(document).on("click",'.deleteOne',function () {
 	});
 	$(document).on("click",".nav_lecfly_info", function () {
 		$("#Cre_main").load("_myclass.jsp");
+		$("#Crcircle").css("display","none");
 	});
 	$(document).on("click",".CRsendCo", function () {
 		$("#Cre_main").load("CrecommentMt.jsp");
@@ -61,7 +62,24 @@ $(document).on("click",'.deleteOne',function () {
 		$("#Cre_main").load("_videoupload.jsp");
 	});
 	$(document).on("click","#CRHT2", function () {
+		
 		$("#Cre_main").load("_classdes.jsp");
+		$("#Crcircle").css("display","inline-block");
+		
+	});
+$(document).on("click",".Ccirk", function (re) {
+		$(".Ccirk").css("text-decoration","none");
+		$(".Ccirk").css("color","black");
+		$(this).css("text-decoration","underline");
+		$(this).css("color","#ffa500");
+		var pa = $(this).html();
+		if(pa == "1.크리에이터 소개"){ $("#Cre_main").load("_creatorprofile.jsp");}
+		else if(pa == "2.클래스 기본정보"){ $("#Cre_main").load("_classdes.jsp");}
+		else{$("#Cre_main").load("../goods/lectureRegister.jsp");}  
+	});
+$(document).on("click","#CRHT2", function () {
+		$("#Cre_main").load("_creatorprofile.jsp");
+		$("#Crcircle").css("display","inline-block");
 	});
 	});
 
@@ -73,6 +91,7 @@ $(document).on("click",'.deleteOne',function () {
 			<%@ include file="../common/header.jsp"%>
 		</div>
 		<%@ include file="Creside_nav.jsp"%>
+		<%@ include file="CreStatus.jsp" %>
 		<div id="Cre_main">
 			
 			<%@ include file="_myclass.jsp"%>
