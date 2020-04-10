@@ -6,40 +6,98 @@
 </style>
 <h2>관리자 메인</h2>
       <hr>
-      <div class="row">
-        <div class="form-group col-md-12">
-          <p>This is a responsive sidebar template with dropdown menu based on bootstrap 4 framework.</p>
-          <p> You can find the complete code on <a href="https://github.com/azouaoui-med/pro-sidebar-template" target="_blank">
-              Github</a>, it contains more themes and background image option</p>
-        </div>
-        <div class="form-group col-md-12">
-          <iframe src="https://ghbtns.com/github-btn.html?user=azouaoui-med&repo=pro-sidebar-template&type=star&count=true&size=large"
-            frameborder="0" scrolling="0" width="140px" height="30px"></iframe>
-          <iframe src="https://ghbtns.com/github-btn.html?user=azouaoui-med&repo=pro-sidebar-template&type=fork&count=true&size=large"
-            frameborder="0" scrolling="0" width="140px" height="30px"></iframe>
-        </div>
+      <div class="main_top">
+	      	<div class="adtop_main_box">
+	      		<div id="part1" style="background-color: #00C0EF;"><i class="far fa-eye fa-3x"></i></div>
+	      		<div id="part2" style="color: black;"><strong>방문자 수</strong><br><span>197</span></div>
+	      	</div>
+	      	<div class="adtop_main_box">
+	      		<div id="part1" style="background-color: #00A65A;"><i class="fas fa-users fa-3x"></i></div>
+	      		<div id="part2" style="color: black;"><strong>회원 수</strong><br><span>1746</span></div>
+	      	</div>
+	      	<div class="adtop_main_box">
+	      		<div id="part1" style="background-color: #F39C12;"><i class="fas fa-chalkboard-teacher fa-3x"></i></div>
+	      		<div id="part2" style="color: black;"><strong>업로더 수</strong><br><span>862</span></div>
+	      	</div>
+	      	<div class="adtop_main_box">
+	      		<div id="part1" style="background-color: #DD4B39;"><i class="far fa-folder-open fa-3x"></i></div>
+	      		<div id="part2" style="color: black;"><strong>전체 강의 수</strong><br><span>39793</span></div>
+	      	</div>
       </div>
-      <h5>Charts</h5>
+      <div class="main_top2">
+	      	<div class="adtop_main_box">
+	      		<div id="part1" style="background-color: #009ABF;"><i class="fas fa-users-cog fa-3x"></i></div>
+	      		<div id="part2" style="background-color: #00C0EF;"><strong>회원 관리</strong><br>New : <span>38</span></div>
+	      	</div>
+	      	<div class="adtop_main_box">
+	      		<div id="part1" style="background-color: #008548;"><i class="fas fa-user-plus fa-3x"></i></div>
+	      		<div id="part2" style="background-color: #00A65A;"><strong>업로더 승인</strong><br>New : <span>13</span></div>
+	      	</div>
+	      	<div class="adtop_main_box">
+	      		<div id="part1" style="background-color: #C27D0E;"><i style="margin-left: 10px;" class="fas fa-clipboard-check fa-3x"></i></div>
+	      		<div id="part2" style="background-color: #F39C12;"><strong>강의/펀딩 승인</strong><br>New : <span>42</span></div>
+	      	</div>
+	      	<div class="adtop_main_box">
+	      		<div id="part1" style="background-color: #B13C2E;"><i class="far fa-comments fa-3x"></i></div>
+	      		<div id="part2" style="background-color: #DD4B39;"><strong>1:1 문의 답변하기</strong><br>New : <span>16</span></div>
+	      	</div>
+      </div>
+      <div class="main_middle">
+	      	<div class="admiddle_main_box">
+	      		<div id="mid_part1" style="background-color: #00C0EF;"><img alt="linechart" src="../resource/img/line_chart_sample.png"></div>
+	      		<div id="mid_part2" style="background-color: #009ABF;">회원 증가율</div>
+	      	</div>
+	      	<div class="admiddle_main_box">
+	      		<div id="mid_part1" style="background-color: #00A65A;"><img alt="linechart" src="../resource/img/bar_chart_sample.png"></div>
+	      		<div id="mid_part2" style="background-color: #008548;">카테고리별 강의수</div>
+	      	</div>
+	      	<div class="admiddle_main_box">
+	      		<div id="mid_part1" style="background-color: #F39C12;"><img alt="linechart" src="../resource/img/line_chart_sample.png"></div>
+	      		<div id="mid_part2" style="background-color: #C27D0E;">이용권 매출</div>
+	      	</div>
+	      	<div class="admiddle_main_box">
+	      		<div id="mid_part1" style="background-color: #DD4B39;"><img alt="linechart" src="../resource/img/line_chart_sample.png"></div>
+	      		<div id="mid_part2" style="background-color: #B13C2E;">펀딩 매출</div>
+	      	</div>
+      </div>
+      <div class="main_bottom">
+	      	<div class="adbottom_main_box">
+	      		<div id="bot_part1" style="background-color: #00C0EF;">글씨색</div>
+	      		<div id="bot_part2" style="color: black;">글씨색</div>
+	      	</div>
+	      	<div class="adbottom_main_box">
+	      		<div id="bot_part1" style="background-color: #00A65A;">글씨색</div>
+	      		<div id="bot_part2" style="color: black;">글씨색</div>
+	      	</div>
+	      	<div class="adbottom_main_box">
+	      		<div id="bot_part1" style="background-color: #F39C12;">글씨색</div>
+	      		<div id="bot_part2" style="color: black;">글씨색</div>
+	      	</div>
+	      	<div class="adtop_main_box">
+	      		<div id="bot_part1" style="background-color: #DD4B39;">글씨색</div>
+	      		<div id="bot_part2" style="color: black;">글씨색</div>
+	      	</div>
+      </div>
+      <div class="main_bottom2">
+	      	<div class="adbottom_main_box">
+	      		<div id="bot_part1" style="background-color: #00C0EF;">글씨색</div>
+	      		<div id="bot_part2" style="color: black;">글씨색</div>
+	      	</div>
+	      	<div class="adbottom_main_box">
+	      		<div id="bot_part1" style="background-color: #00A65A;">글씨색</div>
+	      		<div id="bot_part2" style="color: black;">글씨색</div>
+	      	</div>
+	      	<div class="adbottom_main_box">
+	      		<div id="bot_part1" style="background-color: #F39C12;">글씨색</div>
+	      		<div id="bot_part2" style="color: black;">글씨색</div>
+	      	</div>
+	      	<div class="adbottom_main_box">
+	      		<div id="bot_part1" style="background-color: #DD4B39;">글씨색</div>
+	      		<div id="bot_part2" style="color: black;">글씨색</div>
+	      	</div>
+      </div>
+      <!-- <h5>Charts</h5>
       <hr>
       <div class="row">
-        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">          
-          <div class="card rounded-0 p-0 shadow-sm">
-            <img src="https://user-images.githubusercontent.com/25878302/58369568-a49b2480-7efc-11e9-9ca9-2be44afacda1.png" class="card-img-top rounded-0" alt="Angular pro sidebar">
-            <div class="card-body text-center">
-                <h6 class="card-title">Angular Pro Sidebar</h6>
-                <a href="https://github.com/azouaoui-med/angular-pro-sidebar" target="_blank" class="btn btn-primary btn-sm">Github</a>
-                <a href="https://azouaoui-med.github.io/angular-pro-sidebar/demo/" target="_blank" class="btn btn-success btn-sm">Preview</a>
-            </div>
-          </div>          
-        </div>
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">          
-          <div class="card rounded-0 p-0 shadow-sm">
-            <img src="https://user-images.githubusercontent.com/25878302/58369258-33f20900-7ef8-11e9-8ff3-b277cb7ed7b4.PNG" class="card-img-top rounded-0" alt="Angular pro sidebar">
-            <div class="card-body text-center">
-                <h6 class="card-title">Angular Dashboard</h6>
-                <a href="https://github.com/azouaoui-med/lightning-admin-angular" target="_blank" class="btn btn-primary btn-sm">Github</a>
-                <a href="https://azouaoui-med.github.io/lightning-admin-angular/demo/" target="_blank" class="btn btn-success btn-sm">Preview</a>
-            </div>
-          </div>          
-        </div>
-      </div>
+        
+      </div> -->

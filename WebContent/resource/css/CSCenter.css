@@ -326,7 +326,7 @@
     min-height: 700px;
     margin: 15px auto 15px auto;
     padding-bottom: 30px;
-    background: url(../img/photosample.jpg);
+    background: url(../img/photosample3.jpg);
     background-repeat: no-repeat;
     background-position: 0% 5%;
     text-align: center;
@@ -339,7 +339,7 @@
     color: white;
 }
 #lecflyis_maintxt >p { /* 홈페이지_이용안내_메인타이틀 */
-    color: white;
+    
 }
 #lecflyis_maintxt { /* 홈페이지_이용안내_메인텍스트*/
     margin-top: 30px;
@@ -394,7 +394,7 @@
     height: 700px;
     margin: 15px auto 15px auto;
     padding-bottom: 30px;
-    background: url(../img/photosample.jpg);
+    background: url(../img/photosample1.jpg);
     background-repeat: no-repeat;
     background-position: 0% 5%;
     text-align: center;
