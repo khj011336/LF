@@ -113,6 +113,7 @@ body {
 
 .header_column_logo { /* 헤더 로고열  */
 	float: left;
+	cursor: pointer;
 }
 
 .header_column_search { /* 헤더 검색창열 */
