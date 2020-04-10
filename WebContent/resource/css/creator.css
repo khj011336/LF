@@ -556,6 +556,7 @@ border: none;
 }
             
 #cls_content {
+	margin-top:18px;
 	width: 930px;
     padding: 10px;
 }

@@ -113,6 +113,7 @@ body {
 
 .header_column_logo { /* 헤더 로고열  */
 	float: left;
+	cursor: pointer;
 }
 @media (max-width: 558px) {
 .header_column_search {

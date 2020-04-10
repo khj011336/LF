@@ -133,6 +133,7 @@ a:hover {
 
 .Limg {
 	margin-top: 6px;
+	cursor: pointer;
 }
 
 .Timg {
@@ -159,7 +160,7 @@ box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 1px 0px, rgba(41, 42, 43, 0.34) 0px 1px 
 }
 
 .PvideoContent img {
-	width: 150px;
+	width: 145px;
 	height: 100%;
 }
 
@@ -191,12 +192,12 @@ box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 1px 0px, rgba(41, 42, 43, 0.34) 0px 1px 
 	
 }
 .sp b{
-	margin-left: 600px;
+	margin-left: 700px;
 }
 
 #aboutText {
 	overflow-y: scroll;
-	height: 315px;
+	height: 348px;
 	padding-left: 20px;
 }
 #aboutText h3{
@@ -233,6 +234,7 @@ box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 1px 0px, rgba(41, 42, 43, 0.34) 0px 1px 
 	text-overflow: ellipsis;
 	/*     border-top: 1px solid black; */
 	/*     border-bottom: 1px solid black; */
+	
 }
 
 #usrname {
