@@ -3,7 +3,13 @@
 <%String path = request.getContextPath()+"/resource/";%>
 <!-- jquery -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<script type="text/javascript"
+	src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script type="text/javascript"
+	src="https://cdn.iamport.kr/js/iamport.payment-1.1.5.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/imask/3.4.0/imask.min.js"></script>
 <!-- jquery -->
 <!-- ---------------------css--------------------------- -->
 <link rel="stylesheet" href="resource/css/create_new_member.css">
@@ -20,7 +26,8 @@
 <link rel="stylesheet" href="resource/css/mypage.css">
 <link rel="stylesheet" href="resource/css/lectureRegister.css">
 <link rel="stylesheet" href="resource/css/main_banner.css">
-
+<link rel="stylesheet" href="resource/css/card_register.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway|Rock+Salt|Source+Code+Pro:300,400,600">
 <!-- ------------------------------------------------------------ -->
 <!-- 폰트 -->
 <!-- <link rel="stylesheet" href="resource/css/paymentCreditForm.css"> -->
@@ -43,6 +50,7 @@
 	href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
 	integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
 	crossorigin="anonymous">
+
 	<!-- 폰트 -->
 
 		

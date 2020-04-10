@@ -195,3 +195,115 @@ input[value=결제하기] {
 .fundingPayment_last_button {
 	padding: 15px 0px 15px 0px;
 }
+
+/* mypage 쿠폰 등록 CSS */
+.fundingPayment_registerCoupon {
+	position: relative;
+	top: 581px;
+	left: -79px;
+	font-size: 12pt;
+	padding: 10px;
+	color: white;
+	background-color: orange;
+	border-radius: 5px;
+	text-decoration: none;
+	cursor: pointer;
+	transition: all 0.3s ease-out;
+	background-clip: padding-box;
+	font-size: 12pt;
+	z-index: 20;
+}
+
+.fundingPayment_registerCoupon:hover {
+	background: orangered;
+}
+
+.overlay {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0, 0, 0, 0.7);
+	transition: opacity 500ms;
+	visibility: hidden;
+	opacity: 0;
+}
+
+.overlay:target {
+	visibility: visible;
+	opacity: 1;
+}
+
+.popup {
+	margin: 280px auto;
+	padding: 20px;
+	background: #fff;
+	border-radius: 5px;
+	width: 400px;
+	height: 220px;
+	position: relative;
+	transition: all 5s ease-in-out;
+}
+
+.fundingPayment_coupon_h2 {
+	margin-top: 0;
+	padding: 15px 0px;
+}
+
+.popup .close {
+	position: absolute;
+	top: 0px;
+	right: 10px;
+	transition: all 200ms;
+	font-size: 30px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #333;
+}
+
+.popup .close:hover {
+	color: black;
+}
+
+.popup .mypage_coupon_content {
+	max-height: 200px;
+	overflow: auto;
+	text-align: center;
+}
+
+input[name=mypage_coupon] {
+	width: 310px;
+	height: 35px;
+	padding-left: 5px;
+	text-align: center;
+}
+
+input[name=register_coupon] {
+	height: 38px;
+	background-color: orange;
+	color: white;
+	text-align: center;
+}
+
+#mypage_coupon_p {
+	padding: 15px 0px;
+	text-align: left;
+	font-weight: bold;
+	font-size: 15px;
+	text-align: left;
+}
+
+#mypage_coupon_ul {
+	font-size: 14px;
+	color: gray;
+}
+
+@media screen and (max-width: 400px) {
+	.mypage_registerCoupon {
+		width: 400px;
+	}
+	.popup {
+		width: 400px;
+	}
+}
