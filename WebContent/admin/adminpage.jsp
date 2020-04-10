@@ -4,8 +4,8 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<link rel="stylesheet" href="../resource/css/adminpage.css">
-<link rel="stylesheet" href="../resource/css/admin_main.css">
+<link rel="stylesheet" href="resource/css/adminpage.css">
+<link rel="stylesheet" href="resource/css/admin_main.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js" type="text/javascript"></script>
@@ -26,7 +26,7 @@
   <!-- 관리자 조각  -->
   <div class="page-content">
     <div class="container-fluid">
-      <%@include file="admin_board_bulletin.jsp" %>
+      <%@include file="admin_main.jsp" %>
     </div>
   </div>
 </div>
