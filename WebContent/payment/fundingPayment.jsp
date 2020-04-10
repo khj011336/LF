@@ -95,10 +95,29 @@
 					class="fundingPayment_discount_info_table_td fundingPayment_discount_info_table_td_top">
 					<input type="text" name="fundingPayment_discountCoupon"
 					id="fundingPayment_discountCoupon" placeholder="  쿠폰 적용" size="92">
-					<input type="button" name="fundingPayment_search" value="조회">
+					<!-- 					<input type="button" id="fundingPayment_coupon_search" name="fundingPayment_search" value="조회"> -->
 				</td>
 			</tr>
 		</table>
+		<a class="fundingPayment_registerCoupon" href="#popup1">쿠폰 등록</a>
+					<div id="popup1" class="overlay">
+						<div class="popup">
+							<h2 class="fundingPayment_coupon_h2">쿠폰 등록하기</h2>
+							<a class="close" href="#">x</a>
+							<div class="fundingPayment_coupon_content">
+								<input type="text" name="fundingPayment_coupon" id="fundingPayment_coupon"
+									placeholder="쿠폰 코드를 입력해주세요." size="20"> <input
+									type="button" value="등록하기" name="register_coupon" />
+							</div>
+							<p id="fundingPayment_coupon_p">필독! 주의사항</p>
+							<ul id="fundingPayment_coupon_ul">
+								<li>이미 사용된 쿠폰은 등록할 수 없습니다.</li>
+								<li>하나의 계정당 종류별 한 개의 쿠폰만 등록할 수 있습니다.</li>
+								<li>쿠폰 등록이 완료되면 내 쿠폰으로 즉시 지급됩니다.</li>
+								<li>일부 쿠폰의 경우, 등록기한 이후에는 사용이 불가능합니다.</li>
+							</ul>
+						</div>
+					</div>
 		<div id="fundingPayment_payment_mathod">
 			<p class="fundingPayment_payment_title_bold">결제수단</p>
 			<br>
@@ -130,21 +149,16 @@
 			<p class="fundingPayment_payment_title_bold">간편결제</p>
 			<br> <br>
 			<button type="button" id="fundingPayment_payment_kakaopay">
-				<img
-					src="resource/img/payment/kakaopay.png"
-					alt="카카오페이"> <br> <br> <span
-					class="fundingPayment_payment_title_bold">카카오페이</span>
+				<img src="resource/img/payment/kakaopay.png" alt="카카오페이"> <br>
+				<br> <span class="fundingPayment_payment_title_bold">카카오페이</span>
 			</button>
 			<button type="button" id="fundingPayment_payment_naverpay">
-				<img
-					src="resource/img/payment/naverpay.png"
-					alt="네이버페이"> <br> <br> <span
-					class="fundingPayment_payment_title_bold">네이버페이</span>
+				<img src="resource/img/payment/naverpay.png" alt="네이버페이"> <br>
+				<br> <span class="fundingPayment_payment_title_bold">네이버페이</span>
 			</button>
 			<button type="button" id="fundingPayment_payment_payco">
-				<img src="resource/img/payment/payco.PNG"
-					alt="페이코"> <br> <br> <span
-					class="fundingPayment_payment_title_bold">페이코</span>
+				<img src="resource/img/payment/payco.PNG" alt="페이코"> <br>
+				<br> <span class="fundingPayment_payment_title_bold">페이코</span>
 			</button>
 		</div>
 	</div>
@@ -214,3 +228,15 @@
 		</table>
 	</div>
 </div>
+
+<script>
+//카드 결제
+$(document).on("click", '#fundingPayment_payment_card', function() {
+	$("#fundingPayment_wrapper").load("payment/card_register.jsp");
+});
+
+// 카카오페이
+$(document).on("click", '#fundingPayment_payment_kakaopay', function() {
+	$("#fundingPayment_wrapper").load("payment/kakaopay.jsp");
+});
+</script>

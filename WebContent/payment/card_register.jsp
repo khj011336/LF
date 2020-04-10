@@ -1,15 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
-<head>
-<link rel="stylesheet" href="../resource/css/card_register.css">
-<link href="https://fonts.googleapis.com/css?family=Raleway|Rock+Salt|Source+Code+Pro:300,400,600" rel="stylesheet">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/imask/3.4.0/imask.min.js"></script>
-<meta charset="UTF-8">
-<title>Insert title here</title>
+<title>카드 결제</title>
 <script type="text/javascript">
-window.onload = function () {
 
 	const name = document.getElementById('name');
 	const cardnumber = document.getElementById('cardnumber');
@@ -288,7 +280,7 @@ window.onload = function () {
 	securitycode.addEventListener('focus', function () {
 	    document.querySelector('.creditcard').classList.add('flipped');
 	});
-	};
+// 	};
 </script>
 </head>
 <body>
@@ -417,5 +409,3 @@ window.onload = function () {
         </div>
     </div>
     </div>
-</body>
-</html>
