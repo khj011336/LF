@@ -28,6 +28,7 @@
 	href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
 	integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
 	crossorigin="anonymous">
+	<link rel="stylesheet" href ="../resource/css/CSCenter.css" type="text/css">
 	<script>
 	$().ready(function () {
 	
@@ -46,8 +47,7 @@ $(document).on("click",'.deleteOne',function () {
 	}else{
 		$("#Cre_main").load("_sellkitregistration.jsp");
 	}
-// 	$("#Cre_main").
-});
+	});
 	$(document).on("click",".nav_video_list", function () {
 		$("#Cre_main").load("CrecommentList.jsp");
 	});
@@ -81,6 +81,14 @@ $(document).on("click","#CRHT2", function () {
 		$("#Cre_main").load("_creatorprofile.jsp");
 		$("#Crcircle").css("display","inline-block");
 	});
+$(document).on("click",".nav_payment", function () {
+	$("#Cre_main").load("Crestatistics.jsp");
+	
+});
+$(document).on("click",".nav_wish_list", function () {
+	$("#Cre_main").load("Cre_CS_1.jsp");
+	});
+
 	});
 
 </script>
