@@ -146,7 +146,81 @@ color:#ffa500;
 	border-radius: 4px;
 	background-color: gray;
 }
+/* ----------------------크리에이터 통계--------------------------------------- */
+#Crewrapp{
+    width: 950px;
+    margin: 20px auto;
+    
+}
+.CreSD{
+       box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 1px 0px, rgba(41, 42, 43, 0.34) 0px 1px 3px 0px;
+}
+.CreavIner{
+    width: 850px;
+    height: 200px;
+    padding: 25px;
+    border-bottom: 1px solid black;
+}
+.CreavIner div{
+    height: 65px;
+    font-size: 40px;
+    
+}
+.CreavIner div:last-child p{
+margin-top: 19px;
+    font-size: 20px;
+}
+.CreavIner div:nth-child(even){
+    font-size: 62px;
+    font-weight: bold;
+}
+.Cregraphaa{
+      width: 900px;
+    height: 210px;
+    margin-top: 30px;
+}
+.Cregraphaa p{
+    font-size: 30px;
+    font-weight: bold;
+}
+.Cregraphaa img{
+        width: 900px;
+    height: 170px;
+    margin-top: 10px;
+}
+.CreAvere{
+    width: 900px;
+    padding: 25px;
+    height: 500px;
+}
+#Creaver{
+      width: 900px;
+    
+    padding-bottom: 25px;
+    padding-top: 10px;
+}
+#Creaver p{
+    font-size: 40px;
+    font-weight: bold;
+}
+#Creaver div:last-child{
+    margin-top: 15px;
+}
+#CreSele{
+    margin-top: 10px;
+    width: 300px;
+    height: 30px;
+     box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 1px 0px, rgba(41, 42, 43, 0.34) 0px 1px 3px 0px;
+}
 
+
+
+
+
+
+
+
+/* ----------------------크리에이터 통계--------------------------------------- */
 
 
 /* 					 myclass.jsp 동현이가 한부분 */
