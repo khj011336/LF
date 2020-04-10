@@ -114,7 +114,16 @@ body {
 .header_column_logo { /* 헤더 로고열  */
 	float: left;
 }
-
+@media (max-width: 558px) {
+.header_column_search {
+  width: 0 !important;
+  display: none !important;
+}
+}
+@media screen and (min-width: 559px) {
+.header_column_search {
+}
+}
 .header_column_search { /* 헤더 검색창열 */
 	width: 370px;
 	float: left;
@@ -158,7 +167,16 @@ input:focus {outline:none;}
 	font-size: 1.2em;
 	margin-left: 30px;
 }
-
+@media (max-width: 845px) {
+.header_column_menu {
+  width: 0 !important;
+  display: none !important;
+}
+}
+@media screen and (min-width: 846px) {
+.header_column_menu {
+}
+}
 /* 메인 광고 배너: 가로 full, slide */
 
 /* 메인파트 */
