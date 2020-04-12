@@ -241,55 +241,94 @@ input:focus {outline:none;}
 	grid-gap: 40px;
 }
 
-.main_videos { /* 메인_일반 강의 */
-	margin: 10px 30px 30px 30px;
-	display: grid;
-	grid-template-columns: repeat(4, 1fr);
-	grid-template-rows: repeat(3, 210px);
-	grid-auto-flow: row dense;
-	grid-gap: 15px;
-	grid-row-gap: 60px;
-}
+/* .main_videos { 메인_일반 강의 */
+/* 	margin: 10px 30px 30px 30px; */
+/* 	display: grid; */
+/* 	grid-template-columns: repeat(4, 1fr); */
+/* 	grid-template-rows: repeat(3, 210px); */
+/* 	grid-auto-flow: row dense; */
+/* 	grid-gap: 15px; */
+/* 	grid-row-gap: 60px; */
+/* } */
 
 
 
 /* 메인 비디오블럭 목록*/
-.video_block {/* video 블럭 */
-	border: 0.1px solid black;
-	text-align: justify;
-	margin-bottom: 50px;
+.main_video_wrapper {/* 비디오 리스트 출력 래퍼 */
+	width:100%;
+	height: 70vh;
+	display: table;
+	table-layout:fixed;
 }
-
-.video_thumnail {/* video 썸네일 */
+.main_video_block {/* 비디오 리스트_ 일반 강의 비디오블럭 */
+	display:table-cell;
+	vertical-alighn:middle;
+	padding: 0 15px 40px 15px;
+}
+.main_video_block_rec {/* 비디오 리스트_ 추천 강의 비디오블럭 */
+	display:table-cell;
+	vertical-alighn:middle;
+	padding: 0 15px 40px 15px;
+}
+.main_video_block_row{/* 비디오 리스트_ 비디오 row */
+	display: table-row;
+}
+.main_video_thumb_rec img{/* 비디오 리스트_추천강의 썸네일 */
 	width: 100%;
-	height: 100%;
-	background-color: gray;
+	height: 500px;
+}
+.main_video_thumb img{/* 비디오 리스트_일반강의 썸네일 */
+	width: 100%;
+	height: 180px;
+}
+.main_video_info {/* 비디오 리스트_정보창 래퍼 */
+	padding: 10px 0;
+	text-align: justify;
 }
 
-.video_category {/* video 카테고리 */
-	display: block;
-	font-size: small;
-	margin: 10px 0 10px 0;
+.main_video_info_category {/* 비디오 리스트_카테고리 */
+	display: inline-block;
+	font-size: 1.0em;
+	padding: 10px 0;
 }
-
-.video_uploader {/* video 업로더 */
-	display: inline;
-	font-size: small;
+.main_video_info_title {/* 비디오 리스트_제목 */
+	font-size: 1.3em;
+	font-weight: bold;
+	/* 여러 줄 자르기 */
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	/* 여러 줄 자르기 - 2줄 제한*/
+	white-space: normal;
+	line-height: 1.3em;
+	height: 2.6em;
+	text-align: left;
+	word-wrap: break-word;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
 }
-
-.video_title {/* video 타이틀 */
-	display: inline;
+.main_video_info_creator_img{/* 비디오 리스트_크리에이터 사진 */
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	vertical-align: middle;
+	display: inline-block;
 }
-
-.video_like {/* video 좋아요 */
-	font-size: small;
-	margin-top: 10px;
+.main_video_info_creator_name {/* 비디오 리스트_크리에이터 이름 */
+	display: inline-block;
+	font-size: 1.0em;
+	padding: 10px 0;
+	
 }
-
-.video_like i {/* 좋아요 아이콘 */
-	color: red;
+.main_video_like {
+	display: inline-block;
+	float: right;
 }
-
+.main_video_like i {
+	display: inline-block;
+	color: orangered;
+}
 /* 푸터파트 */
 .footer {
 	clear: both;
@@ -321,11 +360,36 @@ input:focus {outline:none;}
 	font-weight: 700;
 }
 
-.footer_link {
-	
-}
 
-.footer_info {
-	
-}
+/* .video_block {video 블럭 */
+/* 	border: 0.1px solid black; */
+/* 	text-align: justify; */
+/* 	margin-bottom: 50px; */
+/* } */
+
+/* .video_thumnail {video 썸네일 */
+/* 	width: 100%; */
+/* 	height: 100%; */
+/* 	background-color: gray; */
+/* } */
+
+/* .video_category {video 카테고리 */
+/* 	display: block; */
+/* 	font-size: small; */
+/* 	margin: 10px 0 10px 0; */
+/* } */
+
+/* .video_uploader {video 업로더 */
+/* 	display: inline; */
+/* 	font-size: small; */
+/* } */
+
+/* .video_title {video 타이틀 */
+/* 	display: inline; */
+/* } */
+
+/* .video_like {video 좋아요 */
+/* 	font-size: small; */
+/* 	margin-top: 10px; */
+/* } */
 
