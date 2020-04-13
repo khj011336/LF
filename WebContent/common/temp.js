@@ -6,7 +6,7 @@
 		});
 	
 		// 검색결과 페이지 
-		$(document).on("click",'.main_category, .nav_wish_list', function() {
+		$(document).on("click",'.main_category, .nav_wish_list, .search_btn', function() {
 			$("#homemain").load("ETC/search.jsp");
 			
 		});

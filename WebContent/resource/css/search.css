@@ -5,11 +5,13 @@
 	display: inline;
 	display: flex;
 	float: right;
+	
 }
 
 .sort li select {
 	font-size: 1.3em;
 	margin-right: 30px;
+	padding: 20px 0;
 }
 
 .search_wrapper {
@@ -22,6 +24,7 @@
 }
 .search_title {
 	margin: 15px 0px 15px 0px;
+	display:inline-block;
 }
 .search_result {
 	text-align: center;
@@ -33,6 +36,8 @@
 	margin-bottom: 100px;
 }
 .search_result_count {
+	display:inline-block;
 	color: #ffa172;
 	font-size: 1.4em;
+	padding: 20px 0;
 }
