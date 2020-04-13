@@ -144,7 +144,7 @@
         	<br><br>
         	<h1><u>일반 회원</u> 입니다.</h1>
         	<br><br>
-        	<a href="#"><h3>크리에이터 신청하기</h3></a>
+        	<a href="Creator/_classdes.jsp"><h3>크리에이터 신청하기</h3></a>
         </div>
         <div class="mypage_mb_t">
         	<img src="resource/img/mypage/mypage_video.png" class="mypage_1" alt="강의" width="64px" height="64px">

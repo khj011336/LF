@@ -4,7 +4,7 @@
 	<div class="QnA">
     	<div id="qna_p">
         	<br><br><br><br>
-            <h3>공지사항</h3>
+            <h3>크리에이터 공지사항</h3>
             <br>
         </div>
 	    <div id="qna_noticebox">

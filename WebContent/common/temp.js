@@ -18,8 +18,8 @@
 		});	
 		
 		// 펀딩결제 페이지 
-		$(document).on("click",'.nav_payment', function() {
-			$("#homemain").load("payment/fundingPayment.jsp");
+		$(document).on("click",'.nav_cart', function() {
+			$("#homemain").load("payment/shoppingCart.jsp");
 			
 		});	
 		// 상품결제 페이지

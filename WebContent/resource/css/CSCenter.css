@@ -233,19 +233,20 @@
 	opacity: 0.7;
 }
 #faq_nav { /* 자주묻는질문 _ 보드 네비게이션 ( 전체, 이용안내, 회원정보, 결제/환불, 기타 ) */
-    margin: 0px auto 15px 130px;
-    
+    margin: 0px auto 15px 50px;
+    width: 500px;
 }
 #faq_nav ul {
     list-style-type: none;
     /* margin: 0px; */
     padding: 0px;
     overflow: hidden;
- 
+    margin-left: auto;
+    margin-right: auto; 
 }
 #faq_nav ul li {
     float: left;
-    margin-right: 15px;
+    margin-right: 20px;
     font-size: 14px;
 }
 #faq_nav ul li a{
@@ -261,9 +262,13 @@
     margin-left: auto;
     margin-right: auto;
 }
-#faq_table table{ /* 자주묻는질문_테이블*/
+#faq_table >ul >li {
+	border: 1px solid grey;
+	margin: 2px;
+}
+/* #faq_table table{ 자주묻는질문_테이블
     border-collapse: collapse;
-/*    border: 1px solid black;*/
+   border: 1px solid black;
     width: 900px;
     height: 500px;
     margin-top: 15px;
@@ -275,15 +280,33 @@
 }
 #faq_table table td{
     padding-left: 15px;   
-}
-#faq_numbering { /* 자주묻는질문_ 테이블_페이지넘버링*/
+} */
+#faq_numbering { /* 자주묻는질문_ 테이블_페이지넘버링 */
     text-align: center;
     font-size: 15px;
 }
 #faq_numbering b{
     color: orange;
 }
-
+#faq_acodian{
+    height: 40px;
+    overflow-y: hidden;
+    border: 0px;
+}
+#faq_acodian:hover{
+	min-height: 180px;
+}
+#faq_aco_title {
+	margin: 12px;
+	font-size: large;
+}
+#faq_aco_txt {
+	height: 110px;
+	padding: 10px;
+	background-color: lightgrey;
+	margin: auto 20px auto 20px;
+	font-size: 15px;
+}
 /* `````````````````````````````````````````````````````````````````````````````````고객섬김센터_공지사항*/
 
 #notice_p { /* 공지사항_ 설명 P */

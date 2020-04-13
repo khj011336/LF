@@ -3,7 +3,7 @@
 <nav id="sidebar" class="sidebar-wrapper">
 	<div class="sidebar-content">
 		<div class="sidebar-brand">
-			<a href="#">LECFLY HOME</a>
+			<a href="../home.jsp">LECFLY HOME</a>
 			<div id="close-sidebar">
 				<i class="fas fa-times"></i>
 			</div>

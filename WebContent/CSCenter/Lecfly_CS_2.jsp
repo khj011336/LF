@@ -1,56 +1,80 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
-<div id="faq">
-            	<div id="faq_p">
-                	<br><br><br><br>
-                	<h4>자주묻는 질문</h4>
-                	<br>
-                
-                <div id="faq_nav">
-                <ul>
-                    <li><a href="#">전체</a></li>
-                    <li><a href="#">이용안내</a></li>
-                    <li><a href="#">회원정보</a></li>
-                    <li><a href="#">결제/환불</a></li>
-                    <li><a href="#">기타</a></li>
-                </ul>
-                </div>
-                </div>
-                <div id="faq_table">
-                    <table>
-                        <tbody>
-                            <tr>
-                                <td>LecFly란?</td>
-                            </tr>
-                            <tr>
-                                <td>회원가입 방법</td>
-                            </tr>
-                            <tr>
-                                <td>클래스 신청방법</td>
-                            </tr>
-                            <tr>
-                                <td>이용권 결제방법</td>
-                            </tr>
-                            <tr>
-                                <td>Lecfly는 누가 진행하나요?</td>
-                            </tr>
-                            <tr>
-                                <td>Lecfly는 누가 진행하나요?</td>
-                            </tr>
-                            <tr>
-                                <td>Lecfly는 누가 진행하나요?</td>
-                            </tr>
-                            <tr>
-                                <td>Lecfly는 누가 진행하나요?</td>
-                            </tr>
-                            <tr>
-                                <td>Lecfly는 누가 진행하나요?</td>
-                            </tr>
-                            <tr>
-                                <td>Lecfly는 누가 진행하나요?</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <div id="faq_numbering">&lt;&nbsp;<b>1</b> 2 3 4 5 6 7 8 9 10&nbsp;&gt;</div>
-                </div>
-            </div>
+	<script>
+	
+	var ROOTCP = '<%= application.getContextPath()%>';
+	
+	$(document).ready(function() {
+		$("#faq_0").click(function() {
+			var url = ROOTCP+'/CSCenter/Lecfly_CS_2_0.jsp';
+			$("#faq_main").load(url, function(){
+				console.log("faq_0 전체 로딩");
+			});			
+		}); // 전체
+		
+		$("#faq_1").click(function() {
+			var url = ROOTCP+'/CSCenter/Lecfly_CS_2_1.jsp';
+			$("#faq_main").load(url, function(){
+				console.log("faq_1 이용안내 로딩");
+			});			
+		}); // 이용안내
+		
+		$("#faq_2").click(function() {
+			var url = ROOTCP+'/CSCenter/Lecfly_CS_2_2.jsp';
+			$("#faq_main").load(url, function(){
+				console.log("faq_2 강의수강 로딩");
+			});			
+		}); // 강의수강
+		
+		$("#faq_3").click(function() {
+			var url = ROOTCP+'/CSCenter/Lecfly_CS_2_3.jsp';
+			$("#faq_main").load(url, function(){
+				console.log("faq_3 준비물 키트 로딩");
+			});			
+		}); // 준비물 키트
+		
+		$("#faq_4").click(function() {
+			var url = ROOTCP+'/CSCenter/Lecfly_CS_2_4.jsp';
+			$("#faq_main").load(url, function(){
+				console.log("faq_4 결제/환불 로딩");
+			});			
+		}); // 결제/환불
+		
+		$("#faq_5").click(function() {
+			var url = ROOTCP+'/CSCenter/Lecfly_CS_2_5.jsp';
+			$("#faq_main").load(url, function(){
+				console.log("faq_5 크리에이터 로딩");
+			});			
+		}); // 크리에이터
+		
+		$("#faq_6").click(function() {
+			var url = ROOTCP+'/CSCenter/Lecfly_CS_2_6.jsp';
+			$("#faq_main").load(url, function(){
+				console.log("faq_6 기타 로딩");
+			});			
+		}); // 기타
+		
+	});	
+	</script>
+	<div id="faq">
+       	<div id="faq_p">
+           	<br><br><br><br>
+           	<h4>자주묻는 질문</h4>
+           	<br>
+           
+           <div id="faq_nav">
+           <ul>
+           	   <li><a href="#" id="faq_0">전체</a></li>
+               <li><a href="#" id="faq_1">이용안내</a></li>
+               <li><a href="#" id="faq_2">강의수강</a></li>
+               <li><a href="#" id="faq_3">준비물 키트</a></li>
+               <li><a href="#" id="faq_4">결제/환불</a></li>
+               <li><a href="#" id="faq_5">크리에이터</a></li>
+               <li><a href="#" id="faq_6">기타</a></li>
+           </ul>
+           </div>
+           </div>
+           <div id="faq_main">
+           		<%@ include file="Lecfly_CS_2_0.jsp"%>
+           </div>	
+       </div>
