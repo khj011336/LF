@@ -127,7 +127,7 @@ a:hover {
 
 .PvideoContent div {
 	display: flex;
-	width: 100%;
+
 	height: 100px;
 }
 
@@ -142,25 +142,27 @@ a:hover {
 	text-overflow: ellipsis;
 	overflow: hidden;
 	flex-direction: column;
+	width:198px;
 }
 .Timg span{
 	margin: 0px;
 	
 }
 .playimgs{
-box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 1px 0px, rgba(41, 42, 43, 0.34) 0px 1px 3px 0px;	
+box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 1px 0px, rgba(41, 42, 43, 0.34) 0px 1px 3px 0px;
+width: 165px;	
 }
 .Timg h4, p {
-	font-size: 17px;
+	font-size: 15px;
 }
 
 .Timg p {
-	margin: 15px 0px;
+	margin: 20px 3px 20px 0px;
 	text-align: right;
 }
 
 .PvideoContent img {
-	width: 145px;
+	width: 165px;
 	height: 100%;
 }
 
@@ -170,7 +172,7 @@ box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 1px 0px, rgba(41, 42, 43, 0.34) 0px 1px 
 
 #Pvideo video {
 	width: 100%;
-	height: 443px;
+	height: 443px; 
 }
 
 .vertical {
@@ -188,8 +190,6 @@ box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 1px 0px, rgba(41, 42, 43, 0.34) 0px 1px 
 }
 .bt1 b {
 	font-size: 20px;
-	
-	
 }
 .sp b{
 	margin-left: 700px;
@@ -232,17 +232,19 @@ box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 1px 0px, rgba(41, 42, 43, 0.34) 0px 1px 
 #uplorderplayWrap {
 	margin: 30px 0px;
 	text-overflow: ellipsis;
-	/*     border-top: 1px solid black; */
-	/*     border-bottom: 1px solid black; */
+	
+	   
 	
 }
-
+#aboutContent hr{
+	border: 1px solid #00000010;
+	background-color: #00000010;
+}
 #usrname {
 	position: absolute;
 	top: 8px;
 	left: 80px;
 }
-
 .usrab {
 	position: absolute;
 }
