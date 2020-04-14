@@ -9,7 +9,7 @@
 	<div id = backC>
 		<form action="#" method="get">
 			<input type="search" placeholder="검색어를 입력하세요" name="search" class="search_bar">
-			<i class="fas fa-search"></i>
+			<i class="fas fa-search search_btn"></i>
 			<input type="submit" class="search_btn" >
 		</form>
 		</div>
