@@ -29,6 +29,6 @@
 </div>
 <div id="login_bottom">
 	<div id="find_login_btn">
-		<a href="../home.jsp" class="login_a">임시비밀번호 받기</a>
+		<a href="login.jsp" class="login_a">임시비밀번호 받기</a>
 	</div>
 </div>

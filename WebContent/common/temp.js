@@ -4,7 +4,10 @@
 		$('.header_column_logo').click(function() {
 			$("#homemain").load("ETC/main.jsp");
 		});
-	
+		$(document).on("click",'#home_mainpage', function() {
+			$("#homemain").load("ETC/main.jsp");
+			
+		});
 		// 검색결과 페이지 
 		$(document).on("click",'.main_category, .nav_wish_list, .search_btn', function() {
 			$("#homemain").load("ETC/search.jsp");
@@ -83,7 +86,7 @@
 		
 		
 		// 이용안내 페이지
-		$(document).on("click",'.nav_lecfly_info', function() {
+		$(document).on("click",'.nav_lecfly_info, .lecfly_info', function() {
 			$("#homemain").load("CSCenter/Lecfly_PASS_1.jsp");
 			
 		});
@@ -121,6 +124,12 @@
 			
 		});
 		
+		
+		// 배너이동
+		$(document).on("click",'#banner1', function() {
+			$("#homemain").load("goods/lectureRegister.jsp");
+			
+		});
 		
 		
 		

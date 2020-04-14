@@ -923,12 +923,12 @@ border: none;
 }
 /* /* ------------------------------------------------- */
 #shoppingCart_wrapper a {
-	color: #666;
+	color: black;
 	text-decoration: none;
 }
 
 #shoppingCart_wrapper a:hover {
-	color: black;
+	color: orangered;
 	text-decoration: none;
 }
 
@@ -961,7 +961,7 @@ border: none;
 	height: 40px;
 	line-height: 20px;
 	font-weight: bold;
-	background-color: #ffa500cc;
+	background-color: lightgrey;
 	color:black;
     
 }
