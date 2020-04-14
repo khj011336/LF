@@ -36,13 +36,6 @@
                         <div class="sellkitregistration_inline sellkitregistration_nav1">상품속성</div>
                         <div class="sellkitregistration_inline"><input type="button" value="속성설정" class="sellkitregistration_btn1"></div>
                     </div>
-                    
-                    <div class="sellkitregistration_mini_title_interval creator_h3">
-                        <div class="sellkitregistration_inline sellkitregistration_nav1">부가세</div>
-                        <div class="sellkitregistration_inline"><input type="button" value="과세상품" class="sellkitregistration_btn1"></div>
-                        <div class="sellkitregistration_inline"><input type="button" value="면세상품" class="sellkitregistration_btn1"></div>
-                        <div class="sellkitregistration_inline"><input type="button" value="영세상품" class="sellkitregistration_btn1"></div>
-                    </div>
                 </div>
             </div>
             <div class="sellkitregistration_main_center">
@@ -65,13 +58,12 @@
                         <div class="sellkitregistration_img"><img id="sellkitregistration_sub_img1" name="sub_img" src="resource/img/xbox_img.PNG" class="sellkitregistration_img" alt="추가이미지"></div>
                         <div class="sellkitregistration_img_add_btn_div">추가이미지</div>
                     </div>
-                    <div class="sellkitregistration_inline sellkitregistration_max_text"><span class="creator_h4"> - 최대 10장까지 추가 가능합니다</span></div>
                 </div>
             </div>
             <div class="sellkitregistration_main_bottom">
                 <div class="sellkitregistration_main_bottom_part1">
 <!--                 					택배사 -->
-                    <div class="sellkitregistration_mini_title_interval creator_h3">
+                    <div id="sellkitregistration_delivery_companybox" class="sellkitregistration_mini_title_interval creator_h3">
                         <div class="sellkitregistration_inline sellkitregistration_nav1"><label for="sellkitregistration_delivery_company">택배사</label></div>
                         <div class="sellkitregistration_inline"><input type="text" id="sellkitregistration_delivery_company" name="delivery_company" class="sellkitregistration_bar1"></div>
                     </div>
