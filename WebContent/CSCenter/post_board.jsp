@@ -90,7 +90,7 @@
 	            	<th>내용</th>
 	            	<td>
 		            	<div class="post_input_wrap">
-		            		<textarea  class="input input_qna_txtarea" placeholder="내용을 입력해주세요" cols="97px" rows="30px"></textarea>
+		            		<textarea  class="input input_qna_txtarea" placeholder="내용을 입력해주세요" cols="97px" rows="30px" style="resize: none;"></textarea>
 		            	</div>
 		            </td>
 	            </tr>

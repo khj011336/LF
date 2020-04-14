@@ -129,7 +129,7 @@
 		</div>	
 	<div class="cnm_bottom">
 	    <div id="cnm_submit_btn">
-	    	<a style="color: black;" href="../home.jsp">회원가입하기</a>
+	    	<a style="color: black;" href="../ETC/login.jsp">회원가입하기</a>
 	    </div>
     </div>
 </div>

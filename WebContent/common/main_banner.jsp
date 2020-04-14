@@ -61,11 +61,11 @@
 		}
 	</script> 	
 	<div class="container1">
-        <div><img src="resource/img/banner/배너_test1.jpg"></div>
-        <div><img src="resource/img/banner/배너_test2.jpg"></div>
-        <div><img src="resource/img/banner/배너_test3.jpg"></div>
-        <div><img src="resource/img/banner/배너_test4.jpg"></div>
-        <div><img src="resource/img/banner/배너_test5.jpg"></div>
-        <div><img src="resource/img/banner/배너_test6.jpg"></div>
-        <div><img src="resource/img/banner/배너_test7.jpg"></div>
+        <div><img src="resource/img/banner/배너_test1.jpg"><a href="#" id="banner1">클래스 바로가기</a></div>
+        <div><img src="resource/img/banner/배너_test2.jpg"><a href="#" id="banner1">클래스 바로가기</a></div>
+        <div><img src="resource/img/banner/배너_test3.jpg"><a href="#" id="banner1">클래스 바로가기</a></div>
+        <div><img src="resource/img/banner/배너_test4.jpg"><a href="#" id="banner1">클래스 바로가기</a></div>
+        <div><img src="resource/img/banner/배너_test5.jpg"><a href="#" id="banner1">클래스 바로가기</a></div>
+        <div><img src="resource/img/banner/배너_test6.jpg"><a href="#" id="banner1">클래스 바로가기</a></div>
+        <div><img src="resource/img/banner/배너_test7.jpg"><a href="#" id="banner1">클래스 바로가기</a></div>
     </div>

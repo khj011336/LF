@@ -60,7 +60,7 @@
             
 	            <div id="lecflyis_title3">
 	                <h1>홈페이지로 이동해 새로운 취미를 찾아보세요!</h1>
-	                <div id="lecflyis_gohome"> <h2><a href="#">바로가기&nbsp;&gt;</a></h2></div>
+	                <div id="lecflyis_gohome"> <h2><a href="#" id="home_mainpage">바로가기&nbsp;&gt;</a></h2></div>
             	</div>
             </div>
     </div>

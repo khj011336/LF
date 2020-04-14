@@ -10,7 +10,7 @@
 .container1 div { /* 배너 프레임 요소 */
     width: 1000px;
     height: 400px;
-    line-height: 400px;
+    line-height: 46px;
     text-align: center;
     box-shadow: 0 0 10px #666;
     border-radius: 5px;
@@ -27,7 +27,25 @@
     transform-style: preserve-3d;
     transform-origin: center center;
 }
-
+.container1 a {
+	background-color: white;
+	width: 125px;
+	height: 45px;
+	left: 136px;
+    top: 205px;
+    color: #000;
+    cursor: pointer;
+	position: absolute;
+	color: black;
+	cursor: pointer;
+	font-size: 12px;
+	font-weight: bold;
+	/* z-index: 50; */
+}
+.container1 a:hover {
+	background-color: orange;
+	color: black;
+}
 .container1 div:nth-child(1) { /* 1번 배너 */
     border: 5px solid white;
     transform: perspective(200px) translateZ(-60px) translateX(-300px);
