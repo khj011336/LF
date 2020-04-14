@@ -9,14 +9,15 @@
 			</div>
 		</div>
 		<div class="sidebar-header">
-			<div class="user-pic">
+			<!-- <div class="user-pic">
 				<img class="img-responsive img-rounded"
 					src="https://raw.githubusercontent.com/azouaoui-med/pro-sidebar-template/gh-pages/src/img/user.jpg"
 					alt="User picture">
-			</div>
+			</div> -->
 			<div class="user-info">
-				<span class="user-name"> <strong>LECFLY</strong>
-				</span> <span class="user-role">관리자계정</span> <span class="user-status">
+				<span class="user-name"> <a href="#" id="nav_admin_main"><strong>LECFLY ADMIN</strong></a></span> 
+				<!-- <span class="user-role">관리자 MAIN</span> --> 
+				<span class="user-status">
 					<i class="fa fa-circle"></i> <span>Online</span>
 				</span>
 			</div>
@@ -49,7 +50,7 @@
 							<li><a href="#">관리자계정관리</a></li>
 						</ul>
 					</div></li>
-				<li class="sidebar-dropdown"><a href="#"> <i
+				<li class="sidebar-dropdown"><a href="#" id="nav_board_payment"> <i
 						class="fa fa-shopping-cart"></i> <span>상품/주문관리</span> <span
 						class="badge badge-pill badge-danger">3</span>
 				</a>
@@ -81,7 +82,7 @@
 							<li><a href="#">회원통계</a></li>
 						</ul>
 					</div></li>
-				<li class="sidebar-dropdown"><a href="#"> <i
+				<li class="sidebar-dropdown"><a href="#" id="nav_board_bulletin"> <i
 						class="fa fa-globe"></i> <span>게시판관리</span>
 				</a>
 					<div class="sidebar-submenu">
