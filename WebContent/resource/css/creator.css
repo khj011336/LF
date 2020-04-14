@@ -759,21 +759,36 @@ border: none;
             /* _sellkitregistration.html 공통*/
             
 #sellkitregistration_wrap {
+	position: relative;
+	top: 36px;
 	padding: 0px 100px;
-    width: 1000px;
+    width: 950px;
     margin: 0px auto;
 }
+
 /* 메인 타이틀과 내용의 간격 */
 #sellkitregistration_content{
 	margin-top: 30px;
 }
+
 /* sellkitregistration 에서 공통으로 inlineblock 을만들려고함 */
 .sellkitregistration_inline {
 	display: inline-block;
 }
+
+/* 판매키트 안에있는 내용물 묶은 div */
+#sellkitregistration_main_top{
+    width: 950px;
+}
+/* 상품 카테고리 ~ 재고수량까지 묶인 div */
+.sellkitregistration_nav_part1{
+    width: 500px;
+    display: inline-block;
+}
+
 /* 상품 카테고리 상품명등.. 타이틀 크기설정 */
 .sellkitregistration_nav1{
-	width: 100px;
+	width: 110px;
 	height: 40px;
 }
 /* 상품 카테고리 판매가 재고수량 택배사 배송비 에쓰이는 input bar */
@@ -792,22 +807,30 @@ border: none;
 }
 /* 상품명 옆에있는 input bar */
 .sellkitregistration_bar2 {
-	width: 400px;
+	width: 306px;
 	height: 40px;
 	border: 1px solid black;
 	border-radius: 4px;
 }
 /* 상품속성 부가세 가있는 위치 설정*/
 .sellkitregistration_nav_part2 {
-	position: relative;
-	top: -286px;
-	left: 600px;
+    width: 440px;
+	display: inline-block;
+    float:right;
+    
 }
 /* 다음버튼 전까지 감싸고 있는 wrap 의 개념 (위치조정)*/
 .sellkitregistration_main_center {
-	position: relative;
-	top: -100px;
+	width: 950px;
+    clear: both;
 }
+
+/* 상품이미지 안에있는 img 들묶은 div */
+.sellkitregistration_main_center_part1_div{
+    text-align: center;
+    margin: 0px auto;
+}
+
 /* 작은타이틀(상품명 판매가 재고수량 부가세, 택배사 배송비...) 위아래 간격 조정 */
 .sellkitregistration_mini_title_interval {
 	margin: 20px 0px 10px 0px;
@@ -827,27 +850,25 @@ border: none;
 	background-color: gray;
 	text-align: center;
 }
-/* -최대 10장까지 추가가능합니다 있는 텍스트 위치*/
-.sellkitregistration_max_text {
-	position: relative;
-	top: -70px;
+
+#sellkitregistration_delivery_companybox{
+    display:inline-block;
+    width: 500px;
 }
 /* 배송비 + inputbar + 원 감싼 div로 (위치조정) */
 #sellkitregistration_pricebox {
-	position: relative;
-	top: -72px;
-	left: 600px;
+    display:inline-block;
+    float:right;
+    width: 440px;
 }
 
 /* 택배사 ~ 수정 저장 버튼있는 곳까지 감싼div 위치조정 */
 .sellkitregistration_main_bottom {
-	position: relative;
-	top: -70px;
+
 }
 /* 발송지 + 배송안내문구 감싼div (위치잡기) */
 .sellkitregistration_main_bottom_part2 {
-	position: relative;
-	top: -70px;
+	clear: both;
 }
 /* 발송지 배송안내문구 옆에있는 input bar (크기)*/
 .sellkitregistration_bar3 {
@@ -856,19 +877,6 @@ border: none;
 	border: 1px solid black;
 	border-radius: 4px;
 }
-/* 상세정보 등록 ~ 수정 저장 버튼까지 감싼 div (위치조정) */
-.sellkitregistration_main_bottom_part3 {
-	position: relative;
-	top: -50px;
-}
-
-
-/* text 버튼부터 저장버튼 있는데까지 감싼div 위치조정 */
-.sellkitregistration_detail_info_registration_part2 {
-	position: relative;
-	top: -70px;
-	left: 100px;
-}
 
 /* Text HTML 도움말 버튼 (크기조정)*/
 .sellkitregistration_btn2 {
@@ -876,18 +884,28 @@ border: none;
 	height: 30px;
 	border-radius: 4px;
 }
-
-
-/* '내용' 위치조정 */
-.sellkitregistration_nav_dummy2 {
-	position: relative;
-	top: 40px;
+/* 상세정보 등록 + 내용 있는 div */
+.sellkitregistration_detail_info_registration_part1 {
+    width: 110px;
+    height: 400px;
+    display: inline-block;
+}
+/* text 버튼부터 저장 버튼까지 div */
+.sellkitregistration_detail_info_registration_part2{
+    width: 838px;
+    height: 400px;
+    float: right;
+    display: inline-block;
 }
 
+/* 도움말버튼 오른쪽으로 밀라고 이렇게했음*/
+#sellkitregistration_help_btn_box{
+    margin-left: 410px;  
+}
 
 /* textarea (크기조정)*/
 .sellkitregistration_bar4 {
-	width: 780px;
+	width: 700px;
 	height: 300px;
 	resize: none;
 	padding: 0px 10px;
@@ -902,24 +920,10 @@ border: none;
 	border: 1px solid black;
 	border-radius: 4px;
 }
-	
 
-
-	/* 도움말 버튼 간격 */
-.sellkitregistration_btn_interval1 {
-	position: relative;
-	left: 494px;
-}
-			/* 수정 저장 버튼 간격 */
-.sellkitregistration_btn_interval2 {
-	position: relative;
-	left: 596px;
-}
-		/* 다음버튼 위치잡기 */
-.sellkitregistration_next_btn {
-	position: relative;
-	top: -50px;
-	left: 800px;
+/* 수정 저장 묶인 div 인데 오른쪽으로 밀려고 함 */
+.sellkitregistration_btn_interval2{
+    margin-left: 516px;
 }
 /* /* ------------------------------------------------- */
 #shoppingCart_wrapper a {
