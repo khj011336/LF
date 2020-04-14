@@ -38,12 +38,15 @@ $('.header_column_logo').click(function () {
 $(document).on("click",".CRsend",function () {
 	$('#Cre_main').load("CrePlaylist.jsp");
 });
+$(document).on("click",'.crinf',function () {
+	var s =$("#countor select").val();
+	$("#Cre_main").load("_classdes.jsp");
+	});
+
 $(document).on("click",'.deleteOne',function () {
 	var s =$("#countor select").val();
 	if(s == 1){
 	$("#Cre_main").load("_videoupload.jsp");		
-	}else if( s == 2){
-		$("#Cre_main").load("_classdes.jsp");		
 	}else{
 		$("#Cre_main").load("_sellkitregistration.jsp");
 	}
@@ -58,11 +61,10 @@ $(document).on("click",'.deleteOne',function () {
 	$(document).on("click",".CRsendCo", function () {
 		$("#Cre_main").load("CrecommentMt.jsp");
 	});
-	$(document).on("click","#listup", function () {
+	$(document).on("click",".listup", function () {
 		$("#Cre_main").load("_videoupload.jsp");
 	});
 	$(document).on("click","#CRHT2", function () {
-		
 		$("#Cre_main").load("_classdes.jsp");
 		$("#Crcircle").css("display","inline-block");
 		

@@ -9,11 +9,14 @@
         <div id="MADMAIN">
             <div class="MADwra">
                 <div class='MADmenu'>
+                <div><p>1.가나다라마바사</p></div>
+                <span id="pshoee">
                     <label for="">정렬방식</label><select>
                         <option>test1</option>
                         <option>test1</option>
                         <option>test2</option>
                     </select>
+                    </span>
                 </div>
                 <div class="MADcon">
                     <div class='MADIMG'>

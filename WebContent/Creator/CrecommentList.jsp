@@ -1,11 +1,12 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-  <div id ="CreComWrap">
+  <div id ="CreComWrapb">
             <div id="CRcontent">
                 <div id="CRhead"><span class="CRHT">클래스 댓글관리</span> </div>
                 <%for(int i =0 ; i<10 ; i++){ %>
-                <div class = 'CRconbox'>
+                <div>
+                <div class = 'CRconboxb'>
                     <div class='CRP'>
                     <img src="../resource/img/dummy_img4.jpg" class="CRimg" alt ="dd"></div>
                     <div class ="CRC">
@@ -17,6 +18,20 @@
                         </div>
                         <div class='CRsendCo'><p class='CRcol'>작성제출</p></div>
                     </div>
+                     <div class="MADtailb">
+                        <div class="percen">답변률%<span>sss</span></div>
+                        <div class="percen">좋아요%<span></span></div>
+                        <div class="perton">전체글<span></span></div>
+                        <div class="perton">답변글<span></span></div>
+                        <div class="perton">미답변<span></span></div>
+                        <div class="perton">history<span></span></div>
+
+                    </div>
+                </div>
+                        <div class="confirmTB">
+                    <div class="MADbutton">버튼 아코디언
+                    <div class='confirmT'>댓글</div></div>
+                </div>
                 </div>
                 <%} %>
             </div>

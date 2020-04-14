@@ -130,6 +130,15 @@ a:hover {
      box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 1px 0px, rgba(41, 42, 43, 0.34) 0px 1px 3px 0px;
     padding: 0px 10px;
 }
+.MADtailb{
+    width: 180px;
+    height:200px;
+    margin-left: 20px;
+    overflow-y: auto;
+     box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 1px 0px, rgba(41, 42, 43, 0.34) 0px 1px 3px 0px;
+    padding: 0px 10px;
+    margin: auto 0px;
+}
 .confirmT{
     padding: 0px 20px;
       padding-top: 5px;
@@ -138,6 +147,19 @@ a:hover {
     border-radius: 3px;
     
 }
+.confirmTB{
+   margin: 0px 10px 10px 10px;
+      padding-top: 2px;
+    overflow-y: hidden;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 1px 0px, rgba(41, 42, 43, 0.34) 0px 1px 3px 0px;
+    border-radius: 3px;
+    width: 1020px;
+    
+}
+.confirmTB:hover{
+	height: 500px;
+
+	}
 .confirmT:hover{
 	height: 500px;
 }
@@ -156,7 +178,7 @@ a:hover {
 .MADmenu{
     height: 30px;
     padding: 10px;
-    background-color: #ffa500cc;
+    background-color: threeddarkshadow;
 }
 .verhover{
 	margin-top: 30px;
@@ -195,8 +217,21 @@ a:hover {
     margin-top: 25px;
     position: relative;
 }
+.MADmenu div{
+	display: inline-block;
+}
+.MADmenu div p{
+	font-weight: bolder;
+	color: white;
+	width: 1020px;
+	display: inline-block;
+}
 .MADE div{
     display: inline-block;
+}
+#pshoee{
+	text-align: end;
+	color:white;
 }
 .MADE input[type='text']{
     width: 400px;
@@ -212,7 +247,7 @@ a:hover {
     bottom: 1px;
 }
 .MADmenu{
-    text-align: end;
+    
     font-size: 15px;
      border-radius: 3px 0px;
 }

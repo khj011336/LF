@@ -335,6 +335,24 @@ margin-top: 19px;
     height: 240px;
    display: flex;
     margin: 10px ;
+  
+    
+}
+.CRconboxb{
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 1px 0px, rgba(41, 42, 43, 0.34) 0px 1px 3px 0px;
+    padding-left:20px;
+    height: 240px;
+   display: flex;
+    margin: 10px 10px 3px 10px ;
+   width: 1000px;
+ 
+    
+}
+#CreComWrapb{
+	margin: 0px auto;
+	width: 1040px;
+	padding: 0px 80px;
+	   padding-top: 20px;
 }
 #CRhead{
     position: relative;
@@ -947,7 +965,7 @@ border: none;
 	color:black;
     
 }
-#listup{
+.listup{
     width: 150px;
     border-left: 1px solid white; 
         border-right: 1px solid white; 
@@ -970,9 +988,7 @@ border: none;
 	position: relative;
 	bottom: 23px;
 }
-#forfixs{
-    
-}
+
 .shoppingCart_subtitle {
 	float: right;
 	position: relative;
@@ -1060,16 +1076,11 @@ span.order_sheet, span.order_finish {
 	text-align: left;
 	float: left;
 }
-.opration{
-    
-}
+
 .price {
 	width: 130px;
 }
 
-.count {
-	
-}
 #countor{
     display: flex;
     flex-direction: column;
@@ -1115,8 +1126,18 @@ span.order_sheet, span.order_finish {
     margin-left: 5px;
     
 }
+.crinf{
+	 width: 150px;
+    border-left: 1px solid white; 
+        border-right: 1px solid white; 
+    cursor: pointer;
+}
 .subtotal p{
     margin: 15px 0px;
+   padding-left: 65px;
+}
+.bottomlineaa{
+	border-bottom: 1px solid #00000010;
 }
 .subtotal {
 	width: 150px;

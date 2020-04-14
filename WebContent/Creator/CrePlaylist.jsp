@@ -24,15 +24,16 @@
 			<div class="cartMain">
 				<table id="cartTable">
 					<thead>
-						<tr>
+						<tr >
 							<th><label for="fl select-all"> <input
 									type="checkbox" class="check-all check"> <span><a
 										href="javascript:void(0)" class="selallSPAN">&nbsp;전체</a></span></label></th>
 							<th colspan="2"></th>
 							<th id="forfixs"></th>
-							<th id="listup">+영상업로드</th>
+							<th class="crinf">클래스 정보수정</th>
+							<th class="listup">+영상업로드</th>
 							<th id="listdel">삭제</th>
-							<th>정렬방법&nbsp;<select>
+							<th style="width: 150px;">정렬&nbsp;<select>
 									<option>오름차순</option>
 									<option>내림차순</option>
 									<option>날자순</option>
@@ -41,21 +42,19 @@
 						</tr>
 					</thead>
 					<tbody>
-						<tr>
+						<tr class = 'bottomlineaa'>
 							<td class="checkbox"><input type="checkbox"
 								class="check-one check" /></td>
 							<td colspan="2" class="goods"><img
 								src="../resource/img/l3.PNG" alt="홈트레이닝" />
 
 								<div id="countor">
-									<span style="width: 500px">dddddddddddd홈트의
-										재정의&gt; 다이어트 패키지ddddddddddd</span> <span><a
-										href="##" class="sellerTitle">2020.09.09.10:33</a>
-									</span> <span>  <select name = "test1">
-												<option value="1">동영상 수정</option>
-												<option value="2">정보 수정</option>
-												<option value="3">판매킷 수정</option>
-										</select>
+									<span style="width: 500px">dddddddddddd홈트의 재정의&gt; 다이어트
+										패키지ddddddddddd</span> <span><a href="##" class="sellerTitle">2020.09.09.10:33</a>
+									</span> <span> <select name="test1">
+											<option value="1">동영상 수정</option>
+											<option value="2">판매킷 수정</option>
+									</select>
 									</span>
 								</div></td>
 							<td class="count"></td>
@@ -71,11 +70,42 @@
 									<i class="fas fa-eye"></i><span>23423442</span>
 								</p>
 							</td>
-
+							<td></td>
 							<td class="opration"><span class="deleteOne">수정</span></td>
 						</tr>
+							<tr class = 'bottomlineaa'>
+							<td class="checkbox"><input type="checkbox"
+								class="check-one check" /></td>
+							<td colspan="2" class="goods"><img
+								src="../resource/img/l3.PNG" alt="홈트레이닝" />
 
-						<tr>
+								<div id="countor">
+									<span style="width: 500px">dddddddddddd홈트의 재정의&gt; 다이어트
+										패키지ddddddddddd</span> <span><a href="##" class="sellerTitle">2020.09.09.10:33</a>
+									</span> <span> <select name="test1">
+											<option value="1">동영상 수정</option>
+											<option value="2">정보 수정</option>
+											<option value="3">판매킷 수정</option>
+									</select>
+									</span>
+								</div></td>
+							<td class="count"></td>
+							<td class="count"></td>
+							<td class="subtotal">
+								<p>
+									<i class="fas fa-comment-dots"></i><span>2342342</span>
+								</p>
+								<p>
+									<i class="fas fa-heart"></i><span></span>234234234
+								</p>
+								<p>
+									<i class="fas fa-eye"></i><span>23423442</span>
+								</p>
+							</td>
+							<td></td>
+							<td class="opration"><span class="deleteOne">수정</span></td>
+						</tr>
+<!-- 						<tr> -->
 					</tbody>
 				</table>
 			</div>
