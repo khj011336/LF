@@ -21,6 +21,9 @@
 	display: table;
 	table-layout: fixed;
 }
+.fumain_title{
+	margin: 20px 0;
+}
 /* 검색결과 파트 */
 .fusort {
 	display: inline;
