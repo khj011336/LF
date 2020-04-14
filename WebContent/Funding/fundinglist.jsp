@@ -1,7 +1,11 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
-	<link type="text/css" rel="stylesheet" href="resource/css/fundinglist.css">
+<link type="text/css" rel="stylesheet" href="resource/css/main.css">
+<link type="text/css" rel="stylesheet"
+	href="resource/css/fundinglist.css">
+
 <div class="fu_search_wrapper">
+
 	<div class="fusearch_top">
 		<ul class="fusort">
 			<li><select>
@@ -23,107 +27,125 @@
 		</ul>
 		<br> <br>
 	</div>
+
+
 	<h2 class="fumain_title">지금 HOT한 펀딩</h2>
-	<div>
-        <div class="fumain_recommend">
-			<div class="fuvideo_block">
-				<img class="fuvideo_thumnail">
-				<div class="fuvideo_category">미술 <span class="fufundINg">펀딩중</span></div>
-				<p class="fuvideo_title">"전하고 싶은 한 줄, 필림의 딥펜 캘리그래피"</p>
-				<div class="fuvideo_uploader">by 필림</div>
-				<div class="fuvideo_like">
-					<p>100명/19명진행중  <span class="fufunper">19%</span></p>
-				</div> 
-				<div class="fuvideo_like">
-					<p><span>필림.미술</span><span class="fufunddate">  19일 남음</span></p>
-				</div> 
+
+	<div class="funding_video_wrapper">
+		<div class="main_video_block_row">
+			<!-- 한 행에 전시할 강의 시작점마다 -->
+			<%
+				for (int i = 0; i < 3; i++) {
+			%>
+			<div class="main_video_block_rec">
+				<div class="main_video_thumb_rec">
+					<a href="#">
+						<div class="main_video_thumb_btn">
+							<i class="far fa-heart fa-2x"></i>
+						</div> <img src="resource/img/dummy_lec_img/art/art_1b.jpg"
+						alt="lecfly lecture">
+					</a>
+				</div>
+				<div class="main_video_info">
+					<p class="main_video_info_category">
+						미술 <span class="fufundINg">펀딩중</span> <span class="funding_rate">19%
+							달성</span>
+					</p>
+
+					<p class="main_video_info_title">"이연공방 도자기 만들기와 물레 체험. 흙을 도화지
+						삼아 나만의 색을 담은 도자기"</p>
+					<img src="resource/img/dummy_lec_img/art/art_2m.jpg"
+						class="video_info_creator_img">
+					<p class="main_video_info_creator_name">이연공방</p>
+
+					<div class="main_video_like">
+						<p>
+							<span class="funding_date">15일 남음</span>
+						</p>
+					</div>
+				</div>
 			</div>
-       <div class="fuvideo_block">
-				<img class="fuvideo_thumnail">
-				<div class="fuvideo_category">미술 <span class="fufundINg">펀딩중</span></div>
-				<p class="fuvideo_title">"전하고 싶은 한 줄, 필림의 딥펜 캘리그래피"</p>
-				<div class="fuvideo_uploader">by 필림</div>
-				<div class="fuvideo_like">
-					<p>100명/19명진행중  <span class="fufunper">19%</span></p>
-				</div> 
-				<div class="fuvideo_like">
-					<p><span>필림.미술</span><span class="fufunddate">  19일 남음</span></p>
-				</div> 
-			</div>
-       <div class="fuvideo_block">
-				<img class="fuvideo_thumnail">
-				<div class="fuvideo_category">미술 <span class="fundINg">펀딩중</span></div>
-				<p class="fuvideo_title">"전하고 싶은 한 줄, 필림의 딥펜 캘리그래피"</p>
-				<div class="fuvideo_uploader">by 필림</div>
-				<div class="fuvideo_like">
-					<p>100명/19명진행중  <span class="funper">19%</span></p>
-				</div> 
-				<div class="fuvideo_like">
-					<p><span>필림.미술</span><span class="fufunddate">  19일 남음</span></p>
-				</div> 
-			</div>
-        </div>
-        
-        </div>
-	<div class="fusearch_result">
-	
-		
-		<div class="fuvideo_block">
-			<img class="fuvideo_thumnail">
-				<div class="fuvideo_category">미술 <span class="fufundINg">펀딩중</span></div>
-				<p class="fuvideo_title">"전하고 싶은 한 줄, 필림의 딥펜 캘리그래피"</p>
-				<div class="fuvideo_uploader">by 필림</div>
-				<div class="fuvideo_like">
-					<p>100명/19명진행중  <span class="fufunper">19%</span></p>
-				</div> 
-				<div class="fuvideo_like">
-					<p><span>필림.미술</span><span class="fufunddate">  19일 남음</span></p>
-				</div> 
-		</div>
-			<div class="fuvideo_block">
-			<img class="fuvideo_thumnail">
-				<div class="fuvideo_category">미술 <span class="fufundINg">펀딩중</span></div>
-				<p class="fuvideo_title">"전하고 싶은 한 줄, 필림의 딥펜 캘리그래피"</p>
-				<div class="fuvideo_uploader">by 필림</div>
-				<div class="fuvideo_like">
-					<p>100명/19명진행중  <span class="fufunper">19%</span></p>
-				</div> 
-				<div class="fuvideo_like">
-					<p><span>필림.미술</span><span class="fufunddate">  19일 남음</span></p>
-				</div> 
-		</div>	<div class="fuvideo_block">
-			<img class="fuvideo_thumnail">
-				<div class="fuvideo_category">미술 <span class="fufundINg">펀딩중</span></div>
-				<p class="fuvideo_title">"전하고 싶은 한 줄, 필림의 딥펜 캘리그래피"</p>
-				<div class="fuvideo_uploader">by 필림</div>
-				<div class="fuvideo_like">
-					<p>100명/19명진행중  <span class="fufunper">19%</span></p>
-				</div> 
-				<div class="fuvideo_like">
-					<p><span>필림.미술</span><span class="fufunddate">  19일 남음</span></p>
-				</div> 
-		</div>	<div class="fuvideo_block">
-			<img class="fuvideo_thumnail">
-				<div class="fuvideo_category">미술 <span class="fufundINg">펀딩중</span></div>
-				<p class="fuvideo_title">"전하고 싶은 한 줄, 필림의 딥펜 캘리그래피"</p>
-				<div class="fuvideo_uploader">by 필림</div>
-				<div class="fuvideo_like">
-					<p>100명/19명진행중  <span class="fufunper">19%</span></p>
-				</div> 
-				<div class="fuvideo_like">
-					<p><span>필림.미술</span><span class="fufunddate">  19일 남음</span></p>
-				</div> 
-		</div>	<div class="fuvideo_block">
-			<img class="fuvideo_thumnail">
-				<div class="fuvideo_category">미술 <span class="fufundINg">펀딩중</span></div>
-				<p class="fuvideo_title">"전하고 싶은 한 줄, 필림의 딥펜 캘리그래피"</p>
-				<div class="fuvideo_uploader">by 필림</div>
-				<div class="fuvideo_like">
-					<p>100명/19명진행중  <span class="fufunper">19%</span></p>
-				</div> 
-				<div class="fuvideo_like">
-					<p><span>필림.미술</span><span class="fufunddate">  19일 남음</span></p>
-				</div> 
+			<%
+				}
+			%>
 		</div>
 	</div>
+
+	<h2 class="fumain_title">진행중인 펀딩</h2>
+
+	<div class="main_video_wrapper">
+
+		<div class="main_video_block_row">
+			<!-- 한 행에 전시할 강의 시작점마다 -->
+			<%
+				for (int i = 0; i < 4; i++) {
+			%>
+			<div class="main_video_block">
+				<div class="main_video_thumb">
+					<a href="#"><div class="main_video_thumb_btn">
+							<i class="far fa-heart fa-2x"></i>
+						</div> <img src="resource/img/dummy_lec_img/art/art_2m.jpg"
+						alt="lecfly lecture"></a>
+				</div>
+				<div class="main_video_info">
+					<p class="main_video_info_category">
+						미술 <span class="fufundINg">펀딩중</span> <span class="funding_rate">19%
+							달성</span>
+					</p>
+
+					<p class="main_video_info_title">"이연공방 도자기 만들기와 물레 체험. 흙을 도화지
+						삼아 나만의 색을 담은 도자기"</p>
+					<img src="resource/img/dummy_lec_img/art/art_2m.jpg"
+						class="video_info_creator_img">
+					<p class="main_video_info_creator_name">이연공방</p>
+
+					<div class="main_video_like">
+						<p>
+							<span class="funding_date">15일 남음</span>
+						</p>
+					</div>
+				</div>
+			</div>
+			<%
+				}
+			%>
+		</div>
+		<div class="main_video_block_row">
+			<!-- 한 행에 전시할 강의 시작점마다 -->
+			<%
+				for (int i = 0; i < 4; i++) {
+			%>
+			<div class="main_video_block">
+				<div class="main_video_thumb">
+					<a href="#"><div class="main_video_thumb_btn">
+							<i class="far fa-heart fa-2x"></i>
+						</div> <img src="resource/img/dummy_lec_img/art/art_2m.jpg"
+						alt="lecfly lecture"></a>
+				</div>
+				<div class="main_video_info">
+					<p class="main_video_info_category">
+						미술 <span class="fufundINg">펀딩중</span> <span class="funding_rate">19%
+							달성</span>
+					</p>
+
+					<p class="main_video_info_title">"이연공방 도자기 만들기와 물레 체험. 흙을 도화지
+						삼아 나만의 색을 담은 도자기"</p>
+					<img src="resource/img/dummy_lec_img/art/art_2m.jpg"
+						class="video_info_creator_img">
+					<p class="main_video_info_creator_name">이연공방</p>
+
+					<div class="main_video_like">
+						<p>
+							<span class="funding_date">15일 남음</span>
+						</p>
+					</div>
+				</div>
+			</div>
+			<%
+				}
+			%>
+		</div>
+	</div>
+
+
 </div>
