@@ -2,7 +2,7 @@
 	pageEncoding="UTF-8"%>
 <script>
 	// javaScript의 html 내의 요소들을 움직일 수 있는 dom 객체를 조작하는 방법.
-	window.onload = function() {
+// 	window.onload = function() {
 		//호환document.getElementsByClassName 방법；
 
 		// getElementsById() id 속성을 사용하여 접근.
@@ -223,15 +223,19 @@
 			}
 			;
 		}
-	}
+// 	}
+	// 결제페이지로 이동
+	$(document).on("click", '.closing', function() {
+		$("#homemain").load("payment/fundingPayment.jsp");
+	});
 </script>
 <div id="shoppingCart_wrapper">
 	<div id="shoppingCart_content">
 		<div class="shoppingCart_title_box">
 			<h1 class="shoppingCart_title">장바구니</h1>
 			<h3 class="shoppingCart_subtitle">
-				<span class="basket">장바구니</span> <span class="order_sheet">&gt;
-					주문서</span> <span class="order_finish">&gt; 주문완료</span>
+				<span class="shoppingCart_basket">장바구니</span> <span class="shoppingCart_order_sheet">&gt;
+					주문서</span> <span class="shoppingCart_order_finish">&gt; 주문완료</span>
 			</h3>
 		</div>
 		<div class="cartMain">

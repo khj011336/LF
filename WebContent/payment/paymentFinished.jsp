@@ -64,3 +64,13 @@
 		</div>
 	</div>
 </div>
+<script>
+	// 주문 상세페이지로 이동
+	$(document).on("click",'.paymentFinished_orderPage', function() {
+		$("#homemain").load("payment/paymentDetail.jsp");
+	});
+	// 홈페이지로 이동
+	$(document).on("click",'.paymentFinished_goHomePage', function() {
+		$("#homemain").load("ETC/main.jsp");
+	});
+</script>

@@ -171,17 +171,13 @@ input[value=입력] {
 	font-size: 15pt;
 }
 
-#register_content .register_kit_select:hover {
-	color: white;
-}
-
-#register_content .register_kit_info {
+.register_kit_info {
 	font-weight: bold;
 	float: right;
 }
 
-#register_content .register_kit_info:hover {
-	color: white;
+.register_kit_info:hover {
+	color: orange;
 }
 
 #register_content #register_soap {

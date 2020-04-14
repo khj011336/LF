@@ -1,5 +1,29 @@
 @charset "UTF-8";
-
+/* 펀딩리스트 출력 파트 */
+.fumain_title {
+	margin: 20px 0;
+}
+.fufunper{
+    color: orange;
+    font-size: 18px;
+}
+.funding_rate{
+	font-weight: bolder;
+    color: #800080;
+}
+.funding_date{
+    font-weight: bolder;
+    color: gray;
+}
+.funding_video_wrapper{
+	width: 100%;
+	height: 70vh;
+	display: table;
+	table-layout: fixed;
+}
+.fumain_title{
+	margin: 20px 0;
+}
 /* 검색결과 파트 */
 .fusort {
 	display: inline;
