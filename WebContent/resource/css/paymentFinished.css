@@ -112,36 +112,24 @@ ul, li {
 	animation-delay: 24s
 }
 
-@
-keyframes fade { 0% {
+@keyframes fade { 
+	0% {
 	opacity: 0;
+	}
+	5% {
+	opacity: 1;
+	}
+	25% {
+	opacity: 1;
+	}
+	30% {
+	opacity: 0;
+	}
+	100% {
+	opacity: 0;
+	}
 }
 
-5%
-{
-opacity
-:
-1;
-}
-25%
-{
-opacity
-:
-1;
-}
-30%
-{
-opacity
-:
-0;
-}
-100%
-{
-opacity
-:
-0;
-}
-}
 #paymentFinished_button {
 	text-align: center;
 	position: relative;

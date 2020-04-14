@@ -1,12 +1,12 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
-<div id="paymentFinished_wrapper">
-	<div id="paymentFinished_content">
-		<div class="paymentFinished_title_box">
-			<h1 class="paymentFinished_title">주문완료</h1>
-			<h3 class="paymentFinished_subtitle">
-				<span class="basket">장바구니</span> <span class="order_sheet">&gt;
-					주문서</span> <span class="order_finish">&gt; 주문완료</span>
+<div id="paymentSendEmail_wrapper">
+	<div id="paymentSendEmail_content">
+		<div class="paymentSendEmail_title_box">
+			<h1 class="paymentSendEmail_title">주문완료</h1>
+			<h3 class="paymentSendEmail_subtitle">
+				<span class="paymentSendEmail_basket">장바구니</span> <span class="paymentSendEmail_order_sheet">&gt;
+					주문서</span> <span class="paymentSendEmail_order_finish">&gt; 주문완료</span>
 			</h3>
 		</div>
 		<br> <br> <br> <a href="#"
@@ -14,7 +14,7 @@
 			class="LecFly_logo" src="resource/img/logo/LecFly_LOGO_B_C.png"
 			alt="Lecfly" style="vertical-align: middle;">
 		</a>
-		<p class="paymentFinished_tag">
+		<p class="paymentSendEmail_tag">
 			<a href="#" target="_blank"
 				style="text-decoration: none; white-space: nowrap;"> 주문배송</a>
 			&#8226; <a href="#" target="_blank"
@@ -27,7 +27,7 @@
 		<table class="goods_apply_table">
 			<tr>
 				<th>
-					<h2 class="paymentFinished_h1">주문하신 상품이 발송되었습니다.</h2>
+					<h2 class="paymentSendEmail_h1">주문하신 상품이 발송되었습니다.</h2>
 				</th>
 			<tr>
 				<td class="goods_apply_table_td">상품 수령일로부터 7일이 경과한 상품에 대해서
@@ -45,7 +45,7 @@
 					<br></td>
 			</tr>
 			<tr>
-				<td class="paymentFinished_homepage_tag"><a href="#"
+				<td class="paymentSendEmail_homepage_tag"><a href="#"
 					target="_blank" style="text-decoration: none;">Lecfly 바로가기 &gt;</a>
 				</td>
 			</tr>
@@ -101,11 +101,11 @@
 				<td>&nbsp;</td>
 			</tr>
 			<tr>
-				<td class="paymentFinished_homepage_tag"><a href="#"
+				<td class="paymentSendEmail_homepage_tag"><a href="#"
 					target="_blank" style="text-decoration: none;">고객센터 &gt;</a></td>
 			</tr>
 			<tr>
-				<td class="paymentFinished_padding_bottom">&nbsp;</td>
+				<td class="paymentSendEmail_padding_bottom">&nbsp;</td>
 			</tr>
 		</table>
 	</div>

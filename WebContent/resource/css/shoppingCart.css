@@ -62,11 +62,11 @@
 	bottom: 22px;
 }
 
-span.basket {
+.shoppingCart_basket {
 	color: black;
 }
 
-span.order_sheet, span.order_finish {
+.shoppingCart_order_sheet, .shoppingCart_order_finish {
 	color: gray;
 }
 

@@ -117,13 +117,6 @@
 				href="#">★</a><a href="#">★</a><a href="#">★</a> <span
 				class="review_week"> <small>1년 전</small></span>
 		</p>
-		<script>
-			$('#register_review a').click(function() {
-				$(this).parent().children("a").removeClass("on"); /* 별점의 on 클래스 전부 제거 */
-				$(this).addClass("on").prevAll("a").addClass("on"); /* 클릭한 별과, 그 앞 까지 별점에 on 클래스 추가 */
-				return false;
-			});
-		</script>
 		<br> <br>
 		<h1 id="register_qna_info">QnA</h1>
 		<br> <br> <i class="fas fa-user"> 수현 <input type="date"
@@ -146,15 +139,34 @@
 	<br> <br>
 	<p>
 		<span class="register_kit_select">&lt;준비물 KIT&gt;</span> <span
-			class="register_kit_info">구성 안내 바로보기&gt;</span>
+			class="register_kit_info"><a href="#register_kit_info">구성 안내 바로보기&gt;</a></span>
 	</p>
-	<br> <br> <input type="number" name="register_soap"
-		id="register_soap" min="5,000" max="100,000" step="5000"
-		placeholder="스타터를 위한 KIT (18,000원)"> <label
-		for="register_soap" id="register_soap_title">장바구니 담기</label> <br>
+	<br> <br>
+	<select class = "register_kit_select">
+		<option>스타터를 위한 KIT (18,000원)</option>
+		<option>선택안함</option>
+	</select>  
+	<label for="register_soap" id="register_soap_title">장바구니 담기</label> <br>
 	<br> <br> <span class="register_like_num"><i
 		class="fas fa-heart"></i> 348 </span> &nbsp; &nbsp; &nbsp; <span
 		class="register_lec_pick"> 강의 찜하기 </span> <br> <br> <br>
 	<p id="register_warning">'라이프스타일' 회원권 보유시 신청가능합니다.</p>
 	<br> <span id="register_lec_apply">강의 신청하기</span>
 </div>
+<script>
+	// 별점 추가
+	$('#register_review a').click(function() {
+		$(this).parent().children("a").removeClass("on"); /* 별점의 on 클래스 전부 제거 */
+		$(this).addClass("on").prevAll("a").addClass("on"); /* 클릭한 별과, 그 앞 까지 별점에 on 클래스 추가 */
+		return false;
+	});
+
+	// 장바구니로 이동
+	$(document).on("click", '#register_soap_title', function() {
+		$("#homemain").load("payment/shoppingCart.jsp");
+	});
+	// 결제페이지로 이동
+	$(document).on("click", '#register_lec_apply', function() {
+		$("#homemain").load("payment/goodsPayment.jsp");
+	});
+</script>

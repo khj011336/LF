@@ -41,11 +41,11 @@ charset "UTF-8 "; * {
 	top: 33px;
 }
 
-span.order_sheet {
+.fundingPayment_order_sheet {
 	color: black;
 }
 
-.basket, .order_finish {
+.fundingPayment_basket, .fundingPayment_order_finish {
 	color: gray;
 }
 
@@ -167,7 +167,6 @@ input[value=결제하기] {
 
 .fundingPayment_payment_title_bold {
 	font-weight: bold;
-	letter-spacing: normal;
 }
 
 .fundingPayment_payment_agree_dummy {
@@ -180,14 +179,17 @@ input[value=결제하기] {
 	height: inherit;
 	display: inline-block;
 	padding-bottom: 100px;
-	letter-spacing: 40px;
+}
+
+.fundingPayment_top, .fundingPayment_bottom {
+	margin-bottom: 50px;
 }
 
 #fundingPayment_payment_card, #fundingPayment_payment_phone,
 	#fundingPayment_payment_account, #fundingPayment_payment_virtual,
 	#fundingPayment_payment_kakaopay, #fundingPayment_payment_naverpay,
 	#fundingPayment_payment_payco {
-	margin-left: 20px;
+	margin-left: 30px;
 	border: 0px;
 	background-color: white;
 }
