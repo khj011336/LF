@@ -71,7 +71,8 @@ public class PwSecurityEncoding {
 		}
 		return result;
 	}
-
+	
+	// 테스트
 	public static void main(String[] args) {
 		// 임시 DB
 		String[] db = new String[2];
@@ -99,13 +100,13 @@ public class PwSecurityEncoding {
 		System.out.print("비밀번호를 입력하세요: ");
 		String inputPw = sc.next();
 		try {
-			PwSecurityEncoding pwEncode = new PwSecurityEncoding(inputPw);
+			PwSecurityEncoding pwDecode = new PwSecurityEncoding(inputPw, db[1]);
 			
 			// db에서 확인하는 것 가정
-			// 
-			PwSecurityEncoding pwDecode = new PwSecurityEncoding(db[0], db[1]);
-			
-			
+			if( pwDecode.getHashing().equals(db[0]) )
+				System.out.println("비밀번호 일치!");
+			else 
+				System.out.println("비밀번호 불일치...");
 		} catch (NoSuchAlgorithmException e) {
 			System.out.println("비밀번호 해시 생성 실패");
 			e.printStackTrace();
