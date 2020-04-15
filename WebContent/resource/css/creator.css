@@ -794,8 +794,10 @@ border: none;
 /* 상품 카테고리 판매가 재고수량 택배사 배송비 에쓰이는 input bar */
 .sellkitregistration_bar1 {
 	width: 200px;
-	height: 40px;
-	border: 1px solid black;
+/* 	height: 40px; */
+	height: 37px;
+	
+	box-shadow: gray;
 	border-radius: 4px;
 }
 /* 카테고리 검색버튼 속성설정버튼 과세상품 면세상품 영세상품 버튼 */ 
@@ -808,8 +810,9 @@ border: none;
 /* 상품명 옆에있는 input bar */
 .sellkitregistration_bar2 {
 	width: 306px;
-	height: 40px;
-	border: 1px solid black;
+/* 	height: 40px; */
+	height: 37px;
+	box-shadow: gray;
 	border-radius: 4px;
 }
 /* 상품속성 부가세 가있는 위치 설정*/
@@ -870,11 +873,18 @@ border: none;
 .sellkitregistration_main_bottom_part2 {
 	clear: both;
 }
+
+/*배송안내문구 select bar */
+#sellkitregistration_delivery_guide_msg {
+	border: 1px solid gray;
+}
+
 /* 발송지 배송안내문구 옆에있는 input bar (크기)*/
 .sellkitregistration_bar3 {
 	width: 700px;
-	height: 40px;
-	border: 1px solid black;
+/* 	height: 40px; */
+	height: 37px;
+	box-shadow: gray;
 	border-radius: 4px;
 }
 
@@ -917,7 +927,7 @@ border: none;
 .sellkitregistration_btn3 {
 	width: 100px;
 	height: 40px;
-	border: 1px solid black;
+	box-shadow: gray;
 	border-radius: 4px;
 }
 
@@ -925,6 +935,13 @@ border: none;
 .sellkitregistration_btn_interval2{
     margin-left: 516px;
 }
+
+.sellkitregistration_next_btn {
+	width: 60px;
+	height:30px;
+	margin-left: 860px;
+}
+
 /* /* ------------------------------------------------- */
 #shoppingCart_wrapper a {
 	color: black;
