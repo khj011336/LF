@@ -9,7 +9,9 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 
- 
+//ffmpeg -i C:\cooking.mp4 -vf scale=500:-1 -t 10 -r 10 C:\fusion11\imgage.gif
+//
+//ffmpeg -ss 00:00:15 -i video.mp4 -vf scale=800:-1 -vframes 1 image.jpg 
 
 public class AutopathFFmpeg{
 	public File extractImage(File videoFile, int position,

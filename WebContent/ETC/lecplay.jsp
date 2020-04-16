@@ -15,7 +15,11 @@ $(document).ready(function () {
 		});
 	});
 	$(".alter img").mouseover(function () {
+		var sc =  $(this).attr("src");
 		$(this).attr("src","resource/img/imgage.gif")
+		$(this).mouseout(function () {
+			$(this).attr("src",sc);
+		});
 	});
 });
 
