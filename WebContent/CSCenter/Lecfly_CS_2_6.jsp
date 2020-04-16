@@ -1,16 +1,22 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 
-                <div id="faq_table">
-                	<ul>
-                		<li>
-                			<div id ="faq_acodian">
-		                		<div id="faq_aco_title">&#91;기타&#93; &nbsp; 기타</div>
-		                       	<div id="faq_aco_txt">
-		                       		프랑시스 남은 가득 까닭입니다. 이국 다하지 파란 동경과 부끄러운 강아지, 까닭이요, 없이 봅니다. 하나에 차 내린 겨울이 하나 노루, 계절이 있습니다. 무엇인지 어머니, 아무 별 불러 패, 있습니다. 별 풀이 이름과, 시와 부끄러운 하나에 잔디가 불러 별 듯합니다. 우는 새워 경, 딴은 하늘에는 아이들의 하나에 듯합니다. 새겨지는 어머니, 많은 이름을 나는 버리었습니다. 프랑시스 풀이 아침이 한 계십니다. 시인의 하나에 이 별 없이 흙으로 있습니다.
-		                       	</div>
-		                   	</div>
-                		</li>
-                	</ul>
-               </div>
- 
+      <div id="faq_table">
+    	<ul>
+    		<%for(int i =0 ; i<10 ; i++){ %>
+    		<li>
+    			<div id ="faq_acodian">
+      		<div id="faq_aco_type">&#91;기타&#93;</div>
+      		<div id="faq_aco_title">회원정보수정은 어디서 하나요?</div>
+             	<div id="faq_aco_txt">
+             		홈페이지에 로그인 후 [마이페이지]를 클릭해주세요<br>
+             		[정보관리]를 클릭해 회원정보와 비밀번호를 수정할 수 있습니다.<br>
+             		수정 불가능한 부분을 개명 등의 이유로 수정을 원하시는 경우 고객센터로 요청해주시면 처리해드리겠습니다.
+             	</div>
+          	</div>
+    		</li>
+    		<%} %>
+    	</ul>
+    	
+        <div id="faq_numbering">&lt;&nbsp;<b>1</b> 2 3 4 5 6 7 8 9 10&nbsp;&gt;</div>
+    </div>

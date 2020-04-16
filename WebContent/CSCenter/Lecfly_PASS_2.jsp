@@ -46,7 +46,7 @@
                     <h3><span style="background-color: lightgray">3 카테고리 회원권</span></h3><br>
                     <h4><span>30,900원 / 월</span></h4><br>
                     7개의 카테고리 중<br>세가지를 선택하여<br>해당 카테고리에 한해<br>무제한으로 이용 가능합니다.
-                    <div id="lecflyticket_gopay"><h4><a href="#">바로가기&nbsp;&gt;</a></h4></div>
+                    <div id="lecflyticket_gopay"><h4><a href="#" class="nav_mypage">바로가기&nbsp;&gt;</a></h4></div>
                 </div>
                 <div id="lecflyticket_box">
                     <span style="color: orangered;">

@@ -56,7 +56,7 @@
 			});			
 		}); // 찜하기
 		$("#mypage_like").click(function() {
-			var url = ROOTCP+'/member/mypage/attend_lec_manager/mypage_like.jsp';
+			var url = ROOTCP+'/member/mypage/attend_lec_manager/mypage_no_list.jsp';
 			$("#mypage_bottom").load(url, function(){
 				console.log("좋아요 로딩완료");
 			});			

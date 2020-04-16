@@ -147,8 +147,8 @@
 					<th colspan="2">
 						<br>
 						<br>
-						<input type="submit" class="btn_post" value="문의글 작성하기">
-						<!--<a href="#" title="문의글 등록" class="btn_post">문의글 작성하기</a> -->
+						<!-- <input type="submit" class="btn_post" value="문의글 작성하기"> -->
+						<a href="#" title="문의글 등록" class="btn_post">문의글 작성하기</a>
 					</th>
 	            </tr>
 	       </table>

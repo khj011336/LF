@@ -104,8 +104,19 @@
 	        </div>
 		</div>
     </div>	
-    	<div id="mypage_update_info_btn">
-		<button>회원정보 수정</button> 
-		</div>
+   	<div id="mypage_update_info_btn">
+<!-- 			<button>회원정보 수정</button> -->
+		<a href="#mypage_mb_update_confirm">회원정보 수정</a> 
 	</div>
+	</div>
+	<div id="mypage_mb_update_confirm" class="overlay">
+	<div class="popup">
+		
+		<a class="close" href="#">x</a>
+		<div class="mypage_mb_update_popup_content">
+			<h2 class="mypage_mb_isupdate">'??'님 회원정보 수정 성공</h2>
+		</div>
+		<input id="mypage_mb_update_popup_submitbtn" type="button" value="확인">
+	</div>
+</div>
 </div>

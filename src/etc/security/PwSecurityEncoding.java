@@ -103,10 +103,14 @@ public class PwSecurityEncoding {
 			PwSecurityEncoding pwDecode = new PwSecurityEncoding(inputPw, db[1]);
 			
 			// db에서 확인하는 것 가정
-			if( pwDecode.getHashing().equals(db[0]) )
+			if( pwDecode.getHashing().equals(db[0]) ) {
+				System.out.println("해시: "+ db[0]);
+				System.out.println("솔트: "+ db[1]);
 				System.out.println("비밀번호 일치!");
-			else 
+				
+			} else { 
 				System.out.println("비밀번호 불일치...");
+			}
 		} catch (NoSuchAlgorithmException e) {
 			System.out.println("비밀번호 해시 생성 실패");
 			e.printStackTrace();
