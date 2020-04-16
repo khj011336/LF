@@ -18,7 +18,7 @@
 				</div>
 				<div class="list_video_info">
 					<p class="video_info_category">라이프스타일</p>
-					<p class="video_info_title">작지만 큰 행복, 대바늘 뜨개로 엮는 유쾌한 인형작지만 큰 행복, 대바늘 뜨개로 엮는 유쾌한 인형 작지만 큰 행복,</p>
+					<p class="video_info_title">작지만 큰 행복, 대바늘 뜨개로 엮는 유쾌한 인형작지만 큰 행복</p>
 					<img src="resource/img/mypage/sample5.jpg" class="video_info_creator_img">
 					<p class="video_info_creator_name">뜨개질</p>
 				</div>
