@@ -106,6 +106,7 @@ body {
 
 .lecfly_header_info {/* 헤더 홈페이지 이용안내 문구 */
 	padding: 10px;
+	cursor: pointer;
 }
 .info_color {
 	color:orange;
