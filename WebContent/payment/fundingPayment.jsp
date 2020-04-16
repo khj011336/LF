@@ -226,14 +226,13 @@ $(document).on("click", '#fundingPayment_payment_card', function() {
 });
 
 // 카카오페이
-$(document).on("click", '#fundingPayment_payment_kakaopay', function() {
+$(document).on("click", '.fundingPayment_last_button', function() {
 	$("#fundingPayment_wrapper").load("payment/kakaopay.jsp");
 });
 
 // 결제완료로 가기
 
-$(document).on("click", '.fundingPayment_last_button', function() {
-	$("#homemain").load("payment/paymentFinished.jsp");
-	console.log("딩동");
-});
+// $(document).on("click", '.fundingPayment_last_button', function() {
+// 	$("#homemain").load("payment/paymentFinished.jsp");
+// });
 </script>
