@@ -58,9 +58,8 @@
 	</script>
 	<div id="faq">
        	<div id="faq_p">
-           	<br><br><br><br>
            	<h4>자주묻는 질문</h4>
-           	<br>
+          
            
            <div id="faq_nav">
            <ul>
