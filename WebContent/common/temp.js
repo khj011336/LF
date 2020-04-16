@@ -70,7 +70,7 @@
 		
 		
 		// cs센터 페이지
-		$(document).on("click",'#CSCenter, .nav_cs', function() {
+		$(document).on("click",'#CSCenter, .nav_cs, .btn_post', function() {
 			$("#homemain").load("CSCenter/Lecfly_CSCenter.jsp");
 			
 		});

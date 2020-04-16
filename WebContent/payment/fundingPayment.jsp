@@ -221,18 +221,18 @@
 
 <script>
 //카드 결제
-$(document).on("click", '#fundingPayment_payment_card', function() {
+/* $(document).on("click", '#fundingPayment_payment_card', function() {
 	$("#fundingPayment_wrapper").load("payment/card_register.jsp");
-});
+}); */
 
 // 카카오페이
-$(document).on("click", '.fundingPayment_last_button', function() {
+/* $(document).on("click", '.fundingPayment_last_button', function() {
 	$("#fundingPayment_wrapper").load("payment/kakaopay.jsp");
-});
+}); */
 
 // 결제완료로 가기
 
-// $(document).on("click", '.fundingPayment_last_button', function() {
-// 	$("#homemain").load("payment/paymentFinished.jsp");
-// });
+$(document).on("click", '.fundingPayment_last_button', function() {
+$("#homemain").load("payment/paymentFinished.jsp");
+});
 </script>

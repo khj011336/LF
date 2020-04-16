@@ -14,7 +14,7 @@
 			<% } %>		
 			<div class="list_video_block">
 				<div class="list_video_thumb">
-				<a href="#"> 
+				<a href="#" class="nav_video_list">
 				<img src="resource/img/mypage/sample4.jpg" alt="lecfly lecture">
 				<div class="video_info_progressbar_bg">
 				<div class="video_info_progressbar" style="width: 72%"></div>
