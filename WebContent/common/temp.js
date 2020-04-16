@@ -131,5 +131,13 @@
 			
 		});
 		
+		// 마이 페이지 회원정보변경후 확인버튼 눌렀을때 세현 추가0416
+		$(document).on("click",'#mypage_mb_update_popup_submitbtn', function() {
+			$("#mypage_bottom").load("member/mypage/info_manager/mypage_mb_update.jsp");
+		});
 		
-
+		// 마이 페이지 회원정보 변경후 확인버튼 눌렀을때 세현 추가0416 
+		$(document).on("click",'#mypage_pw_update_popup_submitbtn', function() {
+			$("#mypage_bottom").load("member/mypage/info_manager/mypage_pw_update.jsp");
+		});
+		
