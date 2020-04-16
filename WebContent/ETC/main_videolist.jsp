@@ -73,13 +73,14 @@
 	<div class="main_video_block_row"><!-- 한 행에 전시할 강의 시작점마다 -->
 		<div class="main_video_block">
 			<div class="main_video_thumb">
-			<a href="#"><div class="main_video_thumb_btn"><i class="far fa-heart fa-2x"></i></div> <img src="resource/img/dummy_lec_img/life_style/life_style_2m.jpg" alt="lecfly lecture"></a>
+			<a href="#"><div class="main_video_thumb_btn"><i class="far fa-heart fa-2x"></i></div> 
+			<img src="resource/img/dummy_lec_img/life_style/life_style_2m0.jpg" alt="lecfly lecture"></a>
 			</div>
 			<div class="main_video_info">
 				<p class="main_video_info_category">라이프스타일</p>
 				
 				<p class="main_video_info_title">"셀프 젤네일 순서. 셀프 젤 네일아츠 기초"</p>
-				<img src="resource/img/dummy_lec_img/life_style/life_style_2m.jpg" class="video_info_creator_img">
+				<img src="resource/img/dummy_lec_img/life_style/life_style_2m0.jpg" class="video_info_creator_img">
 				<p class="main_video_info_creator_name">손끝사랑</p>
 				<div class="main_video_like">
 					<i class="fas fa-heart fa-lg"></i>5341 &nbsp;
