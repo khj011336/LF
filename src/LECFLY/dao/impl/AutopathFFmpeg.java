@@ -1,49 +1,97 @@
 package LECFLY.dao.impl;
 
+
+ 
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.IOException;
+import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.util.logging.Logger;
+
+ 
+
+public class AutopathFFmpeg{
+	public File extractImage(File videoFile, int position,
+
+			File creatingImageFile) {
+
+		try {
+
+			int seconds = position % 60;
+
+			int minutes = (position - seconds) / 60;
+
+			int hours = (position - minutes * 60 - seconds) / 60 / 60;
 
 
-	public class AutopathFFmpeg {
 
-		
+			String videoFilePath = videoFile.getAbsolutePath();
 
-	
-		
+			String imageFilePath = creatingImageFile.getAbsolutePath();
 
 
-		
-		public static void thumbnail2() {
-//			Runtime run = Runtime.getRuntime(); 
-//			try{ 
-//			    run.exec("C:\\windows\\explorer.exe"); 
-//			}catch(Exception e){ 
-//			    System.out.println("error : "+ e.getMessage()); 
-//			    e.printStackTrace(); 
-//			} 
-			Runtime run2 = Runtime.getRuntime();
-			String videofile = "C:\\cooking.mp4";
-			String command = "C:\\ffmpeg-4.2.2-win64-static\\bin\\ffmpeg.exe -i \""+videofile+"\" -ss 00:05:00 -vcodec png -vframes 1 \""+videofile+"_%2d.png\"";
 
-			try{
-			    run2.exec("cmd.exe chcp 65001");  // cmd에서 한글문제로 썸네일이 만들어지지않을시 cmd창에서 utf-8로 변환하는 명령
-			    run2.exec(command);
-			}catch(Exception e){
-			    System.out.println("error : "+e.getMessage());
-			    e.printStackTrace();
-			}             
-System.out.println("완료");
+			String[] commands = { "ffmpeg", "-ss",
 
+					String.format("%02d:%02d:%02d", hours, minutes, seconds),
+
+					"-i", videoFilePath, "-an", "-vframes", "1", "-y",
+
+					imageFilePath };
+
+
+
+			Process processor = Runtime.getRuntime().exec(commands);
+
+
+
+			String line1 = null;
+
+			BufferedReader error = new BufferedReader(new InputStreamReader(
+
+					processor.getErrorStream()));
+
+			while ((line1 = error.readLine()) != null) {
+
+				System.out.println(line1);
+
+			}
+
+			processor.waitFor();
+
+			int exitValue = processor.exitValue();
+
+			if (exitValue != 0) {
+
+				throw new RuntimeException("exit code is not 0 [" + exitValue
+
+						+ "]");
+
+			}
+
+			return creatingImageFile;
+
+		} catch (IOException e) {
+
+			throw new RuntimeException(e);
+
+		} catch (InterruptedException e) {
+
+			throw new RuntimeException(e);
 
 		}
-	
-	
+
+	}
 	public static void main(String[] args) {
 		AutopathFFmpeg dd = new AutopathFFmpeg();
-		
-		dd.thumbnail2();
-		}
+		File d = new File("C:\\cooking.mp4");
+		File d2 = new File("C:\\fusion11\\cooking.jpg");
+		dd.extractImage(d, 3,d2);
 	}
+}
+
+ 
+
+
+

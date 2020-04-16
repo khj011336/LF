@@ -14,6 +14,9 @@ $(document).ready(function () {
 			$("#uplorderplayWrap span#usrtitle b").text(name);
 		});
 	});
+	$(".alter img").mouseover(function () {
+		$(this).attr("src","resource/img/imgage.gif")
+	});
 });
 
 </script>
