@@ -103,8 +103,11 @@ display: none;
 					<%for(int i = 0 ; i < 10; i++){ %>
  
 						<div class = 'alter <%= (i==0 ? "":"Limg")  %>'>
+						<%if(i==0){ %>
+						<img src="resource/img/cooking2.jpg" alt="img" class ='playimgs'>
+						<%}else{ %>
 							<img src="resource/img/photosample.jpg" alt="img" class ='playimgs'>
-							
+							<%} %>
 							<p class = 'movieName'>resource/video/<%=(i<3?Test[i]:"") %></p>
 							
 							<div class="Timg">

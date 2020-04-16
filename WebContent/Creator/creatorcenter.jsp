@@ -91,9 +91,7 @@ $(document).on("click",".nav_payment", function () {
 $(document).on("click",".nav_wish_list", function () {
 	$("#Cre_main").load("Cre_CS_1.jsp");
 	});
-$(document).on("click",".nav_wish_list", function () {
-	location.href ="http://localhost:8081/LF/"
-});
+
 	});
 
 </script>
