@@ -54,7 +54,18 @@
                 </tr>
             </table>
         </div>
-		<button>비밀번호 변경</button> 
+<!-- 		<button>비밀번호 변경</button> -->
+		<a href="#mypage_pw_update_confirm">비밀번호 변경</a> 
+	</div>
+	<div id="mypage_pw_update_confirm" class="overlay">
+		<div class="popup">
+			
+			<a class="close" href="#">x</a>
+			<div class="mypage_pw_update_popup_content">
+				<h2 class="mypage_pw_isupdate">'??'님 비밀번호 수정 성공</h2>
+			</div>
+			<input id="mypage_pw_update_popup_submitbtn" type="button" value="확인">
+		</div> 
     </div>
 
 </div>
