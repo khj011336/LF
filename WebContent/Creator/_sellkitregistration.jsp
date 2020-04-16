@@ -2,7 +2,7 @@
     pageEncoding="UTF-8"%>
     
 	<div id="sellkitregistration_wrap">
-        <div id="sellkitregistration_head"><span class="creator_h1">판매키트 등록 - 운동</span></div>
+        <div id="sellkitregistration_head"><span class="creator_h1">판매키트 등록 </span></div>
         
         <div id="sellkitregistration_content">
         	<div class="creator_h2">판매키트</div>
@@ -39,7 +39,7 @@
                 </div>
             </div>
             <div class="sellkitregistration_main_center">
-                <div class="sellkitregistration_inline sellkitregistration_nav1 creator_h3">상품이미지</div>
+                <div class="sellkitregistration_inline sellkitregistration_nav1 creator_h2">상품이미지</div>
                 <div class="sellkitregistration_main_center_part1_div">
                     <div id="sellkitregistration_sub_img_box0" class="sellkitregistration_inline">
                         <div class="sellkitregistration_img"><img id="sellkitregistration_represent_img" name="represent_img" src="resource/img/xbox_img.PNG" class="sellkitregistration_img" alt="대표이미지"></div>

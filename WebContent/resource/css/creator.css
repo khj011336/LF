@@ -228,6 +228,7 @@ margin-top: 19px;
     position: absolute;
     width: 100%;
     bottom: 0px;
+    
 }
 .CRsend p {
     text-align: center;
@@ -323,6 +324,7 @@ margin-top: 19px;
     line-height: 1.4;
     background-color: orange;
     cursor: pointer;
+    font-weight: bold;
 }
 #CRcontent{
      
@@ -366,6 +368,7 @@ margin-top: 19px;
 }
 #CRside{
     width: 200px;
+   
 }
 #CRguide{
     width: 300px;
@@ -403,6 +406,7 @@ margin-top: 19px;
      white-space: pre-Wrap;
     text-overflow: ellipsis;
     overflow: hidden;
+     font-weight: bold;
 }
 
 /* 					 myclass.jsp 끝 */
@@ -682,7 +686,7 @@ border: none;
 /* 다음버튼 위치 잡기 */
 .cls_next_btn {
 	margin-top: 50px;
-	margin-left: 900px;
+	margin-left: 850px;
 	position: relative;
 }
 /* 클래스들 css */
@@ -765,7 +769,13 @@ border: none;
     width: 950px;
     margin: 0px auto;
 }
+#sellkitregistration_wrap label{
+font-weight: bold;
 
+	}
+	#sellkitregistration_head{
+	font-weight: bold;
+	}
 /* 메인 타이틀과 내용의 간격 */
 #sellkitregistration_content{
 	margin-top: 30px;
@@ -775,7 +785,9 @@ border: none;
 .sellkitregistration_inline {
 	display: inline-block;
 }
-
+.creator_h2{
+	font-weight: bold;
+}
 /* 판매키트 안에있는 내용물 묶은 div */
 #sellkitregistration_main_top{
     width: 950px;
@@ -796,7 +808,7 @@ border: none;
 	width: 200px;
 /* 	height: 40px; */
 	height: 37px;
-	
+	padding-left: 10px;
 	box-shadow: gray;
 	border-radius: 4px;
 }
@@ -814,6 +826,7 @@ border: none;
 	height: 37px;
 	box-shadow: gray;
 	border-radius: 4px;
+	padding-left: 10px;
 }
 /* 상품속성 부가세 가있는 위치 설정*/
 .sellkitregistration_nav_part2 {
@@ -836,7 +849,7 @@ border: none;
 
 /* 작은타이틀(상품명 판매가 재고수량 부가세, 택배사 배송비...) 위아래 간격 조정 */
 .sellkitregistration_mini_title_interval {
-	margin: 20px 0px 10px 0px;
+	margin: 10px 0px 10px 0px;
 }
 
 /* 대표이미지 div,img 추가이미지 div,img 크기 설정*/
@@ -886,6 +899,7 @@ border: none;
 	height: 37px;
 	box-shadow: gray;
 	border-radius: 4px;
+	padding-left: 10px;
 }
 
 /* Text HTML 도움말 버튼 (크기조정)*/

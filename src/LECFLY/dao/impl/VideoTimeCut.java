@@ -8,13 +8,13 @@ import net.bramp.ffmpeg.probe.FFmpegProbeResult;
 
 public class VideoTimeCut {
 
-	public static String media_player_time() {
+	public static String media_player_time(String st) {
 		System.out.println("@@ media_player_time start @@");
 		String returnData = "0";
 
 		try {
 			FFprobe ffprobe = new FFprobe("C:\\ffmpeg-4.2.2-win64-static\\bin\\ffprobe.exe"); // window에 설치된  ffprobe.exe 경로
-			FFmpegProbeResult probeResult = ffprobe.probe("C:\\cooking.mp4"); // 동영상 경로
+			FFmpegProbeResult probeResult = ffprobe.probe("C:\\fusion11\\jsp_ws\\LF\\WebContent\\resource\\video\\"+st); // 동영상 경로
 			FFmpegFormat format = probeResult.getFormat();
 			
 			
@@ -33,6 +33,6 @@ public class VideoTimeCut {
 	}
 
 	public static void main(String[] args) throws IOException {
-		media_player_time();
+
 	}
 }

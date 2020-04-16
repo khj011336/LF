@@ -13,13 +13,13 @@
                     <div class='CRP'>
                     <img src="../resource/img/dummy_img4.jpg" class="CRimg" alt ="dd"></div>
                     <div class ="CRC">
-                        <p class='CRname'>클래스이름을 지정해주세요</p>
+                        <p class='CRname'>비누만들기 클래스 나만의 비누</p>
                         <div class="CRstatus">
-                        <p class="stus1 rau">클래스작성중</p>
-                        <p class="stus2 rau">블라블라</p>
-                        <p class="stus3 rau">블라블라</p>
+                        <p class="stus1 rau">클래스승인</p>
+                        <p class="stus2 rau">영상 14</p>
+                        <p class="stus3 rau">미정</p>
                         </div>
-                        <div class='CRsend'><p>작성제출</p></div>
+                        <div class='CRsend'><p>수정하기</p></div>
                     </div>
                 </div>
                 <%} %>

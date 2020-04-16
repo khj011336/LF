@@ -48,7 +48,7 @@
        		<div id="cls_part4">
        			<div class="cls_text1"><label for="cls_des" class="creator_h3">강의에 대해서 입력해주세요</label></div>
        			<div><textarea id="cls_des" name="des" class="cls_bar3 uplnotes" placeholder="내용을 입력해주세요"></textarea></div>
-       			<div><input type="button" value="다음" class="creator_next_btn cls_next_btn"></div>
+       			<div><input type="button" value="저장" class="creator_next_btn cls_next_btn"></div>
        		</div>
        		
         </div>
