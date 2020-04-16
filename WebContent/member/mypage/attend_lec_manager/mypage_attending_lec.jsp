@@ -8,21 +8,23 @@
 	
 	<div class="list_video_wrapper">
 		
-		<% for(int i = 1; i <= 9 ; i++ ){ %>		
+		
+		
+		<% for(int i = 1; i <= 7 ; i++ ){ %>		
 			<% if(i % 4 == 1) {%>
 			<div class="list_video_block_row">
 			<% } %>		
-			<div class="list_video_block">
-				<div class="list_video_thumb">
+			<div class="list_video_block nav_video_list">
+				<div class="list_video_thumb nav_video_list">
 				<a href="#"> 
 				<img src="resource/img/mypage/sample4.jpg" alt="lecfly lecture">
 				<div class="video_info_progressbar_bg">
-				<div class="video_info_progressbar" style="width: 72%"></div>
+				<div class="video_info_progressbar" style="width:<%= i*11%>%"></div>
 				</div>
 				</a>
 				</div>
 				<div class="list_video_info">
-					<p class="video_info_title_n">오일파스텔 드로잉 0강</p>
+					<p class="video_info_title_n">오일파스텔 드로잉 <%= i %>강</p>
 					<p class="video_info_date">2020.04.02 시청</p>
 				</div>
 			</div>
