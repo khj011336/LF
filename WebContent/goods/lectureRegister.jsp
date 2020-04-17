@@ -143,8 +143,8 @@
 	</p>
 	<br> <br>
 	<select class = "register_kit_select">
+		<option selected="selected">선택안함</option>
 		<option>스타터를 위한 KIT (18,000원)</option>
-		<option>선택안함</option>
 	</select>  
 	<label for="register_soap" id="register_soap_title">장바구니 담기</label> <br>
 	<br> <br> <span class="register_like_num"><i

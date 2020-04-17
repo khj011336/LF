@@ -406,7 +406,20 @@ a {
 	font-size: 20px;
 }
 
-.mypage_bottom_contents>button {
+/* .mypage_bottom_contents>button { */
+/* 	width: 240px; */
+/* 	height: 60px; */
+/* 	background-color: darkgrey; */
+/* 	color: white; */
+/* 	font-size: 14px; */
+/* 	margin-top: 30px; */
+/* 	margin-left: auto; */
+/* 	margin-right: auto; */
+/* 	text-align: center; */
+/* } */
+
+/* 팝업 띄우려고 건우형꺼 처럼 a 태그로 변경 일반버튼하려면 위에꺼쓰면됩니다  */
+.mypage_bottom_contents>a {
 	width: 240px;
 	height: 60px;
 	background-color: darkgrey;
@@ -416,14 +429,43 @@ a {
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
+	padding-top: 24px;
+	display: block;
 }
+
+.mypage_pw_update_popup_content {
+	padding-top: 50px;
+}
+
+#mypage_pw_update_popup_submitbtn {
+	margin-top: 30px;
+	width: 180px;
+	height: 40px;
+	background-color: orange;
+}
+
+
 #mypage_update_info_btn {
 	display: inline-block;
 	margin-top: 20px;
 	width: 1200px;
 	float: center;
 }
-#mypage_update_info_btn >button {
+/* #mypage_update_info_btn >button { */
+/* 	width: 240px; */
+/* 	height: 60px; */
+/* 	background-color: darkgrey; */
+/* 	color: white; */
+/* 	font-size: 14px; */
+/* 	margin-top: 30px; */
+	/* margin-left: auto;
+	margin-right: 300px; */
+/* 	float: center; */
+/* 	text-align: center; */
+/* } */
+
+/*  팝업창 opean하려고 버튼에서 a 로 테스트중  */
+#mypage_update_info_btn > a {
 	width: 240px;
 	height: 60px;
 	background-color: darkgrey;
@@ -434,7 +476,21 @@ a {
 	margin-right: 300px; */
 	float: center;
 	text-align: center;
+	padding-top: 24px;
+	display: block;
 }
+
+.mypage_mb_update_popup_content {
+	padding-top: 50px;
+}
+
+#mypage_mb_update_popup_submitbtn {
+	margin-top: 30px;
+	width: 180px;
+	height: 40px;
+	background-color: orange;
+}
+
 
 .update_pw_input {
 	height: 32px;

@@ -15,9 +15,15 @@
     box-shadow: 0 0 10px #666;
     border-radius: 5px;
     position: absolute;
-    left: 32%;/* 26.5%;34%; */
     top: 155px;
-    margin-left: -150px;
+    
+    /* 기본 화면 기준 */
+    /* left: 32%;
+    margin-left: -150px; */
+    
+    /* 발표용 빔화면 기준 */
+    left: 15%;
+    
     color: #000;
     cursor: pointer;
     font-size: 60px;

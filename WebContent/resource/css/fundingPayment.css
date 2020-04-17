@@ -131,7 +131,7 @@ input[value=검색], input[value=조회] {
 	height: 500px;
 	display: inline-block;
 	position: fixed;
-	top: 169px;
+	top: 203px;
 }
 
 #fundingPayment_content_table {
@@ -201,7 +201,7 @@ input[value=결제하기] {
 /* mypage 쿠폰 등록 CSS */
 .fundingPayment_registerCoupon {
 	position: relative;
-	top: 581px;
+	top: 596px;
 	left: -79px;
 	font-size: 12pt;
 	padding: 10px;

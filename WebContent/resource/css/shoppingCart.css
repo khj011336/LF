@@ -84,12 +84,12 @@
 	border-radius: 8px;
 	cursor: pointer;
 	text-align: center;
-	background-color: grey;
+	background-color: lightgrey;
 }
 
 .delete:hover {
 	color: orangered;
-	background-color: grey;
+	background-color: lightgrey;
 }
 
 .deleteOne {
@@ -184,6 +184,7 @@
 }
 
 .subtotal {
+	text-align:center;
 	width: 150px;
 	color: orangered;
 	font-weight: bold;
@@ -191,6 +192,7 @@
 
 .goods img {
 	width: 130px;
+	height: 80px;
 	margin-right: 5px;
 	float: left;
 }
@@ -201,9 +203,10 @@
 	color: white;
 	height: 48px;
 	border: 1px solid white;
-	background-color: grey;
+	background-color: lightgray;;
 	position: relative;
 	z-index: 8;
+	font-size: 16px;
 }
 
 .cartFooter div {
@@ -214,6 +217,8 @@
 .cartFooter a {
 	margin-top: 4px;
 	margin-right: 20px;
+	font-weight: bolder;
+	
 }
 
 .selall {
@@ -258,7 +263,8 @@ a.selallspan {
 .cartFooter .total {
 	margin: 0 20px;
 	cursor: pointer;
-	color: white;
+	color: black;
+	font-weight: bold;
 }
 
 .cartFooter  #priceTotal, .cartFooter #selectedTotal {
@@ -268,13 +274,15 @@ a.selallspan {
 
 .cartFooter .selected {
 	cursor: pointer;
-	color: white;
+	color: black;
+	font-weight: bold;
 }
 
 .cartFooter .selected .arrow {
 	position: relative;
 	margin-left: 3px;
-	color: white;
+	color: black;
+	font-weight: bold;
 }
 
 .cartFooter .selected .down {
@@ -340,7 +348,11 @@ a.selallspan {
 	margin-bottom: -20px;
 	background-color: white;
 }
-
+#selectedViewList div img {
+	width: 110px;
+	height: 70px;
+	
+}
 #selectedViewList div {
 	display: inline-block;
 	position: relative;

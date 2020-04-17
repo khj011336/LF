@@ -1,3 +1,4 @@
+<%@page import="LECFLY.dao.impl.VideoTimeCut"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <script>
@@ -15,7 +16,11 @@ $(document).ready(function () {
 		});
 	});
 	$(".alter img").mouseover(function () {
+		var sc =  $(this).attr("src");
 		$(this).attr("src","resource/img/imgage.gif")
+		$(this).mouseout(function () {
+			$(this).attr("src",sc);
+		});
 	});
 });
 
@@ -24,6 +29,10 @@ $(document).ready(function () {
 .test{
 display: none;
 }
+<%String[] Test ={"dummy_video.mp4","Wildlife.mp4","working out.mp4"};
+					
+					
+					%>
 </style>
 <body>
 	<div id="playWrap">
@@ -34,13 +43,13 @@ display: none;
 				<div id='Pheader'>
 					<div id="Htext" class='vertical'>
 						<p>
-							<b>Love your Life 나를 위한 천연비누</b> -2 베이직한 마르세유 비누 만들기
+							<b>Love your Life 나를 위한 천연비누</b>
 						</p>
 					</div>
 				</div>
 				<div id="Pvideo">
 					<video controls autoplay="autoplay" poster="resource/img/lfly"  >
-						<source  src='resource/video/Wildlife.mp4' type="video/mp4" />
+						<source  src='resource/video/soap.mp4' type="video/mp4" />
 					</video>
 				</div>
 				<div id="aboutContent">
@@ -90,20 +99,24 @@ display: none;
 				</div>
 				<div id="PvideoList">
 					<div class="PvideoContent">
-					<%String[] Test ={"cooking.mp4","dummy_video.mp4","soap.mp4","working out.mp4"};
-					%>
+					
 					<%for(int i = 0 ; i < 10; i++){ %>
-					<video controls="controls" class ='test' >
-	<source  src = 'resource/video/<%=(i<4?Test[i]:"")%>'  type="video/mp4"/>
-	</video>
+ 
 						<div class = 'alter <%= (i==0 ? "":"Limg")  %>'>
+						<%if(i==0){ %>
+						<img src="resource/img/cooking2.jpg" alt="img" class ='playimgs'>
+						<%}else{ %>
 							<img src="resource/img/photosample.jpg" alt="img" class ='playimgs'>
-							
-							<p class = 'movieName'>resource/video/<%=(i<4?Test[i]:"") %></p>
+							<%} %>
+							<p class = 'movieName'>resource/video/<%=(i<3?Test[i]:"") %></p>
 							
 							<div class="Timg">
-								<h4><%=i+1%>강<%=(i<4?Test[i]:"none") %></h4>
-								<p>th.duration</p>
+								<h4><%=i+1%>강<%=(i<3?Test[i]:"none") %></h4>
+							<% 	if(i<3){%>
+								<p><%=VideoTimeCut.media_player_time(i<3?Test[i]:"")%>초</p>
+							<%	}else{ %>
+								<p><%="none" %></p>
+								<%} %>
 								<span>강의시작하기</span>
 							</div>
 						</div>

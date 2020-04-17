@@ -7,105 +7,103 @@
 	<div class="mypage_bottom_contents">
 	
 	<div class="list_video_wrapper">
-		
-		<% for(int i = 1; i <= 9 ; i++ ){ %>		
-			<% if(i % 4 == 1) {%>
-			<div class="list_video_block_row">
-			<% } %>		
-			<div class="list_video_block">
-				<div class="list_video_thumb">
+		<div class="list_video_block_row">
+			<div class="list_video_block nav_video_list">
+				<div class="list_video_thumb nav_video_list">
 				<a href="#"> 
-				<img src="resource/img/mypage/sample4.jpg" alt="lecfly lecture">
+
+				<img src="resource/img/goods/soap2.jpg" alt="lecfly lecture">
 				<div class="video_info_progressbar_bg">
-				<div class="video_info_progressbar" style="width: 72%"></div>
+				<div class="video_info_progressbar" style="width: 3%"></div>
 				</div>
 				</a>
 				</div>
 				<div class="list_video_info">
-					<p class="video_info_title_n">오일파스텔 드로잉 0강</p>
-					<p class="video_info_date">2020.04.02 시청</p>
+					<p class="video_info_title_n">Love your Life 나를 위한 천연비누 1강</p>
+					<p class="video_info_date">2020.04.17 시청</p>
 				</div>
 			</div>
-			<% if(i % 4 == 0) {%>
-			</div>
-			<% } %>	
-		<% } %>			
-		
-		</div>
-	
-	
-	
-	
-	
-<!-- 		<div class="viewhistory_wrapper"> -->
-<!-- 			<div class="viewhistory_list_wrap"> -->
+			
+			<div class="list_video_block nav_video_list">
+				<div class="list_video_thumb nav_video_list">
+				<a href="#"> 
 
-<!-- 				<div class="video_item_block"> -->
-<!-- 					<a href="#"> -->
-<!-- 						<div class="video_thumb_block"> -->
-<!-- 							<img src="resource/img/mypage/sample4.jpg" alt="lecture name" -->
-<!-- 								class="video_thumb_cover"> -->
-<!-- 							<div class="video_progress_bar" style="width: 72%"></div> -->
-<!-- 						</div> -->
-<!-- 					</a> -->
-<!-- 					<div class="video_thumb_info"> -->
-<!-- 						<h3>오일파스텔 드로잉 5화오일파스텔 드로잉 5화오일파스텔 드로잉 5화오일파스텔 드로잉 5화</h3> -->
-<!-- 						<span>2020.04.02 시청</span> -->
-<!-- 					</div> -->
-<!-- 				</div> -->
-<!-- 				<div class="video_item_block"> -->
-<!-- 					<a href="#"> -->
-<!-- 						<div class="video_thumb_block"> -->
-<!-- 							<img src="resource/img/mypage/sample4.jpg" alt="lecture name" -->
-<!-- 								class="video_thumb_cover"> -->
-<!-- 							<div class="video_progress_bar" style="width: 72%"></div> -->
-<!-- 						</div> -->
-<!-- 					</a> -->
-<!-- 					<div class="video_thumb_info"> -->
-<!-- 						<h3>오일파스텔 드로잉 4화</h3> -->
-<!-- 						<span>2020.04.02 시청</span> -->
-<!-- 					</div> -->
-<!-- 				</div> -->
-<!-- 				<div class="video_item_block"> -->
-<!-- 					<a href="#"> -->
-<!-- 						<div class="video_thumb_block"> -->
-<!-- 							<img src="resource/img/mypage/sample4.jpg" alt="lecture name" -->
-<!-- 								class="video_thumb_cover"> -->
-<!-- 							<div class="video_progress_bar" style="width: 72%"></div> -->
-<!-- 						</div> -->
-<!-- 					</a> -->
-<!-- 					<div class="video_thumb_info"> -->
-<!-- 						<h3>오일파스텔 드로잉 3화</h3> -->
-<!-- 						<span>2020.04.02 시청</span> -->
-<!-- 					</div> -->
-<!-- 				</div> -->
-<!-- 				<div class="video_item_block"> -->
-<!-- 					<a href="#"> -->
-<!-- 						<div class="video_thumb_block"> -->
-<!-- 							<img src="resource/img/mypage/sample4.jpg" alt="lecture name" -->
-<!-- 								class="video_thumb_cover"> -->
-<!-- 							<div class="video_progress_bar" style="width: 72%"></div> -->
-<!-- 						</div> -->
-<!-- 					</a> -->
-<!-- 					<div class="video_thumb_info"> -->
-<!-- 						<h3>오일파스텔 드로잉 2화</h3> -->
-<!-- 						<span>2020.04.02 시청</span> -->
-<!-- 					</div> -->
-<!-- 				</div> -->
-<!-- 				<div class="video_item_block"> -->
-<!-- 					<a href="#"> -->
-<!-- 						<div class="video_thumb_block"> -->
-<!-- 							<img src="resource/img/mypage/sample4.jpg" alt="lecture name" -->
-<!-- 								class="video_thumb_cover"> -->
-<!-- 							<div class="video_progress_bar" style="width: 72%"></div> -->
-<!-- 						</div> -->
-<!-- 					</a> -->
-<!-- 					<div class="video_thumb_info"> -->
-<!-- 						<h3>오일파스텔 드로잉 1화</h3> -->
-<!-- 						<span>2020.04.02 시청</span> -->
-<!-- 					</div> -->
-<!-- 				</div> -->
-<!-- 			</div> -->
-<!-- 		</div> -->
+				<img src="resource/img/mypage/sample4.jpg" alt="lecfly lecture">
+				<div class="video_info_progressbar_bg">
+				<div class="video_info_progressbar" style="width: 21%"></div>
+				</div>
+				</a>
+				</div>
+				<div class="list_video_info">
+					<p class="video_info_title_n">오일파스텔 드로잉 5강</p>
+					<p class="video_info_date">2020.04.15 시청</p>
+				</div>
+			</div>
+			<div class="list_video_block nav_video_list">
+				<div class="list_video_thumb nav_video_list">
+				<a href="#"> 
+
+				<img src="resource/img/mypage/sample4.jpg" alt="lecfly lecture">
+				<div class="video_info_progressbar_bg">
+				<div class="video_info_progressbar" style="width: 50%"></div>
+				</div>
+				</a>
+				</div>
+				<div class="list_video_info">
+					<p class="video_info_title_n">오일파스텔 드로잉 4강</p>
+					<p class="video_info_date">2020.04.14 시청</p>
+				</div>
+			</div>
+			<div class="list_video_block nav_video_list">
+				<div class="list_video_thumb nav_video_list">
+				<a href="#"> 
+
+				<img src="resource/img/mypage/sample4.jpg" alt="lecfly lecture">
+				<div class="video_info_progressbar_bg">
+				<div class="video_info_progressbar" style="width: 80%"></div>
+				</div>
+				</a>
+				</div>
+				<div class="list_video_info">
+					<p class="video_info_title_n">오일파스텔 드로잉 3강</p>
+					<p class="video_info_date">2020.04.13 시청</p>
+				</div>
+			</div>
+		</div>
+		<div class="list_video_block_row">
+			<div class="list_video_block nav_video_list">
+				<div class="list_video_thumb nav_video_list">
+				<a href="#"> 
+
+				<img src="resource/img/mypage/sample4.jpg" alt="lecfly lecture">
+				<div class="video_info_progressbar_bg">
+				<div class="video_info_progressbar" style="width: 98%"></div>
+				</div>
+				</a>
+				</div>
+				<div class="list_video_info">
+					<p class="video_info_title_n">오일파스텔 드로잉 2강</p>
+					<p class="video_info_date">2020.04.12 시청</p>
+				</div>
+			</div>
+			<div class="list_video_block nav_video_list">
+				<div class="list_video_thumb nav_video_list">
+				<a href="#"> 
+
+				<img src="resource/img/mypage/sample4.jpg" alt="lecfly lecture">
+				<div class="video_info_progressbar_bg">
+				<div class="video_info_progressbar" style="width: 98%"></div>
+				</div>
+				</a>
+				</div>
+				<div class="list_video_info">
+					<p class="video_info_title_n">오일파스텔 드로잉 1강</p>
+					<p class="video_info_date">2020.04.10 시청</p>
+				</div>
+			</div>
+		</div>
+
+		
+		</div>	
 	</div>	
 </div>

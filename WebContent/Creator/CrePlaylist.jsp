@@ -84,8 +84,7 @@
 										패키지ddddddddddd</span> <span><a href="##" class="sellerTitle">2020.09.09.10:33</a>
 									</span> <span> <select name="test1">
 											<option value="1">동영상 수정</option>
-											<option value="2">정보 수정</option>
-											<option value="3">판매킷 수정</option>
+											<option value="2">판매킷 수정</option>
 									</select>
 									</span>
 								</div></td>

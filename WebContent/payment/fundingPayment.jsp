@@ -4,7 +4,7 @@
 	<div id="fundingPayment_nav">
 		<br> <br> <br> <br>
 		<h1 id="fundingPayment_title">
-			<b class="fundingPayment_title_color">펀딩</b> 결제하기
+			<b class="fundingPayment_title_color">상품</b> 결제하기
 		</h1>
 		<br>
 		<table id="fundingPayment_nav_table">
@@ -221,19 +221,18 @@
 
 <script>
 //카드 결제
-$(document).on("click", '#fundingPayment_payment_card', function() {
+/* $(document).on("click", '#fundingPayment_payment_card', function() {
 	$("#fundingPayment_wrapper").load("payment/card_register.jsp");
-});
+}); */
 
 // 카카오페이
-$(document).on("click", '#fundingPayment_payment_kakaopay', function() {
+/* $(document).on("click", '.fundingPayment_last_button', function() {
 	$("#fundingPayment_wrapper").load("payment/kakaopay.jsp");
-});
+}); */
 
 // 결제완료로 가기
 
 $(document).on("click", '.fundingPayment_last_button', function() {
-	$("#homemain").load("payment/paymentFinished.jsp");
-	console.log("딩동");
+$("#homemain").load("payment/paymentFinished.jsp");
 });
 </script>
