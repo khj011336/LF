@@ -29,7 +29,7 @@ $(document).ready(function () {
 .test{
 display: none;
 }
-<%String[] Test ={"dummy_video.mp4","soap.mp4","working out.mp4"};
+<%String[] Test ={"dummy_video.mp4","Wildlife.mp4","working out.mp4"};
 					
 					
 					%>
@@ -49,7 +49,7 @@ display: none;
 				</div>
 				<div id="Pvideo">
 					<video controls autoplay="autoplay" poster="resource/img/lfly"  >
-						<source  src='resource/video/Wildlife.mp4' type="video/mp4" />
+						<source  src='resource/video/soap.mp4' type="video/mp4" />
 					</video>
 				</div>
 				<div id="aboutContent">

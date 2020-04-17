@@ -4,7 +4,7 @@
 	<div id="fundingPayment_nav">
 		<br> <br> <br> <br>
 		<h1 id="fundingPayment_title">
-			<b class="fundingPayment_title_color">펀딩</b> 결제하기
+			<b class="fundingPayment_title_color">상품</b> 결제하기
 		</h1>
 		<br>
 		<table id="fundingPayment_nav_table">
