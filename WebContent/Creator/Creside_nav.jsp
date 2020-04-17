@@ -10,7 +10,7 @@ color:gold;
 /* width: 600px; */
 /* } */
 .side-menu *{
-font-size: 20px;
+font-size: 16px;
 font-weight: bold;
 }
 .side-menu a:hover{
