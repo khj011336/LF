@@ -97,9 +97,19 @@
 			
 		});
 		
-		// 글쓰기 페이지
+		// qna_글쓰기 페이지
+		$(document).on("click",'.post_qna', function() {
+			$("#CS_page").load("CSCenter/post_board.jsp");
+			
+		});
+		// qna_글 상세보기 페이지
+		$(document).on("click",'.show_qna', function() {
+			$("#CS_page").load("CSCenter/receive_board.jsp");
+			
+		});
+		// qna_글 수정 페이지
 		$(document).on("click",'.edit_qna', function() {
-			$("#homemain").load("CSCenter/post_board.jsp");
+			$("#CS_page").load("CSCenter/edit_board.jsp");
 			
 		});
 		
