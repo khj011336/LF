@@ -1,238 +1,180 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
-<div id="fundingPayment_wrapper">
-	<div id="fundingPayment_nav">
-		<br> <br> <br> <br>
-		<h1 id="fundingPayment_title">
-			<b class="fundingPayment_title_color">상품</b> 결제하기
-		</h1>
-		<br>
-		<table id="fundingPayment_nav_table">
-			<tr>
-				<td colspan="9" id="fundingPayment_table_font_bold"
-					class="fundingPayment_nav_table_td">선택한 리워드</td>
-			</tr>
-			<tr>
-				<td class="fundingPayment_nav_table_td"><img
-					src="resource/img/payment/img%20%EB%B0%95%EC%8A%A4.PNG"
-					alt="이미지 박스"></td>
-				<td colspan="2" id="fundingPayment_table_font_bold"
-					class="fundingPayment_nav_table_td">&nbsp;&nbsp;&nbsp;&nbsp;
-					다이어트 마스터 패키지</td>
-			</tr>
-			<tr>
-				<td colspan="8" id="fundingPayment_table_font_bold"
-					class="fundingPayment_nav_table_td">01.기본 페키지</td>
-
-				<td colspan="8" id="fundingPayment_table_font_bold"
-					class="fundingPayment_nav_table_td">
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 15,000원</td>
-			</tr>
-			<tr>
-				<td colspan="8" id="fundingPayment_table_font_bold"
-					class="fundingPayment_delivery_info_table_td">배송정보</td>
-				<td class="fundingPayment_delivery_info_table_td">
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <input
-					type="checkbox" name="resent_info" id="resent_info"
-					value="resent_info_save" checked> <spen
-						id="fundingPayment_table_font_bold">최근 입력정보 저장</spen>
-				</td>
-			</tr>
-			<tr>
-				<td colspan="9" class="fundingPayment_delivery_info_table_td">
-					<input type="text" name="fundingPayment_name"
-					id="fundingPayment_id" placeholder="  이름" size="105">
-				</td>
-			</tr>
-			<tr>
-				<td colspan="9" class="fundingPayment_delivery_info_table_td">
-					<input type="email" name="fundingPayment_email"
-					id="fundingPayment_email" placeholder="  이메일" size="105">
-				</td>
-			</tr>
-			<tr>
-				<td colspan="9" class="fundingPayment_delivery_info_table_td">
-					<input type="tel" name="fundingPayment_tel" id="fundingPayment_tel"
-					pattern="xxx-xxxx-xxxx" placeholder="  휴대전화" size="105">
-				</td>
-			</tr>
-			<tr>
-				<td colspan="9" class="fundingPayment_delivery_info_table_td">
-					<input type="text" name="fundingPayment_address"
-					id="fundingPayment_address" placeholder="  우편번호 검색" size="92">
-					<input type="button" name="fundingPayment_search" value="검색">
-					<br> <input type="text" name="fundingPayment_remain_address"
-					id="fundingPayment_remain_address" placeholder="  나머지 주소"
-					size="105">
-				</td>
-			</tr>
-			<tr>
-				<td colspan="9"
-					class="fundingPayment_delivery_info_table_td fundingPayment_delivery_infor_table_td_last">
-					<input type="text" name="fundingPayment_delivery_demand"
-					id="fundingPayment_delivery_demand" placeholder="  배송 시 요청사항"
-					size="105">
-				</td>
-			</tr>
-			<tr class="fundingPayment_coupon_interver">
-				<td colspan="8" id="fundingPayment_table_font_bold"
-					class="fundingPayment_discount_info_table_td fundingPayment_discount_info_td_bottom">쿠폰할인</td>
-				<td colspan="8" id="fundingPayment_table_font_bold"
-					class="fundingPayment_discount_info_table_td fundingPayment_discount_info_td_bottom">
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 사용가능한 쿠폰 <span
-					class="fundingPayment_number_color">0</span>
-				</td>
-			</tr>
-			<tr>
-				<td colspan="9"
-					class="fundingPayment_discount_info_table_td fundingPayment_discount_info_table_td_top">
-					<input type="text" name="fundingPayment_discountCoupon"
-					id="fundingPayment_discountCoupon" placeholder="  쿠폰 적용" size="92">
-					<!-- 					<input type="button" id="fundingPayment_coupon_search" name="fundingPayment_search" value="조회"> -->
-				</td>
-			</tr>
-		</table>
-		<a class="fundingPayment_registerCoupon" href="#popup1">쿠폰 등록</a>
-					<div id="popup1" class="overlay">
-						<div class="popup">
-							<h2 class="fundingPayment_coupon_h2">쿠폰 등록하기</h2>
-							<a class="close" href="#">x</a>
-							<div class="fundingPayment_coupon_content">
-								<input type="text" name="fundingPayment_coupon" id="fundingPayment_coupon"
-									placeholder="쿠폰 코드를 입력해주세요." size="20"> <input
-									type="button" value="등록하기" name="register_coupon" />
-							</div>
-							<p id="fundingPayment_coupon_p">필독! 주의사항</p>
-							<ul id="fundingPayment_coupon_ul">
-								<li>이미 사용된 쿠폰은 등록할 수 없습니다.</li>
-								<li>하나의 계정당 종류별 한 개의 쿠폰만 등록할 수 있습니다.</li>
-								<li>쿠폰 등록이 완료되면 내 쿠폰으로 즉시 지급됩니다.</li>
-								<li>일부 쿠폰의 경우, 등록기한 이후에는 사용이 불가능합니다.</li>
-							</ul>
-						</div>
-					</div>
-		<div id="fundingPayment_payment_mathod">
-			<div class="fundingPayment_top">
-			<p class="fundingPayment_payment_title_bold">결제수단</p>
-			<br>
-			<input type="radio" id="fundingPayment_payment_card" name="fundingPayment_payment_card">
-				<img
-					src="resource/img/payment/%EC%B9%B4%EB%93%9C%EA%B2%B0%EC%A0%9C.JPG"
-					alt="카드결제">
-					<span class="fundingPayment_payment_title_bold">카드결제</span>
-			<input type="radio" id="fundingPayment_payment_phone" name="fundingPayment_payment_phone">
-				<img
-					src="resource/img/payment/%ED%9C%B4%EB%8C%80%ED%8F%B0%EA%B2%B0%EC%A0%9C.JPG"alt="휴대폰결제">
-					<span class="fundingPayment_payment_title_bold">휴대폰결제</span>
-			<input type="radio" id="fundingPayment_payment_account" name="fundingPayment_payment_account">
-				<img
-					src="resource/img/payment/%EA%B3%84%EC%A2%8C%EC%9D%B4%EC%B2%B4.JPG"alt="계좌이체"> 
-					<span class="fundingPayment_payment_title_bold">계좌이체</span>
-			<input type="radio" id="fundingPayment_payment_virtual" name="fundingPayment_payment_virtual">
-				<img
-					src="resource/img/payment/%EA%B0%80%EC%83%81%EA%B3%84%EC%A2%8C.JPG"
-					alt="가상계좌"><span class="fundingPayment_payment_title_bold">가상계좌</span>
-			</div>
-			<div class="fundingPayment_bottom">
-			<p class="fundingPayment_payment_title_bold">간편결제</p>
-			<input type="radio" id="fundingPayment_payment_kakaopay" name="fundingPayment_payment_kakaopay">
-				<img src="resource/img/payment/kakaopay.png" alt="카카오페이"> 
-				 <span class="fundingPayment_payment_title_bold">카카오페이</span>
-			<input type="radio" id="fundingPayment_payment_naverpay" name="fundingPayment_payment_naverpay">
-				<img src="resource/img/payment/naverpay.png" alt="네이버페이"> <span class="fundingPayment_payment_title_bold">네이버페이</span>
-			<input type="radio" id="fundingPayment_payment_payco" name="fundingPayment_payment_payco">
-				<img src="resource/img/payment/payco.PNG" alt="페이코"> <span class="fundingPayment_payment_title_bold">페이코</span>
-		</div>
-	</div>
-	</div>
-	<h3 class="fundingPayment_subtitle">
-		<span class="fundingPayment_basket">장바구니</span> <span class="fundingPayment_order_sheet">&gt;
+<body>
+    <div id="fundingPayment_wrapper">
+      <div id="fundingPayment_main_title">
+          <strong class="fundingPayment_main_title">상품</strong> 결제하기 <br/>
+          <div class="fundingPayment_subtitle">
+		  <span class="fundingPayment_basket">장바구니</span><span class="fundingPayment_order_sheet">&gt;
 			주문서</span> <span class="fundingPayment_order_finish">&gt; 주문완료</span>
-	</h3>
-	<div id="fundingPayment_content">
-		<table id="fundingPayment_content_table">
-			<tr>
-				<td id="fundingPayment_table_font_bold"
-					class="fundingPayment_nav_table_td">최종 결제 금액</td>
-				<td colspan="9" id="fundingPayment_table_font_bold"
-					class="fundingPayment_nav_table_td">
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; <span
-					class="fundingPayment_number_color">15,000 원</span>
-				</td>
-			</tr>
-			<tr>
-				<td id="fundingPayment_table_font_bold" class="content_table_td">판매가</td>
-				<td colspan="9" id="fundingPayment_table_font_bold"
-					class="fundingPayment_content_table_td">
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; 15,000 원</td>
-			</tr>
-			<tr>
-				<td id="fundingPayment_table_font_bold"
-					class="fundingPayment_content_table_td">할인금액</td>
-				<td colspan="9" id="fundingPayment_table_font_bold"
-					class="fundingPayment_content_table_td"><span
-					class="fundingPayment_number_color">
-						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -0 원</span></td>
-			</tr>
-			<tr>
-				<td id="fundingPayment_table_font_bold"
-					class="fundingPayment_content_table_td fundingPayment_content_table_td_bottom">배송비</td>
-				<td colspan="9" id="fundingPayment_table_font_bold"
-					class="fundingPayment_content_table_td fundingPayment_content_table_td_bottom">
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-					무료배송</td>
-			</tr>
-			<tr>
-				<td colspan="8"
-					class="fundingPayment_content_table_td fundingPayment_table_agree_td">
-					<input type="checkbox" name="fundingPayment_payment_agree"
-					id="fundingPayment_payment_agree"
-					value="fundingPayment_payment_agree_save" checked> <spen
-						id="fundingPayment_table_font_bold">
-					&nbsp;&nbsp;&nbsp;&nbsp; 결제 및 이용양관 전체 동의</spen>
-				</td>
-			<tr>
-				<td colspan="10"><input
-					type="button" class="fundingPayment_last_button" name="fundingPayment_button" value="결제하기"></td>
-			</tr>
-		</table>
-	</div>
-</div>
-
-<script>
-//카드 결제
-/* $(document).on("click", '#fundingPayment_payment_card', function() {
-	$("#fundingPayment_wrapper").load("payment/card_register.jsp");
-}); */
-
-// 카카오페이
-/* $(document).on("click", '.fundingPayment_last_button', function() {
-	$("#fundingPayment_wrapper").load("payment/kakaopay.jsp");
-}); */
-
-// 결제완료로 가기
-
-$(document).on("click", '.fundingPayment_last_button', function() {
-$("#homemain").load("payment/paymentFinished.jsp");
-});
-</script>
+        </div>
+      </div>
+      <div id="fundingPayment_content">
+          <div id="fundingPayment_title">주문자 정보</div>
+          <div class="ordererInfo_box">
+            <table class="ordererInfo_table">
+                <tbody>
+                    <tr>
+                        <th class="ordererInfo_table_th">주문자명</th>
+                        <td colspan="2" class="ordererInfo_table_td">
+                            <input type="text" name="fundingPayment_name" size="20">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="ordererInfo_table_th">이메일</th>
+                        <td colspan="2" class="ordererInfo_table_td">
+                            <input type="email" name="fundingPayment_email" required> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="ordererInfo_table_th">휴대전화</th>
+                        <td class="ordererInfo_table_td">
+                            <input type="tel" name="fundingPayment_tel" required pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}" title="###-####-####">
+                            
+                        </td>
+                        <td class="ordererInfo_table_td">
+                            <button type="button" name="phoneIdentity_button">
+                            인증 완료</button>
+                        </td>
+                    </tr>
+                </tbody>
+              </table>
+          </div>
+          <div id="deliveryPlaceInfo_title">배송지 정보</div>
+            <div class="deliveryPlaceInfo_box">
+                <table class="deliveryPlaceInfo_table">
+                    <tbody>
+                        <tr>
+                            <td class="deliveryPlaceInfo_table_td">
+                                <input type="checkbox" name="new_deliveryPlaceInfo_check" checked> 새로운 배송지
+                            </td>
+                        </tr>
+                        <tr>
+                            <th  class="deliveryPlaceInfo_table_th">배송지명</th>
+                            <td colspan="3" class="deliveryPlaceInfo_table_td">
+                                <input type="text" name="deliveryPlace_name" size="20">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="deliveryPlaceInfo_table_th">수령자명</th>
+                            <td colspan="3" class="deliveryPlaceInfo_table_td">
+                                <input type="text" name="receiver_name" size="10">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="deliveryPlaceInfo_table_th">휴대전화</th>
+                            <td colspan="3" class="deliveryPlaceInfo_table_td">
+                                <input type="tel" name="deliveryPlaceInfo_tel" required pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}" title="###-####-####">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="deliveryPlaceInfo_table_th">추가번호(선택)</th>
+                            <td colspan="3" class="deliveryPlaceInfo_table_td">
+                                <input type="tel" name="deliveryPlaceInfo_tel_add" required pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}" title="###-####-####">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="deliveryPlaceInfo_table_th">주소</th>
+                            <td class="deliveryPlaceInfo_table_td">
+                                <input type="text" name="fundingPayment_address">
+                            </td>
+                            <td class="deliveryPlaceInfo_table_td">
+                                <button type="button" name="zip_code">우편번호</button>
+                            </td>
+                        <tr>
+                            <th class="deliveryPlaceInfo_table_th_nbsp">&nbsp;</th>
+                            <td colspan="3" class="deliveryPlaceInfo_table_td_nbsp">
+                                <input type="text" name="else_address" size="24">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="deliveryPlaceInfo_table_th_nbsp">&nbsp;</th>
+                            <td colspan="3" class="deliveryPlaceInfo_table_td">
+                                <input type="text" name="else_address2" size="24">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="deliveryPlaceInfo_table_th"></th>
+                            <td class="deliveryPlaceInfo_table_td">
+                                <input type="checkbox" name="default_deliveryInfo_save" checked> 기본 배송지로 저장
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="deliveryPlaceInfo_table_th">배송요청 사항</th>
+                            <td colspan="3" class="deliveryPlaceInfo_table_td">
+                                <input type="text" name="delivery_required" placeholder="최대 50자까지 입력 가능합니다.">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+              </div>
+      </div>
+      <div id="fundingPayment_sidebar">
+          <div id="orderfundingInfo_title">주문할 펀딩</div>
+            <div class="orderfundingInfo_set">
+                <a class="orderfunding_img" target="_self" href="javascript:void(0);" onclick="#">
+                    <img src="resource/img/payment/working out.jpg" width="85" height="85" alt="다이어트 패키지">
+                </a>
+            <div class="orderfunding_imgInfo">
+                <a class="orderfunding_a" target="_self"
+                   href="#" onclick="#">
+                <strong>운동</strong><br>
+                    <strong>다이어트 패키지&lt;홈트의 재정의&gt; 다이어트 패키지</strong>
+                </a>
+                <div class="orderfunding_cnt">구매수량 1 개</div>
+                <div>
+                    <span class="orderfunding_price">30,000<em class="orderfunding_won">원</em></span>
+                </div>
+            </div>
+          </div>
+          <div id="paymentInfo_title">결제 정보</div>
+            <div class="paymentInfo_box">
+                <table class="paymentInfo_table">
+                    <tr>
+                        <th class="paymentInfo_table_th">결제수단</th>
+                        <td class="paymentInfo_table_td">
+                            <input type="radio" name="paymentMethod" value="creditCard">신용카드
+                            <input type="radio" name="paymentMethod" value="kakaoPay">카카오페이
+                            <input type="radio" name="paymentMethod" value="payCo">페이코
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="paymentInfo_table_th">쿠폰</th>
+                        <td class="paymentInfo_table_td">
+                            <input type="text" name="paymentPoint">
+                        </td>
+                        <td class="paymentInfo_table_td">
+                            <button type="button" name="paymentApply">적용</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td class="paymentInfo_table_td_point">현재 보유 쿠폰:<span class="point_color">  5</span>개</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th class="paymentInfo_sum_th">상품금액</th>
+                        <td colspan="2" class="paymentInfo_sum_td">210,000원</td>
+                    </tr>
+                    <tr>
+                        <th class="paymentInfo_sum_th">할인금액</th>
+                        <td colspan="2" class="paymentInfo_sum_td">0원</td>
+                    </tr>
+                    <tr>
+                        <th class="paymentInfo_sum_th">배송비</th>
+                        <td colspan="2" class="paymentInfo_sum_td">무료</td>
+                    </tr>
+                    <tr>
+                        <th class="paymentInfo_sum_th_last">전체 주문금액</th>
+                        <td colspan="2" class="paymentInfo_sum">210,000원</td>
+                    </tr>
+                </table>
+            </div>
+      </div>
+      <div id="fundingPayment_order_button">
+        <p class="fundingPayment_desc">위 주문 내용을 확인 하였으며, 회원 본인은 결제에 동의합니다.</p>
+        <a href="#" class="fundingPayment_confirm_order">
+            주문하기  
+        </a>
+      </div>
+    </div>
