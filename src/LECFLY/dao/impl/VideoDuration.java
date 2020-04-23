@@ -6,7 +6,7 @@ import net.bramp.ffmpeg.FFprobe;
 import net.bramp.ffmpeg.probe.FFmpegFormat;
 import net.bramp.ffmpeg.probe.FFmpegProbeResult;
 
-public class VideoTimeCut {
+public class VideoDuration {
 
 	public static String media_player_time(String st) {
 		System.out.println("@@ media_player_time start @@");

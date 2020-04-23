@@ -17,6 +17,7 @@
 
 <!-- jquery -->
 <!-- ---------------------css--------------------------- -->
+<link href="resource/img/l4.PNG" rel="shortcut icon" type="image/x-icon">
 <link rel="stylesheet" href="resource/css/create_new_member.css">
 <link rel="stylesheet" href="resource/css/creator.css">
 <link rel="stylesheet" href="resource/css/CSCenter.css">
