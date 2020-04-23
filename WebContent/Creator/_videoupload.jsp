@@ -1,31 +1,14 @@
-<%@page import="mvc.UploadServlet"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-    <script
-	src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    
     
     <link href="creator.css" type="text/css" rel="stylesheet">
-<script>
-$("#uplUP").change(function () {
-$.ajax({
-	type :"POST",
-	url : "Creator/creatorcenter.up",
-	data: "uplUP",
-	success: function () {
-		alert("성공");
-	},
-	}); 
-});
 
-
-</script>
 
 <div id='uplwrap'>
-
     <div class="uplPa" id="uplz">동영상 업로드 -</div>
     <div class="uplPa" id= 'uply'>동영상 정보</div>
-    <form action="Creator/creatorcenter.up" method="post" enctype="multipart/form-data">
+    <form>
         <div id="uplT" class="uplflex" >
             <div id="uplL" class="uplPa">
                 <div id="uplmar" class='uplshadow'><input type="text" size="85" placeholder="영상제목을 입력해주세요"></div>
@@ -39,7 +22,7 @@ $.ajax({
                 <source src="resource/video/soap.mp4" type ='video/mp4'/>
                 </video>
                 <div><input type="url" placeholder="http://creator/resource/video/wildlife.mp4"></div>
-                <div id="urlvt"><input type="file" id="uplUP" name = "file1"></div>
+                <div id="urlvt"><input type="file" id="uplUP"></div>
             </div>
             </div>
         </div>
@@ -84,7 +67,7 @@ $.ajax({
                 </textarea>
             </div>
         </div>
-        <div><input type="submit" value="다음" class="upl_bt"></div>
+        <div><input type="button" value="다음" class="upl_bt"></div>
 <!--         <div id="upllas"><input type="submit" value="올리기"></div> -->
     </form>
 </div>

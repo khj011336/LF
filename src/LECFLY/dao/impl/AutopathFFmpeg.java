@@ -13,7 +13,7 @@ import java.io.InputStreamReader;
 //
 //ffmpeg -ss 00:00:15 -i video.mp4 -vf scale=800:-1 -vframes 1 image.jpg 
 //ffmpeg -i C:\cooking.mp4 -vf scale=500:-1 -t 10 -r 10 C:\fusion11\imgage.jpg
-public class FFmpegSrc{
+public class AutopathFFmpeg{
 	public File extractImage(File videoFile, int position,
 
 			File creatingImageFile) {
@@ -97,7 +97,7 @@ public class FFmpegSrc{
 
 	}
 	public static void main(String[] args) {
-		FFmpegSrc dd = new FFmpegSrc();
+		AutopathFFmpeg dd = new AutopathFFmpeg();
 		File d = new File("C:\\wildlife.mp4");
 		File d2 = new File("C:\\fusion11\\cooking2.jpg");
 		dd.extractImage(d, 3,d2);
