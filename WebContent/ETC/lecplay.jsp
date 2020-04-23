@@ -1,4 +1,4 @@
-<%@page import="LECFLY.dao.impl.VideoTimeCut"%>
+<%@page import="LECFLY.dao.impl.VideoDuration"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <script>
@@ -29,10 +29,7 @@ $(document).ready(function () {
 .test{
 display: none;
 }
-<%String[] Test ={"dummy_video.mp4","Wildlife.mp4","working out.mp4"};
-					
-					
-					%>
+<%String[] Test ={"dummy_video.mp4","Wildlife.mp4","working out.mp4"};%>
 </style>
 <body>
 	<div id="playWrap">
@@ -100,20 +97,30 @@ display: none;
 				<div id="PvideoList">
 					<div class="PvideoContent">
 					
-					<%for(int i = 0 ; i < 10; i++){ %>
+					<%
+											for(int i = 0 ; i < 10; i++){
+										%>
  
-						<div class = 'alter <%= (i==0 ? "":"Limg")  %>'>
-						<%if(i==0){ %>
+						<div class = 'alter <%=(i==0 ? "":"Limg")%>'>
+						<%
+							if(i==0){
+						%>
 						<img src="resource/img/cooking2.jpg" alt="img" class ='playimgs'>
-						<%}else{ %>
+						<%
+							}else{
+						%>
 							<img src="resource/img/photosample.jpg" alt="img" class ='playimgs'>
-							<%} %>
-							<p class = 'movieName'>resource/video/<%=(i<3?Test[i]:"") %></p>
+							<%
+								}
+							%>
+							<p class = 'movieName'>resource/video/<%=(i<3?Test[i]:"")%></p>
 							
 							<div class="Timg">
-								<h4><%=i+1%>강<%=(i<3?Test[i]:"none") %></h4>
-							<% 	if(i<3){%>
-								<p><%=VideoTimeCut.media_player_time(i<3?Test[i]:"")%>초</p>
+								<h4><%=i+1%>강<%=(i<3?Test[i]:"none")%></h4>
+							<%
+								if(i<3){
+							%>
+								<p><%=VideoDuration.media_player_time(i<3?Test[i]:"")%>초</p>
 							<%	}else{ %>
 								<p><%="none" %></p>
 								<%} %>
