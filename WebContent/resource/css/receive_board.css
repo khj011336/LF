@@ -2,20 +2,43 @@
 
 #receiveBoard_wrapper {
 	margin: 0px auto;
-	padding: 50px;
+	padding: 20px;
 	width: 1200px;
 	min-height: 700px;
+	font-size: 16px;
 }
 
 #receiveBoard_content {
 	margin: 0px auto;
-	padding: 50px;
-	width: 1000px;
-	border: 1px solid black;
+	padding: 30px;
+	width: 900px;
+	/* border: 1px solid black; */
 }
-
+#receiveBoard_button {
+	width: 900px;
+}
+#receiveBoard_button >#prevqna_button {
+	width: 50px;
+	height: 20px;
+	float: left;
+	margin: 0px 5px 20px 30px;
+}
+#receiveBoard_button >#nextqna_button{
+	width: 50px;
+	height: 20px;
+	float: left;
+	margin: 0px 5px 20px 10px;
+}
+#receiveBoard_button >#listqna_button {
+	width: 100px;
+	height: 20px;
+	float: right;
+	margin: 0px 30px 20px 20px;
+}
 .receiveBoard_content_title {
-	padding-bottom: 10px;
+	font-size: 18px;
+	padding: 15px 0px 15px 0px;
+	border-top: 1px dashed #999999;
 	border-bottom: 1px dashed #999999;
 }
 
@@ -25,23 +48,33 @@
 
 .receiveBoard_category {
 	text-decoration: none;
-	font-size: 11px;
-	color: #666666;
+	font-size: 15px;
+	color: orange;
 }
 
-.receiveBoard_category:hover {
+/* .receiveBoard_category:hover {
 	color: #ff4400;
-}
+} */
 
 .titleRight {
-	font-size: 11px;
+	font-size: 15px;
 	color: #666666;
 	float: right;
 }
-
-.receiveBoradgrade {
-	font-size: 11px;
-	color: #666666;
+.member_profile_small_img {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    vertical-align: middle;
+    display: inline-block;
+}
+.receiveBorad_login {
+	font-size: 16px;
+	color: black;
+}
+.receiveBorad_grade {
+	font-size: 14px;
+	color: grey;
 }
 
 #writeInfo {
@@ -71,26 +104,27 @@
 #receiveBoard_bottom {
 	background-color: lightgray;
 	padding: 15px;
+	margin-top: 15px;
 }
 
 .counter {
-	font-size: 5px;
+	font-size: 12px;
 	color: #666666;
 	position: relative;
 }
 
 .reply_statusBox {
-	width: 650px;
-	height: 100px;
+	width: 680px;
+	height: 40px;
 	margin-bottom: 10px;
+	font-size: 14px;
 }
 
 #receiveBoard_submit {
 	float: right;
 	position: relative;
-	right: 100px;
 	width: 100px;
-	height: 100px;
+	height: 40px;
 }
 
 .posts {
@@ -103,15 +137,15 @@
 
 .posts li {
 	width: 650px;
-	background-color: #fff;
-	border: 1.5px solid #d8d8d8;
+	/* background-color: #fff; */
+	/* border: 1.5px solid #d8d8d8; */
 	border-radius: 10px;
-	padding-top: 10px;
+	padding-top: 5px;
 	padding-left: 20px;
 	padding-right: 20px;
-	padding-bottom: 10px;
-	margin-bottom: 10px;
+	padding-bottom: 5px;
+	/* margin-bottom: 5px; */
 	word-wrap: break-word;
-	min-height: 42px;
-	box-shadow: 8px 8px 5px #888888;
+	min-height: 30px;
+	/* box-shadow: 8px 8px 5px #888888; */
 }
