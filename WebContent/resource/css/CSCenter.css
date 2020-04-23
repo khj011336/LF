@@ -517,6 +517,68 @@
 }
 
 
+/* ```````````````````````````````````````````````````````````````````````````````````회원권/결제 팝업*/
+
+.lecflyticket_overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.lecflyticket_overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.lecflyticket_popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 800px;
+  height: 600px;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.lecflyticket_popup .lecflyticket_title {
+  margin-top: 0;
+  padding-bottom: 10px;
+  border-bottom: 2px solid black;
+}
+.lecflyticket_popup .close {
+  position: absolute;
+  top: 0px;
+  right: 10px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.lecflyticket_popup .close:hover {
+  color: black;
+}
+.lecflyticket_popup .lecflyticket_content {
+  font-size: 12px;
+  width: 100%;
+  overflow: auto;
+  clear: both;
+}
+
+@media screen and (max-width: 400px){
+  .lecflyticket{
+    width: 400px;
+  }
+  .lecflyticket_popup{
+    width: 400px;
+  }
+}
 
 
 
