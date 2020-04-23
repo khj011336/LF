@@ -9,7 +9,20 @@
   <url-pattern>/home.jsp</url-pattern>
   <include-prelude>/common/variable.jspf</include-prelude>
   </jsp-property-group>
- 
   </jsp-config>
- 
+  
+ <servlet>
+ <servlet-name>UploadServlet</servlet-name>
+ <servlet-class>mvc.UploadServlet</servlet-class>
+ <multipart-config>
+ <location>C:\fusion11\apache-tomcat-8.5.50\uploadTemp</location>
+ <max-file-size>-1</max-file-size>
+ <max-request-size>-1</max-request-size>
+ <file-size-threshold>1024</file-size-threshold>
+ </multipart-config>
+ </servlet>
+ <servlet-mapping>
+ <servlet-name>UploadServlet</servlet-name>
+ <url-pattern>*.up</url-pattern>
+ </servlet-mapping>
 </web-app>
