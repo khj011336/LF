@@ -19,7 +19,7 @@
 				<div class="readLeft">
 					<img src="resource/img/no_profile_img.PNG" class="member_profile_small_img">
 					<span class="receiveBorad_login">kildong2203</span> 
-					<span class="receiveBorad_grade">일반회원</span>
+					<span class="receiveBorad_grade">공개</span>
 				</div>
 			</div>
 		</div>
@@ -36,7 +36,8 @@
 			neque volutpat ac.</div>
 		<div id="reply_count">댓글 1</div>
 		<span class="divider">|</span>
-		<div id="reply_selection">
+		<div id="receiveBoard_article_count">조회수 5</div>
+		<!-- <div id="reply_selection">
 			<select id="reply_select">
 				<option>등록순</option>
 				<option>조회순</option>
@@ -45,7 +46,7 @@
 			<span class="divider">|</span>
 			<div id="receiveBoard_article_like">좋아요</div>
 			<div id="receiveBoard_article_like">0</div>
-		</div>
+		</div> -->
 		<div id="receiveBoard_bottom">
 			<form id="receiveBoard_write_commnet">
 				<p class="counter">250</p>
