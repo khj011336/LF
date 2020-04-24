@@ -1,16 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html lang="ko">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title> Lecfly </title>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.4.0/css/fontawesome.css"type="text/css" rel="stylesheet">        
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.4.0/css/solid.css"type="text/css" rel="stylesheet">    
-    <link type="text/css" rel="stylesheet" href="../resource/css/CSCenter.css">    
-</head>
 <body>
     <div class="CSsection">
         <div id="CSsec_title"><h2>홈페이지 안내</h2></div>
@@ -26,10 +15,68 @@
                 <div><br><br></div>
                 <div id="lecflyticket_maintitle"><h1>회원권 안내</h1></div>
                 <div id="lecflyticket_noticebox">
-                Lecfly는 카테고리별 회원권으로 이용가능합니다.<br>
-                한개의 회원권으로 카테고리 내 모든 강의를 수강가능합니다.<br><br>
-                카테고리 종류 : 음악, 운동, 요리, 미술, 라이프스타일, 커리어, 여행
-                </div>
+                	Lecfly는 카테고리별 회원권으로 이용가능합니다.<br>
+                	한개의 회원권으로 카테고리 내 모든 강의를 수강가능합니다.<br><br>
+                	카테고리 종류 : 음악, 운동, 요리, 미술, 라이프스타일, 커리어, 여행
+            <div class="ticket_category">
+				<div class="ticket_category_block">
+					<a href="#" onfocus>
+					<div id="category_icon">
+						<img src="resource/img/category/카테고리_미술.png" class="category_1" alt="미술">
+					</div>
+						<br><br> <span>미술</span>
+					</a>
+				</div>
+				<div class="ticket_category_block">
+					<a href="#" onfocus>
+					<div id="category_icon">
+						<img src="resource/img/category/카테고리_음악.png" class="category_1" alt="음악">
+					</div>
+						<br><br> <span>음악</span>
+					</a>
+				</div>
+				<div class="ticket_category_block">
+					<a href="#" onfocus>
+					<div id="category_icon">
+						<img src="resource/img/category/카테고리_요리.png" class="category_1" alt="요리">
+					</div>
+						<br><br> <span>요리</span>
+					</a>
+				</div>
+				<div class="ticket_category_block">
+					<a href="#" onfocus>
+					<div id="category_icon">
+						<img src="resource/img/category/카테고리_라이프스타일.png" class="category_1" alt="라이프스타일">
+					</div>
+						<br><br> <span>라이프스타일</span>
+					</a>
+				</div>
+				<div class="ticket_category_block">
+					<a href="#" onfocus>
+					<div id="category_icon">
+						<img src="resource/img/category/카테고리_운동.png" class="category_1" alt="운동">
+					</div>
+						<br><br> <span>운동</span>
+					</a>
+				</div>
+				<div class="ticket_category_block">
+					<a href="#" onfocus>
+					<div id="category_icon">
+						<img src="resource/img/category/카테고리_커리어.png" class="category_1" alt="커리어">
+					</div>
+						<br><br> <span>커리어</span>
+					</a>
+				</div>
+				<div class="ticket_category_block">
+					<a href="#" onfocus>
+					<div id="category_icon">
+						<img src="resource/img/category/카테고리_여행.png" class="category_1" alt="여행">
+					</div>
+						<br><br> <span>여행</span>
+					</a>
+				</div>
+			</div>
+			</div>
                 <div id="lecflyticket_box">
                     <span style="color: orangered;">
                     <i class="fas fa-crown fa-5x"></i>
@@ -37,7 +84,15 @@
                     <h3><span style="background-color: lightgray">1 카테고리 회원권</span></h3><br>
                     <h4><span>12,900원 / 월</span></h4><br>
                     7개의 카테고리 중<br>한가지를 선택하여<br>해당 카테고리에 한해<br>무제한으로 이용 가능합니다.<br>
-                    <div id="lecflyticket_gopay"><h4><a href="#">바로가기&nbsp;&gt;</a></h4></div>
+                    <div id="lecflyticket_gopay"><h4><a class="lecflyticket" href="#popup3">바로가기&nbsp;&gt;</a></h4>
+						<div id="popup3" class="lecflyticket_overlay">
+							<div class="lecflyticket_popup">
+								<a class="close" href="#">x</a>
+								<div class="lecflyticket_content">
+								</div>
+							</div>
+						</div>
+                </div>
                 </div>
                 <div id="lecflyticket_box">
                     <span style="color: orangered;">
@@ -60,5 +115,13 @@
                 
             </div>
     </div>
-</body>
-</html>
+    <script type="text/javascript">
+//     $(document).on("click", '.closing', function() {
+// 		$("#homemain").load("payment/fundingPayment.jsp");
+// 	});
+    // 함수.
+    function oneCategori() {
+		$('#homemain').load('<%=request.getContextPath()%>/payment/card_register.jsp');
+	}
+    // 모달 안에서 결제 시작.
+    </script>
