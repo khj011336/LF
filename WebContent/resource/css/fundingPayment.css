@@ -147,22 +147,23 @@
 input[name=fundingPayment_name], input[name=fundingPayment_email],
 input[name=deliveryPlace_name], input[name=receiver_name],
 input[name=deliveryPlaceInfo_tel], input[name=deliveryPlaceInfo_tel_add],
-input[name=else_address],input[name=else_address2], input[name=delivery_required]{
+input[id=fundingPayment_address],input[id=fundingPayment_detailAddress],
+input[id=fundingPayment_extraAddress],input[name=delivery_required]{
     width: 100%;
     height: 30px;
     margin: 5px 5px 5px 0px;
 }
 
-input[name=fundingPayment_tel],input[name=fundingPayment_address], input[name=paymentPoint] {
+input[name=fundingPayment_tel],input[id=fundingPayment_postcode], input[name=paymentPoint]  {
     width: 99%;
-    height: 40px;
+    height: 30px;
     margin: 5px 5px 5px 0px;
 }
 
-button[name=phoneIdentity_button], button[name=zip_code] {
+button[name=phoneIdentity_button], input[name=fundingPayment_postcode_button] {
 	border: 1px solid black;
     width: 100%;
-    height: 40px;
+    height: 30px;
     cursor: pointer;
     background-color: black;
     color: white;

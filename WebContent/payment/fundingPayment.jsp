@@ -76,22 +76,29 @@
                         <tr>
                             <th class="deliveryPlaceInfo_table_th">주소</th>
                             <td class="deliveryPlaceInfo_table_td">
-                                <input type="text" name="fundingPayment_address">
+                                <input type="text" id="fundingPayment_postcode" placeholder="우편번호">
                             </td>
                             <td class="deliveryPlaceInfo_table_td">
-                                <button type="button" name="zip_code">우편번호</button>
+                                <input type="button" name="fundingPayment_postcode_button" onclick="fundingPayment_execDaumPostcode()" value="우편번호 ">
                             </td>
                         <tr>
                             <th class="deliveryPlaceInfo_table_th_nbsp">&nbsp;</th>
                             <td colspan="3" class="deliveryPlaceInfo_table_td_nbsp">
-                                <input type="text" name="else_address" size="24">
+                                <input type="text" id="fundingPayment_address" placeholder="주소">
                             </td>
                         </tr>
                         <tr>
                             <th class="deliveryPlaceInfo_table_th_nbsp">&nbsp;</th>
                             <td colspan="3" class="deliveryPlaceInfo_table_td">
-                                <input type="text" name="else_address2" size="24">
+                                <input type="text" id="fundingPayment_detailAddress" placeholder="상세주소">
                             </td>
+                        </tr>
+                        <tr>
+                        <tr>
+                        	<th class="deliveryPlaceInfo_table_th"></th>
+                        	<td colspan="3" class="deliveryPlaceInfo_table_td">
+                        		<input type="text" id="fundingPayment_extraAddress" placeholder="참고항목">
+                        	</td>
                         </tr>
                         <tr>
                             <th class="deliveryPlaceInfo_table_th"></th>
@@ -173,8 +180,65 @@
       </div>
       <div id="fundingPayment_order_button">
         <p class="fundingPayment_desc">위 주문 내용을 확인 하였으며, 회원 본인은 결제에 동의합니다.</p>
-        <a href="#" class="fundingPayment_confirm_order">
+        <a href="javascript:void(0)" onclick="movePaymentFinished()" class="fundingPayment_confirm_order">
             주문하기  
         </a>
       </div>
     </div>
+    <script type="text/javascript">
+    	// 주소찾기 
+    	
+    	function fundingPayment_execDaumPostcode() {
+        new daum.Postcode({
+            oncomplete: function(data) {
+                // 팝업에서 검색결과 항목을 클릭했을때 실행할 코드를 작성하는 부분.
+
+                // 각 주소의 노출 규칙에 따라 주소를 조합한다.
+                // 내려오는 변수가 값이 없는 경우엔 공백('')값을 가지므로, 이를 참고하여 분기 한다.
+                var addr = ''; // 주소 변수
+                var extraAddr = ''; // 참고항목 변수
+
+                //사용자가 선택한 주소 타입에 따라 해당 주소 값을 가져온다.
+                if (data.userSelectedType === 'R') { // 사용자가 도로명 주소를 선택했을 경우
+                    addr = data.roadAddress;
+                } else { // 사용자가 지번 주소를 선택했을 경우(J)
+                    addr = data.jibunAddress;
+                }
+
+                // 사용자가 선택한 주소가 도로명 타입일때 참고항목을 조합한다.
+                if(data.userSelectedType === 'R'){
+                    // 법정동명이 있을 경우 추가한다. (법정리는 제외)
+                    // 법정동의 경우 마지막 문자가 "동/로/가"로 끝난다.
+                    if(data.bname !== '' && /[동|로|가]$/g.test(data.bname)){
+                        extraAddr += data.bname;
+                    }
+                    // 건물명이 있고, 공동주택일 경우 추가한다.
+                    if(data.buildingName !== '' && data.apartment === 'Y'){
+                        extraAddr += (extraAddr !== '' ? ', ' + data.buildingName : data.buildingName);
+                    }
+                    // 표시할 참고항목이 있을 경우, 괄호까지 추가한 최종 문자열을 만든다.
+                    if(extraAddr !== ''){
+                        extraAddr = ' (' + extraAddr + ')';
+                    }
+                    // 조합된 참고항목을 해당 필드에 넣는다.
+                    document.getElementById("fundingPayment_extraAddress").value = extraAddr;
+                
+                } else {
+                    document.getElementById("fundingPayment_extraAddress").value = '';
+                }
+
+                // 우편번호와 주소 정보를 해당 필드에 넣는다.
+                document.getElementById('fundingPayment_postcode').value = data.zonecode;
+                document.getElementById("fundingPayment_address").value = addr;
+                // 커서를 상세주소 필드로 이동한다.
+                document.getElementById("fundingPayment_detailAddress").focus();
+            }
+        }).open();
+    }
+    
+    	function movePaymentFinished() {
+    		$('#homemain').load(
+    		'<%=request.getContextPath()%>/payment/paymentFinished.jsp');
+		}
+    </script>
+    

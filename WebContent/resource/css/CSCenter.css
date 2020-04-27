@@ -541,8 +541,9 @@
   background: #fff;
   border-radius: 5px;
   width: 800px;
-  height: 600px;
+  height: 650px;
   position: relative;
+  top: -50px;
   transition: all 5s ease-in-out;
 }
 
@@ -569,6 +570,31 @@
   width: 100%;
   overflow: auto;
   clear: both;
+}
+
+#fundingPayment_order_button {
+    text-align: center;
+    clear: both;
+    padding: 20px;
+    position: relative;
+    top: -60px;
+}
+
+.paymentInfo_table_td_point, .fundingPayment_desc {
+    font-size: 14px;
+}
+.fundingPayment_desc {
+	padding: 15px;
+}
+
+.fundingPayment_confirm_order {
+    display: inline-block;
+    border: 1px solid orange;
+    list-style-type: none;
+    color: white;
+    background-color: orange;
+    text-decoration: none;
+    padding: 15px;
 }
 
 @media screen and (max-width: 400px){

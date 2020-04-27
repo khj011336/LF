@@ -1,16 +1,16 @@
-<!-- 1. 네비를 빼게 되면서 다시 1050> 1200으로 사이즈를 늘려야되는 필요가 있는 듯함.(가운데로 몰았으나 이쁘지가 않음.)(이버전은 따로 백업하기로) -->
-<!-- 2. 로그인과 마찬가지로 색상 적용이 안되어 있음. 기준 색상대로 적용할 것. -->
-
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<!-- 1. 네비를 빼게 되면서 다시 1050> 1200으로 사이즈를 늘려야되는 필요가 있는 듯함.(가운데로 몰았으나 이쁘지가 않음.)(이버전은 따로 백업하기로) -->
+<!-- 2. 로그인과 마찬가지로 색상 적용이 안되어 있음. 기준 색상대로 적용할 것. -->
+    
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
+<!-- <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script> -->
 <script>
-	$( function() {
-	  $( "#tabs" ).tabs();
-	} );
+// 	$( function() {
+	  
+// 	} );
 	var ROOTCP = '<%= application.getContextPath()%>';
-	$(document).ready(function() {
+	$(document).ready(function() {		
 		$("#mypage_mb_t_ticket").click(function() {
 			var url = ROOTCP+'/member/mypage/mypage_list.jsp';
 			$("#mypage_bottom").load(url, function(){
@@ -129,6 +129,17 @@
 				console.log("쿠폰내역 로딩완료");
 			});
 		});// 쿠폰내역
+		
+		// 결제 상세페이지로 이동. 
+		<%  String dlv = request.getParameter("dlv"); 
+		if( dlv != null && !dlv.isEmpty() && dlv.equals("on") ) {
+		%>
+		$( "#tabs" ).tabs({active: '#tabs-4'});
+		$("#tabs-mom-4").trigger("click");
+		console.log("tabs-4");
+		<% } else { %>
+	  	$( "#tabs" ).tabs();
+		<% } %>
 	});
  </script>
 
@@ -219,6 +230,8 @@
 		</div>
 	</div>
 	
+	
+
 	<div id="mypage_bottom">									<!-- 조각페이지 영역 -->
 		<%@ include file="mypage/attend_lec_manager/mypage_attending_lec.jsp"%>
 	
