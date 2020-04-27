@@ -1,9 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <div class="CSsection">
-	<div id="CSsec_title">
-		<h2>고객섬김센터</h2>
-	</div>
+
 	<div class="post_board">
 		<div id="post_title">
 			<br> <br> <br> <br>

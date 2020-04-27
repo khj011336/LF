@@ -5,7 +5,7 @@
 	    
 	    $(document).ready(function () {
 		    var height = $(window).height();
-		    $(".container1").height('600px');
+		    $(".container1").height('10px');
 		    setTimeout(function () {
 		        $(".masker").hide();
 		    }, 1000)
@@ -60,7 +60,9 @@
 		    });
 		}
 	</script> 	
-	<div class="container1">
+	<div id = "bannertesta"> 
+	
+	<div class="container1" style="height: 300px;">
         <div><img src="resource/img/banner/배너_test1.jpg"><a href="#" id="banner1">클래스 바로가기</a></div>
         <div><img src="resource/img/banner/배너_test2.jpg"><a href="#" id="banner1">클래스 바로가기</a></div>
         <div><img src="resource/img/banner/배너_test3.jpg"><a href="#" id="banner1">클래스 바로가기</a></div>
@@ -68,4 +70,6 @@
         <div><img src="resource/img/banner/배너_test5.jpg"><a href="#" id="banner1">클래스 바로가기</a></div>
         <div><img src="resource/img/banner/배너_test6.jpg"><a href="#" id="banner1">클래스 바로가기</a></div>
         <div><img src="resource/img/banner/배너_test7.jpg"><a href="#" id="banner1">클래스 바로가기</a></div>
+    </div>
+    
     </div>

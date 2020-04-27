@@ -5,8 +5,18 @@
     font-family: 'Cafe24Simplehae'; 
 }
 
+#bannertesta{
+	width: 1300px;
+	height: 10px;
+	margin: 0px  auto;
+/* 	padding-bottom: 150px; */
+	position: relative;
+	bottom: 135px;
+/* 	margin-top: 150px; */
+ 
+}
 
-
+ 
 .container1 div { /* 배너 프레임 요소 */
     width: 1000px;
     height: 400px;
@@ -16,13 +26,13 @@
     border-radius: 5px;
     position: absolute;
     top: 155px;
-    
+/*     z-index: 1; */
     /* 기본 화면 기준 */
     /* left: 32%;
     margin-left: -150px; */
     
     /* 발표용 빔화면 기준 */
-    left: 15%;
+    left: 150px;
     
     color: #000;
     cursor: pointer;

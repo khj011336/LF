@@ -12,7 +12,7 @@
 </head>
 <body>
 	<div id="wrapper">
-		<div id="header" class="header">
+		<div id="header" class="header" style="z-index:30;">
 			<%@ include file="common/header.jsp"%>
 		</div>
 		<%@ include file="../common/side_nav.jsp"%>

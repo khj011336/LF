@@ -15,7 +15,7 @@
          		<br>비회원께서는 회원가입을 해주시거나 우측 하단 실시간문의를 이용해주시면 감사하겠습니다.
          		<br>*실시간문의는 운영시간내에만 이용가능합니다.
          		<br><br>감사합니다:)
-         		<button class="edit_qna">QnA 작성하기</button>
+         		<button class="post_qna">QnA 작성하기</button>
 			</p>
 	    </div>
 	    <div id="qna_table">
@@ -29,16 +29,16 @@
                     <th>구분</th>
                     <th>작성자</th>
                     <th>등록일</th>
-                    <th>답변상태</th>
+                    <th>공개여부</th>
                  </tr>
                  <%for(int i =0 ; i<10 ; i++){ %>
                  <tr>
                      <td><%= i+1 %></td>
-                     <td>제목없음</td>
+                     <td class="show_qna">제목없음</td>
                      <td>이용권</td>
                      <td>홍길동</td>
                      <td>2020.03.05</td>
-                     <td>미답변</td>
+                     <td>비공개</td>
                  </tr>
                  <% } %>
                  
