@@ -1,39 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<style>
-.admin_table_wrap {
-	margin: 0 auto;
-	text-align:center;
-	padding: 30px;
-}
-.admin_table_wrap > table {
-	border-top: 2px solid black; 
-	border-bottom: 2px solid black; 
-	width:100%;
-}
-.admin_table_wrap td {
-	border: .1px solid lightgray; 
-}
-.admin_table_head > th {
-	background-color: #e8e8e8;
-}
-.admin_table_filter > table {
-	margin: 30px;
-	width:800px;
-	border: .1px solid #e8e8e8; 
-}
-.admin_table_filter th {
-	background-color: #e8e8e8;
-}
-.admin_table_filter caption {
-	caption-side: top;
-	
-}
-.admin_table_filter .date_filter{
-    border: 1px solid #98989b;
-	padding: 0px;
-}
-</style>    
+
 <h4>이용권 결제내역</h4>
 
 <div class="admin_table_filter">

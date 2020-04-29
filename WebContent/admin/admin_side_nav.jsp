@@ -72,13 +72,13 @@
 							<li><a href="#">펀딩주문내역</a></li>
 						</ul>
 					</div></li>
-				<li class="sidebar-dropdown"><a href="#"> <i
+				<li class="sidebar-dropdown"><a href="#" id="nav_board_member"> <i
 						class="fa fa-chart-line"></i> <span>회원관리</span>
 				</a>
 					<div class="sidebar-submenu">
 						<ul>
 							<li><a href="#">일반회원관리</a></li>
-							<li><a href="#">크리에이터관리</a></li>
+							<li><a href="#" id="nav_board_creator">크리에이터관리</a></li>
 							<li><a href="#">회원통계</a></li>
 						</ul>
 					</div></li>

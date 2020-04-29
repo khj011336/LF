@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-
-<h4>게시판 관리</h4>
+  
+<h4>크리에이터 관리</h4>
 
 <div class="admin_table_filter">
 	<table>
@@ -17,33 +17,32 @@
 			</td>
 		</tr>
 		<tr>
-			<th>게시판 선택</th>
+			<th>분류 선택</th>
 			<td>
 				<select name="">
-   					<option value="">전체목록</option>
-  					<option value="">Q&A</option>
-    				<option value="">1대1상담</option>
-    				<option value="">게시판</option>
+   					<option value="">전체</option>
+  					<option value="">회원</option>
+    				<option value="" selected="selected">크리에이터</option>
 				</select>
 			</td>
 		</tr>
 		<tr>
-			<th>게시글 찾기</th>
+			<th>키워드 검색</th>
 			<td>
 				<select name="">
-   					<option value="">상품명</option>
-  					<option value="">판매자</option>
-    				<option value="">상품코드</option>
-    				<option value="">강의명</option>
+   					<option value="">전체</option>
+    				<option value="">크리에이터번호</option>
+    				<option value="">닉네임</option>
+    				<option value="">상태</option>
 				</select>
 			<input type="text" size="40"></td>
 		</tr>
 		<tr>
-			<th>답변상태</th>
+			<th>신청상태</th>
 			<td>
 				<lable><input name="board_con" type="radio" value="">전체보기</lable>
-				<lable><input name="board_con" type="radio" value="">답변 전</lable>
-				<lable><input name="board_con" type="radio" value="">답변완료</lable>
+				<lable><input name="board_con" type="radio" value="">승인미완료</lable>
+				<lable><input name="board_con" type="radio" value="">승인완료</lable>
 			</td><td></td>
 		</tr>
 	</table>
@@ -54,7 +53,7 @@
 
 <div class="board_sort_filter">
 	<h6 class="admin_search_result">
-	[오늘 등록된 새 글 <span class="board_result_count">1</span>건]
+	[오늘 등록된 정보 <span class="board_result_count">1</span>건]
 	검색결과 <span class="board_result_count">20</span>건
 	</h6>
 	
@@ -63,15 +62,13 @@
 			<span class="date_filter"><a href="#">전체선택</a></span>
 			<span class="date_filter"><a href="#">수정</a></span>
 			<span class="date_filter"><a href="#">삭제</a></span>
-			<span class="date_filter"><a href="#">답변하기</a></span>
-			<span class="date_filter"><a href="#">공지등록</a></span>
+			<span class="date_filter"><a href="#">저장</a></span>
 		</li>
 	</ul>	
 	<ul class="admin_search_sort">	
 		<li><a href="#">정확도순</a></li>
-		<li><a href="#">작성일순</a></li>
-		<li><a href="#">조회수많은순</a></li>
-		<li><a href="#">답변대기순</a></li>
+		<li><a href="#">승인일순</a></li>
+		<li><a href="#">최근방문순</a></li>
 		
 	</ul>
 </div>    
@@ -81,11 +78,31 @@
 <div class="admin_table_wrap">
 	<table>
 		<tr class="admin_table_head">
-			<th width=2%><input type="checkbox"/></th> <th width="5%">번호</th> <th width=9%>분류</th> <th>제목</th> <th width=9%>답변상태</th> <th width=6%>미리보기</th> <th width=10%>작성자</th><th width=12%>연락처</th> <th width=10%>작성일</th><th width="5%">조회수</th>
+			<th width=2%><input type="checkbox"/></th> 
+			<th>번호</th> 
+			<th>크리에이터번호</th> 
+			<th>프로필이미지</th> 
+			<th>이름</th> 
+			<th>닉네임</th> 
+			<th>연락처</th> 
+			<th>SNS 계정</th> 
+			<th>소개</th>
+			<th>상태</th>
+			<th>승인일</th>
 		</tr>
 		<% for(int i=1; i<=20;i++) {%>
 		<tr>
-			<td><input type="checkbox"/></td> <td><%=i %></td> <td></td> <td></td> <td></td> <td></td> <td></td><td></td> <td></td> <td></td> 
+			<td><input type="checkbox"/></td> 
+			<td><%=i %></td> 
+			<td></td> 
+			<td></td> 
+			<td></td> 
+			<td></td> 
+			<td></td> 
+			<td></td> 
+			<td></td> 
+			<td></td> 
+			<td></td> 
 		</tr>
 		<% } %>
 	</table>
