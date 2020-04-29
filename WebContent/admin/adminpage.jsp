@@ -34,7 +34,16 @@ $(document).ready(function() {
 	
 	$(document).on("click",'#nav_board_creator', function() {
 		$(".container-fluid").load("admin_board_creator.jsp");
-	});// 회원내역
+	});// 크리에이터내역
+	$(document).on("click",'#nav_board_notice', function() {
+		$(".container-fluid").load("admin_board_notice.jsp");
+	});
+	$(document).on("click",'#nav_board_faq', function() {
+		$(".container-fluid").load("admin_board_faq.jsp");
+	});
+	$(document).on("click",'#nav_board_qna', function() {
+		$(".container-fluid").load("admin_board_qna.jsp");
+	});
 });
 
 </script>
