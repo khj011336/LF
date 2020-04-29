@@ -50,13 +50,13 @@
 							<li><a href="#">관리자계정관리</a></li>
 						</ul>
 					</div></li>
-				<li class="sidebar-dropdown"><a href="#" id="nav_board_payment"> <i
-						class="fa fa-shopping-cart"></i> <span>상품/주문관리</span> <span
+				<li class="sidebar-dropdown"><a href="#" id="nav_board_lecture"> <i
+						class="fa fa-shopping-cart"></i> <span>강의관리</span> <span
 						class="badge badge-pill badge-danger">3</span>
 				</a>
 					<div class="sidebar-submenu">
 						<ul>
-							<li><a href="#">상품관리 </a></li>
+							<li><a href="#" id="nav_board_lecture">강의관리 </a></li>
 							<li><a href="#">주문내역</a></li>
 							<li><a href="#">결제설정</a></li>
 						</ul>
@@ -70,6 +70,16 @@
 							<li><a href="#">펀딩승인내역</a></li>
 							<li><a href="#">펀딩상품관리</a></li>
 							<li><a href="#">펀딩주문내역</a></li>
+						</ul>
+					</div></li>
+				<li class="sidebar-dropdown"><a href="#" id="nav_board_payment"> <i
+						class="fa fa-shopping-cart"></i> <span>결제관리</span> <span
+						class="badge badge-pill badge-danger">63</span>
+				</a>
+					<div class="sidebar-submenu">
+						<ul>
+							<li><a href="#">결제내역관리 </a></li>
+							<li><a href="#">결제설정</a></li>
 						</ul>
 					</div></li>
 				<li class="sidebar-dropdown"><a href="#" id="nav_board_member"> <i

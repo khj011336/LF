@@ -35,6 +35,10 @@ $(document).ready(function() {
 	$(document).on("click",'#nav_board_creator', function() {
 		$(".container-fluid").load("admin_board_creator.jsp");
 	});// 회원내역
+	
+	$(document).on("click",'#nav_board_lecture', function() {
+		$(".container-fluid").load("admin_board_lecture.jsp");
+	});// 강의내역
 });
 
 </script>
