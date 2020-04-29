@@ -26,19 +26,31 @@ $(document).ready(function() {
 	
 	$(document).on("click",'#nav_board_payment', function() {
 		$(".container-fluid").load("admin_board_payment.jsp");
-	});// 이용권 결제내역
+	}); // 이용권 결제내역
 	
 	$(document).on("click",'#nav_board_member', function() {
 		$(".container-fluid").load("admin_board_member.jsp");
-	});// 회원내역
+	}); // 회원내역
 	
 	$(document).on("click",'#nav_board_creator', function() {
 		$(".container-fluid").load("admin_board_creator.jsp");
-	});// 회원내역
+	}); // 크리에이터내역
 	
 	$(document).on("click",'#nav_board_lecture', function() {
 		$(".container-fluid").load("admin_board_lecture.jsp");
-	});// 강의내역
+	}); // 강의내역
+	
+	$(document).on("click",'#nav_board_notice', function() {
+		$(".container-fluid").load("admin_board_notice.jsp");
+	});// 공지내역
+	
+	$(document).on("click",'#nav_board_faq', function() {
+		$(".container-fluid").load("admin_board_faq.jsp");
+	}); // 자주묻는질문
+	
+	$(document).on("click",'#nav_board_qna', function() {
+		$(".container-fluid").load("admin_board_qna.jsp");
+	}); // 문의내역
 });
 
 </script>

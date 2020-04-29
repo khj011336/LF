@@ -89,7 +89,7 @@
 						<ul>
 							<li><a href="#">일반회원관리</a></li>
 							<li><a href="#" id="nav_board_creator">크리에이터관리</a></li>
-							<li><a href="#">회원통계</a></li>
+							<li><a href="#" id="nav_board_lecture">강의 관리</a></li>
 						</ul>
 					</div></li>
 				<li class="sidebar-dropdown"><a href="#" id="nav_board_bulletin"> <i
@@ -97,9 +97,10 @@
 				</a>
 					<div class="sidebar-submenu">
 						<ul>
-							<li><a href="#">게시글조회</a></li>
-							<li><a href="#">문의 내역</a></li>
-							<li><a href="#">댓글 내역</a></li>
+							<li><a href="#" id="nav_board_notice">공지내역</a></li>
+							<li><a href="#" id="nav_board_faq">자주묻는질문</a></li>
+							<li><a href="#" id="nav_board_qna">문의 내역</a></li>
+							<li><a href="#" id="nav_board_">댓글 내역</a></li>
 						</ul>
 					</div></li>
 				<li class="header-menu"><span>Extra</span></li>
